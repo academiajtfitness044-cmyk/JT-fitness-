@@ -18,11 +18,31 @@ export default defineConfig(({ mode }) => {
           clientsClaim: true,
           cleanupOutdatedCaches: true,
           maximumFileSizeToCacheInBytes: 10000000,
-          navigateFallback: '/index.html',
-          navigateFallbackDenylist: [/^\/api/]
+          globPatterns: ['**/*.{js,css,ico,png,svg,woff,woff2}'],
+          navigateFallback: null,
+          runtimeCaching: [
+            {
+              urlPattern: ({ request }) => request.mode === 'navigate',
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'jt-html-pages-v3',
+                networkTimeoutSeconds: 4,
+                expiration: {
+                  maxEntries: 5,
+                  maxAgeSeconds: 60 * 60 * 24,
+                },
+                cacheableResponse: {
+                  statuses: [0, 200],
+                },
+              },
+            },
+          ],
         },
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
         manifest: {
+          id: '/',
+          start_url: '/',
+          scope: '/',
           name: 'Academia JT Fitness',
           short_name: 'JT Fitness',
           description: 'Academia JT Fitness - Disciplina • Foco • Resultados',
@@ -32,14 +52,21 @@ export default defineConfig(({ mode }) => {
           icons: [
             {
               src: 'https://i.postimg.cc/PfQtzTps/Chat-GPT-Image-29-de-ago-de-2026-13-37-34.png',
-              sizes: '512x512',
-              type: 'image/png'
+              sizes: '192x192',
+              type: 'image/png',
+              purpose: 'any'
             },
             {
               src: 'https://i.postimg.cc/PfQtzTps/Chat-GPT-Image-29-de-ago-de-2026-13-37-34.png',
               sizes: '512x512',
               type: 'image/png',
-              purpose: 'any maskable'
+              purpose: 'any'
+            },
+            {
+              src: 'https://i.postimg.cc/PfQtzTps/Chat-GPT-Image-29-de-ago-de-2026-13-37-34.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'maskable'
             }
           ]
         }

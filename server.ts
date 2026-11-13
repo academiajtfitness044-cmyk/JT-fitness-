@@ -248,6 +248,24 @@ Responda em português de forma concisa, técnica, motivadora e prática para tr
     } catch(e) { console.error(e); res.status(500).json({error: "Failed"}); }
   });
 
+  app.use((req, res, next) => {
+    if (
+      req.path === "/" ||
+      req.path.endsWith(".html") ||
+      req.path === "/sw.js" ||
+      req.path === "/registerSW.js" ||
+      req.path.startsWith("/workbox-") ||
+      req.path.endsWith(".webmanifest") ||
+      req.path === "/manifest.json" ||
+      req.path === "/manifest-student.json"
+    ) {
+      res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+      res.setHeader("Pragma", "no-cache");
+      res.setHeader("Expires", "0");
+    }
+    next();
+  });
+
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
@@ -257,8 +275,26 @@ Responda em português de forma concisa, técnica, motivadora e prática para tr
     app.use(vite.middlewares);
   } else {
     const distPath = path.join(__dirname, 'dist');
-    app.use(express.static(distPath));
+    app.use(express.static(distPath, {
+      setHeaders: (res, filePath) => {
+        if (
+          filePath.endsWith(".html") ||
+          filePath.endsWith("sw.js") ||
+          filePath.endsWith("registerSW.js") ||
+          filePath.endsWith(".webmanifest") ||
+          filePath.endsWith("manifest.json") ||
+          filePath.endsWith("manifest-student.json")
+        ) {
+          res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+          res.setHeader("Pragma", "no-cache");
+          res.setHeader("Expires", "0");
+        }
+      }
+    }));
     app.get('*', (req, res) => {
+      res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+      res.setHeader("Pragma", "no-cache");
+      res.setHeader("Expires", "0");
       res.sendFile(path.join(distPath, 'index.html'));
     });
   }

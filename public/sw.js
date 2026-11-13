@@ -1,17 +1,15 @@
-const CACHE_NAME = 'jt-fitness-cache-v1';
+const CACHE_NAME = 'jt-fitness-firebase-v3';
 const ASSETS = [
-  '/',
-  '/index.html',
   '/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll(ASSETS).catch(() => {});
     })
   );
-  self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
@@ -24,20 +22,19 @@ self.addEventListener('activate', (event) => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
-  // Network first with cache fallback
   if (event.request.method !== 'GET') return;
-  
+
+  const isNavigation = event.request.mode === 'navigate' || event.request.destination === 'document';
+
   event.respondWith(
-    fetch(event.request)
+    fetch(isNavigation ? new Request(event.request.url, { cache: 'no-store' }) : event.request)
       .then((response) => {
-        // Cache successful responses for assets
-        if (response && response.status === 200 && event.request.url.startsWith(self.location.origin)) {
+        if (!isNavigation && response && response.status === 200 && event.request.url.startsWith(self.location.origin)) {
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
             cache.put(event.request, responseClone);
@@ -48,9 +45,6 @@ self.addEventListener('fetch', (event) => {
       .catch(() => {
         return caches.match(event.request).then((cached) => {
           if (cached) return cached;
-          if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
-          }
           return new Response('Offline', { status: 503, statusText: 'Offline' });
         });
       })
