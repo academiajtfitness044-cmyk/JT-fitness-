@@ -1,0 +1,60 @@
+135:    if (!replyText.trim()) return;
+162:  return (
+178:            return (
+260:  if (!isOpen) return null;
+262:  return (
+351:      return;
+407:  return (
+530:    if (!photoUrl || !compositeRef.current) return;
+566:  return (
+807:    if (!compositeRef.current) return;
+842:  return (
+897:                    return (
+1069:  return (
+1316:  return (
+1682:  return btoa(str).replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
+1694:  return buffer;
+1743:    if (!currentStudent || !loginEmail || !loginPassword) return;
+1790:        return;
+1829:      return;
+1883:      return;
+1911:              return; // successfully logged in offline
+1918:          return;
+1961:          return;
+2036:    if (isRefreshing) return;
+2043:      return;
+2072:          return;
+2087:    if (!currentStudent) return [];
+2103:    return evals.map((ev) => {
+2108:      return {
+2138:    return (
+2251:  return (
+2355:                  if (!currentStudent) return null;
+2361:                    return (
+2368:                  return null;
+2384:            return (
+2426:              if (!currentStudent) return null;
+2429:                return (
+2436:              return null;
+2511:                       return (
+3002:                return (
+3149:                          return [
+3233:                        return (
+3551:                        return (
+3620:                                        return (
+3642:                                                return;
+3696:                                                return;
+3706:                                                          return {
+3712:                                                        return e;
+3852:                    return null;
+3874:                  return (
+3986:                      return (
+4078:                  return null;
+4326:                        return (
+4687:                        return f.name
+4692:                        return (
+4697:                        return (
+4702:                        return (
+4706:                      return true;
+4742:                        return (
+4752:                                return;

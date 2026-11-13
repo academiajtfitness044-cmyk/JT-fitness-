@@ -1,0 +1,70 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} { 
+      allow read, write: if false; 
+    }
+
+    function isSignedIn() { return request.auth != null && request.auth.token.email_verified == true; }
+    function incoming() { return request.resource.data; }
+    function existing() { return resource.data; }
+    function isValidId(id) { return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); }
+
+    // Bootstrap Admin: The user who created the app.
+    function isAdmin() { 
+      return isSignedIn() && request.auth.token.email == 'patrickgerson04@gmail.com'; 
+    }
+
+    function isStudentOwner(studentId) {
+      let email = existing().email;
+      return isSignedIn() && email == request.auth.token.email && studentId == existing().id;
+    }
+
+    function isValidStudentCreate(data) {
+      return data.keys().hasAll(['name', 'email']) 
+        && data.name is string && data.name.size() <= 100 
+        && data.email is string && data.email.size() <= 100;
+    }
+
+    function isValidStudentUpdate(data) {
+      return data.name is string && data.name.size() <= 100;
+    }
+
+    match /students/{studentId} {
+      allow read: if isAdmin() || (isSignedIn() && existing().email == request.auth.token.email);
+      allow list: if isAdmin() || (isSignedIn() && resource.data.email == request.auth.token.email);
+      
+      allow create: if isAdmin() && isValidId(studentId) && isValidStudentCreate(incoming());
+      
+      allow update: if isAdmin() || (
+        isSignedIn() && existing().email == request.auth.token.email 
+        && incoming().diff(existing()).affectedKeys().hasOnly(['anamnesis', 'feedback', 'dietPlan'])
+      );
+      
+      allow delete: if isAdmin();
+
+      match /evaluations/{evaluationId} {
+        // Relational check
+        function studentMatches() {
+          return get(/databases/$(database)/documents/students/$(studentId)).data.email == request.auth.token.email;
+        }
+        
+        allow read, list: if isAdmin() || studentMatches();
+        allow write: if isAdmin();
+      }
+
+      match /aiAnalyses/{analysisId} {
+        function studentMatches() {
+          return get(/databases/$(database)/documents/students/$(studentId)).data.email == request.auth.token.email;
+        }
+        
+        allow read, list: if isAdmin() || studentMatches();
+        allow write: if isAdmin();
+      }
+    }
+
+    match /mealTemplates/{templateId} {
+      allow read, write: if isAdmin();
+    }
+  }
+}

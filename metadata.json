@@ -1,0 +1,6 @@
+{
+  "name": "Academia JT Fitness",
+  "description": "App oficial da Academia JT Fitness - Gestão de Alunos, Treinos, Dietas, Avaliações Físicas e Portal do Aluno",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

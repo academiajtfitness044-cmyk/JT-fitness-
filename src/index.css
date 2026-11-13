@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00FF66;
+  --color-primary-hover: #00E65C;
+  --color-secondary: #00FF88;
+  --color-secondary-hover: #00CC52;
+  --color-dark-bg: #000000;
+  --color-dark-card: #0A0A0C;
+  --color-dark-border: rgba(255, 255, 255, 0.08);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --radius-xl: 20px;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  overscroll-behavior-y: none;
+  touch-action: manipulation;
+}
+
+/* Fix iOS Safari auto-zoom on text inputs when focusing (prevents breaking responsive layout) */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* iOS & Android momentum scrolling */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Safe area support for notch, dynamic island & home gesture bar */
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 16px);
+}
+
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top, 0px), 12px);
+}
+
+.mb-safe {
+  margin-bottom: max(env(safe-area-inset-bottom, 0px), 16px);
+}
+
+.h-screen-safe {
+  height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+}
+
+.min-h-screen-safe {
+  min-height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 133, 0.3); /* Neon green matching the UI */
+  border: 1px solid rgba(0, 255, 133, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+/* Smooth scroll for the whole app */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utilities for scrollbar management */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-gutter-stable {
+  scrollbar-gutter: stable;
+}

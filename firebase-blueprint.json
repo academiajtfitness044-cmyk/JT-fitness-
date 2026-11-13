@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Student": {
+      "title": "Student",
+      "description": "Core student profile and current diet plan.",
+      "type": "object",
+      "properties": {
+        "trainerId": { "type": "string" },
+        "name": { "type": "string" },
+        "age": { "type": "number" },
+        "gender": { "type": "string", "enum": ["M", "F"] },
+        "activityLevel": { "type": "number" },
+        "objective": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "dietPlan": { "type": "object" },
+        "anamnesis": { "type": "object" },
+        "observations": { "type": "string" },
+        "feedback": { "type": "string" },
+        "profilePicture": { "type": "string" },
+        "accessCode": { "type": "string" }
+      },
+      "required": ["trainerId", "name", "email"]
+    },
+    "PhysicalEvaluation": {
+      "title": "PhysicalEvaluation",
+      "description": "Student's physical evaluation record.",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string" },
+        "method": { "type": "string" },
+        "weight": { "type": "number" },
+        "height": { "type": "number" },
+        "folds": { "type": "object" },
+        "circumferences": { "type": "object" },
+        "bioimpedance": { "type": "object" },
+        "metrics": { "type": "object" }
+      },
+      "required": ["date", "weight"]
+    },
+    "AIShapeAnalysis": {
+      "title": "AIShapeAnalysis",
+      "description": "AI-generated feedback for student evaluations.",
+      "type": "object",
+      "properties": {
+        "date": { "type": "string" },
+        "report": { "type": "string" },
+        "weakPoints": { "type": "array" },
+        "strongPoints": { "type": "array" },
+        "suggestedTrainingAdjustments": { "type": "string" },
+        "associatedEvaluationId": { "type": "string" }
+      },
+      "required": ["date", "report"]
+    },
+    "MealTemplate": {
+      "title": "MealTemplate",
+      "description": "Trainer's saved meal templates.",
+      "type": "object",
+      "properties": {
+        "trainerId": { "type": "string" },
+        "name": { "type": "string" },
+        "foods": { "type": "array" },
+        "observations": { "type": "string" }
+      },
+      "required": ["trainerId", "name"]
+    }
+  },
+  "firestore": {
+    "students/{studentId}": {
+      "schema": { "$ref": "#/entities/Student" },
+      "description": "The root collection of students managed by trainers."
+    },
+    "students/{studentId}/evaluations/{evaluationId}": {
+      "schema": { "$ref": "#/entities/PhysicalEvaluation" },
+      "description": "Physical evaluations belonging to a specific student."
+    },
+    "students/{studentId}/aiAnalyses/{analysisId}": {
+      "schema": { "$ref": "#/entities/AIShapeAnalysis" },
+      "description": "AI analyses belonging to a specific student."
+    },
+    "mealTemplates/{templateId}": {
+      "schema": { "$ref": "#/entities/MealTemplate" },
+      "description": "Meal templates saved by trainers globally."
+    }
+  }
+}
