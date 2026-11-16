@@ -14,6 +14,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { getEquipmentVisualInfo, EquipmentVisualInfo } from '../utils/exerciseEquipmentVisuals';
+import { handleDriveGifError } from '../data/exerciseGifs';
 
 interface ExerciseEquipmentVisualProps {
   name: string;
@@ -126,6 +127,8 @@ export function ExerciseEquipmentVisual({
             alt={name} 
             className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform" 
             referrerPolicy="no-referrer"
+            loading="lazy"
+            onError={handleDriveGifError}
           />
         ) : (
           <>
@@ -163,6 +166,8 @@ export function ExerciseEquipmentVisual({
               alt={name} 
               className="w-full h-full object-cover" 
               referrerPolicy="no-referrer"
+              loading="lazy"
+              onError={handleDriveGifError}
             />
             <div className="absolute top-2 left-2 px-2 py-0.5 rounded-full text-[10px] font-bold bg-black/80 text-[#00FF66] border border-[#00FF66]/30">
               {info.type}
@@ -219,6 +224,8 @@ export function ExerciseEquipmentVisual({
             alt={name} 
             className="w-full h-full object-cover" 
             referrerPolicy="no-referrer"
+            loading="lazy"
+            onError={handleDriveGifError}
           />
           <div className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-black bg-black/80 text-[#00FF66] border border-[#00FF66]/30">
             {info.type}

@@ -14,7 +14,7 @@ export interface Exercise {
   videoGender?: 'M' | 'F';
 }
 
-// Complete library of 688 Google Drive GIF exercises catalog
+// Complete library of 960 Google Drive GIF exercises catalog
 export const EXERCISE_DATABASE: Exercise[] = [
   {
     "id": "drive-1XgqIYXj0hGa6_vm86GqedBCYiMvkAqiV",
@@ -38,7 +38,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1PnhgJxAF3f-I0rc5zkpoTw7qMkA5lxxI",
-    "name": "Abdominl Banco Alternado",
+    "name": "Abdominal Alternado no Banco",
     "muscleGroup": "Abdômen",
     "equipment": "Banco",
     "instructions": "Execução de Abdominl Banco Alternado. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -98,10 +98,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8",
-    "name": "Abdominal Rollout com Barra",
+    "name": "Abdominal Rollout com Barra (Variação 2)",
     "muscleGroup": "Abdômen",
     "equipment": "Barra",
-    "instructions": "Execução de Abdominal Rollout com Barra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Abdominal Rollout com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8",
     "thumbnail": "https://lh3.googleusercontent.com/d/1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8",
     "previewUrl": "https://lh3.googleusercontent.com/d/1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8"
@@ -118,7 +118,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1eaAW_NPw8ECvqBR1_5j5mhjCXqjjpQ3U",
-    "name": "Body Saw Plank",
+    "name": "Prancha Body Saw (Serrote)",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Body Saw Plank. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -128,7 +128,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1AdvsGeO6d3JLZ92g5VkqjpV4CTgEYbCV",
-    "name": "Butterfly Sit Up",
+    "name": "Abdominal Borboleta",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Butterfly Sit Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -138,7 +138,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-17ilbJEL6agWZX1Xwtlch02E-i5Z5W2If",
-    "name": "Conventional Sit Up",
+    "name": "Abdominal Supra Completo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Conventional Sit Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -148,7 +148,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1InYOj53BT-1MYgeDR8ebf8HaIHMeCZSV",
-    "name": "Crunch Floor",
+    "name": "Abdominal Supra no Solo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Crunch Floor. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -158,7 +158,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1wEf7V-eJdstjDzDiLfTsgsRp2p95Gci3",
-    "name": "Crunch With Leg Raise",
+    "name": "Abdominal com Elevação de Pernas",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Crunch With Leg Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -168,7 +168,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11-8p2o_FkGm__msG1DLEW-9Jdi5vnj6l",
-    "name": "Crunch",
+    "name": "Abdominal Supra",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Crunch. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -178,7 +178,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-16NphCQC5FwhgEifaABtoMKCqmpvO_9Io",
-    "name": "Decline Crunch",
+    "name": "Abdominal Supra Declinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Decline Crunch. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -188,7 +188,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RjiEO861Jpe9AJ6GJ3WrhhOUiZezoVLq",
-    "name": "Decline Sit Up",
+    "name": "Abdominal Completo Declinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Decline Sit Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -208,7 +208,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1QYlPqCmnBRwHAUYwVQjR5k8Idu8vSV58",
-    "name": "Elbow To Knee Sit Up Movement",
+    "name": "Abdominal Cotovelo no Joelho Alternado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Elbow To Knee Sit Up Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -248,7 +248,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1iFs2wJOIGAtsA_W661fo24zAIaxGacj7",
-    "name": "Frog Crunch",
+    "name": "Abdominal Sapo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Frog Crunch. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -258,7 +258,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1PqbKsO8rg3ZQjk2eswuU9GDAmkab2hSQ",
-    "name": "Hanging Knee Raises",
+    "name": "Elevação de Joelhos na Barra Fixa",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Hanging Knee Raises. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -318,7 +318,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1UxUuO-OIrtYQzZRCsPIpk1aKClFWIXOW",
-    "name": "Infra Up Inclinado",
+    "name": "Abdominal Infra no Banco Inclinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Infra Up Inclinado. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -328,7 +328,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13MvfoV8AIHr2T7jULkhjnCckDVDq7xsb",
-    "name": "Infra Up",
+    "name": "Abdominal Infra Elevado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Infra Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -517,6 +517,406 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1R2pn9a0Uun7KMPsnO-X266R_mpTlqrMY"
   },
   {
+    "id": "drive-18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "name": "Prancha Abdominal com Carga",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Abdominal com Carga. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ"
+  },
+  {
+    "id": "drive-1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "name": "Prancha Abdominal",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Abdominal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo"
+  },
+  {
+    "id": "drive-10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "name": "Prancha Abdominal (Variação 2)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Abdominal (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "thumbnail": "https://lh3.googleusercontent.com/d/10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "previewUrl": "https://lh3.googleusercontent.com/d/10QnH9y3EttQT-rhtV64oe2fP4wQdFts3"
+  },
+  {
+    "id": "drive-1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "name": "Prancha com Elevação Alternada",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha com Elevação Alternada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1KUovOwl1KStlTG-rSaXout3im4T_MD8f"
+  },
+  {
+    "id": "drive-1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "name": "Ponte Cruzada (Core)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Ponte Cruzada (Core). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj"
+  },
+  {
+    "id": "drive-1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "name": "Prancha Lateral com Flexão de Quadril",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Lateral com Flexão de Quadril. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2"
+  },
+  {
+    "id": "drive-1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "name": "Ponte Dinâmica (Core)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Ponte Dinâmica (Core). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ"
+  },
+  {
+    "id": "drive-1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "name": "Ponte de Glúteos / Core",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Ponte de Glúteos / Core. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13"
+  },
+  {
+    "id": "drive-1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "name": "Prancha Lateral",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Lateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N"
+  },
+  {
+    "id": "drive-1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "name": "Prancha Lateral com Variação",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Lateral com Variação. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo"
+  },
+  {
+    "id": "drive-1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "name": "Prancha Abdominal Isométrica",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Abdominal Isométrica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL"
+  },
+  {
+    "id": "drive-1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "name": "Prancha Abdominal Clássica",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Abdominal Clássica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp"
+  },
+  {
+    "id": "drive-1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "name": "Push Press (Core e Potência)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Push Press (Core e Potência). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy"
+  },
+  {
+    "id": "drive-1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "name": "Abdominal Supra com Pernas Elevadas",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Pernas Elevadas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre"
+  },
+  {
+    "id": "drive-1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "name": "Abdominal Invertido (Infra)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Invertido (Infra). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox"
+  },
+  {
+    "id": "drive-11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "name": "Abdominal no Rolinho (Ab Wheel)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal no Rolinho (Ab Wheel). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "thumbnail": "https://lh3.googleusercontent.com/d/11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "previewUrl": "https://lh3.googleusercontent.com/d/11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN"
+  },
+  {
+    "id": "drive-1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "name": "Abdominal Rollout com Barra (Variação 3)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Barra",
+    "instructions": "Execução de Abdominal Rollout com Barra (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx"
+  },
+  {
+    "id": "drive-1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "name": "Rotação de Tronco Abdominal",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação de Tronco Abdominal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA"
+  },
+  {
+    "id": "drive-1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "name": "Abdominal Oblíquo Lateral",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Oblíquo Lateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31"
+  },
+  {
+    "id": "drive-1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "name": "Abdominal Rollout na Bola Suíça",
+    "muscleGroup": "Abdômen",
+    "equipment": "Bola Suíça",
+    "instructions": "Execução de Abdominal Rollout na Bola Suíça. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1rpUpzCjFounw-0looS3TQypMrdCJuxgk"
+  },
+  {
+    "id": "drive-1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "name": "Abdominal Supra em Pé na Polia",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Abdominal Supra em Pé na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv"
+  },
+  {
+    "id": "drive-1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "name": "Prancha Straddle (Calistenia)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Prancha Straddle (Calistenia). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME"
+  },
+  {
+    "id": "drive-19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "name": "Abdominal Supra com Pernas Estendidas",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Pernas Estendidas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "thumbnail": "https://lh3.googleusercontent.com/d/19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "previewUrl": "https://lh3.googleusercontent.com/d/19GEM097GPEkElWDpkShiKCEOy3peECH4"
+  },
+  {
+    "id": "drive-1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "name": "Abdominal Superman (Lombar)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Superman (Lombar). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc"
+  },
+  {
+    "id": "drive-1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "name": "Abdominal Supra no Banco",
+    "muscleGroup": "Abdômen",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Abdominal Supra no Banco. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL"
+  },
+  {
+    "id": "drive-107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "name": "Abdominal Supra com Carga",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Carga. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "thumbnail": "https://lh3.googleusercontent.com/d/107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "previewUrl": "https://lh3.googleusercontent.com/d/107xUMhnMSVp5va7g1n225Yr4oSd4fSbw"
+  },
+  {
+    "id": "drive-1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "name": "Abdominal Supra com Pernas Elevadas (Variação 2)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Pernas Elevadas (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1JvnSM4F072Q5okxrDd_jy745lvvS1nFg"
+  },
+  {
+    "id": "drive-1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "name": "Abdominal Supra no Aparelho / Encaixe",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra no Aparelho / Encaixe. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1T8AIMA1drTLM5AKINifpU1GvK_iysCZA"
+  },
+  {
+    "id": "drive-15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "name": "Abdominal Supra com Joelhos Flexionados",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Joelhos Flexionados. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2"
+  },
+  {
+    "id": "drive-1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "name": "Abdominal Supra com Braços Estendidos",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Braços Estendidos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q"
+  },
+  {
+    "id": "drive-1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "name": "Abdominal Supra na Polia Alta",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Abdominal Supra na Polia Alta. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ"
+  },
+  {
+    "id": "drive-1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "name": "Abdominal Supra Sapo",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra Sapo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6"
+  },
+  {
+    "id": "drive-1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "name": "Abdominal Supra Total",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra Total. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta"
+  },
+  {
+    "id": "drive-1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "name": "Abdominal Tesoura no Banco Inclinado",
+    "muscleGroup": "Abdômen",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Abdominal Tesoura no Banco Inclinado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg"
+  },
+  {
+    "id": "drive-1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "name": "Abdominal Tesoura",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Tesoura. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl"
+  },
+  {
+    "id": "drive-1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "name": "Abdominal Total na Bola Suíça",
+    "muscleGroup": "Abdômen",
+    "equipment": "Bola Suíça",
+    "instructions": "Execução de Abdominal Total na Bola Suíça. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv"
+  },
+  {
+    "id": "drive-1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "name": "Abdominal Total na Polia Baixa",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Abdominal Total na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk"
+  },
+  {
+    "id": "drive-1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "name": "Abdominal Canivete em V",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Canivete em V. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB"
+  },
+  {
+    "id": "drive-1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "name": "Abdominal Supra com Pés na Parede",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Pés na Parede. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7"
+  },
+  {
+    "id": "drive-1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "name": "Abdominal Supra com Carga (Anilha)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Abdominal Supra com Carga (Anilha). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC"
+  },
+  {
     "id": "drive-17MrGfnnpxRQ_jgNq5INB72nBlFFsVbqf",
     "name": "Rosca Inversa com Barra",
     "muscleGroup": "Antebraço",
@@ -558,7 +958,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1HgibM8Fr2PS4UNtW-5mC-IGllm0Ms8Ot",
-    "name": "Halter Reverse Rosca",
+    "name": "Rosca Inversa com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Reverse Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -568,7 +968,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1TK4CcINVxhpKnUftExGNvIC5Bm_5bQo7",
-    "name": "Halter Reverse Wrist Rosca Muscles",
+    "name": "Rosca Punho Inversa com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Reverse Wrist Rosca Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -578,7 +978,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1kBoZc2WDWZOhT52Xho7reHeFi-KcNCe4",
-    "name": "Halter Wrist Rosca",
+    "name": "Rosca Punho com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Wrist Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -588,7 +988,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1U9NgMC5FK3yKGLEe3CFo5CY9xr2X4nkz",
-    "name": "Hand Grip",
+    "name": "Preensão Manual (Hand Grip)",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Hand Grip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -638,10 +1038,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK",
-    "name": "Rosca de Punho Neutra",
+    "name": "Rosca de Punho Neutra (Variação 2)",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Rosca de Punho Neutra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Rosca de Punho Neutra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK",
     "thumbnail": "https://lh3.googleusercontent.com/d/1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK",
     "previewUrl": "https://lh3.googleusercontent.com/d/1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK"
@@ -688,7 +1088,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18w5PnO1D41-bMNIGSAjE5vvAeqrmghaL",
-    "name": "Wrist Circles",
+    "name": "Círculos / Mobilidade de Punho",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Wrist Circles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -698,7 +1098,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1oMqxUF3bMJnYyvaTzlf7hQw1PmiiclBn",
-    "name": "Wrist Flexion",
+    "name": "Flexão de Punho",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Wrist Flexion. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -748,7 +1148,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1kyLyP35D-0LxiiDHoI88dk7meH29-neP",
-    "name": "Barra Rosca",
+    "name": "Rosca Direta com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "instructions": "Execução de Barra Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -758,7 +1158,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1s1gAg5dqaNt4ptVpuxdMt3m8XApMC_cm",
-    "name": "Barra Preacher Rosca",
+    "name": "Rosca Scott com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "instructions": "Execução de Barra Preacher Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -768,7 +1168,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Hz3m7CwCbYJp0HLtum0a3eT52NR8cgeO",
-    "name": "Bayesian Rosca",
+    "name": "Rosca Bayesiana na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bayesian Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -778,7 +1178,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1wLuwO8eWJoudSaxHsJ9fpQQ-Y6garlQf",
-    "name": "Bicep Rosca Machine",
+    "name": "Rosca Bíceps na Máquina",
     "muscleGroup": "Bíceps",
     "equipment": "Máquina",
     "instructions": "Execução de Bicep Rosca Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -868,7 +1268,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ejWjjA8aC4mnmkHJb8wVlqngRctbBwmp",
-    "name": "Cabo / Polia Bicep Rosca",
+    "name": "Rosca Bíceps na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Bicep Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -878,7 +1278,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1I1J1ArMazb8eAG3cz7NIcnGDB7hV7AEI",
-    "name": "Cabo / Polia One Arm Rosca",
+    "name": "Rosca Unilateral na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia One Arm Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -888,7 +1288,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11_XZred9Zns60hhYWx80BFn9u2cRxzmL",
-    "name": "Cabo / Polia Preacher Rosca",
+    "name": "Rosca Scott na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Preacher Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -898,7 +1298,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1I4Mw79WrQpzJPhpDvbpwUzQaAel8Bb6U",
-    "name": "Cabo / Polia Single Arm Hammer Rosca",
+    "name": "Rosca Martelo Unilateral na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Single Arm Hammer Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -908,7 +1308,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RjWVntm-u-K6nVRfnbDG-SDn8MFTNHW9",
-    "name": "Cabo / Polia Underhand Row",
+    "name": "Remada Supinada na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Underhand Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -918,7 +1318,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Bg6BSxngrPpTvLJFQ0I8reNRpQE4pEly",
-    "name": "Close Grip Barra Rosca",
+    "name": "Rosca Direta Pegada Fechada com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "instructions": "Execução de Close Grip Barra Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -928,7 +1328,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1QFKjPhrvAYGkCAzL_pSOiSRzpoPd_s1a",
-    "name": "Cross Body Hammer Rosca",
+    "name": "Rosca Martelo Cruzada com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Cross Body Hammer Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -938,7 +1338,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1CdMqEIo_g2K2gc6ZEjEi00vF44svzRY2",
-    "name": "Halter Bicep Rosca",
+    "name": "Rosca Bíceps com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Bicep Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -948,7 +1348,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1MT9lGIzw8tVswjo3uD2_nd57ClrgRi0N",
-    "name": "Halter Concentration Rosca",
+    "name": "Rosca Concentrada com Haltere",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Concentration Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -958,7 +1358,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mhUn-rGG_ZtvOz8kDsT5ydwfige2miwf",
-    "name": "Halter Hammer Rosca",
+    "name": "Rosca Martelo com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Hammer Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -968,7 +1368,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-12o3llRXJiLixjn6hgS1_6Y2JNefpOF_v",
-    "name": "Halter Incline Hammer Rosca",
+    "name": "Rosca Martelo no Banco Inclinado",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Incline Hammer Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -978,7 +1378,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-12ZlCqAu-1v5wxGV2l9ZpXrpTa_5A5nhk",
-    "name": "Halter Preacher Rosca",
+    "name": "Rosca Scott com Haltere",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Preacher Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -988,7 +1388,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Yo6J9iPV_hctAafeS6mB8ohmpJPaVgZx",
-    "name": "Halter Preacher Hammer Roscas",
+    "name": "Rosca Martelo no Banco Scott",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Preacher Hammer Roscas. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -998,7 +1398,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18whJC08Y1sDS9RaN9lFEmRzUq_4CURNk",
-    "name": "Halter Seated Zottman Rosca",
+    "name": "Rosca Zottman Sentado com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Seated Zottman Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1008,7 +1408,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1N9cPIkyPeYd1CivzrZ0zcu5uL5xeWnJj",
-    "name": "Ez Bar Bicep Rosca",
+    "name": "Rosca Direta com Barra W",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Ez Bar Bicep Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1018,7 +1418,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1gAXN9TjKfRYA3pxQyYA6dwKf-ILL-SH7",
-    "name": "Ez Bar Preacher Rosca",
+    "name": "Rosca Scott com Barra W",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Ez Bar Preacher Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1028,7 +1428,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Q9tGutyTOGufzzg_v4P9OyKLsMIpqAM0",
-    "name": "Incline Halter Rosca",
+    "name": "Rosca Direta no Banco Inclinado com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Incline Halter Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1038,7 +1438,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1dy2t3k1NK0PJv3ri0SQ-8vzEQ6M9PV6a",
-    "name": "Lateral Bicep Roscas",
+    "name": "Rosca Bíceps Lateral na Polia Alta",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Lateral Bicep Roscas. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1068,7 +1468,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1jteV_PLD1zhmpzWJiatjtyI2V-Z3L9_5",
-    "name": "Overhead Cabo / Polia Rosca",
+    "name": "Rosca Bíceps na Polia Alta (Duplo Bíceps)",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Overhead Cabo / Polia Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1078,7 +1478,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RXIE4cEpdMLAj4IqAZwkdZlD-A-LdIKC",
-    "name": "Prone Incline Halter Rosca",
+    "name": "Rosca Bíceps Pronado no Banco Inclinado",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "instructions": "Execução de Prone Incline Halter Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1207,6 +1607,196 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/14ZSr_BUWyVyGHCOJ9Ax6anCr-TcsDgRZ"
   },
   {
+    "id": "drive-192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "name": "Rosca Direta na Polia Baixa",
+    "muscleGroup": "Bíceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rosca Direta na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "thumbnail": "https://lh3.googleusercontent.com/d/192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "previewUrl": "https://lh3.googleusercontent.com/d/192tc4Q5_lz736hFG9cORtJb7bqi5YcsO"
+  },
+  {
+    "id": "drive-1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "name": "Rosca Direta com Barra W (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Direta com Barra W (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS"
+  },
+  {
+    "id": "drive-1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "name": "Rosca Pegada Fechada com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Pegada Fechada com Barra W. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Nl6bIle0G7YsFsgRsRlinKyodpDWl862"
+  },
+  {
+    "id": "drive-1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "name": "Rosca Inclinada com Halteres",
+    "muscleGroup": "Bíceps",
+    "equipment": "Halteres",
+    "instructions": "Execução de Rosca Inclinada com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0"
+  },
+  {
+    "id": "drive-1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "name": "Rosca Martelo Pegada Aberta",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rosca Martelo Pegada Aberta. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS"
+  },
+  {
+    "id": "drive-12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "name": "Rosca Martelo Alternada Sentado",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rosca Martelo Alternada Sentado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "thumbnail": "https://lh3.googleusercontent.com/d/12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "previewUrl": "https://lh3.googleusercontent.com/d/12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9"
+  },
+  {
+    "id": "drive-1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "name": "Rosca Martelo Alternada (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rosca Martelo Alternada (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ"
+  },
+  {
+    "id": "drive-1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "name": "Rosca Inversa na Máquina",
+    "muscleGroup": "Bíceps",
+    "equipment": "Máquina",
+    "instructions": "Execução de Rosca Inversa na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk"
+  },
+  {
+    "id": "drive-1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "name": "Rosca Inversa na Polia Baixa",
+    "muscleGroup": "Bíceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rosca Inversa na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f"
+  },
+  {
+    "id": "drive-1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "name": "Rosca Inversa com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Inversa com Barra W. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr"
+  },
+  {
+    "id": "drive-1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "name": "Rosca Inversa com Barra (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra",
+    "instructions": "Execução de Rosca Inversa com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-"
+  },
+  {
+    "id": "drive-15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "name": "Rosca com Rotação Rádio-Ulnar",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rosca com Rotação Rádio-Ulnar. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g"
+  },
+  {
+    "id": "drive-1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "name": "Rosca Scott em Pé",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rosca Scott em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu"
+  },
+  {
+    "id": "drive-1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "name": "Rosca Scott com Barra W (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Scott com Barra W (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl"
+  },
+  {
+    "id": "drive-1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "name": "Rosca Scott em Pé com Barra",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra",
+    "instructions": "Execução de Rosca Scott em Pé com Barra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1zFtV415UPPoga_oZaPskrKvADCYKwJRy"
+  },
+  {
+    "id": "drive-1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "name": "Rosca Scott na Máquina",
+    "muscleGroup": "Bíceps",
+    "equipment": "Máquina",
+    "instructions": "Execução de Rosca Scott na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95"
+  },
+  {
+    "id": "drive-10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "name": "Rosca Bíceps Deitado com Halteres",
+    "muscleGroup": "Bíceps",
+    "equipment": "Halteres",
+    "instructions": "Execução de Rosca Bíceps Deitado com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "thumbnail": "https://lh3.googleusercontent.com/d/10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "previewUrl": "https://lh3.googleusercontent.com/d/10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK"
+  },
+  {
+    "id": "drive-1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "name": "Rosca Direta Pegada Aberta com Barra",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Direta Pegada Aberta com Barra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ps6O64FY3BdaLKe1jXWizUogisdxwLPs"
+  },
+  {
+    "id": "drive-1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "name": "Rosca Direta Pegada Aberta com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "instructions": "Execução de Rosca Direta Pegada Aberta com Barra W. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt"
+  },
+  {
     "id": "drive-1qJLiIXdBk3PQ30hX8ss1yWP-YfDjhUpM",
     "name": "Air Bike",
     "muscleGroup": "Cardio",
@@ -1218,7 +1808,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-17A9gUfb5Kkmf4S3DPcpOIAOjagYDCrS3",
-    "name": "Mountain Climber (alpinista)",
+    "name": "Alpinista (Mountain Climber)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Mountain Climber (alpinista). Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1278,7 +1868,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1NfpmPAtPhZPVOWAPKUYH2QFqTCTf5r_x",
-    "name": "Chutes de Bunda",
+    "name": "Corrida Elevando os Calcanhares",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Chutes de Bunda. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1368,7 +1958,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1k4NCib9ThgO_a3QMacjb327BvqeFlY_s",
-    "name": "Energy Pular",
+    "name": "Salto Energético (Cardio)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Energy Pular. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1388,7 +1978,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11JisDSgr7Z9DLM81BTvgV6RjMSxCXo59",
-    "name": "Esteira Inclinda",
+    "name": "Caminhada/Corrida na Esteira Inclinada",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Esteira Inclinda. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1408,7 +1998,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1uZ7dZDmuOw7MafqqWvasx1JucNjZNrFC",
-    "name": "Jumping Jack",
+    "name": "Polichinelo (Jumping Jack)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Jumping Jack. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1418,7 +2008,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mwAEHChbwWXn8ivOfWyprIyH1Qtys9TN",
-    "name": "Plyo Jacks",
+    "name": "Polichinelo Pliométrico",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Plyo Jacks. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1428,7 +2018,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Ax90lgERGBBl7G-u5hKukMDsv0lTtNc2",
-    "name": "Prank",
+    "name": "Prancha Dinâmica Cardio",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Prank. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1448,7 +2038,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1yV3zRBlmZ08-vVOm2Dc-LHITw85AxiOC",
-    "name": "Flexão de Braço Toe Touch",
+    "name": "Flexão de Braço com Toque na Ponta do Pé",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Flexão de Braço Toe Touch. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1468,7 +2058,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mNsNFGelKL1FxIIzf5h_AIZnBa-E4V_U",
-    "name": "Rowing",
+    "name": "Remo Ergômetro (Cardio)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Rowing. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1488,7 +2078,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1djDJlZNj1P9Mc4VwNj3w_0VZzUedtpfe",
-    "name": "Split Jacks",
+    "name": "Polichinelo Frontal (Split Jack)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Split Jacks. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1508,7 +2098,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1D2kbe4Kxn6wSM7JNZwZpldL4M-gzmRxQ",
-    "name": "Treadmill Manual",
+    "name": "Esteira Manual / Sem Motor",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Treadmill Manual. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1518,7 +2108,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1n8cqzdhq5y-5p55HKU2hggO4l0-EIHRx",
-    "name": "Tuck Jump",
+    "name": "Salto Agrupado (Tuck Jump)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "instructions": "Execução de Tuck Jump. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1548,7 +2138,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1IlrrzzCUJzEvcPIWe0jCv8vCth4_lhXh",
-    "name": "Back Extensão",
+    "name": "Extensão Lombar (Banco Romano)",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Back Extensão. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1588,7 +2178,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1T-DZqVt0glvQ_w7Jc1rCiRiZMyVnVrHG",
-    "name": "Banded Wide Grip Row",
+    "name": "Remada Aberta com Elástico",
     "muscleGroup": "Costas",
     "equipment": "Elástico / Band",
     "instructions": "Execução de Banded Wide Grip Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1598,7 +2188,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mCFJshFcJRlimZGk36A-ZOA-_qoLh1Cv",
-    "name": "Barra Bent Over Row",
+    "name": "Remada Curvada com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Bent Over Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1608,7 +2198,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18yfND8r9VPIIK_2xkl6zTBpoNenzFCqA",
-    "name": "Barra Shrug Muscles",
+    "name": "Encolhimento de Ombros com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Shrug Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1618,7 +2208,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-19LcbFp0uTjM8rqKhG6suSBe1kBmY-YK0",
-    "name": "Barra Upright Row Standing",
+    "name": "Remada Alta em Pé com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Upright Row Standing. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1678,7 +2268,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-12yXP6hBgMXCktwnHQa2VYMkb88-Q4Wyy",
-    "name": "Behind The Back Shrug",
+    "name": "Encolhimento de Ombros por Trás com Barra",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Behind The Back Shrug. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1688,7 +2278,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1yASiij4ghg7hvwJ42JfyG45foD7Zd7Hb",
-    "name": "Cabo / Polia Face Pull",
+    "name": "Face Pull na Polia com Corda",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Face Pull. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1698,7 +2288,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1J3pOuBFZ03ZKaxCYkEielXfFiaev2bSk",
-    "name": "Cabo / Polia Front Raise Movement",
+    "name": "Elevação Frontal na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Front Raise Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1708,7 +2298,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1SIHKXiCk8ykbZ3ZHvMPucbQYvuq5sNYM",
-    "name": "Cabo / Polia Pushdown",
+    "name": "Pulldown Reto na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Pushdown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1718,7 +2308,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1rr517ITVt-mHgL65MIVT7W6F-AipHTnf",
-    "name": "Cabo / Polia Rear Delt Fly",
+    "name": "Crucifixo Inverso na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Rear Delt Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1728,7 +2318,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11XHq9LuwSgelTZYeevI7z5J33tsLUrsU",
-    "name": "Cabo / Polia Seated Row",
+    "name": "Remada Baixa Sentada na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Seated Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1738,7 +2328,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1FK8lkKTQWQPgrniMqB_O1cSOvEB8wxIh",
-    "name": "Cabo / Polia Shrug",
+    "name": "Encolhimento de Ombros na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Shrug. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1748,7 +2338,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1TzpIZy4GK49PwIgPYjOKMlSfx7eXlnMg",
-    "name": "Cabo / Polia Wide Grip Row",
+    "name": "Remada Aberta na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Wide Grip Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1778,7 +2368,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1i17xMUQ2M9DDozsUjonp9nkYmg0h8Din",
-    "name": "Close Grip Lat Pulldown Standard Bar Attachment",
+    "name": "Puxada Alta Pegada Fechada com Barra Reta",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Close Grip Lat Pulldown Standard Bar Attachment. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1788,7 +2378,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1naOiBZB0sfrOUtK9RWVimTfWfBQ7zlHW",
-    "name": "Close Grip Lat Pulldown",
+    "name": "Puxada Alta Pegada Fechada",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Close Grip Lat Pulldown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1808,7 +2398,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1-OoVCdtmzkcaboCTmBMPcPFmb88NzQVJ",
-    "name": "Dead Hang",
+    "name": "Suspensão na Barra Fixa (Dead Hang)",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Dead Hang. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1818,7 +2408,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1M7T2kICzsKeaEn044QlLUQ9NTQfR5GhO",
-    "name": "Halter Back Extensão",
+    "name": "Extensão Lombar com Haltere",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Back Extensão. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1828,7 +2418,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1X2kQSsr_Q-Bygl3vRmYNd-pBpbKhsIfd",
-    "name": "Halter Face Pull",
+    "name": "Face Pull Inclinado com Halteres",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Face Pull. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1838,7 +2428,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RqhRXUHwTlwchahjaOgu9A43iHEBUY4f",
-    "name": "Halter Jefferson Rosca",
+    "name": "Flexão/Rotação Jefferson com Haltere",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Jefferson Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1848,7 +2438,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1O9QrzO7aOlnK2t8rcuEZuPMTnvVd9OaH",
-    "name": "Halter Rear Delt Fly",
+    "name": "Crucifixo Inverso com Halteres",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Rear Delt Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1868,7 +2458,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1dEg9ETVmUwAD-P121Hz_icsprBbCr4mP",
-    "name": "Kettlebell Lateral Raise",
+    "name": "Elevação Lateral com Kettlebell",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Kettlebell Lateral Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1878,7 +2468,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1WUaUNawMVMP3UpmQ_ZZ_XzPoNF8lAHFQ",
-    "name": "Landmine Row",
+    "name": "Remada Cavalinho no Landmine",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Landmine Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1908,7 +2498,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1lIzPPwStzNi0KaNGd4PLBFzBjWQy-un4",
-    "name": "Neutral Grip Cabo / Polia Rows",
+    "name": "Remada Baixa Pegada Neutra na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Neutral Grip Cabo / Polia Rows. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1918,7 +2508,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1oSFHqVR2KnNZSI9z8KPCIPlfm9Pw0ag4",
-    "name": "Pendlay Row",
+    "name": "Remada Pendlay com Barra",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Pendlay Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1958,7 +2548,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1n1nxvOpgyx4s0C7Zot4dRhYScI0Qz65_",
-    "name": "Pulldown Corda",
+    "name": "Pulldown com Corda na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Corda Naval",
     "instructions": "Execução de Pulldown Corda. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -1968,7 +2558,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1LtHyYEucX5stSrcjaUOsBaNiPCdkUDsA",
-    "name": "Pulldown Frontal",
+    "name": "Puxada Frontal na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Pulldown Frontal. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2047,6 +2637,276 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1NCSCZeRGCrZMVb7tuN-eFXl-gTILQRw0"
   },
   {
+    "id": "drive-1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "name": "Remada Cavalinho",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Cavalinho. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU"
+  },
+  {
+    "id": "drive-1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "name": "Remada Curvada com Barra (Variação 2)",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "instructions": "Execução de Remada Curvada com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1q-zskv-H7elFYC178A7nYHl1GvD_w6wz"
+  },
+  {
+    "id": "drive-1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "name": "Remada Curvada com Barra (Variação 3)",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "instructions": "Execução de Remada Curvada com Barra (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa"
+  },
+  {
+    "id": "drive-1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "name": "Remada Curvada no Smith",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Remada Curvada no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O"
+  },
+  {
+    "id": "drive-16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "name": "Remada Curvada Pegada Alta",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Curvada Pegada Alta. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/16wQPriiqh6B8YAsyABPhvyXKU09StWV1"
+  },
+  {
+    "id": "drive-1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "name": "Remada Ajoelhado na Polia",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Remada Ajoelhado na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w"
+  },
+  {
+    "id": "drive-1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "name": "Remada Cavalinho em T",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Cavalinho em T. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV"
+  },
+  {
+    "id": "drive-168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "name": "Remada ao Esterno",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada ao Esterno. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "thumbnail": "https://lh3.googleusercontent.com/d/168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "previewUrl": "https://lh3.googleusercontent.com/d/168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y"
+  },
+  {
+    "id": "drive-1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "name": "Remada Fechada Apoiada no Banco",
+    "muscleGroup": "Costas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Remada Fechada Apoiada no Banco. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS"
+  },
+  {
+    "id": "drive-1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "name": "Remada Pegada Fechada",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Pegada Fechada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_"
+  },
+  {
+    "id": "drive-1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "name": "Remada Inclinada com Barra",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "instructions": "Execução de Remada Inclinada com Barra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe"
+  },
+  {
+    "id": "drive-1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "name": "Remada Inclinada Pegada Supinada",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Inclinada Pegada Supinada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu"
+  },
+  {
+    "id": "drive-1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "name": "Remada na Máquina",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Remada na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU"
+  },
+  {
+    "id": "drive-1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "name": "Remada na Polia Baixa",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Remada na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk"
+  },
+  {
+    "id": "drive-11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "name": "Remada Invertida (Australiana)",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Invertida (Australiana). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/11w_XrA9AigLR1N3ShGue9HKudKIzEenu"
+  },
+  {
+    "id": "drive-1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "name": "Remada Sentada na Máquina",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Remada Sentada na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B"
+  },
+  {
+    "id": "drive-1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "name": "Remada na Máquina Articulada",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Remada na Máquina Articulada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL"
+  },
+  {
+    "id": "drive-1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "name": "Puxada Alta Pegada Supinada",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Puxada Alta Pegada Supinada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB"
+  },
+  {
+    "id": "drive-1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "name": "Crucifixo Invertido no Voador (Peck Deck)",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Crucifixo Invertido no Voador (Peck Deck). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9"
+  },
+  {
+    "id": "drive-1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "name": "Remada Unilateral com Haltere (Serrote)",
+    "muscleGroup": "Costas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Remada Unilateral com Haltere (Serrote). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u"
+  },
+  {
+    "id": "drive-11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "name": "Remada Curvada Unilateral",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Remada Curvada Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "thumbnail": "https://lh3.googleusercontent.com/d/11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "previewUrl": "https://lh3.googleusercontent.com/d/11QMDwq9zt26J0LP93s2Elkala7jbxp2J"
+  },
+  {
+    "id": "drive-1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "name": "Remada Unilateral com Haltere (Serrote) (Variação 2)",
+    "muscleGroup": "Costas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Remada Unilateral com Haltere (Serrote) (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur"
+  },
+  {
+    "id": "drive-1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "name": "Remada em Pé na Polia",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Remada em Pé na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy"
+  },
+  {
+    "id": "drive-1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "name": "Remada Cavalinho na Barra T",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "instructions": "Execução de Remada Cavalinho na Barra T. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor"
+  },
+  {
+    "id": "drive-1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "name": "Remada Alta na Polia Baixa",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Remada Alta na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL"
+  },
+  {
+    "id": "drive-1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "name": "Puxada Alta Pegada Aberta",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Puxada Alta Pegada Aberta. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu"
+  },
+  {
+    "id": "drive-11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "name": "Remada Yates com Barra",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "instructions": "Execução de Remada Yates com Barra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "thumbnail": "https://lh3.googleusercontent.com/d/11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "previewUrl": "https://lh3.googleusercontent.com/d/11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN"
+  },
+  {
     "id": "drive-1Cux4LeCJYLmKklp5qePSYXpelhTB4jbl",
     "name": "Apoios Flexionado",
     "muscleGroup": "Glúteos",
@@ -2065,6 +2925,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/17fVicIV8jg2qQzFcdAXfMJx0ngwE8LwB",
     "thumbnail": "https://lh3.googleusercontent.com/d/17fVicIV8jg2qQzFcdAXfMJx0ngwE8LwB",
     "previewUrl": "https://lh3.googleusercontent.com/d/17fVicIV8jg2qQzFcdAXfMJx0ngwE8LwB"
+  },
+  {
+    "id": "drive-1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "name": "Abdutor",
+    "muscleGroup": "Glúteos",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Abdutor. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW"
   },
   {
     "id": "drive-1871KtWy9yy7iC5P6-COcKMZaTTgmQOQb",
@@ -2087,16 +2957,6 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1RPh_f1g41crSMAuryCuPbfz21bzH8XkB"
   },
   {
-    "id": "drive-1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "name": "Abdutor",
-    "muscleGroup": "Glúteos",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Abdutor. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW"
-  },
-  {
     "id": "drive-10p8GNwnTRIccMjdnsh1aioerkMTL2eZI",
     "name": "Agachamento Polia Baixa",
     "muscleGroup": "Glúteos",
@@ -2108,7 +2968,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1o5G_I4mfWy3_v359AY4mbj6I-8hVkrlJ",
-    "name": "B Stance Hip Thrust",
+    "name": "Elevação Pélvica Base B (Unilateral)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de B Stance Hip Thrust. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2118,7 +2978,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1y8_gzBfHsWjtidfSYX1baDjoK5oBzdz4",
-    "name": "Band Donkey Kickback",
+    "name": "Coice para Glúteos com Elástico",
     "muscleGroup": "Glúteos",
     "equipment": "Elástico / Band",
     "instructions": "Execução de Band Donkey Kickback. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2128,7 +2988,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1fV-rdVtj3sGX6NPOjB-zxSWIVDgV-1TY",
-    "name": "Band Standing Hip Extensão",
+    "name": "Extensão de Quadril em Pé com Elástico",
     "muscleGroup": "Glúteos",
     "equipment": "Elástico / Band",
     "instructions": "Execução de Band Standing Hip Extensão. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2138,7 +2998,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1JJy6b-dk5k0pQiTlWPtqyR46ZStVDLj_",
-    "name": "Barra Hip Thrust",
+    "name": "Elevação Pélvica com Barra",
     "muscleGroup": "Glúteos",
     "equipment": "Barra",
     "instructions": "Execução de Barra Hip Thrust. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2148,7 +3008,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-136sl6VVyif1bF1fAkKIMjFcegrmFDQhz",
-    "name": "Bodyweight Hip Thrust",
+    "name": "Elevação Pélvica Peso Corporal",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bodyweight Hip Thrust. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2168,7 +3028,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1yAq5C69jmQk12UsYIjU6elelpLrRIJ-P",
-    "name": "Cabo / Polia Kickback",
+    "name": "Glúteo Coice na Polia Baixa",
     "muscleGroup": "Glúteos",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Kickback. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2178,7 +3038,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13B3FYPw5-hmHS6SKT2_0U_LjpAj6gQ83",
-    "name": "Cabo / Polia Step Up",
+    "name": "Subida no Caixote (Step Up) na Polia",
     "muscleGroup": "Glúteos",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Step Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2197,14 +3057,14 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1IRTWDZDkOtRUuxh_BDX8X8Lyz3QjMHwZ"
   },
   {
-    "id": "drive-1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
-    "name": "Elevação de Pelvis Unilateral",
+    "id": "drive-1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "name": "Ponte de Glúteos com Pés Elevados",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Elevação de Pelvis Unilateral. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc"
+    "instructions": "Execução de Elevated Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F"
   },
   {
     "id": "drive-14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
@@ -2215,6 +3075,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
     "thumbnail": "https://lh3.googleusercontent.com/d/14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
     "previewUrl": "https://lh3.googleusercontent.com/d/14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs"
+  },
+  {
+    "id": "drive-1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
+    "name": "Elevação de Pelvis Unilateral",
+    "muscleGroup": "Glúteos",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Elevação de Pelvis Unilateral. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1re6D396gT4H8YN8jTI9hI3eA6yZIt8oc"
   },
   {
     "id": "drive-1_aUpeYtAc6kS8MrM8VG_aF9nmkfgLgFq",
@@ -2257,18 +3127,8 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1O7xTq0R3V4uQNQkdeDYh_MclF6jNZ6x3"
   },
   {
-    "id": "drive-1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "name": "Elevated Glute Bridge",
-    "muscleGroup": "Glúteos",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Elevated Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F"
-  },
-  {
     "id": "drive-1NtuxwyNx4X3B5qXraxTOzSoqWOSBE9kj",
-    "name": "Frog Pump",
+    "name": "Elevação Pélvica Sapo (Frog Pump)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Frog Pump. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2278,7 +3138,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1z4pseLqRdYdt6sT4yfnBbJpDYnDxHoVD",
-    "name": "Glute Bridge",
+    "name": "Ponte de Glúteos no Solo",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2288,7 +3148,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1OIjKb3G___Vgqqf0N6H-mogig3sJYw3m",
-    "name": "Glute Ham Raise Muscles",
+    "name": "Extensão Glúteo-Isquiotibiais (GHD)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Glute Ham Raise Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2317,6 +3177,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1xUcs0yZUfar6OHYUseFozopLHd1-_oNx"
   },
   {
+    "id": "drive-1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "name": "Glúteo Coice na Máquina",
+    "muscleGroup": "Glúteos",
+    "equipment": "Máquina",
+    "instructions": "Execução de Glúteo Maquina Kick Back. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON"
+  },
+  {
     "id": "drive-1h7ZPxaZel-UrOgsheXmYr7mFSDNqAe82",
     "name": "Glúteo Máquina em Pé",
     "muscleGroup": "Glúteos",
@@ -2325,16 +3195,6 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/1h7ZPxaZel-UrOgsheXmYr7mFSDNqAe82",
     "thumbnail": "https://lh3.googleusercontent.com/d/1h7ZPxaZel-UrOgsheXmYr7mFSDNqAe82",
     "previewUrl": "https://lh3.googleusercontent.com/d/1h7ZPxaZel-UrOgsheXmYr7mFSDNqAe82"
-  },
-  {
-    "id": "drive-1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "name": "Glúteo Maquina Kick Back",
-    "muscleGroup": "Glúteos",
-    "equipment": "Máquina",
-    "instructions": "Execução de Glúteo Maquina Kick Back. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON"
   },
   {
     "id": "drive-1GxCtMCwksLhZY97qmbt9fU5Bwgm74YUc",
@@ -2348,7 +3208,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1-18jW3P-1Z8Iqq2SDmzyaoTPWgOb3Cbp",
-    "name": "Glúteo Smith Machine",
+    "name": "Glúteo / Elevação no Smith",
     "muscleGroup": "Glúteos",
     "equipment": "Máquina",
     "instructions": "Execução de Glúteo Smith Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2358,7 +3218,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18dw0ZmWV0jJXWUQBSYRillkfAlfqlyyh",
-    "name": "Heel Elevated Hip Thrust",
+    "name": "Elevação Pélvica com Calcanhares Elevados",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Heel Elevated Hip Thrust. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2368,7 +3228,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1o3-8uxuLe35KahdbioUkpJFei-kykuWR",
-    "name": "Kneeling Hip Thrust",
+    "name": "Extensão de Quadril Ajoelhado",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Kneeling Hip Thrust. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2378,7 +3238,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1pIIIBRHly6l2uNDUIYjAJfiowjGitDD7",
-    "name": "Quadruped Leg Rosca",
+    "name": "Flexão de Joelho em Quatro Apoios",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Quadruped Leg Rosca. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2388,7 +3248,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1BnrbeUa4lfhP_zvLbHHD4t9PDIupDgfu",
-    "name": "Single Leg Glute Bridge",
+    "name": "Ponte de Glúteos Unilateral",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Single Leg Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2398,7 +3258,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1e9tO1bRJD_mphWI2zYYFQ7UiBEPhHxha",
-    "name": "Single Leg Hip Thrust Muscles",
+    "name": "Elevação Pélvica Unilateral",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Single Leg Hip Thrust Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2418,7 +3278,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1IpmeEAczxBSGulFP2K4Rm_VKYMMo8l59",
-    "name": "Stiff Barra",
+    "name": "Stiff com Barra",
     "muscleGroup": "Glúteos",
     "equipment": "Barra",
     "instructions": "Execução de Stiff Barra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2468,7 +3328,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1oYxV3P35qHgfgV9uYe1jj4s6wePmt_J3",
-    "name": "Straight Leg Glute Bridge",
+    "name": "Ponte de Glúteos com Pernas Estendidas",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Straight Leg Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2488,7 +3348,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1grhIe0v1KxYgjBGnb2pfwtwkwdE5UlLU",
-    "name": "Sumô Dumbell",
+    "name": "Agachamento Sumô com Haltere",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Sumô Dumbell. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2498,7 +3358,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Di6-CcXf-CdfTU522PCi_ZaW9MaV_ejt",
-    "name": "Sumô Front",
+    "name": "Agachamento Sumô Frontal",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Sumô Front. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2508,7 +3368,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1EocHEEL0_SQtxRHyKXfpi_kcnAg3GhbW",
-    "name": "Table Top Glute Bridge",
+    "name": "Ponte de Glúteos em Mesa",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Table Top Glute Bridge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2608,7 +3468,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1vup-nD_NeaIBBYDysyd1hi_R8NeUJaMB",
-    "name": "Afundo Smith Machine",
+    "name": "Afundo no Smith",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "instructions": "Execução de Afundo Smith Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2618,7 +3478,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1LZfsvQKnWriweLulUeMBIvRO-qjbG6nb",
-    "name": "Agachamento Front",
+    "name": "Agachamento Frontal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Agachamento Front. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2648,7 +3508,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-17qfhKTRMRw8qG4iciHhqV1M2wVHObr06",
-    "name": "Agachamento com Up",
+    "name": "Agachamento com Subida no Banco",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Agachamento com Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2728,10 +3588,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P",
-    "name": "Agachamento Polia Baixa",
+    "name": "Agachamento Polia Baixa (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Polia / Cabo",
-    "instructions": "Execução de Agachamento Polia Baixa. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Polia Baixa (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P",
     "thumbnail": "https://lh3.googleusercontent.com/d/1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P",
     "previewUrl": "https://lh3.googleusercontent.com/d/1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P"
@@ -2798,7 +3658,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Fo7n_YKQIV7ncIKZqLvoSIZzUl7Z5uaN",
-    "name": "Barra Clean",
+    "name": "Arremesso (Power Clean) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Clean. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2818,17 +3678,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
-    "name": "Barra Lunge",
+    "name": "Afundo com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
-    "instructions": "Execução de Barra Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Afundo com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
     "thumbnail": "https://lh3.googleusercontent.com/d/1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
     "previewUrl": "https://lh3.googleusercontent.com/d/1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ"
   },
   {
     "id": "drive-1kVWuxv62i1Nk2xkUN8FWRt8eHWxNiCBY",
-    "name": "Barra Step Up",
+    "name": "Subida no Banco (Step Up) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Step Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2838,7 +3698,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-10BJJL0_YwXu47nWV1ZrbqsjIv_vsx_Fo",
-    "name": "Barra Good Morning",
+    "name": "Bom Dia (Good Morning) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Good Morning. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2848,7 +3708,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1EANVdwm_hfQej8ZUKUDCkSG-GSmOVjQc",
-    "name": "Barra Romanian Levantamento Terra Movement",
+    "name": "Levantamento Terra Romeno (RDL) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Romanian Levantamento Terra Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2858,7 +3718,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mGoPS22U4hYwpKGMVLQZGsycpk94OPtG",
-    "name": "Benefits Of Farmers Walks",
+    "name": "Caminhada do Fazendeiro (Farmer Walk)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Benefits Of Farmers Walks. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2888,7 +3748,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mb7wqs1Uc74xAe1j7sAxs1btHuoqDuAm",
-    "name": "Bulgarian Split Spuat",
+    "name": "Agachamento Búlgaro",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bulgarian Split Spuat. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2948,7 +3808,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1_jtz9E4JIe6rzckB3deUDSjP0-lya7Rf",
-    "name": "Halter Good Morning",
+    "name": "Bom Dia (Good Morning) com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Good Morning. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -2958,13 +3818,23 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
-    "name": "Halter Stiff Leg Levantamento Terra",
+    "name": "Stiff com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Stiff Leg Levantamento Terra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
     "thumbnail": "https://lh3.googleusercontent.com/d/1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
     "previewUrl": "https://lh3.googleusercontent.com/d/1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO"
+  },
+  {
+    "id": "drive-1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
+    "name": "Extensor de Joelhos",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Extensor de Joelhos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF"
   },
   {
     "id": "drive-1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
@@ -2997,16 +3867,6 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F"
   },
   {
-    "id": "drive-1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
-    "name": "Extensor de Joelhos",
-    "muscleGroup": "Pernas",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Extensor de Joelhos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1RuYVy0GYsaGR90JbugGGMAWY9lDsPTDF"
-  },
-  {
     "id": "drive-1MLALS2n1PbhEnI9guhbdFNipd8QoCeiG",
     "name": "Flexão Alta Polia",
     "muscleGroup": "Pernas",
@@ -3015,6 +3875,516 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/1MLALS2n1PbhEnI9guhbdFNipd8QoCeiG",
     "thumbnail": "https://lh3.googleusercontent.com/d/1MLALS2n1PbhEnI9guhbdFNipd8QoCeiG",
     "previewUrl": "https://lh3.googleusercontent.com/d/1MLALS2n1PbhEnI9guhbdFNipd8QoCeiG"
+  },
+  {
+    "id": "drive-1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "name": "Flexora em Pé Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Flexora em Pé Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx"
+  },
+  {
+    "id": "drive-1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "name": "Mesa Flexora Deitado",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Mesa Flexora Deitado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6"
+  },
+  {
+    "id": "drive-1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "name": "Cadeira Flexora Sentada",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Cadeira Flexora Sentada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye"
+  },
+  {
+    "id": "drive-1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "name": "Flexora Deitado na Polia",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Flexora Deitado na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_"
+  },
+  {
+    "id": "drive-1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "name": "Mesa Flexora Unilateral Deitado",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Mesa Flexora Unilateral Deitado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI"
+  },
+  {
+    "id": "drive-1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "name": "Extensão/Flexão de Quadril na Polia",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Extensão/Flexão de Quadril na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH"
+  },
+  {
+    "id": "drive-1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "name": "Flexora Ajoelhado Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Flexora Ajoelhado Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD"
+  },
+  {
+    "id": "drive-1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "name": "Flexora Unilateral na Máquina",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Flexora Unilateral na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3"
+  },
+  {
+    "id": "drive-1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "name": "Agachamento Frontal com Barra (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "instructions": "Execução de Agachamento Frontal com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky"
+  },
+  {
+    "id": "drive-1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "name": "Cadeira Extensora",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Cadeira Extensora. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711"
+  },
+  {
+    "id": "drive-1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "name": "Subida Lateral no Caixote (Step Up)",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida Lateral no Caixote (Step Up). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1"
+  },
+  {
+    "id": "drive-1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "name": "Leg Press 45° com Abdução",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press 45° com Abdução. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA"
+  },
+  {
+    "id": "drive-1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "name": "Leg Press Horizontal",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press Horizontal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ"
+  },
+  {
+    "id": "drive-1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "name": "Leg Press Vertical no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Leg Press Vertical no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec"
+  },
+  {
+    "id": "drive-1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "name": "Leg Press Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT"
+  },
+  {
+    "id": "drive-15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "name": "Cadeira Extensora (Pés Rotacionados)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Cadeira Extensora (Pés Rotacionados). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15GJ8IQMPKURkN1IuohTihiV55LV8uJel"
+  },
+  {
+    "id": "drive-1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "name": "Leg Press 45°",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press 45°. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85"
+  },
+  {
+    "id": "drive-1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "name": "Levantamento Terra Romeno (RDL)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Romeno (RDL). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3"
+  },
+  {
+    "id": "drive-1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "name": "Levantamento Terra Sumô",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Sumô. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa"
+  },
+  {
+    "id": "drive-1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "name": "Levantamento Terra",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM"
+  },
+  {
+    "id": "drive-1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "name": "Afundo / Avanço com Halteres",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Afundo / Avanço com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc"
+  },
+  {
+    "id": "drive-1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "name": "Afundo Reverso",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Afundo Reverso. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv"
+  },
+  {
+    "id": "drive-1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "name": "Afundo Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Afundo Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x"
+  },
+  {
+    "id": "drive-1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "name": "Mesa Flexora Deitado (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Mesa Flexora Deitado (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn"
+  },
+  {
+    "id": "drive-1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "name": "Leg Press 45° Pés Fechados",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press 45° Pés Fechados. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr"
+  },
+  {
+    "id": "drive-1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "name": "Passada Caminhando (Avanço)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Passada Caminhando (Avanço). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn"
+  },
+  {
+    "id": "drive-1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "name": "Agachamento na Polia Baixa",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Agachamento na Polia Baixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt"
+  },
+  {
+    "id": "drive-1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "name": "Flexão Posterior Fixa",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão Posterior Fixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee"
+  },
+  {
+    "id": "drive-13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "name": "Leg Press Unilateral (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Leg Press Unilateral (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ"
+  },
+  {
+    "id": "drive-1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "name": "Educativo de Dobradiça de Quadril com Bastão",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Educativo de Dobradiça de Quadril com Bastão. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1muu7duvETW_aUwVDQXwtigkqh92TocVK"
+  },
+  {
+    "id": "drive-1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "name": "Treino Foco Quadríceps Femoral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Treino Foco Quadríceps Femoral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc"
+  },
+  {
+    "id": "drive-1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "name": "Agachamento Hack Machine",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Agachamento Hack Machine. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC"
+  },
+  {
+    "id": "drive-1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "name": "Hiperextensão Reversa (Posterior e Glúteos)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Hiperextensão Reversa (Posterior e Glúteos). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH"
+  },
+  {
+    "id": "drive-1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "name": "Agachamento Hack Reverso",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Agachamento Hack Reverso. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC"
+  },
+  {
+    "id": "drive-1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "name": "Cadeira Flexora Sentada (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Cadeira Flexora Sentada (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B"
+  },
+  {
+    "id": "drive-1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "name": "Cadeira Extensora Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Cadeira Extensora Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t"
+  },
+  {
+    "id": "drive-1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "name": "Agachamento Guiado no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Agachamento Guiado no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY"
+  },
+  {
+    "id": "drive-1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "name": "Subida Lateral no Step",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida Lateral no Step. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn"
+  },
+  {
+    "id": "drive-11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "name": "Step Up com Elevação de Joelho",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Step Up com Elevação de Joelho. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr"
+  },
+  {
+    "id": "drive-1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "name": "Subida no Caixote (Step Up)",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida no Caixote (Step Up). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv"
+  },
+  {
+    "id": "drive-1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "name": "Stiff com Barra por Trás",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "instructions": "Execução de Stiff com Barra por Trás. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA"
+  },
+  {
+    "id": "drive-1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "name": "Stiff com Barra (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "instructions": "Execução de Stiff com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_"
+  },
+  {
+    "id": "drive-1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "name": "Stiff com Pernas Estendidas",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Stiff com Pernas Estendidas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z"
+  },
+  {
+    "id": "drive-1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "name": "Agachamento Sumô com Haltere (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Agachamento Sumô com Haltere (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8"
+  },
+  {
+    "id": "drive-1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "name": "Agachamento Sumô com Haltere (Variação 3)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Agachamento Sumô com Haltere (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1r22RFSsemte-xXo5URIJmjfLSkSNp-X_"
+  },
+  {
+    "id": "drive-1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "name": "Agachamento Sumô",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Agachamento Sumô. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M"
+  },
+  {
+    "id": "drive-1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "name": "Levantamento Terra na Barra Hexagonal (Trap Bar)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "instructions": "Execução de Levantamento Terra na Barra Hexagonal (Trap Bar). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ"
+  },
+  {
+    "id": "drive-1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "name": "Levantamento Terra Tradicional",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Tradicional. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6"
+  },
+  {
+    "id": "drive-1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "name": "Subida no Banco com Halteres",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Subida no Banco com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV"
+  },
+  {
+    "id": "drive-1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "name": "Subida no Caixote",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida no Caixote. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u"
+  },
+  {
+    "id": "drive-1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "name": "Subida Unilateral no Caixote",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida Unilateral no Caixote. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz"
   },
   {
     "id": "drive-1wVN45rtBjoncL2HycvTiXJCTYA16rkkr",
@@ -3038,7 +4408,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1aZkN6AG0u5ArXUvnKZKnI6DaS-ydtrRa",
-    "name": "Barra Push Jerk Muscles",
+    "name": "Push Jerk com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Barra",
     "instructions": "Execução de Barra Push Jerk Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3058,7 +4428,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13aciAaE4DyzrB4SjUzBbYRwiztyTXEok",
-    "name": "Cabo / Polia Shoulder Press",
+    "name": "Desenvolvimento de Ombros na Polia",
     "muscleGroup": "Ombros",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Shoulder Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3088,7 +4458,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1xLQeSVSHIXUeYseRZigSptdgoSS_IH9u",
-    "name": "Cuban Press",
+    "name": "Desenvolvimento Cubano (Manguito e Ombros)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Cuban Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3098,7 +4468,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-118O6Va7wEu2M-Lmuq6N7o4jObGXI00fc",
-    "name": "Delta Fly",
+    "name": "Crucifixo Inverso (Deltóide Posterior)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Delta Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3148,7 +4518,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Nx31QTm6Sl7szBRlc6old4xMxAWBJjN_",
-    "name": "Desenvolvimento Smith Machine",
+    "name": "Desenvolvimento de Ombros no Smith",
     "muscleGroup": "Ombros",
     "equipment": "Máquina",
     "instructions": "Execução de Desenvolvimento Smith Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3168,13 +4538,23 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
-    "name": "Halter Military Press",
+    "name": "Desenvolvimento Militar com Halteres",
     "muscleGroup": "Ombros",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Military Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
     "thumbnail": "https://lh3.googleusercontent.com/d/1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
     "previewUrl": "https://lh3.googleusercontent.com/d/1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe"
+  },
+  {
+    "id": "drive-1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "name": "Elevaçao Lateral com Apoio",
+    "muscleGroup": "Ombros",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Elevaçao Lateral com Apoio. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha"
   },
   {
     "id": "drive-1tvJ3XmTAvo1B25mBBdWmt8E_z7pyCEOY",
@@ -3247,16 +4627,6 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1WMqtczf8ai9NatJ1aN0s-VjUCaxIblsJ"
   },
   {
-    "id": "drive-1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "name": "Elevaçao Lateral com Apoio",
-    "muscleGroup": "Ombros",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Elevaçao Lateral com Apoio. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha"
-  },
-  {
     "id": "drive-11VTgc_xbM0r33uermzDKG4-DOMVwIBBZ",
     "name": "Elevação Lateral Cruzada",
     "muscleGroup": "Ombros",
@@ -3318,17 +4688,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
-    "name": "Fly Inverso",
+    "name": "Crucifixo Inverso (Variação 2)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Fly Inverso. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Crucifixo Inverso (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
     "thumbnail": "https://lh3.googleusercontent.com/d/1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
     "previewUrl": "https://lh3.googleusercontent.com/d/1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH"
   },
   {
     "id": "drive-1_gNyzgVK6ZrCKEEK-NLDsm6o5tA-_mPJ",
-    "name": "Front 2 Vias",
+    "name": "Elevação Frontal Alternada / 2 Vias",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Front 2 Vias. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3388,7 +4758,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13kyTqk2GXC3tCUCpC1dDwd35lqFTcC_x",
-    "name": "Landmine Press",
+    "name": "Desenvolvimento Unilateral no Landmine",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Landmine Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3418,7 +4788,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-17WTHKwASJRDEZfkZMT7UPAsLTJPPa90y",
-    "name": "Lateral Raise Machine",
+    "name": "Elevação Lateral na Máquina",
     "muscleGroup": "Ombros",
     "equipment": "Máquina",
     "instructions": "Execução de Lateral Raise Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3448,7 +4818,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18sdSKXGW1XKOuk7tHuIfQ1qEzT2HA_es",
-    "name": "Military Press",
+    "name": "Desenvolvimento Militar com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Military Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3458,7 +4828,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1zUvLrMFIhq-XqQcmeyFJKFEAIXd80fUq",
-    "name": "Push Press",
+    "name": "Push Press com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Push Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3478,7 +4848,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1L3UEZdrxkAv68tA43rT5fJVynymutF9U",
-    "name": "Seated Overhead Press",
+    "name": "Desenvolvimento Sentado com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Seated Overhead Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3488,7 +4858,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1p433ZiuhARcTuKr5XXkszLWGwSDCh_aL",
-    "name": "Shoulder Pin Press",
+    "name": "Desenvolvimento no Rack (Pin Press)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Shoulder Pin Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3498,7 +4868,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1FWHUxUop--MX42dpWzIIlvafInjd8mrn",
-    "name": "Z Press",
+    "name": "Desenvolvimento Z-Press Sentado no Solo",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Z Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3508,7 +4878,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-18Gv0Z19Y8JvcVYNtA86eJOhDvLJ6wpK_",
-    "name": "Cabo / Polia Standing Calf Raise",
+    "name": "Panturrilha em Pé na Polia",
     "muscleGroup": "Panturrilha",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Standing Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3518,7 +4888,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1CJ2TL9z7Ru3vz9ad95n3HV0oy_evdASE",
-    "name": "Calf Agachamentos",
+    "name": "Panturrilha no Agachamento / Step",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Calf Agachamentos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3528,7 +4898,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1pqdkY2zOHDl6rBdiKb__jWEmFagO_rRT",
-    "name": "Donkey Calf Raise",
+    "name": "Panturrilha Burrinho (Donkey Calf Raise)",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Donkey Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3538,7 +4908,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Vy6f1LGabV7Es06N5O4BZS-PSD9K7Lyv",
-    "name": "Halter Calf Raise",
+    "name": "Panturrilha em Pé com Halteres",
     "muscleGroup": "Panturrilha",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3618,7 +4988,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1o0PjILsZ1bPhiBRnAjbk3e3jtL5GomI_",
-    "name": "Leg Press Calf Raise",
+    "name": "Panturrilha no Leg Press",
     "muscleGroup": "Panturrilha",
     "equipment": "Máquina",
     "instructions": "Execução de Leg Press Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3628,7 +4998,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RjZcB42_q3PdtQKRVUpmSGllhjvVJBOk",
-    "name": "Negative Calf Raise",
+    "name": "Panturrilha com Fase Excêntrica Lenta",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Negative Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3688,7 +5058,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1yfZClWAJIU43IgNnRXnRcLLiyBSEmoxM",
-    "name": "Panturrilha Unilateral Leg",
+    "name": "Panturrilha Unilateral no Leg Press",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Panturrilha Unilateral Leg. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3698,7 +5068,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Ao-syNOaBFMZxXjLIw-xMkOWR1IcOG0_",
-    "name": "Seated Calf Raise Halter",
+    "name": "Panturrilha Sentado com Haltere",
     "muscleGroup": "Panturrilha",
     "equipment": "Halteres",
     "instructions": "Execução de Seated Calf Raise Halter. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3708,7 +5078,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1oE3CAY7lnim5-s7uQ2UDHGeJhTb0k72q",
-    "name": "Seated Calf Raise",
+    "name": "Panturrilha Sentado (Sóleo)",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Seated Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3718,7 +5088,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13zPZpJaLfrvKMeWd3x6ptbr-PRRPqtsx",
-    "name": "Single Leg Calf Raise",
+    "name": "Panturrilha Unilateral em Pé",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Single Leg Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3728,7 +5098,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Dsyhfx5bgvvYesCOLq6-doDOCgtyZuPj",
-    "name": "Smith Machine Machine Calf Raise",
+    "name": "Panturrilha no Smith",
     "muscleGroup": "Panturrilha",
     "equipment": "Máquina",
     "instructions": "Execução de Smith Machine Machine Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3738,7 +5108,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ZE0YPuytvK-OTkQKBj5-QdQv53jVROn2",
-    "name": "Standing Calf Raise (1)",
+    "name": "Panturrilha em Pé na Máquina",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Standing Calf Raise (1). Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3748,7 +5118,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Pf3knJ_IRZj-01O4YocOTvTYzANo6-nY",
-    "name": "Standing Calf Raise",
+    "name": "Panturrilha em Pé",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Standing Calf Raise. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3768,7 +5138,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1zmvBdkpcHESZxbPrsM6IASjHRk6UQ3WJ",
-    "name": "Supino Reto com Barra Side View",
+    "name": "Supino Reto com Barra",
     "muscleGroup": "Peito",
     "equipment": "Barra",
     "instructions": "Execução de Supino Reto com Barra Side View. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3778,10 +5148,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9",
-    "name": "Supino Reto com Barra",
+    "name": "Supino Reto com Barra (Variação 2)",
     "muscleGroup": "Peito",
     "equipment": "Barra",
-    "instructions": "Execução de Supino Reto com Barra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Supino Reto com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9",
     "thumbnail": "https://lh3.googleusercontent.com/d/1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9",
     "previewUrl": "https://lh3.googleusercontent.com/d/1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9"
@@ -3808,7 +5178,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ZqPg_bLcf1Z3_VEhYtBSNP3AJ81jDKL4",
-    "name": "Supino Feet Up",
+    "name": "Supino Reto com Pés Elevados",
     "muscleGroup": "Peito",
     "equipment": "Banco",
     "instructions": "Execução de Supino Feet Up. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3818,7 +5188,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1GepLhHSyUvVkYeZGQ84cl-oY-YyiFqep",
-    "name": "Cabo / Polia Cross Over (1)",
+    "name": "Cross Over na Polia Média/Alta",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Cross Over (1). Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3828,7 +5198,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Zt4FL42dhVvb4M4cZ2ZBamGQkkECIW0P",
-    "name": "Cabo / Polia Cross Over",
+    "name": "Cross Over na Polia Alta",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Cross Over. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3838,7 +5208,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ilhnfb1EQWvloTmrJfeGGTzHAdECSlPb",
-    "name": "Cabo / Polia Fly",
+    "name": "Crucifixo na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3848,7 +5218,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1QjROpHfkS-o8B13bwumh_IhQfAlF4YQA",
-    "name": "Chest Dips",
+    "name": "Mergulho nas Paralelas (Foco Peitoral)",
     "muscleGroup": "Peito",
     "equipment": "Barras Paralelas",
     "instructions": "Execução de Chest Dips. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3858,7 +5228,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1qcftSvIimLGaWGqhnkeBN_coXmPG37g6",
-    "name": "Chest Press Sentado",
+    "name": "Supino Sentado na Máquina",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Chest Press Sentado. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3868,7 +5238,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1kd_PEC0JMtcc7tkYqTLiDZS_JAiYBebr",
-    "name": "Chest Press Machine",
+    "name": "Supino Reto na Máquina (Chest Press)",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "instructions": "Execução de Chest Press Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3988,7 +5358,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1u_QskIbzMkecAODoZKZgPxadHFkCj8VB",
-    "name": "Decline Cabo / Polia Fly",
+    "name": "Crucifixo Declinado na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Decline Cabo / Polia Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -3998,7 +5368,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1wRrqNzHeGrN5XOx-eSJEjue0wUvzD3w1",
-    "name": "Decline Flexão de Braço",
+    "name": "Flexão de Braço Declinada",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Decline Flexão de Braço. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4018,7 +5388,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Y1Ze5bVmAeTndpzDM1SvJJntzT07Q1Ji",
-    "name": "Halter Chest Fly Muscles",
+    "name": "Crucifixo Reto com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Chest Fly Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4028,7 +5398,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13ncWM6tRT1uFoPNDhHEyQPbo8-XpGUg9",
-    "name": "Halter Chest Press",
+    "name": "Supino Reto com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Chest Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4038,7 +5408,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13sxyX-zEu1Uh5bijqI2YpLg5W8lONW0p",
-    "name": "Halter Floor Press",
+    "name": "Supino no Solo (Floor Press) com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Floor Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4048,7 +5418,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1TFtMpGPHORsZ84XNbFKu0eXMG_aKX5nK",
-    "name": "Halter Hex Press",
+    "name": "Supino Fechado Hex Press com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Hex Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4058,7 +5428,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1p3snJRe2FL5liHza1zeDCfcTKgJ_-qns",
-    "name": "Halter One Arm Chest Press",
+    "name": "Supino Unilateral com Haltere",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter One Arm Chest Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4078,7 +5448,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11WbmeF7iaBbxPYsV6Dlo-LHZtOyv00Ew",
-    "name": "Halter Svend Press",
+    "name": "Svend Press com Haltere/Anilha",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Svend Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4138,7 +5508,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Z55IheZ_kTT1Tj2hRAlWPqrM7LiU9tzK",
-    "name": "High Cabo / Polia Fly",
+    "name": "Crucifixo Polia Alta (Cross Over)",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de High Cabo / Polia Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4148,7 +5518,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1LRjbVQy8Rd2ryp26PGMq9rXYAr7Bb8QZ",
-    "name": "Inclinado no Smith Machine",
+    "name": "Supino Inclinado no Smith",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "instructions": "Execução de Inclinado no Smith Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4158,7 +5528,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1WDXSiA5R2AnZKy_afrFb3qBOvakU7EX3",
-    "name": "Incline Supino Reto com Barra",
+    "name": "Supino Inclinado com Barra",
     "muscleGroup": "Peito",
     "equipment": "Barra",
     "instructions": "Execução de Incline Supino Reto com Barra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4168,7 +5538,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1teffFf2gTxsZlQsd46xpck4l7_kealKZ",
-    "name": "Incline Cabo / Polia Fly",
+    "name": "Crucifixo Inclinado na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Incline Cabo / Polia Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4178,7 +5548,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-14Au1t5_oplz8YR1_7rjtTVBl5fWfKkAv",
-    "name": "Incline Flexão de Braço Bench",
+    "name": "Flexão de Braço Inclinada no Banco",
     "muscleGroup": "Peito",
     "equipment": "Banco",
     "instructions": "Execução de Incline Flexão de Braço Bench. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4188,7 +5558,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1gdb21YsuiQFHaAE-sIW6lDeqoyVD_u1C",
-    "name": "Inverted Row",
+    "name": "Remada Invertida na Barra",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Inverted Row. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4198,7 +5568,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1rLQ86PyV8rm2LJxzNAioJzS8ddDqEN5F",
-    "name": "Kettlebell Pullover",
+    "name": "Pullover com Kettlebell",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Kettlebell Pullover. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4208,7 +5578,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mWKTEt98YeaPJevJ_RlcHrYizfzkQnRx",
-    "name": "Knee Flexão de Braços",
+    "name": "Flexão de Braços com Joelhos Apoiados",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Knee Flexão de Braços. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4218,7 +5588,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1JoENRlbmcupnyg9PfewyEiJW9n4WOjoK",
-    "name": "Lever Pullover Machine",
+    "name": "Pullover na Máquina Articulada",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "instructions": "Execução de Lever Pullover Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4228,23 +5598,33 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc",
-    "name": "Linha Invertida",
+    "name": "Linha Invertida (Variação 2)",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Linha Invertida. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Linha Invertida (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc",
     "thumbnail": "https://lh3.googleusercontent.com/d/1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc",
     "previewUrl": "https://lh3.googleusercontent.com/d/1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc"
   },
   {
     "id": "drive-1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
-    "name": "Low Cabo / Polia Chest Flys",
+    "name": "Crucifixo na Polia Baixa",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Low Cabo / Polia Chest Flys. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
     "thumbnail": "https://lh3.googleusercontent.com/d/1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
     "previewUrl": "https://lh3.googleusercontent.com/d/1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ"
+  },
+  {
+    "id": "drive-15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "name": "Mergulho para Peitoral nas Paralelas",
+    "muscleGroup": "Peito",
+    "equipment": "Paralelas",
+    "instructions": "Execução de Mergulho para Peitoral nas Paralelas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd"
   },
   {
     "id": "drive-17KjhMhg39d-q-s0_tP-UNvJHz1HogsTq",
@@ -4255,6 +5635,276 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/17KjhMhg39d-q-s0_tP-UNvJHz1HogsTq",
     "thumbnail": "https://lh3.googleusercontent.com/d/17KjhMhg39d-q-s0_tP-UNvJHz1HogsTq",
     "previewUrl": "https://lh3.googleusercontent.com/d/17KjhMhg39d-q-s0_tP-UNvJHz1HogsTq"
+  },
+  {
+    "id": "drive-1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "name": "Crucifixo Unilateral com Haltere",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Crucifixo Unilateral com Haltere. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU"
+  },
+  {
+    "id": "drive-1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "name": "Voador (Peck Deck)",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "instructions": "Execução de Voador (Peck Deck). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H"
+  },
+  {
+    "id": "drive-1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "name": "Flexão Pike (Ombros e Peitoral Superior)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão Pike (Ombros e Peitoral Superior). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2"
+  },
+  {
+    "id": "drive-1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "name": "Flexão de Braço Pliométrica (Explosiva)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão de Braço Pliométrica (Explosiva). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP"
+  },
+  {
+    "id": "drive-1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "name": "Supino Inclinado na Máquina",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "instructions": "Execução de Supino Inclinado na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu"
+  },
+  {
+    "id": "drive-120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "name": "Supino Inclinado Articulado",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Supino Inclinado Articulado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "thumbnail": "https://lh3.googleusercontent.com/d/120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "previewUrl": "https://lh3.googleusercontent.com/d/120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S"
+  },
+  {
+    "id": "drive-1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "name": "Supino Reto Articulado",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Supino Reto Articulado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht"
+  },
+  {
+    "id": "drive-1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "name": "Supino Articulado Unilateral",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Supino Articulado Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR"
+  },
+  {
+    "id": "drive-1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "name": "Supino Pegada Fechada com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Supino Pegada Fechada com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n"
+  },
+  {
+    "id": "drive-1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "name": "Crucifixo na Polia Pegada Pronada",
+    "muscleGroup": "Peito",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Crucifixo na Polia Pegada Pronada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU"
+  },
+  {
+    "id": "drive-1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "name": "Pullover no Banco com Haltere",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Pullover no Banco com Haltere. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS"
+  },
+  {
+    "id": "drive-1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "name": "Pullover na Bola Suíça",
+    "muscleGroup": "Peito",
+    "equipment": "Bola Suíça",
+    "instructions": "Execução de Pullover na Bola Suíça. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR"
+  },
+  {
+    "id": "drive-1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "name": "Flexão de Braço no Apoio (Push-Up Bars)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão de Braço no Apoio (Push-Up Bars). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu"
+  },
+  {
+    "id": "drive-18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "name": "Supino Reto no Smith",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Supino Reto no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "thumbnail": "https://lh3.googleusercontent.com/d/18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "previewUrl": "https://lh3.googleusercontent.com/d/18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO"
+  },
+  {
+    "id": "drive-1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "name": "Supino Alternado com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Supino Alternado com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc"
+  },
+  {
+    "id": "drive-1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "name": "Supino Reto com Halteres (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Supino Reto com Halteres (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1aHSjf12FogggLnSTDM35lWXKYLgnbG9W"
+  },
+  {
+    "id": "drive-15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "name": "Supino Declinado no Smith",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Supino Declinado no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V"
+  },
+  {
+    "id": "drive-13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "name": "Supino Declinado com Barra (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "instructions": "Execução de Supino Declinado com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/13mFg0oFxD0FadwWho6TnAaG86O21aui1"
+  },
+  {
+    "id": "drive-1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "name": "Supino Inclinado com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Supino Inclinado com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz"
+  },
+  {
+    "id": "drive-1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "name": "Supino Inclinado com Barra (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "instructions": "Execução de Supino Inclinado com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR"
+  },
+  {
+    "id": "drive-1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "name": "Supino Reto com Barra (Variação 3)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "instructions": "Execução de Supino Reto com Barra (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8"
+  },
+  {
+    "id": "drive-1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "name": "Svend Press com Anilha",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Svend Press com Anilha. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV"
+  },
+  {
+    "id": "drive-1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "name": "Svend Press Isométrico",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Svend Press Isométrico. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f"
+  },
+  {
+    "id": "drive-1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "name": "Voador / Crucifixo na Máquina",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "instructions": "Execução de Voador / Crucifixo na Máquina. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU"
+  },
+  {
+    "id": "drive-1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "name": "Crucifixo Reto com Halteres (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "instructions": "Execução de Crucifixo Reto com Halteres (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A"
+  },
+  {
+    "id": "drive-15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "name": "Flexão de Braço na Parede",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão de Braço na Parede. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "thumbnail": "https://lh3.googleusercontent.com/d/15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "previewUrl": "https://lh3.googleusercontent.com/d/15YBFZn55iPWpW874OgZGbP3ywKao3IKD"
+  },
+  {
+    "id": "drive-1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "name": "Mergulho nas Paralelas com Carga",
+    "muscleGroup": "Peito",
+    "equipment": "Paralelas",
+    "instructions": "Execução de Mergulho nas Paralelas com Carga. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1OahO0whrrsIik8zJEflQkaacNKKWM4RU"
   },
   {
     "id": "drive-1AazJbPACH1vRodXasM5gkj_-1C0v1dp3",
@@ -4278,10 +5928,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy",
-    "name": "Mergulho no Banco",
+    "name": "Mergulho no Banco (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Banco",
-    "instructions": "Execução de Mergulho no Banco. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Mergulho no Banco (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy",
     "thumbnail": "https://lh3.googleusercontent.com/d/1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy",
     "previewUrl": "https://lh3.googleusercontent.com/d/1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy"
@@ -4298,7 +5948,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1J6trLzXMBvXgKQ-EAAJ5d73pz_DUqJk2",
-    "name": "Cabo / Polia Tricep Kickback",
+    "name": "Tríceps Coice na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Tricep Kickback. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4308,7 +5958,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1C0ZTd90rgMDCYY5jdvMsIhhwrDK5Yxk8",
-    "name": "Cabo / Polia Tricep Overhead Extensãos",
+    "name": "Tríceps Francês na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Tricep Overhead Extensãos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4318,7 +5968,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1pyeCWBogbSwEg1cjZcfuuGTcAwJUPh-w",
-    "name": "Cabo / Polia Tricep Pushdown",
+    "name": "Tríceps Pulley Barra Reta",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo / Polia Tricep Pushdown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4328,7 +5978,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-14UJRHyDoZDVWPG_XmjpLqtehmqaAjIwm",
-    "name": "Close Grip Supino Movement",
+    "name": "Supino Fechado para Tríceps",
     "muscleGroup": "Tríceps",
     "equipment": "Banco",
     "instructions": "Execução de Close Grip Supino Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4368,7 +6018,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1QDqN7boWWuIlJgzmUnW1KUQh0NMkTqYL",
-    "name": "Halter Tricep Kickback",
+    "name": "Tríceps Coice com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Tricep Kickback. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4378,7 +6028,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1XEDFyjKXGcR-kitbeNz522-3OQ9TeBEr",
-    "name": "Ez Bar Tricep Pushdown",
+    "name": "Tríceps Pulley com Barra W",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Ez Bar Tricep Pushdown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4388,7 +6038,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1e7g7WqEiF71VImkbZ7XsfxrRvVt4WSWG",
-    "name": "Francesa Dumbell",
+    "name": "Tríceps Francês com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Francesa Dumbell. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4408,10 +6058,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
-    "name": "Kickback",
+    "name": "Tríceps Coice com Haltere (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Kickback. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Tríceps Coice com Haltere (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
     "thumbnail": "https://lh3.googleusercontent.com/d/1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
     "previewUrl": "https://lh3.googleusercontent.com/d/1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls"
@@ -4428,7 +6078,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1XBp_E5xnJctnGsoHnBylxww4DnD8E8am",
-    "name": "Overhead Cabo / Polia Tricep Extensão",
+    "name": "Tríceps Francês Acima da Cabeça na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Overhead Cabo / Polia Tricep Extensão. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4448,20 +6098,20 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
-    "name": "Straight Bar Pushdown",
+    "name": "Tríceps Pulley Barra Reta (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Straight Bar Pushdown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Tríceps Pulley Barra Reta (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
     "thumbnail": "https://lh3.googleusercontent.com/d/1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
     "previewUrl": "https://lh3.googleusercontent.com/d/1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe"
   },
   {
     "id": "drive-1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
-    "name": "Straight Bar Tricep Pushdown",
+    "name": "Tríceps Pulley Barra Reta (Variação 3)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Straight Bar Tricep Pushdown. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Tríceps Pulley Barra Reta (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
     "thumbnail": "https://lh3.googleusercontent.com/d/1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
     "previewUrl": "https://lh3.googleusercontent.com/d/1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn"
@@ -4498,7 +6148,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-10n3CgcdZTz5xoV2sByhT62Ojs5jnUs0B",
-    "name": "Testa Unilateral Dumbell",
+    "name": "Tríceps Testa Unilateral com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Testa Unilateral Dumbell. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4508,7 +6158,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1W4-NQRzMZmyqsQ_PlMbWTPOaK_c6n3eq",
-    "name": "Tricep Overhead Extensãos",
+    "name": "Tríceps Francês Acima da Cabeça",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Tricep Overhead Extensãos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4638,7 +6288,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1R2Hl8yu-5A2Nno5dBB0gTh5uU9Cafgc4",
-    "name": "Tríceps Inclinado Dumbell",
+    "name": "Tríceps Testa no Banco Inclinado com Halteres",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Tríceps Inclinado Dumbell. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4668,23 +6318,13 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw",
-    "name": "Tríceps Machine",
+    "name": "Tríceps na Máquina",
     "muscleGroup": "Tríceps",
     "equipment": "Máquina",
     "instructions": "Execução de Tríceps Machine. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw",
     "thumbnail": "https://lh3.googleusercontent.com/d/1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw",
     "previewUrl": "https://lh3.googleusercontent.com/d/1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw"
-  },
-  {
-    "id": "drive-1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
-    "name": "Tríceps Máquina",
-    "muscleGroup": "Tríceps",
-    "equipment": "Máquina",
-    "instructions": "Execução de Tríceps Máquina. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr"
   },
   {
     "id": "drive-15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
@@ -4695,6 +6335,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
     "thumbnail": "https://lh3.googleusercontent.com/d/15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
     "previewUrl": "https://lh3.googleusercontent.com/d/15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ"
+  },
+  {
+    "id": "drive-1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
+    "name": "Tríceps Máquina",
+    "muscleGroup": "Tríceps",
+    "equipment": "Máquina",
+    "instructions": "Execução de Tríceps Máquina. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1UtIx6Cr2Q9gJvkG42ii8BpwJNe_A3tyr"
   },
   {
     "id": "drive-1xZkpaSsvnEGA5RQkgpCO2n31iz5lsr0E",
@@ -4738,7 +6388,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1cKpxHloi2Lk-VlOZRlFGL2i6pwYNXipg",
-    "name": "Tríceps Reto Dumbell",
+    "name": "Tríceps Testa com Halteres no Banco Reto",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Tríceps Reto Dumbell. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4757,8 +6407,118 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1VQ-CcrDpfpgi_6ov3RdRGqvYkhJj-DUR"
   },
   {
+    "id": "drive-1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "name": "Tríceps Pulley Pegada Supinada (Reverso)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Pulley Pegada Supinada (Reverso). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG"
+  },
+  {
+    "id": "drive-1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "name": "Tríceps na Polia Média",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps na Polia Média. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-"
+  },
+  {
+    "id": "drive-1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "name": "Tríceps Testa com Halteres",
+    "muscleGroup": "Tríceps",
+    "equipment": "Halteres",
+    "instructions": "Execução de Tríceps Testa com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw"
+  },
+  {
+    "id": "drive-18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "name": "Tríceps Testa Pegada Reversa",
+    "muscleGroup": "Tríceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Tríceps Testa Pegada Reversa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "thumbnail": "https://lh3.googleusercontent.com/d/18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "previewUrl": "https://lh3.googleusercontent.com/d/18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g"
+  },
+  {
+    "id": "drive-1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "name": "Tríceps Testa na Polia",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Testa na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b"
+  },
+  {
+    "id": "drive-1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "name": "Tríceps Unilateral na Polia (Pegada Neutra/Frontal)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Unilateral na Polia (Pegada Neutra/Frontal). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC"
+  },
+  {
+    "id": "drive-1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "name": "Tríceps Unilateral Pegada Invertida na Polia",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Unilateral Pegada Invertida na Polia. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO"
+  },
+  {
+    "id": "drive-14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "name": "Tríceps Pulley Unilateral",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Pulley Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "thumbnail": "https://lh3.googleusercontent.com/d/14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "previewUrl": "https://lh3.googleusercontent.com/d/14jg77rgRyknfZGxuOnh3RTF7VStke9Mm"
+  },
+  {
+    "id": "drive-1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "name": "Tríceps Pulley com Barra V",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Pulley com Barra V. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP"
+  },
+  {
+    "id": "drive-1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "name": "Tríceps Francês Unilateral Sentado",
+    "muscleGroup": "Tríceps",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Tríceps Francês Unilateral Sentado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME"
+  },
+  {
+    "id": "drive-1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "name": "Tríceps Pulley com Barra V (Variação 2)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Tríceps Pulley com Barra V (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1G8q41jjORrlf_-l61rrHVsv_eWwodf2P"
+  },
+  {
     "id": "drive-1hdC89XhXqXrOyZ8mVO3R82TBldTBCfhs",
-    "name": "Band Pull",
+    "name": "Puxada com Elástico (Band Pull-Apart)",
     "muscleGroup": "Trapézio",
     "equipment": "Elástico / Band",
     "instructions": "Execução de Band Pull. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4768,7 +6528,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1mo11I1xH1FqL4WtIhxV7zC8RCZYV_nJL",
-    "name": "Cabo Delt Fly",
+    "name": "Crucifixo Inverso para Posterior na Polia",
     "muscleGroup": "Trapézio",
     "equipment": "Polia / Cabo",
     "instructions": "Execução de Cabo Delt Fly. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -4818,10 +6578,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn",
-    "name": "Elevação Lateral Inclinada",
+    "name": "Elevação Lateral Inclinada (Variação 2)",
     "muscleGroup": "Trapézio",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Elevação Lateral Inclinada. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Elevação Lateral Inclinada (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn",
     "thumbnail": "https://lh3.googleusercontent.com/d/1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn",
     "previewUrl": "https://lh3.googleusercontent.com/d/1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn"
@@ -4977,86 +6737,6 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/14gJUngyLWLL_7kc_Rzr0UGyV-NLOOa3A"
   },
   {
-    "id": "drive-188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "name": "Todo Corpo Exercício 2",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 2. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "thumbnail": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "previewUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9"
-  },
-  {
-    "id": "drive-17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "name": "Todo Corpo Exercício 3",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 3. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "thumbnail": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "previewUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft"
-  },
-  {
-    "id": "drive-1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "name": "Todo Corpo Exercício 4",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 4. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB"
-  },
-  {
-    "id": "drive-13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "name": "Todo Corpo Exercício 5",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 5. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "thumbnail": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "previewUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK"
-  },
-  {
-    "id": "drive-10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "name": "Todo Corpo Exercício 6",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 6. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "thumbnail": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "previewUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF"
-  },
-  {
-    "id": "drive-1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "name": "Todo Corpo Exercício 7",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 7. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0"
-  },
-  {
-    "id": "drive-116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "name": "Todo Corpo Exercício 8",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 8. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "thumbnail": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "previewUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf"
-  },
-  {
-    "id": "drive-1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "name": "Todo Corpo Exercício 9",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Todo Corpo Exercício 9. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij"
-  },
-  {
     "id": "drive-12u6kLTZXfIQr3pGABSgU7NWehipBK7OP",
     "name": "Todo Corpo Exercício 10",
     "muscleGroup": "Corpo Todo",
@@ -5155,6 +6835,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/1MwZi5NfMRnp0tcyPRPLz1StbiMW0EaFe",
     "thumbnail": "https://lh3.googleusercontent.com/d/1MwZi5NfMRnp0tcyPRPLz1StbiMW0EaFe",
     "previewUrl": "https://lh3.googleusercontent.com/d/1MwZi5NfMRnp0tcyPRPLz1StbiMW0EaFe"
+  },
+  {
+    "id": "drive-188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "name": "Todo Corpo Exercício 2",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 2. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "thumbnail": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "previewUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9"
   },
   {
     "id": "drive-1MHgOw0uzVyKKyAwiZEVa0pyE5697vP6O",
@@ -5257,6 +6947,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1JGrUNUd-MNefr1LVvQ_Jv73rlVBpWQhK"
   },
   {
+    "id": "drive-17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "name": "Todo Corpo Exercício 3",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 3. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "thumbnail": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "previewUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft"
+  },
+  {
     "id": "drive-148n2LK9dbuKCYUsHXWOBxlMHrcmcsDtv",
     "name": "Todo Corpo Exercício 30",
     "muscleGroup": "Corpo Todo",
@@ -5357,6 +7057,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1HYuRWcstIXjWZKUnr5A9VM1BE0mg77-M"
   },
   {
+    "id": "drive-1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "name": "Todo Corpo Exercício 4",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 4. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB"
+  },
+  {
     "id": "drive-1WZ5oM8wNR0qQqIygVTNpOOMSnJitjOfT",
     "name": "Todo Corpo Exercício 40",
     "muscleGroup": "Corpo Todo",
@@ -5447,8 +7157,58 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1jijratxz8Wb16qpLPzuZKoBxMR0GmWLk"
   },
   {
+    "id": "drive-13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "name": "Todo Corpo Exercício 5",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 5. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "thumbnail": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "previewUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK"
+  },
+  {
+    "id": "drive-10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "name": "Todo Corpo Exercício 6",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 6. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "thumbnail": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "previewUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF"
+  },
+  {
+    "id": "drive-1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "name": "Todo Corpo Exercício 7",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 7. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0"
+  },
+  {
+    "id": "drive-116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "name": "Todo Corpo Exercício 8",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 8. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "thumbnail": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "previewUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf"
+  },
+  {
+    "id": "drive-1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "name": "Todo Corpo Exercício 9",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "instructions": "Execução de Todo Corpo Exercício 9. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij"
+  },
+  {
     "id": "drive-1V7-yn47mm2kq1M2Y4vUn4P-gjMxVjh0n",
-    "name": "Hundstund Flexão de Braço",
+    "name": "Flexão na Parada de Mão (Handstand Push-Up)",
     "muscleGroup": "Corpo Todo",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Hundstund Flexão de Braço. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5608,7 +7368,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-14layuXKLqoQ9Og2pRmOlOERSLzTJijjL",
-    "name": "Pose Peixe",
+    "name": "Postura do Peixe (Alongamento Cervical/Peito)",
     "muscleGroup": "Pescoço",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Pose Peixe. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5618,7 +7378,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1g39q7wd0Qo3-GWSADEa-iHLhm_LtL5im",
-    "name": "Queixo Tuck",
+    "name": "Retração Cervical (Chin Tuck)",
     "muscleGroup": "Pescoço",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Queixo Tuck. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5718,7 +7478,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1dfabbqMsnPBpt8JkHJXP7TeZfV9UoxyF",
-    "name": "Band Pull Through",
+    "name": "Pull Through na Polia/Elástico",
     "muscleGroup": "Pernas",
     "equipment": "Elástico / Band",
     "instructions": "Execução de Band Pull Through. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5728,7 +7488,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-16EBYTqtemfH68kbcfWj68ARQa6284i7g",
-    "name": "Barra Clean And Press Muscles",
+    "name": "Clean and Press com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Clean And Press Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5738,7 +7498,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Exg0hDUfjCYskZNiMAULr1FWFVFOmACF",
-    "name": "Barra Levantamento Terra Front View",
+    "name": "Levantamento Terra com Barra (Vista Frontal)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Levantamento Terra Front View. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5748,7 +7508,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1-7p3mLYp_fMiaYXmFbcV782sUvvhkUdx",
-    "name": "Barra Levantamento Terra Mixed Grip",
+    "name": "Levantamento Terra Pegada Mista",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Levantamento Terra Mixed Grip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5758,7 +7518,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-16OgNv74KmQ6-ZI8-joJ9JSx4vKPeocyX",
-    "name": "Barra Levantamento Terra Movement",
+    "name": "Levantamento Terra Tradicional com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Levantamento Terra Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5778,7 +7538,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-19QAzHIqDMGi0wYZh5_PjJePKbVsya2uK",
-    "name": "Barra Hack Agachamento",
+    "name": "Agachamento Hack com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Hack Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5788,17 +7548,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
-    "name": "Barra Romanian Levantamento Terra Movement",
+    "name": "Levantamento Terra Romeno (RDL) com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
-    "instructions": "Execução de Barra Romanian Levantamento Terra Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Levantamento Terra Romeno (RDL) com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
     "thumbnail": "https://lh3.googleusercontent.com/d/1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
     "previewUrl": "https://lh3.googleusercontent.com/d/1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4"
   },
   {
     "id": "drive-1u8iF6aZocZQ64WuzZtXhTi5p9bMlsYIN",
-    "name": "Barra Single Leg Levantamento Terra",
+    "name": "Levantamento Terra Unilateral com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Single Leg Levantamento Terra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5808,7 +7568,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1GeleviIrOErJ3-fnO5h2sbK2OxpYNEti",
-    "name": "Barra Split Agachamento",
+    "name": "Agachamento Split com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "instructions": "Execução de Barra Split Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5818,10 +7578,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
-    "name": "Barra Sumo Agachamento",
+    "name": "Agachamento Sumô com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
-    "instructions": "Execução de Barra Sumo Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Sumô com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
     "thumbnail": "https://lh3.googleusercontent.com/d/1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
     "previewUrl": "https://lh3.googleusercontent.com/d/1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0"
@@ -5848,7 +7608,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1MKcH70EpgTbEc0A_05vFWKCk5zw1iJXS",
-    "name": "Bodyweight Forward Lunge",
+    "name": "Afundo Frontal Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bodyweight Forward Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5858,7 +7618,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1MYoE7bn60wWMOZOgAiP04gO9obpqqJTv",
-    "name": "Bodyweight Agachamento",
+    "name": "Agachamento Livre Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bodyweight Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5868,7 +7628,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1166s7bSWt-Q-73fRX79Rp1zR5kE-VxoC",
-    "name": "Bodyweight Walking Lunge Movement",
+    "name": "Passada Caminhando Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Bodyweight Walking Lunge Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5878,7 +7638,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1xjLfCoswIhgnLQUmRc1vNSIxQGJhgP_Y",
-    "name": "Box Agachamento Muscles Used",
+    "name": "Agachamento na Caixa (Box Squat)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Box Agachamento Muscles Used. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5888,17 +7648,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
-    "name": "Bulgarian Split Spuat",
+    "name": "Agachamento Búlgaro (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Bulgarian Split Spuat. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Búlgaro (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
     "thumbnail": "https://lh3.googleusercontent.com/d/1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
     "previewUrl": "https://lh3.googleusercontent.com/d/1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k"
   },
   {
     "id": "drive-1MERnTWu1koafRGKpYTEH74J0s8yr0qmE",
-    "name": "Curtsy Lunge",
+    "name": "Afundo Cruzado (Curtsy Lunge)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Curtsy Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5908,7 +7668,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1RZtojuv3iBLrSt-8GXV_GHCpyUW4ZIKw",
-    "name": "Levantamento Terra Back View",
+    "name": "Levantamento Terra com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Levantamento Terra Back View. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5918,7 +7678,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1xLn4ZoCj0xZrWANHs6lNqHeJM_2Ji6bd",
-    "name": "Halter Levantamento Terra Neutral Grip",
+    "name": "Levantamento Terra Pegada Neutra com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "instructions": "Execução de Halter Levantamento Terra Neutral Grip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5938,17 +7698,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
-    "name": "Front Agachamento",
+    "name": "Agachamento Frontal (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Front Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Frontal (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
     "thumbnail": "https://lh3.googleusercontent.com/d/1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
     "previewUrl": "https://lh3.googleusercontent.com/d/1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR"
   },
   {
     "id": "drive-1SQtFhdIOu5QrNLOlOdLfDJ0GN1y729Gv",
-    "name": "Full Agachamento Side View",
+    "name": "Agachamento Profundo com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Full Agachamento Side View. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5958,17 +7718,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
-    "name": "Hack Agachamento Musculature",
+    "name": "Agachamento Hack Machine (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
-    "instructions": "Execução de Hack Agachamento Musculature. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Hack Machine (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
     "thumbnail": "https://lh3.googleusercontent.com/d/1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
     "previewUrl": "https://lh3.googleusercontent.com/d/1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY"
   },
   {
     "id": "drive-13T2q4BpMVh88dP5zvoAgnCeAfQxGb5gK",
-    "name": "Hex Bar Levantamento Terra",
+    "name": "Levantamento Terra na Barra Hexagonal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Hex Bar Levantamento Terra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5978,7 +7738,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-14Z_RDZBo4pj6ENJqAF0l4NH5J9ZgMA52",
-    "name": "How To do A Kettlebell Single Arm Swing",
+    "name": "Swing Unilateral com Kettlebell",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de How To do A Kettlebell Single Arm Swing. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -5988,7 +7748,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1YACVP3b5vJ7-Mf13cuY3aLfg9Bhz8JLR",
-    "name": "Kettlebell Sumo Levantamento Terra",
+    "name": "Levantamento Terra Sumô com Kettlebell",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Kettlebell Sumo Levantamento Terra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6018,17 +7778,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
-    "name": "Mountain Climbers",
+    "name": "Alpinista (Mountain Climber) (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Mountain Climbers. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Alpinista (Mountain Climber) (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
     "thumbnail": "https://lh3.googleusercontent.com/d/1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
     "previewUrl": "https://lh3.googleusercontent.com/d/1O6s3ucimQFpH404exlxwHgE4--p4t9nX"
   },
   {
     "id": "drive-1W1TYfPUaDh9MbRDkUC555ilWBCegUMJu",
-    "name": "Pendulum Lunge",
+    "name": "Afundo Pêndulo",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Pendulum Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6048,7 +7808,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1CRvHfekVboFYrkeh3xwmQFTzTduIIxDI",
-    "name": "Pistol Agachamento Muscles",
+    "name": "Agachamento Unilateral (Pistol Squat)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Pistol Agachamento Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6058,7 +7818,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-14IGHAiARY-EEgZBezhb8E5zbf85FOgT8",
-    "name": "Power Lunge Movement",
+    "name": "Afundo com Salto (Power Lunge)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Power Lunge Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6068,17 +7828,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA",
-    "name": "Push Press",
+    "name": "Push Press com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Push Press. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Push Press com Barra (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA",
     "thumbnail": "https://lh3.googleusercontent.com/d/1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA",
     "previewUrl": "https://lh3.googleusercontent.com/d/1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA"
   },
   {
     "id": "drive-1rBDxO-r9q1aNPGarhh6vIBu_MZGEg1O1",
-    "name": "Reverse Hack Agachamento",
+    "name": "Agachamento Hack Invertido",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "instructions": "Execução de Reverse Hack Agachamento. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6088,17 +7848,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
-    "name": "Reverse Lunge",
+    "name": "Afundo Reverso (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Reverse Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Afundo Reverso (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
     "thumbnail": "https://lh3.googleusercontent.com/d/13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
     "previewUrl": "https://lh3.googleusercontent.com/d/13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-"
   },
   {
     "id": "drive-1-j9m6nhAgdOv4q39f_vHQ__4HsgxLxac",
-    "name": "Side Lunge",
+    "name": "Afundo Lateral",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Side Lunge. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6108,7 +7868,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1J6Cid4B_5BS7vbqISI2jVGlPkwjrOtMB",
-    "name": "Smith Machine Machine Levantamento Terra",
+    "name": "Levantamento Terra no Smith",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "instructions": "Execução de Smith Machine Machine Levantamento Terra. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6118,17 +7878,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
-    "name": "Smith Machine Machine Agachamento Benefits",
+    "name": "Agachamento Guiado no Smith (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
-    "instructions": "Execução de Smith Machine Machine Agachamento Benefits. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento Guiado no Smith (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
     "thumbnail": "https://lh3.googleusercontent.com/d/1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
     "previewUrl": "https://lh3.googleusercontent.com/d/1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ"
   },
   {
     "id": "drive-1-nNcgj0UMUDIIO9F-N4KMRw8JyGRUQLz",
-    "name": "Agachamento Jump",
+    "name": "Agachamento com Salto",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Agachamento Jump. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6137,8 +7897,108 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/1-nNcgj0UMUDIIO9F-N4KMRw8JyGRUQLz"
   },
   {
+    "id": "drive-1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "name": "Stiff no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Stiff no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n"
+  },
+  {
+    "id": "drive-1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "name": "Levantamento Terra Pernas Estendidas (Stiff)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Pernas Estendidas (Stiff). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n"
+  },
+  {
+    "id": "drive-1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "name": "Levantamento Terra Mala Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Mala Unilateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx"
+  },
+  {
+    "id": "drive-1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "name": "Levantamento Terra Sumô (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento Terra Sumô (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr"
+  },
+  {
+    "id": "drive-1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "name": "Levantamento Terra Sumô no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "instructions": "Execução de Levantamento Terra Sumô no Smith. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs"
+  },
+  {
+    "id": "drive-1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "name": "Agachamento Sumô com Haltere (Variação 4)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "instructions": "Execução de Agachamento Sumô com Haltere (Variação 4). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK"
+  },
+  {
+    "id": "drive-1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "name": "Empurro de Trenó (Sled Push)",
+    "muscleGroup": "Pernas",
+    "equipment": "Trenó",
+    "instructions": "Execução de Empurro de Trenó (Sled Push). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ"
+  },
+  {
+    "id": "drive-1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "name": "Agachamento na Máquina V-Squat",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "instructions": "Execução de Agachamento na Máquina V-Squat. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn"
+  },
+  {
+    "id": "drive-1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "name": "Subida no Caixote com Carga",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "instructions": "Execução de Subida no Caixote com Carga. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq"
+  },
+  {
+    "id": "drive-1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "name": "Agachamento Zercher com Barra",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "instructions": "Execução de Agachamento Zercher com Barra. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1q6ybevavH4Z41miuyX19BgfiOnAaxU3b"
+  },
+  {
     "id": "drive-10SMsY5hQs5vEUPxqM3JGx41ViajudI75",
-    "name": "Barra Hang Clean Weightlifts",
+    "name": "Hang Clean com Barra (LPO)",
     "muscleGroup": "Funcional",
     "equipment": "Barra",
     "instructions": "Execução de Barra Hang Clean Weightlifts. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6168,7 +8028,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1zldxghIFvpjvuyXmDVcPEJBmWJ5pPRjF",
-    "name": "Boxing Muscles",
+    "name": "Boxe / Sombra (Condicionamento)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Boxing Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6178,7 +8038,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1YC1kwiFt9LJpXcPP4QF-kq_UYszPd5Co",
-    "name": "How To do A Kettlebell Figure 8",
+    "name": "Kettlebell Figura 8",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de How To do A Kettlebell Figure 8. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6188,7 +8048,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1AUz60TZjSI_4imImFNrLYejeIUpBauVy",
-    "name": "Jump Rope Without Rope",
+    "name": "Pular Corda Simulado",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
     "instructions": "Execução de Jump Rope Without Rope. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6198,27 +8058,27 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
-    "name": "Jump Rope",
+    "name": "Pular Corda (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
-    "instructions": "Execução de Jump Rope. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Pular Corda (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
     "thumbnail": "https://lh3.googleusercontent.com/d/1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
     "previewUrl": "https://lh3.googleusercontent.com/d/1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea"
   },
   {
     "id": "drive-1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
-    "name": "Jumping Jack",
+    "name": "Polichinelo (Jumping Jack) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Jumping Jack. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Polichinelo (Jumping Jack) (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
     "thumbnail": "https://lh3.googleusercontent.com/d/1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
     "previewUrl": "https://lh3.googleusercontent.com/d/1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI"
   },
   {
     "id": "drive-1hBrV9KNQhDm2BOjOALeDGnsoctPDmi9u",
-    "name": "Monkey Bars",
+    "name": "Travessia na Barra (Monkey Bars)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Monkey Bars. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6228,7 +8088,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1-8dtnYmbQcgUyf4QlC0Ywogq1FQVQUp1",
-    "name": "Mountain Climbers (1)",
+    "name": "Alpinista Cruzado (Mountain Climber)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Mountain Climbers (1). Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6238,17 +8098,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
-    "name": "Mountain Climbers",
+    "name": "Alpinista (Mountain Climber) (Variação 3)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Mountain Climbers. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Alpinista (Mountain Climber) (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
     "thumbnail": "https://lh3.googleusercontent.com/d/1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
     "previewUrl": "https://lh3.googleusercontent.com/d/1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY"
   },
   {
     "id": "drive-1IO4Xh5pJaKG6u6zVCWjLfilNWK9sZcvX",
-    "name": "Muscle Ups Movement",
+    "name": "Muscle Up na Barra Fixa",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Muscle Ups Movement. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6258,7 +8118,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-11x1oYr1UzcIL3s__pOBapPFA4e7O673R",
-    "name": "Rope Climb",
+    "name": "Subida na Corda",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
     "instructions": "Execução de Rope Climb. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6278,7 +8138,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1J53rhGnQk6Zq1hL87iliGfIRZvbQz-Qk",
-    "name": "Sled Drag",
+    "name": "Arrasto de Trenó (Sled Drag)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Sled Drag. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6288,17 +8148,17 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-",
-    "name": "Agachamento Jump",
+    "name": "Agachamento com Salto (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Agachamento Jump. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Agachamento com Salto (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-",
     "thumbnail": "https://lh3.googleusercontent.com/d/1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-",
     "previewUrl": "https://lh3.googleusercontent.com/d/1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-"
   },
   {
     "id": "drive-1dAcTZ8huDNsISQUGz8SmhcTJxIy-D0Yk",
-    "name": "Tire Flip",
+    "name": "Virada de Pneu (Tire Flip)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Tire Flip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6308,20 +8168,20 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
-    "name": "Trenó",
+    "name": "Empurro de Trenó (Sled Push) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Trenó. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Empurro de Trenó (Sled Push) (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
     "thumbnail": "https://lh3.googleusercontent.com/d/1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
     "previewUrl": "https://lh3.googleusercontent.com/d/1uPEyPTEiLB54-prPelzXnINt7gWdMTMe"
   },
   {
     "id": "drive-1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
-    "name": "Tuck Jump",
+    "name": "Salto Agrupado (Tuck Jump) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
-    "instructions": "Execução de Tuck Jump. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Salto Agrupado (Tuck Jump) (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
     "thumbnail": "https://lh3.googleusercontent.com/d/1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
     "previewUrl": "https://lh3.googleusercontent.com/d/1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH"
@@ -6338,10 +8198,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4",
-    "name": "Mergulho no Banco",
+    "name": "Mergulho no Banco (Variação 3)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Banco",
-    "instructions": "Execução de Mergulho no Banco. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Mergulho no Banco (Variação 3). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4",
     "thumbnail": "https://lh3.googleusercontent.com/d/1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4",
     "previewUrl": "https://lh3.googleusercontent.com/d/1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4"
@@ -6368,7 +8228,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1VBwo7xGcMfRmIDzo5sTQQ0c6y-tLwy0Y",
-    "name": "Planche Dip",
+    "name": "Mergulho Planche (Calistenia)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Planche Dip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6378,7 +8238,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1lnl_yi7wrSEWAM7x3Tv7wKclgRgWAQWv",
-    "name": "Ring Dip",
+    "name": "Mergulho nas Argolas (Ring Dip)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Peso Corporal / Geral",
     "instructions": "Execução de Ring Dip. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6388,7 +8248,7 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1FEhMSZO8T3khyxle40HJ549cEh0gax0N",
-    "name": "Straight Bar Dips Muscles",
+    "name": "Mergulho na Barra Reta (Calistenia)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Barras Paralelas",
     "instructions": "Execução de Straight Bar Dips Muscles. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6517,18 +8377,8 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "previewUrl": "https://lh3.googleusercontent.com/d/18X9EQpgL9B39WAnhIj-4l98Vk153XNyO"
   },
   {
-    "id": "drive-1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
-    "name": "Alongamento Círculos nos Punhos",
-    "muscleGroup": "Alongamento",
-    "equipment": "Solo / Peso Corporal",
-    "instructions": "Execução de Alongamento Círculos nos Punhos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
-    "thumbnail": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
-    "previewUrl": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO"
-  },
-  {
     "id": "drive-1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
-    "name": "Alongamento com Pvc na Posição Frontal de Rack",
+    "name": "Alongamento com Bastão PVC (Front Rack)",
     "muscleGroup": "Alongamento",
     "equipment": "Solo / Peso Corporal",
     "instructions": "Execução de Alongamento com Pvc na Posição Frontal de Rack. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
@@ -6545,6 +8395,16 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
     "thumbnail": "https://lh3.googleusercontent.com/d/1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
     "previewUrl": "https://lh3.googleusercontent.com/d/1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N"
+  },
+  {
+    "id": "drive-1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
+    "name": "Alongamento Círculos nos Punhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Solo / Peso Corporal",
+    "instructions": "Execução de Alongamento Círculos nos Punhos. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1OKTl96eNKD3BRQpkydQVEWOdZ6GE8XtO"
   },
   {
     "id": "drive-1jhsMI7wQ6JdlIrYpzTWG4-JXZbzAc_yw",
@@ -6718,10 +8578,10 @@ export const EXERCISE_DATABASE: Exercise[] = [
   },
   {
     "id": "drive-1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7",
-    "name": "Alongamento Isquiotibiais em Pé",
+    "name": "Alongamento Isquiotibiais em Pé (Variação 2)",
     "muscleGroup": "Alongamento",
     "equipment": "Solo / Peso Corporal",
-    "instructions": "Execução de Alongamento Isquiotibiais em Pé. Mantenha a postura adequada, contraia o abdômen e controle as fases excêntrica e concêntrica do movimento durante toda a série.",
+    "instructions": "Execução de Alongamento Isquiotibiais em Pé (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7",
     "thumbnail": "https://lh3.googleusercontent.com/d/1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7",
     "previewUrl": "https://lh3.googleusercontent.com/d/1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7"
@@ -6895,8 +8755,869 @@ export const EXERCISE_DATABASE: Exercise[] = [
     "gifUrl": "https://lh3.googleusercontent.com/d/1-9RVbv3vptTeO3YiFI_jOGs1IUolv5pD",
     "thumbnail": "https://lh3.googleusercontent.com/d/1-9RVbv3vptTeO3YiFI_jOGs1IUolv5pD",
     "previewUrl": "https://lh3.googleusercontent.com/d/1-9RVbv3vptTeO3YiFI_jOGs1IUolv5pD"
+  },
+  {
+    "id": "drive-1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "name": "Alongamento Parte Superior das Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Parte Superior das Costas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS"
+  },
+  {
+    "id": "drive-1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "name": "Alongamento Peito Acima da Cabeça",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peito Acima da Cabeça. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn"
+  },
+  {
+    "id": "drive-13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "name": "Alongamento Peito com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Alongamento Peito com Rolo de Espuma. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "thumbnail": "https://lh3.googleusercontent.com/d/13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "previewUrl": "https://lh3.googleusercontent.com/d/13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM"
+  },
+  {
+    "id": "drive-1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "name": "Alongamento Peito e Parte Frontal dos Ombros",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peito e Parte Frontal dos Ombros. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr"
+  },
+  {
+    "id": "drive-1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "name": "Alongamento Peitoral Até As Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peitoral Até As Costas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB"
+  },
+  {
+    "id": "drive-1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "name": "Alongamento Peitoral com Um Braço em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peitoral com Um Braço em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj"
+  },
+  {
+    "id": "drive-1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "name": "Alongamento Peitoral e do Ombro na Porta",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peitoral e do Ombro na Porta. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP"
+  },
+  {
+    "id": "drive-1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "name": "Alongamento Peitoral Reverso",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Peitoral Reverso. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9"
+  },
+  {
+    "id": "drive-1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "name": "Alongamento Pernas Duplo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Pernas Duplo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ze_18sc3k84SoP-nRDtleWiKR9tanFCP"
+  },
+  {
+    "id": "drive-10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "name": "Alongamento Piriforme",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Piriforme. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "thumbnail": "https://lh3.googleusercontent.com/d/10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "previewUrl": "https://lh3.googleusercontent.com/d/10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa"
+  },
+  {
+    "id": "drive-1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "name": "Alongamento Punho",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Punho. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_"
+  },
+  {
+    "id": "drive-1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "name": "Alongamento Quadríceps Ajoelhado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Quadríceps Ajoelhado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8"
+  },
+  {
+    "id": "drive-1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "name": "Alongamento Quadríceps em Quatro Apoios",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Quadríceps em Quatro Apoios. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr"
+  },
+  {
+    "id": "drive-1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "name": "Alongamento Reverso Assistido Peito e Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Reverso Assistido Peito e Ombro. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6"
+  },
+  {
+    "id": "drive-1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "name": "Alongamento Reverso de Pulso",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Reverso de Pulso. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z"
+  },
+  {
+    "id": "drive-1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "name": "Alongamento Sentado Panturrilha Perna Esticada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Sentado Panturrilha Perna Esticada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG"
+  },
+  {
+    "id": "drive-1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "name": "Alongamento Tendão de Aquiles em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Tendão de Aquiles em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8"
+  },
+  {
+    "id": "drive-1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "name": "Alongamento Tibial Posterior",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Tibial Posterior. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0"
+  },
+  {
+    "id": "drive-1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "name": "Alongamento Trato Iliotibial com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Alongamento Trato Iliotibial com Rolo de Espuma. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC"
+  },
+  {
+    "id": "drive-1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "name": "Alongamento Tríceps em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamento Tríceps em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh"
+  },
+  {
+    "id": "drive-12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "name": "Alongamentos de Pés e Tornozelos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Alongamentos de Pés e Tornozelos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "thumbnail": "https://lh3.googleusercontent.com/d/12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "previewUrl": "https://lh3.googleusercontent.com/d/12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs"
+  },
+  {
+    "id": "drive-1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "name": "Arremesso de Bola de Reação",
+    "muscleGroup": "Alongamento",
+    "equipment": "Bola Suíça",
+    "instructions": "Execução de Arremesso de Bola de Reação. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R"
+  },
+  {
+    "id": "drive-1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "name": "Catavento Corporal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Catavento Corporal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3"
+  },
+  {
+    "id": "drive-1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "name": "Contração Abdominal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Contração Abdominal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1"
+  },
+  {
+    "id": "drive-1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "name": "Círculos com Os Braços",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Círculos com Os Braços. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-"
+  },
+  {
+    "id": "drive-1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "name": "Círculos com Um Braço",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Círculos com Um Braço. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh"
+  },
+  {
+    "id": "drive-1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "name": "Rotação Externa de Ombro com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Externa de Ombro com Faixa Elástica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-"
+  },
+  {
+    "id": "drive-1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "name": "Deslize de Parede do Serrátil com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Deslize de Parede do Serrátil com Rolo de Espuma. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH"
+  },
+  {
+    "id": "drive-1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "name": "Dorsiflexão Plantar",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Dorsiflexão Plantar. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6"
+  },
+  {
+    "id": "drive-1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "name": "Elevação Lateral de Deltóide Posterior com Halteres",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "instructions": "Execução de Elevação Lateral de Deltóide Posterior com Halteres. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P"
+  },
+  {
+    "id": "drive-1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "name": "Exercício de Bailarina Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Exercício de Bailarina Sentada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1"
+  },
+  {
+    "id": "drive-14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "name": "Exercício Retração Escapular Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Exercício Retração Escapular Sentada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "thumbnail": "https://lh3.googleusercontent.com/d/14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "previewUrl": "https://lh3.googleusercontent.com/d/14_nGtX1awFoCBm5gemrToWmVEgh1BbbF"
+  },
+  {
+    "id": "drive-1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "name": "Flexão Alternada Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Flexão Alternada Ombro. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo"
+  },
+  {
+    "id": "drive-1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "name": "Inclinação Lateral",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Inclinação Lateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp"
+  },
+  {
+    "id": "drive-1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "name": "Inclinação Lateral em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Inclinação Lateral em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7"
+  },
+  {
+    "id": "drive-1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "name": "Joelho Alternado no Peito",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Joelho Alternado no Peito. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV"
+  },
+  {
+    "id": "drive-1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "name": "Levantamento de Braço Apoiado na Parede",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Levantamento de Braço Apoiado na Parede. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI"
+  },
+  {
+    "id": "drive-1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "name": "Postura Arco",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura Arco. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT"
+  },
+  {
+    "id": "drive-1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "name": "Postura Arco Oscilante",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura Arco Oscilante. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7"
+  },
+  {
+    "id": "drive-14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "name": "Postura da Cobra - Alongamento Abdominal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura da Cobra - Alongamento Abdominal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "thumbnail": "https://lh3.googleusercontent.com/d/14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "previewUrl": "https://lh3.googleusercontent.com/d/14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b"
+  },
+  {
+    "id": "drive-1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "name": "Postura da Borboleta (Virilha Sentada)",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura da Borboleta (Virilha Sentada). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3"
+  },
+  {
+    "id": "drive-1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "name": "Postura de Meio Sapo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura de Meio Sapo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq"
+  },
+  {
+    "id": "drive-1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "name": "Postura de Peixe",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura de Peixe. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7"
+  },
+  {
+    "id": "drive-1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "name": "Postura do Bebê Feliz",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura do Bebê Feliz. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC"
+  },
+  {
+    "id": "drive-1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "name": "Postura Sapo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Postura Sapo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V"
+  },
+  {
+    "id": "drive-1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "name": "Protração e Retração da Escápula",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Protração e Retração da Escápula. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz"
+  },
+  {
+    "id": "drive-184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "name": "Puxada Escapular na Barra Fixa",
+    "muscleGroup": "Alongamento",
+    "equipment": "Barra",
+    "instructions": "Execução de Puxada Escapular na Barra Fixa. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "thumbnail": "https://lh3.googleusercontent.com/d/184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "previewUrl": "https://lh3.googleusercontent.com/d/184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia"
+  },
+  {
+    "id": "drive-1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "name": "Pêndulo de Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Pêndulo de Ombro. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY"
+  },
+  {
+    "id": "drive-1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "name": "Quadrúpede com Elevação de Braço e Perna Contralateral",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Quadrúpede com Elevação de Braço e Perna Contralateral. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5"
+  },
+  {
+    "id": "drive-1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "name": "Rolagem de Espuma para Isquiotibiais",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rolagem de Espuma para Isquiotibiais. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W"
+  },
+  {
+    "id": "drive-1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "name": "Rolamento de Espuma nas Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rolamento de Espuma nas Costas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy"
+  },
+  {
+    "id": "drive-1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "name": "Rolamento de Espuma nos Quadríceps",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rolamento de Espuma nos Quadríceps. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P"
+  },
+  {
+    "id": "drive-1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "name": "Rolamento de Espuma nos Romboides",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rolamento de Espuma nos Romboides. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo"
+  },
+  {
+    "id": "drive-1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "name": "Rolamento de Espuma para Panturrilhas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rolamento de Espuma para Panturrilhas. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu"
+  },
+  {
+    "id": "drive-1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "name": "Rolando com Bola",
+    "muscleGroup": "Alongamento",
+    "equipment": "Bola Suíça",
+    "instructions": "Execução de Rolando com Bola. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1lbV6inEfkphey6x7zwh6o3PK85nCtY0K"
+  },
+  {
+    "id": "drive-1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "name": "Rolo de Espuma Ombro Posterior",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Rolo de Espuma Ombro Posterior. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9"
+  },
+  {
+    "id": "drive-1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "name": "Rolo de Espuma para Fascite Plantar",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Rolo de Espuma para Fascite Plantar. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99"
+  },
+  {
+    "id": "drive-1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "name": "Rolo de Espuma para Ombro e Peito Frontal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Rolo de Espuma para Ombro e Peito Frontal. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y"
+  },
+  {
+    "id": "drive-1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "name": "Rolo de Espuma para Os Glúteos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "instructions": "Execução de Rolo de Espuma para Os Glúteos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM"
+  },
+  {
+    "id": "drive-1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "name": "Rotação Corpo Superior Deitado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação Corpo Superior Deitado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP"
+  },
+  {
+    "id": "drive-1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "name": "Rotação da Coluna Torácica de Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação da Coluna Torácica de Joelhos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot"
+  },
+  {
+    "id": "drive-1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "name": "Rotação de Pé e Tornozelo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação de Pé e Tornozelo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ"
+  },
+  {
+    "id": "drive-1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "name": "Rotação em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8"
+  },
+  {
+    "id": "drive-1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "name": "Rotação Espinhal Deitado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação Espinhal Deitado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi"
+  },
+  {
+    "id": "drive-1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "name": "Rotação Externa com Cabo a 90 Graus",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Externa com Cabo a 90 Graus. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi"
+  },
+  {
+    "id": "drive-1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "name": "Rotação Externa com Cabo em Posição de Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Externa com Cabo em Posição de Joelhos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29"
+  },
+  {
+    "id": "drive-12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "name": "Rotação Externa de Ombro com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Externa de Ombro com Cabo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "thumbnail": "https://lh3.googleusercontent.com/d/12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "previewUrl": "https://lh3.googleusercontent.com/d/12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG"
+  },
+  {
+    "id": "drive-1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "name": "Rotação Externa de Ombro com Faixa Elástica (Variação 2)",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Externa de Ombro com Faixa Elástica (Variação 2). Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI"
+  },
+  {
+    "id": "drive-1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "name": "Rotação Externa de Quadril com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Externa de Quadril com Faixa Elástica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l"
+  },
+  {
+    "id": "drive-1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "name": "Rotação Externa de Quadril Sentado com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Externa de Quadril Sentado com Faixa Elástica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1JgEnRpXv89Aka64s_QElMHGo33WHaMK2"
+  },
+  {
+    "id": "drive-1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "name": "Rotação Externa do Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação Externa do Ombro. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz"
+  },
+  {
+    "id": "drive-1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "name": "Rotação Externa do Ombro Deitado com Haltere",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "instructions": "Execução de Rotação Externa do Ombro Deitado com Haltere. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ"
+  },
+  {
+    "id": "drive-1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "name": "Rotação Externa do Pé com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Externa do Pé com Faixa Elástica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1l67I9WftfkaixfWmAizFyeEsTBrHnxEV"
+  },
+  {
+    "id": "drive-1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "name": "Rotação Externa Halteres Apoiada no Banco",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "instructions": "Execução de Rotação Externa Halteres Apoiada no Banco. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp"
+  },
+  {
+    "id": "drive-1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "name": "Rotação Interna de Cabo a 90 Graus",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Interna de Cabo a 90 Graus. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI"
+  },
+  {
+    "id": "drive-1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "name": "Rotação Interna de Ombro com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Interna de Ombro com Cabo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv"
+  },
+  {
+    "id": "drive-16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "name": "Rotação Interna do Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação Interna do Ombro. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "thumbnail": "https://lh3.googleusercontent.com/d/16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "previewUrl": "https://lh3.googleusercontent.com/d/16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial"
+  },
+  {
+    "id": "drive-1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "name": "Rotação Interna do Ombro Sentada com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "instructions": "Execução de Rotação Interna do Ombro Sentada com Cabo. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a"
+  },
+  {
+    "id": "drive-161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "name": "Rotação Interna do Quadril Sentado com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "instructions": "Execução de Rotação Interna do Quadril Sentado com Faixa Elástica. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "thumbnail": "https://lh3.googleusercontent.com/d/161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "previewUrl": "https://lh3.googleusercontent.com/d/161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV"
+  },
+  {
+    "id": "drive-1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "name": "Rotação para Trás Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Rotação para Trás Joelhos. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH"
+  },
+  {
+    "id": "drive-1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "name": "Superman",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Superman. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc"
+  },
+  {
+    "id": "drive-1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "name": "Toque Lateral dos Dedos dos Pés em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Toque Lateral dos Dedos dos Pés em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I"
+  },
+  {
+    "id": "drive-1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "name": "Toque nos Dedos dos Pés em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Toque nos Dedos dos Pés em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT"
+  },
+  {
+    "id": "drive-1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "name": "Toque nos Dedos dos Pés Sentado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Toque nos Dedos dos Pés Sentado. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY"
+  },
+  {
+    "id": "drive-1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "name": "Toques de Dedos em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Toques de Dedos em Pé. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1"
+  },
+  {
+    "id": "drive-1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "name": "Torção Oblíqua Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "instructions": "Execução de Torção Oblíqua Sentada. Mantenha a postura adequada, controle a cadência do movimento e respeite sua amplitude articular durante toda a série.",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "thumbnail": "https://lh3.googleusercontent.com/d/1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "previewUrl": "https://lh3.googleusercontent.com/d/1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH"
   }
 ];
+
 
 function normalizeSlug(str: string): string {
   return (str || '')

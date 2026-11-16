@@ -3,7 +3,7 @@ import { toJpeg } from "html-to-image";
 import { FastVideo } from "../components/FastVideo";
 import { ExerciseEquipmentVisual } from "../components/ExerciseEquipmentVisual";
 import { findExerciseById } from "../data/exerciseDatabase";
-import { findBestExerciseGif } from "../data/exerciseGifs";
+import { findBestExerciseGif, handleDriveGifError } from "../data/exerciseGifs";
 import { preloadWorkoutVideos } from "../utils/mediaCache";
 import { isAdminEmail, ADMIN_EMAILS, getAdminDisplayName } from "../constants";
 import {
@@ -1371,6 +1371,8 @@ function StudentWorkoutExercise({
                                 alt={alt.name}
                                 className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"
                                 referrerPolicy="no-referrer"
+                                loading="lazy"
+                                onError={handleDriveGifError}
                               />
                               <div className="absolute inset-0 flex items-center justify-center">
                                 <PlayCircle className="w-5 h-5 text-white/80" />

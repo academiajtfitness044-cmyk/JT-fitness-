@@ -10,7 +10,7 @@ export interface ExerciseGifItem {
   driveId?: string;
 }
 
-// Complete library of 688 Google Drive exercise GIF animations
+// Complete library of 960 Google Drive exercise GIF animations across 18 folders
 export const EXERCISE_GIFS: ExerciseGifItem[] = [
   {
     "id": "drive-1XgqIYXj0hGa6_vm86GqedBCYiMvkAqiV",
@@ -25,8 +25,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "abdominal",
       "maquina",
       "abd",
-      "gif",
-      "abdomen"
+      "abdomen",
+      "gif"
     ]
   },
   {
@@ -41,16 +41,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "abdominal",
       "alternado",
-      "gif",
       "abdomen",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1PnhgJxAF3f-I0rc5zkpoTw7qMkA5lxxI",
-    "name": "Abdominl Banco Alternado",
+    "name": "Abdominal Alternado no Banco",
     "muscleGroup": "Abdômen",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/1PnhgJxAF3f-I0rc5zkpoTw7qMkA5lxxI",
@@ -58,12 +58,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1PnhgJxAF3f-I0rc5zkpoTw7qMkA5lxxI",
     "category": "Abdominal",
     "tags": [
-      "abdominl",
-      "banco",
+      "abdominal",
       "alternado",
-      "gif",
+      "banco",
+      "abdominl",
       "abdomen",
-      "abdominal"
+      "gif"
     ]
   },
   {
@@ -78,12 +78,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "abdominais",
       "abds",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -98,12 +98,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alternado",
       "apoiado",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -122,12 +122,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alternate",
       "heel",
       "touchers",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -141,13 +141,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "abdominal",
-      "com",
       "bola",
       "ball",
       "sit",
-      "gif",
+      "up",
       "abdomen",
-      "suica"
+      "suica",
+      "gif"
     ]
   },
   {
@@ -162,16 +162,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "abdominal",
       "rollout",
-      "com",
       "barra",
       "barbell",
-      "gif",
-      "abdomen"
+      "abdomen",
+      "gif"
     ]
   },
   {
     "id": "drive-1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8",
-    "name": "Abdominal Rollout com Barra",
+    "name": "Abdominal Rollout com Barra (Variação 2)",
     "muscleGroup": "Abdômen",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1pdV2bB9FZe_G7CQsUKsrYBrSWyLM7lb8",
@@ -181,11 +180,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "abdominal",
       "rollout",
-      "com",
       "barra",
       "barbell",
-      "gif",
-      "abdomen"
+      "abdomen",
+      "gif"
     ]
   },
   {
@@ -203,16 +201,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "bicycle",
       "crunch",
       "movement",
-      "gif",
       "abdomen",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1eaAW_NPw8ECvqBR1_5j5mhjCXqjjpQ3U",
-    "name": "Body Saw Plank",
+    "name": "Prancha Body Saw (Serrote)",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1eaAW_NPw8ECvqBR1_5j5mhjCXqjjpQ3U",
@@ -220,20 +218,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1eaAW_NPw8ECvqBR1_5j5mhjCXqjjpQ3U",
     "category": "Abdominal",
     "tags": [
+      "prancha",
       "body",
       "saw",
+      "serrote",
       "plank",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1AdvsGeO6d3JLZ92g5VkqjpV4CTgEYbCV",
-    "name": "Butterfly Sit Up",
+    "name": "Abdominal Borboleta",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AdvsGeO6d3JLZ92g5VkqjpV4CTgEYbCV",
@@ -241,19 +241,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1AdvsGeO6d3JLZ92g5VkqjpV4CTgEYbCV",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "borboleta",
       "butterfly",
       "sit",
-      "gif",
+      "up",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-17ilbJEL6agWZX1Xwtlch02E-i5Z5W2If",
-    "name": "Conventional Sit Up",
+    "name": "Abdominal Supra Completo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/17ilbJEL6agWZX1Xwtlch02E-i5Z5W2If",
@@ -261,19 +263,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "17ilbJEL6agWZX1Xwtlch02E-i5Z5W2If",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "supra",
+      "completo",
       "conventional",
       "sit",
-      "gif",
+      "up",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1InYOj53BT-1MYgeDR8ebf8HaIHMeCZSV",
-    "name": "Crunch Floor",
+    "name": "Abdominal Supra no Solo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1InYOj53BT-1MYgeDR8ebf8HaIHMeCZSV",
@@ -281,19 +286,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1InYOj53BT-1MYgeDR8ebf8HaIHMeCZSV",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "supra",
+      "solo",
       "crunch",
       "floor",
-      "gif",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1wEf7V-eJdstjDzDiLfTsgsRp2p95Gci3",
-    "name": "Crunch With Leg Raise",
+    "name": "Abdominal com Elevação de Pernas",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1wEf7V-eJdstjDzDiLfTsgsRp2p95Gci3",
@@ -301,21 +308,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1wEf7V-eJdstjDzDiLfTsgsRp2p95Gci3",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "elevacao",
+      "pernas",
       "crunch",
-      "with",
       "leg",
       "raise",
-      "gif",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-11-8p2o_FkGm__msG1DLEW-9Jdi5vnj6l",
-    "name": "Crunch",
+    "name": "Abdominal Supra",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/11-8p2o_FkGm__msG1DLEW-9Jdi5vnj6l",
@@ -323,18 +331,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11-8p2o_FkGm__msG1DLEW-9Jdi5vnj6l",
     "category": "Abdominal",
     "tags": [
-      "crunch",
-      "gif",
-      "abdomen",
       "abdominal",
+      "supra",
+      "crunch",
+      "abdomen",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-16NphCQC5FwhgEifaABtoMKCqmpvO_9Io",
-    "name": "Decline Crunch",
+    "name": "Abdominal Supra Declinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/16NphCQC5FwhgEifaABtoMKCqmpvO_9Io",
@@ -342,19 +351,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "16NphCQC5FwhgEifaABtoMKCqmpvO_9Io",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "supra",
+      "declinado",
       "decline",
       "crunch",
-      "gif",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1RjiEO861Jpe9AJ6GJ3WrhhOUiZezoVLq",
-    "name": "Decline Sit Up",
+    "name": "Abdominal Completo Declinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RjiEO861Jpe9AJ6GJ3WrhhOUiZezoVLq",
@@ -362,14 +373,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1RjiEO861Jpe9AJ6GJ3WrhhOUiZezoVLq",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "completo",
+      "declinado",
       "decline",
       "sit",
-      "gif",
+      "up",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -384,17 +398,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "dragon",
       "flag",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1QYlPqCmnBRwHAUYwVQjR5k8Idu8vSV58",
-    "name": "Elbow To Knee Sit Up Movement",
+    "name": "Abdominal Cotovelo no Joelho Alternado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1QYlPqCmnBRwHAUYwVQjR5k8Idu8vSV58",
@@ -402,16 +416,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1QYlPqCmnBRwHAUYwVQjR5k8Idu8vSV58",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "cotovelo",
+      "joelho",
+      "alternado",
       "elbow",
+      "to",
       "knee",
       "sit",
+      "up",
       "movement",
-      "gif",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -426,10 +445,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "engate",
       "bola",
-      "gif",
       "abdomen",
       "abdominal",
-      "suica"
+      "suica",
+      "gif"
     ]
   },
   {
@@ -443,12 +462,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "explosion",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -464,17 +483,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "extensao",
       "ponte",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1iFs2wJOIGAtsA_W661fo24zAIaxGacj7",
-    "name": "Frog Crunch",
+    "name": "Abdominal Sapo",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1iFs2wJOIGAtsA_W661fo24zAIaxGacj7",
@@ -482,19 +501,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1iFs2wJOIGAtsA_W661fo24zAIaxGacj7",
     "category": "Abdominal",
     "tags": [
+      "abdominal",
+      "sapo",
       "frog",
       "crunch",
-      "gif",
       "abdomen",
-      "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1PqbKsO8rg3ZQjk2eswuU9GDAmkab2hSQ",
-    "name": "Hanging Knee Raises",
+    "name": "Elevação de Joelhos na Barra Fixa",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1PqbKsO8rg3ZQjk2eswuU9GDAmkab2hSQ",
@@ -502,15 +522,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1PqbKsO8rg3ZQjk2eswuU9GDAmkab2hSQ",
     "category": "Abdominal",
     "tags": [
+      "elevacao",
+      "joelhos",
+      "barra",
+      "fixa",
       "hanging",
       "knee",
       "raises",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -525,12 +549,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "hollowhold",
       "360x360",
-      "png",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -545,9 +569,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "infra",
       "banco",
-      "gif",
       "abdomen",
-      "abdominal"
+      "abdominal",
+      "gif"
     ]
   },
   {
@@ -562,9 +586,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "infra",
       "maquina",
-      "gif",
       "abdomen",
-      "abdominal"
+      "abdominal",
+      "gif"
     ]
   },
   {
@@ -580,9 +604,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "infra",
       "supra",
       "banco",
-      "gif",
       "abdomen",
-      "abdominal"
+      "abdominal",
+      "gif"
     ]
   },
   {
@@ -597,17 +621,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "infra",
       "uni",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1UxUuO-OIrtYQzZRCsPIpk1aKClFWIXOW",
-    "name": "Infra Up Inclinado",
+    "name": "Abdominal Infra no Banco Inclinado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1UxUuO-OIrtYQzZRCsPIpk1aKClFWIXOW",
@@ -615,19 +639,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1UxUuO-OIrtYQzZRCsPIpk1aKClFWIXOW",
     "category": "Abdominal",
     "tags": [
-      "infra",
-      "inclinado",
-      "gif",
-      "abdomen",
       "abdominal",
+      "infra",
+      "banco",
+      "inclinado",
+      "up",
+      "abdomen",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-13MvfoV8AIHr2T7jULkhjnCckDVDq7xsb",
-    "name": "Infra Up",
+    "name": "Abdominal Infra Elevado",
     "muscleGroup": "Abdômen",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/13MvfoV8AIHr2T7jULkhjnCckDVDq7xsb",
@@ -635,13 +661,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13MvfoV8AIHr2T7jULkhjnCckDVDq7xsb",
     "category": "Abdominal",
     "tags": [
-      "infra",
-      "gif",
-      "abdomen",
       "abdominal",
+      "infra",
+      "elevado",
+      "up",
+      "abdomen",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -655,12 +683,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "infra",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -675,10 +703,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "invertido",
       "bola",
-      "gif",
       "abdomen",
       "abdominal",
-      "suica"
+      "suica",
+      "gif"
     ]
   },
   {
@@ -692,12 +720,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "lateralizado",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -712,12 +740,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "mergulho",
       "ponte",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -732,12 +760,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "mergulho",
       "total",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -751,12 +779,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "mergulho",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -771,12 +799,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "alternado",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -791,9 +819,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "barra",
-      "gif",
       "abdomen",
-      "abdominal"
+      "abdominal",
+      "gif"
     ]
   },
   {
@@ -808,10 +836,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "bola",
-      "gif",
       "abdomen",
       "abdominal",
-      "suica"
+      "suica",
+      "gif"
     ]
   },
   {
@@ -825,11 +853,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "obliquo",
+      "pe",
       "halter",
-      "gif",
       "abdomen",
       "abdominal",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
@@ -844,12 +873,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "inclinado",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -864,12 +893,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "lateral",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -885,12 +914,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "obliquo",
       "pernas",
       "extendidas",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -906,10 +935,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "obliquo",
       "polia",
       "alta",
-      "gif",
       "abdomen",
       "abdominal",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -925,10 +954,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "obliquo",
       "polia",
       "baixa",
-      "gif",
       "abdomen",
       "abdominal",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -943,12 +972,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "obliquo",
       "sentado",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -964,12 +993,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "obliquo",
       "toque",
       "lateral",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -983,12 +1012,853 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Abdominal",
     "tags": [
       "obliquo",
-      "gif",
       "abdomen",
       "abdominal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "name": "Prancha Abdominal com Carga",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "source": "Google Drive",
+    "driveId": "18nWM1_HvZrYXfZqra4rLjuBHK1iLqieQ",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "abdominal",
+      "carga",
+      "plank",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "name": "Prancha Abdominal",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "source": "Google Drive",
+    "driveId": "1T67eTl3Ca989h_bqmKmXhVRDzkpuxBjo",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "abdominal",
+      "plank",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "name": "Prancha Abdominal (Variação 2)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "source": "Google Drive",
+    "driveId": "10QnH9y3EttQT-rhtV64oe2fP4wQdFts3",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "abdominal",
+      "plank",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "name": "Prancha com Elevação Alternada",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "source": "Google Drive",
+    "driveId": "1KUovOwl1KStlTG-rSaXout3im4T_MD8f",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "elevacao",
+      "alternada",
+      "pmp",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "name": "Ponte Cruzada (Core)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "source": "Google Drive",
+    "driveId": "1_-pRtQl9Hi3LrnBCouKcsvKw6_4IjGrj",
+    "category": "Abdominal",
+    "tags": [
+      "ponte",
+      "cruzada",
+      "core",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "name": "Prancha Lateral com Flexão de Quadril",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "source": "Google Drive",
+    "driveId": "1OeBIAvXO6NP1rdgQmV2JPv6WiygCHNJ2",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "lateral",
+      "flexao",
+      "quadril",
+      "ponte",
+      "flex",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "name": "Ponte Dinâmica (Core)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "source": "Google Drive",
+    "driveId": "1Y59YvMA0yKsg9UvsNYYOevO0NInNS4kQ",
+    "category": "Abdominal",
+    "tags": [
+      "ponte",
+      "dinamica",
+      "core",
+      "movimentada",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "name": "Ponte de Glúteos / Core",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "source": "Google Drive",
+    "driveId": "1zSSbJRuQso7GHk-ywlOZY0DmS0SKMS13",
+    "category": "Abdominal",
+    "tags": [
+      "ponte",
+      "gluteos",
+      "core",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "name": "Prancha Lateral",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "source": "Google Drive",
+    "driveId": "1MGJB6rkNtIaoDj8EIQ2tzV5TBC2qEU_N",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "lateral",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "name": "Prancha Lateral com Variação",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "source": "Google Drive",
+    "driveId": "1DaXPfeY9CvGnYozNuQfLQIrySFCz38uo",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "lateral",
+      "variacao",
+      "laterall",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "name": "Prancha Abdominal Isométrica",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "source": "Google Drive",
+    "driveId": "1zJ6N37AjSQ8RpgbPatPSZhGOtsRNsxLL",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "abdominal",
+      "isometrica",
+      "plank",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "name": "Prancha Abdominal Clássica",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "source": "Google Drive",
+    "driveId": "1LUpwsKpB13glAOuvZ2AZFk-V_ZpgTpEp",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "abdominal",
+      "classica",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "name": "Push Press (Core e Potência)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "source": "Google Drive",
+    "driveId": "1E2a1mGxDDugq6XLMXSNL4vcirD0Wiljy",
+    "category": "Abdominal",
+    "tags": [
+      "push",
+      "press",
+      "core",
+      "potencia",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "name": "Abdominal Supra com Pernas Elevadas",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "source": "Google Drive",
+    "driveId": "1PD6FrW4k6tInxwWcoKXPGLX4tL08dUre",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "pernas",
+      "elevadas",
+      "raised",
+      "sit",
+      "up",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "name": "Abdominal Invertido (Infra)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "source": "Google Drive",
+    "driveId": "1zQL5f58B08OOkYNIc8QAnkj_NpSNkuox",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "invertido",
+      "infra",
+      "reverse",
+      "crunch",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "name": "Abdominal no Rolinho (Ab Wheel)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "source": "Google Drive",
+    "driveId": "11oZy6xDEHToQbbyth8xXhi0QxTSx_fbN",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "rolinho",
+      "ab",
+      "wheel",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "name": "Abdominal Rollout com Barra (Variação 3)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "source": "Google Drive",
+    "driveId": "1O1lqtUxjHh9KBcoVsz2oIaGlghR1QLtx",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "rollout",
+      "barra",
+      "rolo",
+      "total",
+      "abdomen",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "name": "Rotação de Tronco Abdominal",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "source": "Google Drive",
+    "driveId": "1-wLH0yDKg1bRN84Z0acCW6QpTFv_cAFA",
+    "category": "Abdominal",
+    "tags": [
+      "rotacao",
+      "tronco",
+      "abdominal",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "name": "Abdominal Oblíquo Lateral",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "source": "Google Drive",
+    "driveId": "1wFW_nJWK63dPSqSUZQMOz4pnNTpD2e31",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "obliquo",
+      "lateral",
+      "side",
+      "crunch",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "name": "Abdominal Rollout na Bola Suíça",
+    "muscleGroup": "Abdômen",
+    "equipment": "Bola Suíça",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "source": "Google Drive",
+    "driveId": "1rpUpzCjFounw-0looS3TQypMrdCJuxgk",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "rollout",
+      "bola",
+      "suica",
+      "stability",
+      "ball",
+      "abdomen",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "name": "Abdominal Supra em Pé na Polia",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "source": "Google Drive",
+    "driveId": "1gZERfkKo7RuPVJJNCN3L-gz6LvrcVYFv",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "pe",
+      "polia",
+      "standing",
+      "cable",
+      "crunch",
+      "abdomen",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "name": "Prancha Straddle (Calistenia)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "source": "Google Drive",
+    "driveId": "1E4iB7Mxm9hUZD-nj7SWOL5C0WB1GtKME",
+    "category": "Abdominal",
+    "tags": [
+      "prancha",
+      "straddle",
+      "calistenia",
+      "planche",
+      "abdomen",
+      "abdominal",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "name": "Abdominal Supra com Pernas Estendidas",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "source": "Google Drive",
+    "driveId": "19GEM097GPEkElWDpkShiKCEOy3peECH4",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "pernas",
+      "estendidas",
+      "straight",
+      "leg",
+      "crunch",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "name": "Abdominal Superman (Lombar)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "source": "Google Drive",
+    "driveId": "1Fsbxzs23gvDPrnbc6J7ViDwP36ljmVmc",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "superman",
+      "lombar",
+      "super",
+      "man",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "name": "Abdominal Supra no Banco",
+    "muscleGroup": "Abdômen",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "source": "Google Drive",
+    "driveId": "1GIPXN74PFwq2rqAap2bJkvNJnYXyxEpL",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "banco",
+      "abdomen",
+      "step",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "name": "Abdominal Supra com Carga",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "source": "Google Drive",
+    "driveId": "107xUMhnMSVp5va7g1n225Yr4oSd4fSbw",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "carga",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "name": "Abdominal Supra com Pernas Elevadas (Variação 2)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "source": "Google Drive",
+    "driveId": "1JvnSM4F072Q5okxrDd_jy745lvvS1nFg",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "pernas",
+      "elevadas",
+      "elevado",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "name": "Abdominal Supra no Aparelho / Encaixe",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "source": "Google Drive",
+    "driveId": "1T8AIMA1drTLM5AKINifpU1GvK_iysCZA",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "aparelho",
+      "encaixe",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "name": "Abdominal Supra com Joelhos Flexionados",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "source": "Google Drive",
+    "driveId": "15wDohwtYKIhaFtrVrXRQd82BRwhs7HA2",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "joelhos",
+      "flexionados",
+      "flexionado",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "name": "Abdominal Supra com Braços Estendidos",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "source": "Google Drive",
+    "driveId": "1yCNceUErZuRCU5KQl8LpV9HaAuKzBP-q",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "bracos",
+      "estendidos",
+      "maos",
+      "extendidas",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "name": "Abdominal Supra na Polia Alta",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "source": "Google Drive",
+    "driveId": "1FhkkTD7HFe8y38NcTnPZ9PziT65uesiZ",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "polia",
+      "alta",
+      "abdomen",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "name": "Abdominal Supra Sapo",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "source": "Google Drive",
+    "driveId": "1PIdoVTLYEP4eHYVOKYobcn9XqRzoFtL6",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "sapo",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "name": "Abdominal Supra Total",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "source": "Google Drive",
+    "driveId": "1td9jK1mQBgs0lV5l9uHpcjPGRMGkAgta",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "total",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "name": "Abdominal Tesoura no Banco Inclinado",
+    "muscleGroup": "Abdômen",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "source": "Google Drive",
+    "driveId": "1T5kZyVAWZLXL_g3tjfyH-Y6jJhggnpCg",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "tesoura",
+      "banco",
+      "inclinado",
+      "abdomen",
+      "step",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "name": "Abdominal Tesoura",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "source": "Google Drive",
+    "driveId": "1q9ALiwhwA5UwR9v8VlJ51w8cwQ4-OOSl",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "tesoura",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "name": "Abdominal Total na Bola Suíça",
+    "muscleGroup": "Abdômen",
+    "equipment": "Bola Suíça",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "source": "Google Drive",
+    "driveId": "1aDyAoAYW3NNbgGJ1IY0tffcbTgDE_mwv",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "total",
+      "bola",
+      "suica",
+      "abdomen",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "name": "Abdominal Total na Polia Baixa",
+    "muscleGroup": "Abdômen",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "source": "Google Drive",
+    "driveId": "1VU7ZupA2sPmg-edyn70J8RI1wlyysdwk",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "total",
+      "polia",
+      "baixa",
+      "tptal",
+      "abdomen",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "name": "Abdominal Canivete em V",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "source": "Google Drive",
+    "driveId": "1RJ7-5fPLGUH84a80i5V0lL11AHqH7ilB",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "canivete",
+      "sit",
+      "ups",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "name": "Abdominal Supra com Pés na Parede",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "source": "Google Drive",
+    "driveId": "1zHs56OnGvygjXDF5E4-G_MrYTXTf2tu7",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "pes",
+      "parede",
+      "wall",
+      "crunch",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "name": "Abdominal Supra com Carga (Anilha)",
+    "muscleGroup": "Abdômen",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "source": "Google Drive",
+    "driveId": "1-0x_SKIvXRYCBtWma-5GqjCIZSkHaCXC",
+    "category": "Abdominal",
+    "tags": [
+      "abdominal",
+      "supra",
+      "carga",
+      "anilha",
+      "weightedsitups",
+      "abdomen",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
     ]
   },
   {
@@ -1003,13 +1873,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "inversa",
-      "com",
       "barra",
       "barbell",
       "reverse",
       "curl",
-      "gif",
-      "antebraco"
+      "antebraco",
+      "gif"
     ]
   },
   {
@@ -1026,11 +1895,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "punho",
       "neutra",
       "cacho",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1045,11 +1914,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "punho",
-      "com",
       "barra",
       "curva",
-      "gif",
-      "antebraco"
+      "antebraco",
+      "gif"
     ]
   },
   {
@@ -1066,16 +1934,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "punho",
       "invertida",
       "curva",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1HgibM8Fr2PS4UNtW-5mC-IGllm0Ms8Ot",
-    "name": "Halter Reverse Rosca",
+    "name": "Rosca Inversa com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1HgibM8Fr2PS4UNtW-5mC-IGllm0Ms8Ot",
@@ -1083,19 +1951,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1HgibM8Fr2PS4UNtW-5mC-IGllm0Ms8Ot",
     "category": "Antebraço",
     "tags": [
-      "halter",
-      "reverse",
       "rosca",
+      "inversa",
+      "halteres",
       "dumbbell",
+      "reverse",
       "curl",
-      "gif",
       "antebraco",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1TK4CcINVxhpKnUftExGNvIC5Bm_5bQo7",
-    "name": "Halter Reverse Wrist Rosca Muscles",
+    "name": "Rosca Punho Inversa com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1TK4CcINVxhpKnUftExGNvIC5Bm_5bQo7",
@@ -1103,21 +1971,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1TK4CcINVxhpKnUftExGNvIC5Bm_5bQo7",
     "category": "Antebraço",
     "tags": [
-      "halter",
+      "rosca",
+      "punho",
+      "inversa",
+      "halteres",
+      "dumbbell",
       "reverse",
       "wrist",
-      "rosca",
-      "muscles",
-      "dumbbell",
       "curl",
-      "gif",
+      "muscles",
       "antebraco",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1kBoZc2WDWZOhT52Xho7reHeFi-KcNCe4",
-    "name": "Halter Wrist Rosca",
+    "name": "Rosca Punho com Halteres",
     "muscleGroup": "Antebraço",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1kBoZc2WDWZOhT52Xho7reHeFi-KcNCe4",
@@ -1125,19 +1994,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1kBoZc2WDWZOhT52Xho7reHeFi-KcNCe4",
     "category": "Antebraço",
     "tags": [
-      "halter",
-      "wrist",
       "rosca",
+      "punho",
+      "halteres",
       "dumbbell",
+      "wrist",
       "curl",
-      "gif",
       "antebraco",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1U9NgMC5FK3yKGLEe3CFo5CY9xr2X4nkz",
-    "name": "Hand Grip",
+    "name": "Preensão Manual (Hand Grip)",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1U9NgMC5FK3yKGLEe3CFo5CY9xr2X4nkz",
@@ -1145,13 +2014,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1U9NgMC5FK3yKGLEe3CFo5CY9xr2X4nkz",
     "category": "Antebraço",
     "tags": [
+      "preensao",
+      "manual",
       "hand",
       "grip",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1166,11 +2037,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "punho",
       "reverso",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1185,11 +2056,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rolo",
       "punho",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1204,10 +2075,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "dedo",
-      "com",
       "barra",
-      "gif",
-      "antebraco"
+      "antebraco",
+      "gif"
     ]
   },
   {
@@ -1222,16 +2092,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "punho",
-      "com",
       "halter",
-      "gif",
       "antebraco",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK",
-    "name": "Rosca de Punho Neutra",
+    "name": "Rosca de Punho Neutra (Variação 2)",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1zGcLN8CI6Czgo_M2H89mg7iNZiMEkWoK",
@@ -1242,11 +2111,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "punho",
       "neutra",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1263,11 +2132,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "punho",
       "por",
       "tras",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1284,11 +2153,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "punho",
       "reversa",
       "apoiado",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1304,10 +2173,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "punho",
       "reversa",
-      "com",
       "barra",
-      "gif",
-      "antebraco"
+      "antebraco",
+      "gif"
     ]
   },
   {
@@ -1322,15 +2190,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "reversa",
-      "com",
       "barra",
-      "gif",
-      "antebraco"
+      "antebraco",
+      "gif"
     ]
   },
   {
     "id": "drive-18w5PnO1D41-bMNIGSAjE5vvAeqrmghaL",
-    "name": "Wrist Circles",
+    "name": "Círculos / Mobilidade de Punho",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/18w5PnO1D41-bMNIGSAjE5vvAeqrmghaL",
@@ -1338,18 +2205,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18w5PnO1D41-bMNIGSAjE5vvAeqrmghaL",
     "category": "Antebraço",
     "tags": [
+      "circulos",
+      "mobilidade",
+      "punho",
       "wrist",
       "circles",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1oMqxUF3bMJnYyvaTzlf7hQw1PmiiclBn",
-    "name": "Wrist Flexion",
+    "name": "Flexão de Punho",
     "muscleGroup": "Antebraço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1oMqxUF3bMJnYyvaTzlf7hQw1PmiiclBn",
@@ -1357,13 +2227,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1oMqxUF3bMJnYyvaTzlf7hQw1PmiiclBn",
     "category": "Antebraço",
     "tags": [
+      "flexao",
+      "punho",
       "wrist",
       "flexion",
-      "gif",
       "antebraco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1378,11 +2250,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alternada",
       "scott",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1401,11 +2273,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alternating",
       "hammer",
       "curls",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1422,11 +2294,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "arm",
       "blaster",
       "benefits",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -1440,19 +2312,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Bíceps",
     "tags": [
       "rosca",
-      "com",
       "barra",
       "roubada",
       "barbell",
       "cheat",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
     "id": "drive-1kyLyP35D-0LxiiDHoI88dk7meH29-neP",
-    "name": "Barra Rosca",
+    "name": "Rosca Direta com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1kyLyP35D-0LxiiDHoI88dk7meH29-neP",
@@ -1460,17 +2331,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1kyLyP35D-0LxiiDHoI88dk7meH29-neP",
     "category": "Bíceps",
     "tags": [
-      "barra",
       "rosca",
+      "direta",
+      "barra",
       "barbell",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
     "id": "drive-1s1gAg5dqaNt4ptVpuxdMt3m8XApMC_cm",
-    "name": "Barra Preacher Rosca",
+    "name": "Rosca Scott com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1s1gAg5dqaNt4ptVpuxdMt3m8XApMC_cm",
@@ -1478,18 +2350,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1s1gAg5dqaNt4ptVpuxdMt3m8XApMC_cm",
     "category": "Bíceps",
     "tags": [
-      "barra",
-      "preacher",
       "rosca",
+      "scott",
+      "barra",
       "barbell",
+      "preacher",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
     "id": "drive-1Hz3m7CwCbYJp0HLtum0a3eT52NR8cgeO",
-    "name": "Bayesian Rosca",
+    "name": "Rosca Bayesiana na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Hz3m7CwCbYJp0HLtum0a3eT52NR8cgeO",
@@ -1497,19 +2370,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Hz3m7CwCbYJp0HLtum0a3eT52NR8cgeO",
     "category": "Bíceps",
     "tags": [
-      "bayesian",
       "rosca",
+      "bayesiana",
+      "polia",
+      "bayesian",
       "curl",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1wLuwO8eWJoudSaxHsJ9fpQQ-Y6garlQf",
-    "name": "Bicep Rosca Machine",
+    "name": "Rosca Bíceps na Máquina",
     "muscleGroup": "Bíceps",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1wLuwO8eWJoudSaxHsJ9fpQQ-Y6garlQf",
@@ -1517,13 +2392,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1wLuwO8eWJoudSaxHsJ9fpQQ-Y6garlQf",
     "category": "Bíceps",
     "tags": [
-      "bicep",
       "rosca",
-      "machine",
-      "curl",
-      "gif",
       "biceps",
-      "maquina"
+      "maquina",
+      "bicep",
+      "curl",
+      "machine",
+      "gif"
     ]
   },
   {
@@ -1540,8 +2415,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "apoiado",
       "polia",
       "baixa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -1556,8 +2431,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "biceps",
       "corda",
-      "gif",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -1573,9 +2448,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "biceps",
       "inclinad0",
       "crossover",
-      "gif",
       "polia",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -1592,8 +2467,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "inclinado",
       "polia",
       "baixa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -1625,8 +2500,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "polia",
       "alta",
       "unilateral",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -1642,8 +2517,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "biceps",
       "polia",
       "alta",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -1659,13 +2534,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "biceps",
       "polia",
       "baixa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1ejWjjA8aC4mnmkHJb8wVlqngRctbBwmp",
-    "name": "Cabo / Polia Bicep Rosca",
+    "name": "Rosca Bíceps na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ejWjjA8aC4mnmkHJb8wVlqngRctbBwmp",
@@ -1673,19 +2548,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1ejWjjA8aC4mnmkHJb8wVlqngRctbBwmp",
     "category": "Bíceps",
     "tags": [
-      "cabo",
-      "polia",
-      "bicep",
       "rosca",
+      "biceps",
+      "polia",
       "cable",
+      "bicep",
       "curl",
-      "gif",
-      "biceps"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1I1J1ArMazb8eAG3cz7NIcnGDB7hV7AEI",
-    "name": "Cabo / Polia One Arm Rosca",
+    "name": "Rosca Unilateral na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1I1J1ArMazb8eAG3cz7NIcnGDB7hV7AEI",
@@ -1693,20 +2568,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1I1J1ArMazb8eAG3cz7NIcnGDB7hV7AEI",
     "category": "Bíceps",
     "tags": [
-      "cabo",
+      "rosca",
+      "unilateral",
       "polia",
+      "cable",
       "one",
       "arm",
-      "rosca",
-      "cable",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-11_XZred9Zns60hhYWx80BFn9u2cRxzmL",
-    "name": "Cabo / Polia Preacher Rosca",
+    "name": "Rosca Scott na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/11_XZred9Zns60hhYWx80BFn9u2cRxzmL",
@@ -1714,19 +2590,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11_XZred9Zns60hhYWx80BFn9u2cRxzmL",
     "category": "Bíceps",
     "tags": [
-      "cabo",
-      "polia",
-      "preacher",
       "rosca",
+      "scott",
+      "polia",
       "cable",
+      "preacher",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1I4Mw79WrQpzJPhpDvbpwUzQaAel8Bb6U",
-    "name": "Cabo / Polia Single Arm Hammer Rosca",
+    "name": "Rosca Martelo Unilateral na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1I4Mw79WrQpzJPhpDvbpwUzQaAel8Bb6U",
@@ -1734,21 +2611,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1I4Mw79WrQpzJPhpDvbpwUzQaAel8Bb6U",
     "category": "Bíceps",
     "tags": [
-      "cabo",
+      "rosca",
+      "martelo",
+      "unilateral",
       "polia",
+      "cable",
       "single",
       "arm",
       "hammer",
-      "rosca",
-      "cable",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1RjWVntm-u-K6nVRfnbDG-SDn8MFTNHW9",
-    "name": "Cabo / Polia Underhand Row",
+    "name": "Remada Supinada na Polia",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RjWVntm-u-K6nVRfnbDG-SDn8MFTNHW9",
@@ -1756,18 +2635,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1RjWVntm-u-K6nVRfnbDG-SDn8MFTNHW9",
     "category": "Bíceps",
     "tags": [
-      "cabo",
+      "remada",
+      "supinada",
       "polia",
+      "cable",
       "underhand",
       "row",
-      "cable",
-      "gif",
-      "biceps"
+      "biceps",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1Bg6BSxngrPpTvLJFQ0I8reNRpQE4pEly",
-    "name": "Close Grip Barra Rosca",
+    "name": "Rosca Direta Pegada Fechada com Barra",
     "muscleGroup": "Bíceps",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Bg6BSxngrPpTvLJFQ0I8reNRpQE4pEly",
@@ -1775,19 +2656,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Bg6BSxngrPpTvLJFQ0I8reNRpQE4pEly",
     "category": "Bíceps",
     "tags": [
+      "rosca",
+      "direta",
+      "pegada",
+      "fechada",
+      "barra",
       "close",
       "grip",
-      "barra",
-      "rosca",
       "barbell",
       "curl",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
     "id": "drive-1QFKjPhrvAYGkCAzL_pSOiSRzpoPd_s1a",
-    "name": "Cross Body Hammer Rosca",
+    "name": "Rosca Martelo Cruzada com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1QFKjPhrvAYGkCAzL_pSOiSRzpoPd_s1a",
@@ -1795,21 +2679,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1QFKjPhrvAYGkCAzL_pSOiSRzpoPd_s1a",
     "category": "Bíceps",
     "tags": [
+      "rosca",
+      "martelo",
+      "cruzada",
+      "halteres",
       "cross",
       "body",
       "hammer",
-      "rosca",
       "curl",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1CdMqEIo_g2K2gc6ZEjEi00vF44svzRY2",
-    "name": "Halter Bicep Rosca",
+    "name": "Rosca Bíceps com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1CdMqEIo_g2K2gc6ZEjEi00vF44svzRY2",
@@ -1817,19 +2704,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1CdMqEIo_g2K2gc6ZEjEi00vF44svzRY2",
     "category": "Bíceps",
     "tags": [
-      "halter",
-      "bicep",
       "rosca",
-      "dumbbell",
-      "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "halteres",
+      "dumbbell",
+      "bicep",
+      "curl",
+      "gif"
     ]
   },
   {
     "id": "drive-1MT9lGIzw8tVswjo3uD2_nd57ClrgRi0N",
-    "name": "Halter Concentration Rosca",
+    "name": "Rosca Concentrada com Haltere",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1MT9lGIzw8tVswjo3uD2_nd57ClrgRi0N",
@@ -1837,19 +2723,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1MT9lGIzw8tVswjo3uD2_nd57ClrgRi0N",
     "category": "Bíceps",
     "tags": [
-      "halter",
-      "concentration",
       "rosca",
+      "concentrada",
+      "haltere",
       "dumbbell",
+      "concentration",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1mhUn-rGG_ZtvOz8kDsT5ydwfige2miwf",
-    "name": "Halter Hammer Rosca",
+    "name": "Rosca Martelo com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mhUn-rGG_ZtvOz8kDsT5ydwfige2miwf",
@@ -1857,19 +2744,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mhUn-rGG_ZtvOz8kDsT5ydwfige2miwf",
     "category": "Bíceps",
     "tags": [
-      "halter",
-      "hammer",
       "rosca",
+      "martelo",
+      "halteres",
       "dumbbell",
+      "hammer",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-12o3llRXJiLixjn6hgS1_6Y2JNefpOF_v",
-    "name": "Halter Incline Hammer Rosca",
+    "name": "Rosca Martelo no Banco Inclinado",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/12o3llRXJiLixjn6hgS1_6Y2JNefpOF_v",
@@ -1877,20 +2764,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "12o3llRXJiLixjn6hgS1_6Y2JNefpOF_v",
     "category": "Bíceps",
     "tags": [
-      "halter",
+      "rosca",
+      "martelo",
+      "banco",
+      "inclinado",
+      "dumbbell",
       "incline",
       "hammer",
-      "rosca",
-      "dumbbell",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-12ZlCqAu-1v5wxGV2l9ZpXrpTa_5A5nhk",
-    "name": "Halter Preacher Rosca",
+    "name": "Rosca Scott com Haltere",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/12ZlCqAu-1v5wxGV2l9ZpXrpTa_5A5nhk",
@@ -1898,19 +2787,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "12ZlCqAu-1v5wxGV2l9ZpXrpTa_5A5nhk",
     "category": "Bíceps",
     "tags": [
-      "halter",
-      "preacher",
       "rosca",
+      "scott",
+      "haltere",
       "dumbbell",
+      "preacher",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1Yo6J9iPV_hctAafeS6mB8ohmpJPaVgZx",
-    "name": "Halter Preacher Hammer Roscas",
+    "name": "Rosca Martelo no Banco Scott",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Yo6J9iPV_hctAafeS6mB8ohmpJPaVgZx",
@@ -1918,20 +2808,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Yo6J9iPV_hctAafeS6mB8ohmpJPaVgZx",
     "category": "Bíceps",
     "tags": [
-      "halter",
+      "rosca",
+      "martelo",
+      "banco",
+      "scott",
+      "dumbbell",
       "preacher",
       "hammer",
-      "roscas",
-      "dumbbell",
       "curls",
-      "gif",
       "biceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-18whJC08Y1sDS9RaN9lFEmRzUq_4CURNk",
-    "name": "Halter Seated Zottman Rosca",
+    "name": "Rosca Zottman Sentado com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/18whJC08Y1sDS9RaN9lFEmRzUq_4CURNk",
@@ -1939,20 +2831,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18whJC08Y1sDS9RaN9lFEmRzUq_4CURNk",
     "category": "Bíceps",
     "tags": [
-      "halter",
-      "seated",
-      "zottman",
       "rosca",
+      "zottman",
+      "sentado",
+      "halteres",
       "dumbbell",
+      "seated",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1N9cPIkyPeYd1CivzrZ0zcu5uL5xeWnJj",
-    "name": "Ez Bar Bicep Rosca",
+    "name": "Rosca Direta com Barra W",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1N9cPIkyPeYd1CivzrZ0zcu5uL5xeWnJj",
@@ -1960,20 +2852,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1N9cPIkyPeYd1CivzrZ0zcu5uL5xeWnJj",
     "category": "Bíceps",
     "tags": [
+      "rosca",
+      "direta",
+      "barra",
+      "ez",
       "bar",
       "bicep",
-      "rosca",
       "curl",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1gAXN9TjKfRYA3pxQyYA6dwKf-ILL-SH7",
-    "name": "Ez Bar Preacher Rosca",
+    "name": "Rosca Scott com Barra W",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1gAXN9TjKfRYA3pxQyYA6dwKf-ILL-SH7",
@@ -1981,20 +2876,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1gAXN9TjKfRYA3pxQyYA6dwKf-ILL-SH7",
     "category": "Bíceps",
     "tags": [
+      "rosca",
+      "scott",
+      "barra",
+      "ez",
       "bar",
       "preacher",
-      "rosca",
       "curl",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Q9tGutyTOGufzzg_v4P9OyKLsMIpqAM0",
-    "name": "Incline Halter Rosca",
+    "name": "Rosca Direta no Banco Inclinado com Halteres",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Q9tGutyTOGufzzg_v4P9OyKLsMIpqAM0",
@@ -2002,19 +2900,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Q9tGutyTOGufzzg_v4P9OyKLsMIpqAM0",
     "category": "Bíceps",
     "tags": [
-      "incline",
-      "halter",
       "rosca",
+      "direta",
+      "banco",
+      "inclinado",
+      "halteres",
+      "incline",
       "dumbbell",
       "curl",
-      "gif",
       "biceps",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1dy2t3k1NK0PJv3ri0SQ-8vzEQ6M9PV6a",
-    "name": "Lateral Bicep Roscas",
+    "name": "Rosca Bíceps Lateral na Polia Alta",
     "muscleGroup": "Bíceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dy2t3k1NK0PJv3ri0SQ-8vzEQ6M9PV6a",
@@ -2022,15 +2922,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1dy2t3k1NK0PJv3ri0SQ-8vzEQ6M9PV6a",
     "category": "Bíceps",
     "tags": [
-      "lateral",
-      "bicep",
-      "roscas",
-      "curls",
-      "gif",
+      "rosca",
       "biceps",
+      "lateral",
+      "polia",
+      "alta",
+      "bicep",
+      "curls",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2045,11 +2947,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "martelo",
       "scott",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2064,16 +2966,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "martelo",
       "scott",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1jteV_PLD1zhmpzWJiatjtyI2V-Z3L9_5",
-    "name": "Overhead Cabo / Polia Rosca",
+    "name": "Rosca Bíceps na Polia Alta (Duplo Bíceps)",
     "muscleGroup": "Bíceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1jteV_PLD1zhmpzWJiatjtyI2V-Z3L9_5",
@@ -2081,19 +2983,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1jteV_PLD1zhmpzWJiatjtyI2V-Z3L9_5",
     "category": "Bíceps",
     "tags": [
-      "overhead",
-      "cabo",
-      "polia",
       "rosca",
+      "biceps",
+      "polia",
+      "alta",
+      "duplo",
+      "overhead",
       "cable",
       "curl",
-      "gif",
-      "biceps"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1RXIE4cEpdMLAj4IqAZwkdZlD-A-LdIKC",
-    "name": "Prone Incline Halter Rosca",
+    "name": "Rosca Bíceps Pronado no Banco Inclinado",
     "muscleGroup": "Bíceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RXIE4cEpdMLAj4IqAZwkdZlD-A-LdIKC",
@@ -2101,15 +3005,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1RXIE4cEpdMLAj4IqAZwkdZlD-A-LdIKC",
     "category": "Bíceps",
     "tags": [
+      "rosca",
+      "biceps",
+      "pronado",
+      "banco",
+      "inclinado",
       "prone",
       "incline",
-      "halter",
-      "rosca",
       "dumbbell",
       "curl",
-      "gif",
-      "biceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
@@ -2124,11 +3030,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "tempos",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2143,11 +3049,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "aberta",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2162,11 +3068,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "alternada",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2182,11 +3088,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "alternado",
       "inclinado",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2202,11 +3108,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "apoiada",
       "inclinada",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2220,14 +3126,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Bíceps",
     "tags": [
       "rosca",
-      "com",
       "rotacao",
       "sentado",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2242,11 +3147,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "rosca",
       "concentrada",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2262,11 +3167,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "direta",
       "aberta",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2283,8 +3188,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "direta",
       "barra",
       "media",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
@@ -2300,11 +3205,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "direta",
       "deitado",
-      "gif",
       "biceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2320,10 +3225,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "direta",
       "inclinada",
-      "com",
       "barra",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
     ]
   },
   {
@@ -2339,8 +3243,377 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "rosca",
       "direta",
       "barra",
-      "gif",
-      "biceps"
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "name": "Rosca Direta na Polia Baixa",
+    "muscleGroup": "Bíceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "source": "Google Drive",
+    "driveId": "192tc4Q5_lz736hFG9cORtJb7bqi5YcsO",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "direta",
+      "polia",
+      "baixa",
+      "biceps",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "name": "Rosca Direta com Barra W (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "source": "Google Drive",
+    "driveId": "1f1pNAd_hXt7OxSfx3X8Wr-9P4jxXpasS",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "direta",
+      "barra",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "name": "Rosca Pegada Fechada com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "source": "Google Drive",
+    "driveId": "1Nl6bIle0G7YsFsgRsRlinKyodpDWl862",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "pegada",
+      "fechada",
+      "barra",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "name": "Rosca Inclinada com Halteres",
+    "muscleGroup": "Bíceps",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "source": "Google Drive",
+    "driveId": "1ffPbcBbs75W8wltNMWVFDBl9tqm6PCm0",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "inclinada",
+      "halteres",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "name": "Rosca Martelo Pegada Aberta",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "source": "Google Drive",
+    "driveId": "1YqCCW9iQJkXhxJvfUIB9ADhGJJbv3-uS",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "martelo",
+      "pegada",
+      "aberta",
+      "aberto",
+      "biceps",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "name": "Rosca Martelo Alternada Sentado",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "source": "Google Drive",
+    "driveId": "12Vj76FrNnZDOT2fF4gFpZ2LYYsUUkxw9",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "martelo",
+      "alternada",
+      "sentado",
+      "biceps",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "name": "Rosca Martelo Alternada (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "source": "Google Drive",
+    "driveId": "1iswiO1MBK302i3gqiKukCAPm2BpSn7RJ",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "martelo",
+      "alternada",
+      "alternado",
+      "biceps",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "name": "Rosca Inversa na Máquina",
+    "muscleGroup": "Bíceps",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "source": "Google Drive",
+    "driveId": "1jLx3Zv175tBXTGb0z8zEccM28JNdRYMk",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "inversa",
+      "maquina",
+      "reversa",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "name": "Rosca Inversa na Polia Baixa",
+    "muscleGroup": "Bíceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "source": "Google Drive",
+    "driveId": "1BYqQtd6iQSLD6RaKU9IJNqLknma0XB1f",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "inversa",
+      "polia",
+      "baixa",
+      "reversa",
+      "biceps",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "name": "Rosca Inversa com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "source": "Google Drive",
+    "driveId": "1AEOFqRvHxTAJbXJ90nYpqFsr4n0uXdTr",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "inversa",
+      "barra",
+      "reversa",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "name": "Rosca Inversa com Barra (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "source": "Google Drive",
+    "driveId": "1-GyyLa-B_Be2wzix4std0T1XZ79VIYw-",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "inversa",
+      "barra",
+      "reversa",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "name": "Rosca com Rotação Rádio-Ulnar",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "source": "Google Drive",
+    "driveId": "15UeuuA9YmOg4l8TEu95tKKo_jHDXnK6g",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "rotacao",
+      "radio",
+      "ulnar",
+      "biceps",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "name": "Rosca Scott em Pé",
+    "muscleGroup": "Bíceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "source": "Google Drive",
+    "driveId": "1D-PJmwEJQTwQbYT4137PFuzcU4GTxpgu",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "scott",
+      "pe",
+      "biceps",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "name": "Rosca Scott com Barra W (Variação 2)",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "source": "Google Drive",
+    "driveId": "1kVxt71q5TIDJ42T_q_R-gXy3CnfgUSEl",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "scott",
+      "barra",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "name": "Rosca Scott em Pé com Barra",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "source": "Google Drive",
+    "driveId": "1zFtV415UPPoga_oZaPskrKvADCYKwJRy",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "scott",
+      "pe",
+      "barra",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "name": "Rosca Scott na Máquina",
+    "muscleGroup": "Bíceps",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "source": "Google Drive",
+    "driveId": "1NF2HjnkN9oBQJvojm_OmuJQ1RvcnUi95",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "scott",
+      "maquina",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "name": "Rosca Bíceps Deitado com Halteres",
+    "muscleGroup": "Bíceps",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "source": "Google Drive",
+    "driveId": "10I5NoZTEBkzq6p-pe_VT5VaS4H-w8svK",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "biceps",
+      "deitado",
+      "halteres",
+      "supine",
+      "dumbbell",
+      "curl",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "name": "Rosca Direta Pegada Aberta com Barra",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "source": "Google Drive",
+    "driveId": "1ps6O64FY3BdaLKe1jXWizUogisdxwLPs",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "direta",
+      "pegada",
+      "aberta",
+      "barra",
+      "wide",
+      "grip",
+      "barbell",
+      "curls",
+      "biceps",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "name": "Rosca Direta Pegada Aberta com Barra W",
+    "muscleGroup": "Bíceps",
+    "equipment": "Barra W",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "source": "Google Drive",
+    "driveId": "1VYugKbEr8z2PhKYMoNgWgn3jQt2tLnTt",
+    "category": "Bíceps",
+    "tags": [
+      "rosca",
+      "direta",
+      "pegada",
+      "aberta",
+      "barra",
+      "wide",
+      "grip",
+      "ez",
+      "bar",
+      "curl",
+      "biceps",
+      "gif"
     ]
   },
   {
@@ -2356,15 +3629,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "air",
       "bike",
       "airbike",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-17A9gUfb5Kkmf4S3DPcpOIAOjagYDCrS3",
-    "name": "Mountain Climber (alpinista)",
+    "name": "Alpinista (Mountain Climber)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/17A9gUfb5Kkmf4S3DPcpOIAOjagYDCrS3",
@@ -2372,13 +3645,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "17A9gUfb5Kkmf4S3DPcpOIAOjagYDCrS3",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "alpinista",
       "mountain",
       "climber",
-      "alpinista",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2393,10 +3666,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "bike",
       "horizontal",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2411,10 +3684,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "bike",
       "vertical",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2428,10 +3701,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "bike",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2446,10 +3719,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "caminhada",
       "rapida",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2463,15 +3736,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "caminhada",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1NfpmPAtPhZPVOWAPKUYH2QFqTCTf5r_x",
-    "name": "Chutes de Bunda",
+    "name": "Corrida Elevando os Calcanhares",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1NfpmPAtPhZPVOWAPKUYH2QFqTCTf5r_x",
@@ -2479,12 +3752,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1NfpmPAtPhZPVOWAPKUYH2QFqTCTf5r_x",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "corrida",
+      "elevando",
+      "os",
+      "calcanhares",
       "chutes",
       "bunda",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2498,10 +3775,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "cooper",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2516,10 +3793,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "corda",
       "mariner",
-      "gif",
       "cardio",
       "aerobico",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -2535,10 +3812,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "corrida",
       "pes",
       "rapida",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2553,10 +3830,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "corrida",
       "estatica",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2570,12 +3847,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "corrida",
-      "para",
       "tras",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2590,10 +3866,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "eliptico",
       "bracos",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2608,10 +3884,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "eliptico",
       "bracos",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2625,15 +3901,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "eliptico",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1k4NCib9ThgO_a3QMacjb327BvqeFlY_s",
-    "name": "Energy Pular",
+    "name": "Salto Energético (Cardio)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1k4NCib9ThgO_a3QMacjb327BvqeFlY_s",
@@ -2641,12 +3917,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1k4NCib9ThgO_a3QMacjb327BvqeFlY_s",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "salto",
+      "energetico",
+      "cardio",
       "energy",
       "pular",
-      "gif",
-      "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2660,15 +3938,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "escada",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-11JisDSgr7Z9DLM81BTvgV6RjMSxCXo59",
-    "name": "Esteira Inclinda",
+    "name": "Caminhada/Corrida na Esteira Inclinada",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/11JisDSgr7Z9DLM81BTvgV6RjMSxCXo59",
@@ -2676,12 +3954,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11JisDSgr7Z9DLM81BTvgV6RjMSxCXo59",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "caminhada",
+      "corrida",
       "esteira",
+      "inclinada",
       "inclinda",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2695,15 +3976,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "esteira",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1uZ7dZDmuOw7MafqqWvasx1JucNjZNrFC",
-    "name": "Jumping Jack",
+    "name": "Polichinelo (Jumping Jack)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1uZ7dZDmuOw7MafqqWvasx1JucNjZNrFC",
@@ -2711,17 +3992,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1uZ7dZDmuOw7MafqqWvasx1JucNjZNrFC",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "polichinelo",
       "jumping",
       "jack",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1mwAEHChbwWXn8ivOfWyprIyH1Qtys9TN",
-    "name": "Plyo Jacks",
+    "name": "Polichinelo Pliométrico",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mwAEHChbwWXn8ivOfWyprIyH1Qtys9TN",
@@ -2729,17 +4011,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mwAEHChbwWXn8ivOfWyprIyH1Qtys9TN",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "polichinelo",
+      "pliometrico",
       "plyo",
       "jacks",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1Ax90lgERGBBl7G-u5hKukMDsv0lTtNc2",
-    "name": "Prank",
+    "name": "Prancha Dinâmica Cardio",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Ax90lgERGBBl7G-u5hKukMDsv0lTtNc2",
@@ -2747,11 +4031,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Ax90lgERGBBl7G-u5hKukMDsv0lTtNc2",
     "category": "Cardio / Aeróbico",
     "tags": [
-      "prank",
-      "gif",
+      "prancha",
+      "dinamica",
       "cardio",
+      "prank",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2766,15 +4052,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "pular",
       "corda",
-      "gif",
       "cardio",
       "aerobico",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
     "id": "drive-1yV3zRBlmZ08-vVOm2Dc-LHITw85AxiOC",
-    "name": "Flexão de Braço Toe Touch",
+    "name": "Flexão de Braço com Toque na Ponta do Pé",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1yV3zRBlmZ08-vVOm2Dc-LHITw85AxiOC",
@@ -2784,13 +4070,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "braco",
+      "toque",
+      "ponta",
+      "pe",
+      "push",
+      "up",
       "toe",
       "touch",
-      "push",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2804,15 +4094,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "rodada",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1mNsNFGelKL1FxIIzf5h_AIZnBa-E4V_U",
-    "name": "Rowing",
+    "name": "Remo Ergômetro (Cardio)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mNsNFGelKL1FxIIzf5h_AIZnBa-E4V_U",
@@ -2820,11 +4110,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mNsNFGelKL1FxIIzf5h_AIZnBa-E4V_U",
     "category": "Cardio / Aeróbico",
     "tags": [
-      "rowing",
-      "gif",
+      "remo",
+      "ergometro",
       "cardio",
+      "rowing",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2838,15 +4130,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "spinning",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1djDJlZNj1P9Mc4VwNj3w_0VZzUedtpfe",
-    "name": "Split Jacks",
+    "name": "Polichinelo Frontal (Split Jack)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1djDJlZNj1P9Mc4VwNj3w_0VZzUedtpfe",
@@ -2854,12 +4146,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1djDJlZNj1P9Mc4VwNj3w_0VZzUedtpfe",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "polichinelo",
+      "frontal",
       "split",
+      "jack",
       "jacks",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2873,15 +4168,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cardio / Aeróbico",
     "tags": [
       "torcoes",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1D2kbe4Kxn6wSM7JNZwZpldL4M-gzmRxQ",
-    "name": "Treadmill Manual",
+    "name": "Esteira Manual / Sem Motor",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1D2kbe4Kxn6wSM7JNZwZpldL4M-gzmRxQ",
@@ -2889,17 +4184,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1D2kbe4Kxn6wSM7JNZwZpldL4M-gzmRxQ",
     "category": "Cardio / Aeróbico",
     "tags": [
-      "treadmill",
+      "esteira",
       "manual",
-      "gif",
+      "sem",
+      "motor",
+      "treadmill",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1n8cqzdhq5y-5p55HKU2hggO4l0-EIHRx",
-    "name": "Tuck Jump",
+    "name": "Salto Agrupado (Tuck Jump)",
     "muscleGroup": "Cardio",
     "equipment": "Aparelho Aeróbico",
     "gifUrl": "https://lh3.googleusercontent.com/d/1n8cqzdhq5y-5p55HKU2hggO4l0-EIHRx",
@@ -2907,12 +4205,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1n8cqzdhq5y-5p55HKU2hggO4l0-EIHRx",
     "category": "Cardio / Aeróbico",
     "tags": [
+      "salto",
+      "agrupado",
       "tuck",
       "jump",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2927,10 +4227,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "velocista",
       "assistida",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
@@ -2945,15 +4245,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "zig",
       "zag",
-      "gif",
       "cardio",
       "aerobico",
-      "aparelho"
+      "aparelho",
+      "gif"
     ]
   },
   {
     "id": "drive-1IlrrzzCUJzEvcPIWe0jCv8vCth4_lhXh",
-    "name": "Back Extensão",
+    "name": "Extensão Lombar (Banco Romano)",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1IlrrzzCUJzEvcPIWe0jCv8vCth4_lhXh",
@@ -2961,15 +4261,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1IlrrzzCUJzEvcPIWe0jCv8vCth4_lhXh",
     "category": "Dorsal / Costas",
     "tags": [
-      "back",
       "extensao",
+      "lombar",
+      "banco",
+      "romano",
+      "back",
       "extension",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -2984,14 +4287,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "barra",
       "fixa",
-      "com",
       "elastico",
       "band",
       "assisted",
       "pull",
-      "gif",
+      "up",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3005,14 +4308,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Dorsal / Costas",
     "tags": [
       "puxada",
-      "com",
       "elastico",
       "band",
       "lat",
       "pulldown",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3027,19 +4329,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "crucifixo",
       "inverso",
-      "com",
       "elastico",
       "band",
       "pull",
       "apart",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-1T-DZqVt0glvQ_w7Jc1rCiRiZMyVnVrHG",
-    "name": "Banded Wide Grip Row",
+    "name": "Remada Aberta com Elástico",
     "muscleGroup": "Costas",
     "equipment": "Elástico / Band",
     "gifUrl": "https://lh3.googleusercontent.com/d/1T-DZqVt0glvQ_w7Jc1rCiRiZMyVnVrHG",
@@ -3047,20 +4348,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1T-DZqVt0glvQ_w7Jc1rCiRiZMyVnVrHG",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
+      "aberta",
+      "elastico",
       "banded",
       "wide",
       "grip",
       "row",
-      "gif",
       "costas",
       "dorsal",
-      "elastico",
-      "band"
+      "band",
+      "gif"
     ]
   },
   {
     "id": "drive-1mCFJshFcJRlimZGk36A-ZOA-_qoLh1Cv",
-    "name": "Barra Bent Over Row",
+    "name": "Remada Curvada com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mCFJshFcJRlimZGk36A-ZOA-_qoLh1Cv",
@@ -3068,19 +4371,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mCFJshFcJRlimZGk36A-ZOA-_qoLh1Cv",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
+      "curvada",
       "barra",
+      "barbell",
       "bent",
       "over",
       "row",
-      "barbell",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-18yfND8r9VPIIK_2xkl6zTBpoNenzFCqA",
-    "name": "Barra Shrug Muscles",
+    "name": "Encolhimento de Ombros com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/18yfND8r9VPIIK_2xkl6zTBpoNenzFCqA",
@@ -3088,18 +4393,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18yfND8r9VPIIK_2xkl6zTBpoNenzFCqA",
     "category": "Dorsal / Costas",
     "tags": [
+      "encolhimento",
+      "ombros",
       "barra",
+      "barbell",
       "shrug",
       "muscles",
-      "barbell",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-19LcbFp0uTjM8rqKhG6suSBe1kBmY-YK0",
-    "name": "Barra Upright Row Standing",
+    "name": "Remada Alta em Pé com Barra",
     "muscleGroup": "Costas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/19LcbFp0uTjM8rqKhG6suSBe1kBmY-YK0",
@@ -3107,14 +4414,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "19LcbFp0uTjM8rqKhG6suSBe1kBmY-YK0",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
+      "alta",
+      "pe",
       "barra",
+      "barbell",
       "upright",
       "row",
       "standing",
-      "barbell",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3129,9 +4439,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "barra",
       "assistida",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3147,9 +4457,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "fixa",
       "aberta",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3164,11 +4474,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "barra",
       "fixa",
-      "com",
       "carga",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3184,9 +4493,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "fixa",
       "fechada",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3203,14 +4512,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "fixa",
       "por",
       "tras",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-12yXP6hBgMXCktwnHQa2VYMkb88-Q4Wyy",
-    "name": "Behind The Back Shrug",
+    "name": "Encolhimento de Ombros por Trás com Barra",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/12yXP6hBgMXCktwnHQa2VYMkb88-Q4Wyy",
@@ -3218,21 +4527,25 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "12yXP6hBgMXCktwnHQa2VYMkb88-Q4Wyy",
     "category": "Dorsal / Costas",
     "tags": [
+      "encolhimento",
+      "ombros",
+      "por",
+      "tras",
+      "barra",
       "behind",
-      "the",
       "back",
       "shrug",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1yASiij4ghg7hvwJ42JfyG45foD7Zd7Hb",
-    "name": "Cabo / Polia Face Pull",
+    "name": "Face Pull na Polia com Corda",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1yASiij4ghg7hvwJ42JfyG45foD7Zd7Hb",
@@ -3240,19 +4553,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1yASiij4ghg7hvwJ42JfyG45foD7Zd7Hb",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
-      "polia",
       "face",
       "pull",
+      "polia",
+      "corda",
       "cable",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1J3pOuBFZ03ZKaxCYkEielXfFiaev2bSk",
-    "name": "Cabo / Polia Front Raise Movement",
+    "name": "Elevação Frontal na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1J3pOuBFZ03ZKaxCYkEielXfFiaev2bSk",
@@ -3260,20 +4574,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1J3pOuBFZ03ZKaxCYkEielXfFiaev2bSk",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "elevacao",
+      "frontal",
       "polia",
+      "cable",
       "front",
       "raise",
       "movement",
-      "cable",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1SIHKXiCk8ykbZ3ZHvMPucbQYvuq5sNYM",
-    "name": "Cabo / Polia Pushdown",
+    "name": "Pulldown Reto na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1SIHKXiCk8ykbZ3ZHvMPucbQYvuq5sNYM",
@@ -3281,18 +4597,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1SIHKXiCk8ykbZ3ZHvMPucbQYvuq5sNYM",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "pulldown",
+      "reto",
       "polia",
-      "pushdown",
+      "alta",
       "cable",
-      "gif",
+      "pushdown",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1rr517ITVt-mHgL65MIVT7W6F-AipHTnf",
-    "name": "Cabo / Polia Rear Delt Fly",
+    "name": "Crucifixo Inverso na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1rr517ITVt-mHgL65MIVT7W6F-AipHTnf",
@@ -3300,20 +4619,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1rr517ITVt-mHgL65MIVT7W6F-AipHTnf",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "crucifixo",
+      "inverso",
       "polia",
+      "cable",
       "rear",
       "delt",
       "fly",
-      "cable",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-11XHq9LuwSgelTZYeevI7z5J33tsLUrsU",
-    "name": "Cabo / Polia Seated Row",
+    "name": "Remada Baixa Sentada na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/11XHq9LuwSgelTZYeevI7z5J33tsLUrsU",
@@ -3321,19 +4642,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11XHq9LuwSgelTZYeevI7z5J33tsLUrsU",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "remada",
+      "baixa",
+      "sentada",
       "polia",
+      "cable",
       "seated",
       "row",
-      "cable",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1FK8lkKTQWQPgrniMqB_O1cSOvEB8wxIh",
-    "name": "Cabo / Polia Shrug",
+    "name": "Encolhimento de Ombros na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1FK8lkKTQWQPgrniMqB_O1cSOvEB8wxIh",
@@ -3341,18 +4665,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1FK8lkKTQWQPgrniMqB_O1cSOvEB8wxIh",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "encolhimento",
+      "ombros",
       "polia",
-      "shrug",
       "cable",
-      "gif",
+      "shrug",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1TzpIZy4GK49PwIgPYjOKMlSfx7eXlnMg",
-    "name": "Cabo / Polia Wide Grip Row",
+    "name": "Remada Aberta na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1TzpIZy4GK49PwIgPYjOKMlSfx7eXlnMg",
@@ -3360,15 +4686,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1TzpIZy4GK49PwIgPYjOKMlSfx7eXlnMg",
     "category": "Dorsal / Costas",
     "tags": [
-      "cabo",
+      "remada",
+      "aberta",
       "polia",
+      "cable",
       "wide",
       "grip",
       "row",
-      "cable",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -3384,10 +4712,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "cabo",
       "duplo",
       "neutra",
-      "gif",
       "costas",
       "dorsal",
-      "polia"
+      "polia",
+      "gif"
     ]
   },
   {
@@ -3402,17 +4730,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "chin",
       "ups",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1i17xMUQ2M9DDozsUjonp9nkYmg0h8Din",
-    "name": "Close Grip Lat Pulldown Standard Bar Attachment",
+    "name": "Puxada Alta Pegada Fechada com Barra Reta",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1i17xMUQ2M9DDozsUjonp9nkYmg0h8Din",
@@ -3420,6 +4748,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1i17xMUQ2M9DDozsUjonp9nkYmg0h8Din",
     "category": "Dorsal / Costas",
     "tags": [
+      "puxada",
+      "alta",
+      "pegada",
+      "fechada",
+      "barra",
+      "reta",
       "close",
       "grip",
       "lat",
@@ -3427,17 +4761,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "standard",
       "bar",
       "attachment",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1naOiBZB0sfrOUtK9RWVimTfWfBQ7zlHW",
-    "name": "Close Grip Lat Pulldown",
+    "name": "Puxada Alta Pegada Fechada",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1naOiBZB0sfrOUtK9RWVimTfWfBQ7zlHW",
@@ -3445,16 +4779,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1naOiBZB0sfrOUtK9RWVimTfWfBQ7zlHW",
     "category": "Dorsal / Costas",
     "tags": [
+      "puxada",
+      "alta",
+      "pegada",
+      "fechada",
       "close",
       "grip",
       "lat",
       "pulldown",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3470,15 +4808,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "cruzado",
       "polia",
       "alta",
-      "gif",
       "costas",
       "dorsal",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1-OoVCdtmzkcaboCTmBMPcPFmb88NzQVJ",
-    "name": "Dead Hang",
+    "name": "Suspensão na Barra Fixa (Dead Hang)",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-OoVCdtmzkcaboCTmBMPcPFmb88NzQVJ",
@@ -3486,19 +4824,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1-OoVCdtmzkcaboCTmBMPcPFmb88NzQVJ",
     "category": "Dorsal / Costas",
     "tags": [
+      "suspensao",
+      "barra",
+      "fixa",
       "dead",
       "hang",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1M7T2kICzsKeaEn044QlLUQ9NTQfR5GhO",
-    "name": "Halter Back Extensão",
+    "name": "Extensão Lombar com Haltere",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1M7T2kICzsKeaEn044QlLUQ9NTQfR5GhO",
@@ -3506,20 +4847,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1M7T2kICzsKeaEn044QlLUQ9NTQfR5GhO",
     "category": "Dorsal / Costas",
     "tags": [
-      "halter",
-      "back",
       "extensao",
+      "lombar",
+      "haltere",
       "dumbbell",
+      "back",
       "extension",
-      "gif",
       "costas",
       "dorsal",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1X2kQSsr_Q-Bygl3vRmYNd-pBpbKhsIfd",
-    "name": "Halter Face Pull",
+    "name": "Face Pull Inclinado com Halteres",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1X2kQSsr_Q-Bygl3vRmYNd-pBpbKhsIfd",
@@ -3527,19 +4869,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1X2kQSsr_Q-Bygl3vRmYNd-pBpbKhsIfd",
     "category": "Dorsal / Costas",
     "tags": [
-      "halter",
       "face",
       "pull",
+      "inclinado",
+      "halteres",
       "dumbbell",
-      "gif",
       "costas",
       "dorsal",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1RqhRXUHwTlwchahjaOgu9A43iHEBUY4f",
-    "name": "Halter Jefferson Rosca",
+    "name": "Flexão/Rotação Jefferson com Haltere",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RqhRXUHwTlwchahjaOgu9A43iHEBUY4f",
@@ -3547,20 +4889,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1RqhRXUHwTlwchahjaOgu9A43iHEBUY4f",
     "category": "Dorsal / Costas",
     "tags": [
-      "halter",
+      "flexao",
+      "rotacao",
       "jefferson",
-      "rosca",
+      "haltere",
       "dumbbell",
       "curl",
-      "gif",
       "costas",
       "dorsal",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1O9QrzO7aOlnK2t8rcuEZuPMTnvVd9OaH",
-    "name": "Halter Rear Delt Fly",
+    "name": "Crucifixo Inverso com Halteres",
     "muscleGroup": "Costas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1O9QrzO7aOlnK2t8rcuEZuPMTnvVd9OaH",
@@ -3568,15 +4911,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1O9QrzO7aOlnK2t8rcuEZuPMTnvVd9OaH",
     "category": "Dorsal / Costas",
     "tags": [
-      "halter",
+      "crucifixo",
+      "inverso",
+      "halteres",
+      "dumbbell",
       "rear",
       "delt",
       "fly",
-      "dumbbell",
-      "gif",
       "costas",
       "dorsal",
-      "halteres"
+      "gif"
     ]
   },
   {
@@ -3593,14 +4937,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "fixa",
       "pull",
-      "gif",
+      "up",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-1dEg9ETVmUwAD-P121Hz_icsprBbCr4mP",
-    "name": "Kettlebell Lateral Raise",
+    "name": "Elevação Lateral com Kettlebell",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dEg9ETVmUwAD-P121Hz_icsprBbCr4mP",
@@ -3608,20 +4953,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1dEg9ETVmUwAD-P121Hz_icsprBbCr4mP",
     "category": "Dorsal / Costas",
     "tags": [
-      "kettlebell",
+      "elevacao",
       "lateral",
+      "kettlebell",
       "raise",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1WUaUNawMVMP3UpmQ_ZZ_XzPoNF8lAHFQ",
-    "name": "Landmine Row",
+    "name": "Remada Cavalinho no Landmine",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1WUaUNawMVMP3UpmQ_ZZ_XzPoNF8lAHFQ",
@@ -3629,14 +4975,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1WUaUNawMVMP3UpmQ_ZZ_XzPoNF8lAHFQ",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
+      "cavalinho",
       "landmine",
       "row",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3651,12 +4999,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "linha",
       "invertida",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3671,14 +5019,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "maquina",
       "encurtada",
-      "gif",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-1lIzPPwStzNi0KaNGd4PLBFzBjWQy-un4",
-    "name": "Neutral Grip Cabo / Polia Rows",
+    "name": "Remada Baixa Pegada Neutra na Polia",
     "muscleGroup": "Costas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1lIzPPwStzNi0KaNGd4PLBFzBjWQy-un4",
@@ -3686,20 +5034,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1lIzPPwStzNi0KaNGd4PLBFzBjWQy-un4",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
+      "baixa",
+      "pegada",
+      "neutra",
+      "polia",
       "neutral",
       "grip",
-      "cabo",
-      "polia",
-      "rows",
       "cable",
-      "gif",
+      "rows",
       "costas",
-      "dorsal"
+      "dorsal",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1oSFHqVR2KnNZSI9z8KPCIPlfm9Pw0ag4",
-    "name": "Pendlay Row",
+    "name": "Remada Pendlay com Barra",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1oSFHqVR2KnNZSI9z8KPCIPlfm9Pw0ag4",
@@ -3707,14 +5059,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1oSFHqVR2KnNZSI9z8KPCIPlfm9Pw0ag4",
     "category": "Dorsal / Costas",
     "tags": [
+      "remada",
       "pendlay",
+      "barra",
       "row",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3731,9 +5085,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "fixa",
       "fechado",
       "pull",
-      "gif",
+      "up",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3751,9 +5106,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "pegada",
       "reversa",
       "pull",
-      "gif",
+      "up",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
@@ -3769,14 +5125,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "fixa",
       "pull",
-      "gif",
+      "up",
       "costas",
-      "dorsal"
+      "dorsal",
+      "gif"
     ]
   },
   {
     "id": "drive-1n1nxvOpgyx4s0C7Zot4dRhYScI0Qz65_",
-    "name": "Pulldown Corda",
+    "name": "Pulldown com Corda na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Corda Naval",
     "gifUrl": "https://lh3.googleusercontent.com/d/1n1nxvOpgyx4s0C7Zot4dRhYScI0Qz65_",
@@ -3786,15 +5143,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "pulldown",
       "corda",
-      "gif",
+      "polia",
+      "alta",
       "costas",
       "dorsal",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
     "id": "drive-1LtHyYEucX5stSrcjaUOsBaNiPCdkUDsA",
-    "name": "Pulldown Frontal",
+    "name": "Puxada Frontal na Polia Alta",
     "muscleGroup": "Costas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1LtHyYEucX5stSrcjaUOsBaNiPCdkUDsA",
@@ -3802,14 +5161,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1LtHyYEucX5stSrcjaUOsBaNiPCdkUDsA",
     "category": "Dorsal / Costas",
     "tags": [
-      "pulldown",
+      "puxada",
       "frontal",
-      "gif",
+      "polia",
+      "alta",
+      "pulldown",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3825,12 +5187,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "puxada",
       "alta",
       "fechada",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3847,12 +5209,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alta",
       "pegada",
       "reversa",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3868,10 +5230,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "puxada",
       "polia",
       "unilateral",
-      "gif",
       "costas",
       "dorsal",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -3886,12 +5248,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "puxada",
       "frontal",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3907,12 +5269,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "puxada",
       "por",
       "tras",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3927,12 +5289,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "puxada",
       "unilateral",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3947,12 +5309,552 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "remada",
       "aberta",
-      "gif",
       "costas",
       "dorsal",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "name": "Remada Cavalinho",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "source": "Google Drive",
+    "driveId": "1b1J7zWW20aj1y_iv8wD6OToFUrYhCfMU",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "cavalinho",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "name": "Remada Curvada com Barra (Variação 2)",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "source": "Google Drive",
+    "driveId": "1q-zskv-H7elFYC178A7nYHl1GvD_w6wz",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "curvada",
+      "barra",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "name": "Remada Curvada com Barra (Variação 3)",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "source": "Google Drive",
+    "driveId": "1i_Q-TPsmgsJYtBDiBOzgqOMezPVmnmPa",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "curvada",
+      "barra",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "name": "Remada Curvada no Smith",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "source": "Google Drive",
+    "driveId": "1Uiw8ddjcirRgd4ZpS2-sjPXxVEQoZV0O",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "curvada",
+      "smith",
+      "costas",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "name": "Remada Curvada Pegada Alta",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "source": "Google Drive",
+    "driveId": "16wQPriiqh6B8YAsyABPhvyXKU09StWV1",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "curvada",
+      "pegada",
+      "alta",
+      "up",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "name": "Remada Ajoelhado na Polia",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "source": "Google Drive",
+    "driveId": "1AOGgkUh-C47b9cEkTOi4D-_SyM1AAX-w",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "ajoelhado",
+      "polia",
+      "costas",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "name": "Remada Cavalinho em T",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "source": "Google Drive",
+    "driveId": "1vSuN2UQOPlDrHjxXfen6OS08U1o1KOjV",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "cavalinho",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "name": "Remada ao Esterno",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "source": "Google Drive",
+    "driveId": "168ViJFD-R4HFpZtcunyaz8DfLCLxjf8y",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "ao",
+      "esterno",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "name": "Remada Fechada Apoiada no Banco",
+    "muscleGroup": "Costas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "source": "Google Drive",
+    "driveId": "1pfxOaAyAaQDRWo_Lam3fc4bgyvLjSnIS",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "fechada",
+      "apoiada",
+      "banco",
+      "costas",
+      "step",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "name": "Remada Pegada Fechada",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "source": "Google Drive",
+    "driveId": "1yBfeSkniGeEsuOdMUYjQkZYbfayxhwD_",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "pegada",
+      "fechada",
+      "fechado",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "name": "Remada Inclinada com Barra",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "source": "Google Drive",
+    "driveId": "1P4s2wRWYpEizmOf1NT6KySROSLgwT1fe",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "inclinada",
+      "barra",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "name": "Remada Inclinada Pegada Supinada",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "source": "Google Drive",
+    "driveId": "1qNjeNkNdiaP7-D5FrOo9AVQe0OmiM-zu",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "inclinada",
+      "pegada",
+      "supinada",
+      "invertida",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "name": "Remada na Máquina",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "source": "Google Drive",
+    "driveId": "1tFkMtpt_nGZcqUnPZFYz6lha5DsfWlVU",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "maquina",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "name": "Remada na Polia Baixa",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "source": "Google Drive",
+    "driveId": "1WxhxG3n72GgmNyq6z3It95vlj6AW4VIk",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "polia",
+      "baixa",
+      "costas",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "name": "Remada Invertida (Australiana)",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "source": "Google Drive",
+    "driveId": "11w_XrA9AigLR1N3ShGue9HKudKIzEenu",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "invertida",
+      "australiana",
+      "reversa",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "name": "Remada Sentada na Máquina",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "source": "Google Drive",
+    "driveId": "1LJfcxyDOoYcLxK5GI3GNaX0_Bdo1xA2B",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "sentada",
+      "maquina",
+      "sentado",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "name": "Remada na Máquina Articulada",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "source": "Google Drive",
+    "driveId": "1y8SYgRdCyHUITx_1XHL5MJP2xrIVMuxL",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "maquina",
+      "articulada",
+      "remo",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "name": "Puxada Alta Pegada Supinada",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "source": "Google Drive",
+    "driveId": "1wQ07k6iLqSKhyM15lyWc-mZQyTWQGBVB",
+    "category": "Costas",
+    "tags": [
+      "puxada",
+      "alta",
+      "pegada",
+      "supinada",
+      "reverse",
+      "grip",
+      "lat",
+      "pulldown",
+      "costas",
+      "polia",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "name": "Crucifixo Invertido no Voador (Peck Deck)",
+    "muscleGroup": "Costas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "source": "Google Drive",
+    "driveId": "1cgLBnHJ894GIkMmZl8gk0EB_g_yG2aT9",
+    "category": "Costas",
+    "tags": [
+      "crucifixo",
+      "invertido",
+      "voador",
+      "peck",
+      "deck",
+      "reverse",
+      "pec",
+      "dec",
+      "machine",
+      "costas",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "name": "Remada Unilateral com Haltere (Serrote)",
+    "muscleGroup": "Costas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "source": "Google Drive",
+    "driveId": "1T4mmatbuDNYmu8oZXwl8A9TMUjeeQs8u",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "unilateral",
+      "haltere",
+      "serrote",
+      "costas",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "name": "Remada Curvada Unilateral",
+    "muscleGroup": "Costas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "source": "Google Drive",
+    "driveId": "11QMDwq9zt26J0LP93s2Elkala7jbxp2J",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "curvada",
+      "unilateral",
+      "single",
+      "arm",
+      "bent",
+      "over",
+      "row",
+      "costas",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "name": "Remada Unilateral com Haltere (Serrote) (Variação 2)",
+    "muscleGroup": "Costas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "source": "Google Drive",
+    "driveId": "1KbzfFn8O3lIQ3pnqokgdqdpIqfIOv0ur",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "unilateral",
+      "haltere",
+      "serrote",
+      "single",
+      "arm",
+      "dumbbell",
+      "row",
+      "costas",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "name": "Remada em Pé na Polia",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "source": "Google Drive",
+    "driveId": "1k5WrLK2LBe3FUbJwRFtfIJ0VUTxn8VWy",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "pe",
+      "polia",
+      "standing",
+      "cable",
+      "row",
+      "costas",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "name": "Remada Cavalinho na Barra T",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "source": "Google Drive",
+    "driveId": "1DhUSK0eE_GmIkeNUJ1LodCj6ZDkK6nor",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "cavalinho",
+      "barra",
+      "bar",
+      "row",
+      "muscles",
+      "costas",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "name": "Remada Alta na Polia Baixa",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "source": "Google Drive",
+    "driveId": "1QjQ3rkQK_Qewgw6i7tU7dY8hpoSpAFeL",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "alta",
+      "polia",
+      "baixa",
+      "upright",
+      "cable",
+      "row",
+      "costas",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "name": "Puxada Alta Pegada Aberta",
+    "muscleGroup": "Costas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "source": "Google Drive",
+    "driveId": "1E9tdNhekxMHCqGrXBudOCszzR8Ct1exu",
+    "category": "Costas",
+    "tags": [
+      "puxada",
+      "alta",
+      "pegada",
+      "aberta",
+      "wide",
+      "grip",
+      "lat",
+      "pulldown",
+      "costas",
+      "polia",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "name": "Remada Yates com Barra",
+    "muscleGroup": "Costas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "source": "Google Drive",
+    "driveId": "11-otKxIRYVq-VEGAzLdVsjjdFKqDNohN",
+    "category": "Costas",
+    "tags": [
+      "remada",
+      "yates",
+      "barra",
+      "row",
+      "costas",
+      "gif"
     ]
   },
   {
@@ -3967,11 +5869,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "apoios",
       "flexionado",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -3987,11 +5889,29 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "apoios",
       "bracos",
       "extendidos",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "name": "Abdutor",
+    "muscleGroup": "Glúteos",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "source": "Google Drive",
+    "driveId": "1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
+    "category": "Glúteos",
+    "tags": [
+      "abdutor",
+      "gluteos",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4007,11 +5927,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "abducao",
       "abdutor",
       "adutor",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4027,27 +5947,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "abducao",
       "polia",
       "baixa",
-      "gif",
       "gluteos",
-      "cabo"
-    ]
-  },
-  {
-    "id": "drive-1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "name": "Abdutor",
-    "muscleGroup": "Glúteos",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "source": "Google Drive",
-    "driveId": "1OxOw7D8NaaaOu_g2lKxguUmM0XFcUfjW",
-    "category": "Glúteos",
-    "tags": [
-      "abdutor",
-      "gif",
-      "gluteos",
-      "peso",
-      "corporal",
-      "geral"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -4063,14 +5965,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "polia",
       "baixa",
-      "gif",
       "gluteos",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1o5G_I4mfWy3_v359AY4mbj6I-8hVkrlJ",
-    "name": "B Stance Hip Thrust",
+    "name": "Elevação Pélvica Base B (Unilateral)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1o5G_I4mfWy3_v359AY4mbj6I-8hVkrlJ",
@@ -4078,19 +5980,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1o5G_I4mfWy3_v359AY4mbj6I-8hVkrlJ",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
+      "base",
+      "unilateral",
       "stance",
       "hip",
       "thrust",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1y8_gzBfHsWjtidfSYX1baDjoK5oBzdz4",
-    "name": "Band Donkey Kickback",
+    "name": "Coice para Glúteos com Elástico",
     "muscleGroup": "Glúteos",
     "equipment": "Elástico / Band",
     "gifUrl": "https://lh3.googleusercontent.com/d/1y8_gzBfHsWjtidfSYX1baDjoK5oBzdz4",
@@ -4098,17 +6004,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1y8_gzBfHsWjtidfSYX1baDjoK5oBzdz4",
     "category": "Glúteos",
     "tags": [
+      "coice",
+      "gluteos",
+      "elastico",
       "band",
       "donkey",
       "kickback",
-      "gif",
-      "gluteos",
-      "elastico"
+      "gif"
     ]
   },
   {
     "id": "drive-1fV-rdVtj3sGX6NPOjB-zxSWIVDgV-1TY",
-    "name": "Band Standing Hip Extensão",
+    "name": "Extensão de Quadril em Pé com Elástico",
     "muscleGroup": "Glúteos",
     "equipment": "Elástico / Band",
     "gifUrl": "https://lh3.googleusercontent.com/d/1fV-rdVtj3sGX6NPOjB-zxSWIVDgV-1TY",
@@ -4116,19 +6023,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1fV-rdVtj3sGX6NPOjB-zxSWIVDgV-1TY",
     "category": "Glúteos",
     "tags": [
+      "extensao",
+      "quadril",
+      "pe",
+      "elastico",
       "band",
       "standing",
       "hip",
-      "extensao",
       "extension",
-      "gif",
       "gluteos",
-      "elastico"
+      "gif"
     ]
   },
   {
     "id": "drive-1JJy6b-dk5k0pQiTlWPtqyR46ZStVDLj_",
-    "name": "Barra Hip Thrust",
+    "name": "Elevação Pélvica com Barra",
     "muscleGroup": "Glúteos",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1JJy6b-dk5k0pQiTlWPtqyR46ZStVDLj_",
@@ -4136,17 +6045,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1JJy6b-dk5k0pQiTlWPtqyR46ZStVDLj_",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
       "barra",
+      "barbell",
       "hip",
       "thrust",
-      "barbell",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
     "id": "drive-136sl6VVyif1bF1fAkKIMjFcegrmFDQhz",
-    "name": "Bodyweight Hip Thrust",
+    "name": "Elevação Pélvica Peso Corporal",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/136sl6VVyif1bF1fAkKIMjFcegrmFDQhz",
@@ -4154,14 +6065,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "136sl6VVyif1bF1fAkKIMjFcegrmFDQhz",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
+      "peso",
+      "corporal",
       "bodyweight",
       "hip",
       "thrust",
-      "gif",
       "gluteos",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4176,16 +6089,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "bom",
       "dia",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1yAq5C69jmQk12UsYIjU6elelpLrRIJ-P",
-    "name": "Cabo / Polia Kickback",
+    "name": "Glúteo Coice na Polia Baixa",
     "muscleGroup": "Glúteos",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1yAq5C69jmQk12UsYIjU6elelpLrRIJ-P",
@@ -4193,17 +6106,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1yAq5C69jmQk12UsYIjU6elelpLrRIJ-P",
     "category": "Glúteos",
     "tags": [
-      "cabo",
+      "gluteo",
+      "coice",
       "polia",
-      "kickback",
+      "baixa",
       "cable",
-      "gif",
-      "gluteos"
+      "kickback",
+      "gluteos",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-13B3FYPw5-hmHS6SKT2_0U_LjpAj6gQ83",
-    "name": "Cabo / Polia Step Up",
+    "name": "Subida no Caixote (Step Up) na Polia",
     "muscleGroup": "Glúteos",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/13B3FYPw5-hmHS6SKT2_0U_LjpAj6gQ83",
@@ -4211,12 +6127,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13B3FYPw5-hmHS6SKT2_0U_LjpAj6gQ83",
     "category": "Glúteos",
     "tags": [
-      "cabo",
-      "polia",
+      "subida",
+      "caixote",
       "step",
+      "up",
+      "polia",
       "cable",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -4232,11 +6151,54 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "contracao",
       "abre",
       "fecha",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "name": "Ponte de Glúteos com Pés Elevados",
+    "muscleGroup": "Glúteos",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "source": "Google Drive",
+    "driveId": "1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
+    "category": "Glúteos",
+    "tags": [
+      "ponte",
+      "gluteos",
+      "pes",
+      "elevados",
+      "elevated",
+      "glute",
+      "bridge",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
+    "name": "Elevaçaõ Pélica com Carga",
+    "muscleGroup": "Glúteos",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
+    "source": "Google Drive",
+    "driveId": "14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
+    "category": "Glúteos",
+    "tags": [
+      "elevacao",
+      "pelica",
+      "carga",
+      "gluteos",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4252,32 +6214,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "pelvis",
       "unilateral",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
-    "name": "Elevaçaõ Pélica com Carga",
-    "muscleGroup": "Glúteos",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
-    "source": "Google Drive",
-    "driveId": "14NM_WIfsHPnN0m6Tjn8PGss0l_SclCMs",
-    "category": "Glúteos",
-    "tags": [
-      "elevacao",
-      "pelica",
-      "com",
-      "carga",
-      "gif",
-      "gluteos",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4294,11 +6235,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "pelvica",
       "apoio",
       "unilateral",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4315,9 +6256,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "pelvica",
       "smith",
       "machine",
-      "gif",
       "gluteos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
@@ -4332,13 +6273,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "elevacao",
       "pevica",
-      "com",
       "barra",
       "apoio",
-      "das",
       "costas",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4353,38 +6292,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "elevacao",
       "pevica",
-      "com",
       "barra",
       "apoio",
-      "dos",
       "pes",
-      "gif",
-      "gluteos"
-    ]
-  },
-  {
-    "id": "drive-1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "name": "Elevated Glute Bridge",
-    "muscleGroup": "Glúteos",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "source": "Google Drive",
-    "driveId": "1NJPNVZp-ockFcsY1PQXPKIDPAJju3k3F",
-    "category": "Glúteos",
-    "tags": [
-      "elevated",
-      "glute",
-      "bridge",
-      "gif",
       "gluteos",
-      "peso",
-      "corporal",
-      "geral"
+      "gif"
     ]
   },
   {
     "id": "drive-1NtuxwyNx4X3B5qXraxTOzSoqWOSBE9kj",
-    "name": "Frog Pump",
+    "name": "Elevação Pélvica Sapo (Frog Pump)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1NtuxwyNx4X3B5qXraxTOzSoqWOSBE9kj",
@@ -4392,18 +6309,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1NtuxwyNx4X3B5qXraxTOzSoqWOSBE9kj",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
+      "sapo",
       "frog",
       "pump",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1z4pseLqRdYdt6sT4yfnBbJpDYnDxHoVD",
-    "name": "Glute Bridge",
+    "name": "Ponte de Glúteos no Solo",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1z4pseLqRdYdt6sT4yfnBbJpDYnDxHoVD",
@@ -4411,18 +6331,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1z4pseLqRdYdt6sT4yfnBbJpDYnDxHoVD",
     "category": "Glúteos",
     "tags": [
+      "ponte",
+      "gluteos",
+      "solo",
       "glute",
       "bridge",
-      "gif",
-      "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1OIjKb3G___Vgqqf0N6H-mogig3sJYw3m",
-    "name": "Glute Ham Raise Muscles",
+    "name": "Extensão Glúteo-Isquiotibiais (GHD)",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1OIjKb3G___Vgqqf0N6H-mogig3sJYw3m",
@@ -4430,15 +6352,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1OIjKb3G___Vgqqf0N6H-mogig3sJYw3m",
     "category": "Glúteos",
     "tags": [
+      "extensao",
+      "gluteo",
+      "isquiotibiais",
+      "ghd",
       "glute",
       "ham",
       "raise",
       "muscles",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4454,9 +6380,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "gluteo",
       "polia",
       "baixa",
-      "gif",
       "gluteos",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -4472,8 +6398,27 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "gluteo",
       "apoios",
       "banco",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "name": "Glúteo Coice na Máquina",
+    "muscleGroup": "Glúteos",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "source": "Google Drive",
+    "driveId": "1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
+    "category": "Glúteos",
+    "tags": [
+      "gluteo",
+      "coice",
+      "maquina",
+      "kick",
+      "back",
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4488,26 +6433,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "gluteo",
       "maquina",
-      "gif",
-      "gluteos"
-    ]
-  },
-  {
-    "id": "drive-1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "name": "Glúteo Maquina Kick Back",
-    "muscleGroup": "Glúteos",
-    "equipment": "Máquina",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "source": "Google Drive",
-    "driveId": "1GO6Mepr2LOkScDi3GgEbg1UcYjeHoqON",
-    "category": "Glúteos",
-    "tags": [
-      "gluteo",
-      "maquina",
-      "kick",
-      "back",
-      "gif",
-      "gluteos"
+      "pe",
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4523,13 +6451,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "gluteo",
       "maquina",
       "apoiado",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
     "id": "drive-1-18jW3P-1Z8Iqq2SDmzyaoTPWgOb3Cbp",
-    "name": "Glúteo Smith Machine",
+    "name": "Glúteo / Elevação no Smith",
     "muscleGroup": "Glúteos",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-18jW3P-1Z8Iqq2SDmzyaoTPWgOb3Cbp",
@@ -4538,16 +6466,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Glúteos",
     "tags": [
       "gluteo",
+      "elevacao",
       "smith",
-      "machine",
-      "gif",
       "gluteos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-18dw0ZmWV0jJXWUQBSYRillkfAlfqlyyh",
-    "name": "Heel Elevated Hip Thrust",
+    "name": "Elevação Pélvica com Calcanhares Elevados",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/18dw0ZmWV0jJXWUQBSYRillkfAlfqlyyh",
@@ -4555,20 +6483,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18dw0ZmWV0jJXWUQBSYRillkfAlfqlyyh",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
+      "calcanhares",
+      "elevados",
       "heel",
       "elevated",
       "hip",
       "thrust",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1o3-8uxuLe35KahdbioUkpJFei-kykuWR",
-    "name": "Kneeling Hip Thrust",
+    "name": "Extensão de Quadril Ajoelhado",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1o3-8uxuLe35KahdbioUkpJFei-kykuWR",
@@ -4576,19 +6508,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1o3-8uxuLe35KahdbioUkpJFei-kykuWR",
     "category": "Glúteos",
     "tags": [
+      "extensao",
+      "quadril",
+      "ajoelhado",
       "kneeling",
       "hip",
       "thrust",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1pIIIBRHly6l2uNDUIYjAJfiowjGitDD7",
-    "name": "Quadruped Leg Rosca",
+    "name": "Flexão de Joelho em Quatro Apoios",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1pIIIBRHly6l2uNDUIYjAJfiowjGitDD7",
@@ -4596,20 +6531,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1pIIIBRHly6l2uNDUIYjAJfiowjGitDD7",
     "category": "Glúteos",
     "tags": [
+      "flexao",
+      "joelho",
+      "quatro",
+      "apoios",
       "quadruped",
       "leg",
-      "rosca",
       "curl",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1BnrbeUa4lfhP_zvLbHHD4t9PDIupDgfu",
-    "name": "Single Leg Glute Bridge",
+    "name": "Ponte de Glúteos Unilateral",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1BnrbeUa4lfhP_zvLbHHD4t9PDIupDgfu",
@@ -4617,20 +6555,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1BnrbeUa4lfhP_zvLbHHD4t9PDIupDgfu",
     "category": "Glúteos",
     "tags": [
+      "ponte",
+      "gluteos",
+      "unilateral",
       "single",
       "leg",
       "glute",
       "bridge",
-      "gif",
-      "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1e9tO1bRJD_mphWI2zYYFQ7UiBEPhHxha",
-    "name": "Single Leg Hip Thrust Muscles",
+    "name": "Elevação Pélvica Unilateral",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1e9tO1bRJD_mphWI2zYYFQ7UiBEPhHxha",
@@ -4638,16 +6578,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1e9tO1bRJD_mphWI2zYYFQ7UiBEPhHxha",
     "category": "Glúteos",
     "tags": [
+      "elevacao",
+      "pelvica",
+      "unilateral",
       "single",
       "leg",
       "hip",
       "thrust",
       "muscles",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4663,13 +6606,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "stiff",
       "barra",
       "reta",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
     "id": "drive-1IpmeEAczxBSGulFP2K4Rm_VKYMMo8l59",
-    "name": "Stiff Barra",
+    "name": "Stiff com Barra",
     "muscleGroup": "Glúteos",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1IpmeEAczxBSGulFP2K4Rm_VKYMMo8l59",
@@ -4679,8 +6622,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "stiff",
       "barra",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4696,8 +6639,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "stiff",
       "flexionado",
       "barra",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4713,11 +6656,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "stiff",
       "flexionado",
       "carga",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4733,8 +6676,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "stiff",
       "flexionado",
       "halteres",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
@@ -4750,14 +6693,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "stiff",
       "smith",
       "machine",
-      "gif",
       "gluteos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1oYxV3P35qHgfgV9uYe1jj4s6wePmt_J3",
-    "name": "Straight Leg Glute Bridge",
+    "name": "Ponte de Glúteos com Pernas Estendidas",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1oYxV3P35qHgfgV9uYe1jj4s6wePmt_J3",
@@ -4765,15 +6708,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1oYxV3P35qHgfgV9uYe1jj4s6wePmt_J3",
     "category": "Glúteos",
     "tags": [
+      "ponte",
+      "gluteos",
+      "pernas",
+      "estendidas",
       "straight",
       "leg",
       "glute",
       "bridge",
-      "gif",
-      "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4788,13 +6734,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "sumo",
       "barra",
-      "gif",
-      "gluteos"
+      "gluteos",
+      "gif"
     ]
   },
   {
     "id": "drive-1grhIe0v1KxYgjBGnb2pfwtwkwdE5UlLU",
-    "name": "Sumô Dumbell",
+    "name": "Agachamento Sumô com Haltere",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1grhIe0v1KxYgjBGnb2pfwtwkwdE5UlLU",
@@ -4802,18 +6748,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1grhIe0v1KxYgjBGnb2pfwtwkwdE5UlLU",
     "category": "Glúteos",
     "tags": [
+      "agachamento",
       "sumo",
+      "haltere",
       "dumbell",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Di6-CcXf-CdfTU522PCi_ZaW9MaV_ejt",
-    "name": "Sumô Front",
+    "name": "Agachamento Sumô Frontal",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Di6-CcXf-CdfTU522PCi_ZaW9MaV_ejt",
@@ -4821,18 +6769,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Di6-CcXf-CdfTU522PCi_ZaW9MaV_ejt",
     "category": "Glúteos",
     "tags": [
+      "agachamento",
       "sumo",
+      "frontal",
       "front",
-      "gif",
       "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1EocHEEL0_SQtxRHyKXfpi_kcnAg3GhbW",
-    "name": "Table Top Glute Bridge",
+    "name": "Ponte de Glúteos em Mesa",
     "muscleGroup": "Glúteos",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1EocHEEL0_SQtxRHyKXfpi_kcnAg3GhbW",
@@ -4840,15 +6790,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1EocHEEL0_SQtxRHyKXfpi_kcnAg3GhbW",
     "category": "Glúteos",
     "tags": [
+      "ponte",
+      "gluteos",
+      "mesa",
       "table",
       "top",
       "glute",
       "bridge",
-      "gif",
-      "gluteos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4863,10 +6815,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "abdutor",
       "maquina",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -4881,10 +6833,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "adutor",
       "maquina",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -4900,11 +6852,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "adutor",
       "polia",
       "baixa",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -4919,13 +6871,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "adutor",
       "tesoura",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4939,13 +6891,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "adutor",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4960,13 +6912,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "afundo",
       "caminhada",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -4980,12 +6932,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "afundo",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5000,13 +6951,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "afundo",
       "inclinado",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5021,18 +6972,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "afundo",
       "lateralizado",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1vup-nD_NeaIBBYDysyd1hi_R8NeUJaMB",
-    "name": "Afundo Smith Machine",
+    "name": "Afundo no Smith",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1vup-nD_NeaIBBYDysyd1hi_R8NeUJaMB",
@@ -5042,17 +6993,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "afundo",
       "smith",
-      "machine",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1LZfsvQKnWriweLulUeMBIvRO-qjbG6nb",
-    "name": "Agachamento Front",
+    "name": "Agachamento Frontal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1LZfsvQKnWriweLulUeMBIvRO-qjbG6nb",
@@ -5061,14 +7011,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "agachamento",
+      "frontal",
       "front",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5083,11 +7034,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "bola",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "suica"
+      "suica",
+      "gif"
     ]
   },
   {
@@ -5101,17 +7052,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "agachamento",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-17qfhKTRMRw8qG4iciHhqV1M2wVHObr06",
-    "name": "Agachamento com Up",
+    "name": "Agachamento com Subida no Banco",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/17qfhKTRMRw8qG4iciHhqV1M2wVHObr06",
@@ -5120,14 +7070,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "agachamento",
-      "com",
-      "gif",
+      "subida",
+      "banco",
+      "up",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5142,12 +7094,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "frontal",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5163,13 +7114,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "frontal",
       "gaiola",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5184,13 +7135,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "havaiano",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5205,10 +7156,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "maquina",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5223,13 +7174,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "pendulo",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5245,13 +7196,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "pistola",
       "uni",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5266,18 +7217,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "pistola",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P",
-    "name": "Agachamento Polia Baixa",
+    "name": "Agachamento Polia Baixa (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1_i5hgkJ8DFSBVssdl-Z6d33hjbqptK5P",
@@ -5288,11 +7239,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "polia",
       "baixa",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -5307,13 +7258,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "reverso",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5328,12 +7279,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "sumo",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5349,13 +7299,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "sumo",
       "pile",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5370,13 +7320,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "zercher",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5391,13 +7341,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alavanca",
       "abdcao",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5411,18 +7361,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "avanco",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Fo7n_YKQIV7ncIKZqLvoSIZzUl7Z5uaN",
-    "name": "Barra Clean",
+    "name": "Arremesso (Power Clean) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Fo7n_YKQIV7ncIKZqLvoSIZzUl7Z5uaN",
@@ -5430,13 +7380,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Fo7n_YKQIV7ncIKZqLvoSIZzUl7Z5uaN",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "barra",
+      "arremesso",
+      "power",
       "clean",
+      "barra",
       "barbell",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5452,15 +7404,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "lateral",
       "barbell",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
-    "name": "Barra Lunge",
+    "name": "Afundo com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
@@ -5468,18 +7420,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1spYmFk7nD5QKomjWf5aOQiSAJ1Zu3GrZ",
     "category": "Membros Inferiores / Pernas",
     "tags": [
+      "afundo",
       "barra",
-      "lunge",
       "barbell",
-      "gif",
+      "lunge",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-1kVWuxv62i1Nk2xkUN8FWRt8eHWxNiCBY",
-    "name": "Barra Step Up",
+    "name": "Subida no Banco (Step Up) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1kVWuxv62i1Nk2xkUN8FWRt8eHWxNiCBY",
@@ -5487,18 +7440,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1kVWuxv62i1Nk2xkUN8FWRt8eHWxNiCBY",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "barra",
+      "subida",
+      "banco",
       "step",
+      "up",
+      "barra",
       "barbell",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-10BJJL0_YwXu47nWV1ZrbqsjIv_vsx_Fo",
-    "name": "Barra Good Morning",
+    "name": "Bom Dia (Good Morning) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/10BJJL0_YwXu47nWV1ZrbqsjIv_vsx_Fo",
@@ -5506,19 +7462,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "10BJJL0_YwXu47nWV1ZrbqsjIv_vsx_Fo",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "barra",
+      "bom",
+      "dia",
       "good",
       "morning",
+      "barra",
       "barbell",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-1EANVdwm_hfQej8ZUKUDCkSG-GSmOVjQc",
-    "name": "Barra Romanian Levantamento Terra Movement",
+    "name": "Levantamento Terra Romeno (RDL) com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1EANVdwm_hfQej8ZUKUDCkSG-GSmOVjQc",
@@ -5526,22 +7484,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1EANVdwm_hfQej8ZUKUDCkSG-GSmOVjQc",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "barra",
-      "romanian",
       "levantamento",
       "terra",
-      "movement",
+      "romeno",
+      "rdl",
+      "barra",
       "barbell",
+      "romanian",
       "deadlift",
-      "gif",
+      "movement",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
     "id": "drive-1mGoPS22U4hYwpKGMVLQZGsycpk94OPtG",
-    "name": "Benefits Of Farmers Walks",
+    "name": "Caminhada do Fazendeiro (Farmer Walk)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mGoPS22U4hYwpKGMVLQZGsycpk94OPtG",
@@ -5549,16 +7509,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mGoPS22U4hYwpKGMVLQZGsycpk94OPtG",
     "category": "Membros Inferiores / Pernas",
     "tags": [
+      "caminhada",
+      "fazendeiro",
+      "farmer",
+      "walk",
       "benefits",
+      "of",
       "farmers",
       "walks",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5573,12 +7538,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "bom",
       "dia",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5593,18 +7557,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "bom",
       "dia",
-      "com",
       "halter",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1mb7wqs1Uc74xAe1j7sAxs1btHuoqDuAm",
-    "name": "Bulgarian Split Spuat",
+    "name": "Agachamento Búlgaro",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mb7wqs1Uc74xAe1j7sAxs1btHuoqDuAm",
@@ -5612,16 +7575,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mb7wqs1Uc74xAe1j7sAxs1btHuoqDuAm",
     "category": "Membros Inferiores / Pernas",
     "tags": [
+      "agachamento",
+      "bulgaro",
       "bulgarian",
       "split",
       "spuat",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5635,12 +7600,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "bulgaro",
-      "com",
       "barra",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5654,12 +7618,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "bulgaro",
-      "com",
       "halteres",
-      "gif",
       "pernas",
       "membros",
-      "inferiores"
+      "inferiores",
+      "gif"
     ]
   },
   {
@@ -5673,13 +7636,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "bulgaro",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5693,13 +7656,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Membros Inferiores / Pernas",
     "tags": [
       "cadeirinha",
-      "png",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5714,18 +7677,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "dead",
       "lift",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1_jtz9E4JIe6rzckB3deUDSjP0-lya7Rf",
-    "name": "Halter Good Morning",
+    "name": "Bom Dia (Good Morning) com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1_jtz9E4JIe6rzckB3deUDSjP0-lya7Rf",
@@ -5733,20 +7696,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1_jtz9E4JIe6rzckB3deUDSjP0-lya7Rf",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "halter",
+      "bom",
+      "dia",
       "good",
       "morning",
+      "halteres",
       "dumbbell",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
-    "name": "Halter Stiff Leg Levantamento Terra",
+    "name": "Stiff com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
@@ -5754,79 +7718,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1ksr1dsKwIbdT7YSoHltXABYKf2DFt8wO",
     "category": "Membros Inferiores / Pernas",
     "tags": [
-      "halter",
       "stiff",
-      "leg",
-      "levantamento",
-      "terra",
+      "halteres",
       "dumbbell",
+      "leg",
       "deadlift",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "halteres"
-    ]
-  },
-  {
-    "id": "drive-1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
-    "name": "Extensão de Joelhos",
-    "muscleGroup": "Pernas",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
-    "source": "Google Drive",
-    "driveId": "1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
-    "category": "Membros Inferiores / Pernas",
-    "tags": [
-      "extensao",
-      "joelhos",
-      "gif",
-      "pernas",
-      "membros",
-      "inferiores",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
-    "name": "Extensão Polia",
-    "muscleGroup": "Pernas",
-    "equipment": "Polia / Cabo",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
-    "source": "Google Drive",
-    "driveId": "1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
-    "category": "Membros Inferiores / Pernas",
-    "tags": [
-      "extensao",
-      "polia",
-      "gif",
-      "pernas",
-      "membros",
-      "inferiores",
-      "cabo"
-    ]
-  },
-  {
-    "id": "drive-1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
-    "name": "Extensão Unilateral",
-    "muscleGroup": "Pernas",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
-    "source": "Google Drive",
-    "driveId": "1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
-    "category": "Membros Inferiores / Pernas",
-    "tags": [
-      "extensao",
-      "unilateral",
-      "gif",
-      "pernas",
-      "membros",
-      "inferiores",
-      "peso",
-      "corporal",
-      "geral"
+      "gif"
     ]
   },
   {
@@ -5841,13 +7741,74 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "extensor",
       "joelhos",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
+    "name": "Extensão de Joelhos",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
+    "source": "Google Drive",
+    "driveId": "1gUGlFCdQBLwPwXQdyTIsNWOi0Xx87vix",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "extensao",
+      "joelhos",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
+    "name": "Extensão Polia",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
+    "source": "Google Drive",
+    "driveId": "1-MCQ0evUhcraYW4s-RJ4KoJPqjZGHiS5",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "extensao",
+      "polia",
+      "pernas",
+      "membros",
+      "inferiores",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
+    "name": "Extensão Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
+    "source": "Google Drive",
+    "driveId": "1BMftn5aX3fWTpbKgmHv6fvVMmIKjzd-F",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "extensao",
+      "unilateral",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5863,11 +7824,1124 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "alta",
       "polia",
-      "gif",
       "pernas",
       "membros",
       "inferiores",
-      "cabo"
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "name": "Flexora em Pé Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "source": "Google Drive",
+    "driveId": "1wib5jrksn5eMa5pxYLodI3ya1R23Gnjx",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "flexora",
+      "pe",
+      "unilateral",
+      "flexao",
+      "joelho",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "name": "Mesa Flexora Deitado",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "source": "Google Drive",
+    "driveId": "1kJVXfhlCPR-0WO9SqkFqdn3YWMMeoMJ6",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "mesa",
+      "flexora",
+      "deitado",
+      "flexao",
+      "joelhos",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "name": "Cadeira Flexora Sentada",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "source": "Google Drive",
+    "driveId": "1m4mtMH3nzQKMcAPjsxbGlWw8QGh93_Ye",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "cadeira",
+      "flexora",
+      "sentada",
+      "flexao",
+      "joelhos",
+      "sentado",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "name": "Flexora Deitado na Polia",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "source": "Google Drive",
+    "driveId": "1IFlrWrxUV8Hz7GxIdMlqWXFGTSD2G5f_",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "flexora",
+      "deitado",
+      "polia",
+      "flexao",
+      "deitada",
+      "pernas",
+      "membros",
+      "inferiores",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "name": "Mesa Flexora Unilateral Deitado",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "source": "Google Drive",
+    "driveId": "1VGtM35EzI4HUaikNcrrzJnvsKQa84GQI",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "mesa",
+      "flexora",
+      "unilateral",
+      "deitado",
+      "flexao",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "name": "Extensão/Flexão de Quadril na Polia",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "source": "Google Drive",
+    "driveId": "1xTgLpevT7dON85lbgIlr9_Y3HZ_qVeNH",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "extensao",
+      "flexao",
+      "quadril",
+      "polia",
+      "estendida",
+      "pernas",
+      "membros",
+      "inferiores",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "name": "Flexora Ajoelhado Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "source": "Google Drive",
+    "driveId": "1jJSf86t-7OSA4Bbjdwd35ZvD2bli_hBD",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "flexora",
+      "ajoelhado",
+      "unilateral",
+      "flexao",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "name": "Flexora Unilateral na Máquina",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "source": "Google Drive",
+    "driveId": "1QbUnMLZ2_tRF6CjUu5HzwUW3gDwGwvJ3",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "flexora",
+      "unilateral",
+      "maquina",
+      "flexao",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "name": "Agachamento Frontal com Barra (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "source": "Google Drive",
+    "driveId": "1m3V3yyMJShap_x16qsH3d7ir5N2Q9Pky",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "frontal",
+      "barra",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "name": "Cadeira Extensora",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "source": "Google Drive",
+    "driveId": "1ZKlUcnsLf9XG7bFA5HnLG4yNgrB4t711",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "cadeira",
+      "extensora",
+      "knee",
+      "extension",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "name": "Subida Lateral no Caixote (Step Up)",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "source": "Google Drive",
+    "driveId": "1NuUFXsc-Ws9l8iJ4CLL9Cqy5Ok-elcX1",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "lateral",
+      "caixote",
+      "step",
+      "up",
+      "muscles",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "name": "Leg Press 45° com Abdução",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "source": "Google Drive",
+    "driveId": "1W5R6wrlzu1LUQTEBMqDmrFQMfO1UIXDA",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "45",
+      "abducao",
+      "abd",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "name": "Leg Press Horizontal",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "source": "Google Drive",
+    "driveId": "1Gq-ab2VJymTsaWq3cMI2hto8gqgFGcoZ",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "horizontal",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "name": "Leg Press Vertical no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "source": "Google Drive",
+    "driveId": "1BS-u2U_CIxeMBaxaaZi9OGcXNMhoinec",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "vertical",
+      "smith",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "name": "Leg Press Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "source": "Google Drive",
+    "driveId": "1aqZ0DQ-K5HJHNJBG_0VagYIJxhjZYyUT",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "unilateral",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "name": "Cadeira Extensora (Pés Rotacionados)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "source": "Google Drive",
+    "driveId": "15GJ8IQMPKURkN1IuohTihiV55LV8uJel",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "cadeira",
+      "extensora",
+      "pes",
+      "rotacionados",
+      "leg",
+      "extension",
+      "toes",
+      "inward",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "name": "Leg Press 45°",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "source": "Google Drive",
+    "driveId": "1tP3IdPaR5sxoS-BMDOT5t0zvtCt-il85",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "45",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "name": "Levantamento Terra Romeno (RDL)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "source": "Google Drive",
+    "driveId": "1QWD_-cgyjb3oZFSZD4HtqsCaCSYPzez3",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "levantamento",
+      "terra",
+      "romeno",
+      "rdl",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "name": "Levantamento Terra Sumô",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "source": "Google Drive",
+    "driveId": "1MFJvklHQ5Nu7-JCOeLMjBHMcAHrxFpSa",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "levantamento",
+      "terra",
+      "sumo",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "name": "Levantamento Terra",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "source": "Google Drive",
+    "driveId": "1rVI7dAZV-ERe6IKE5uJOFSJV5kdhdZGM",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "levantamento",
+      "terra",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "name": "Afundo / Avanço com Halteres",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "source": "Google Drive",
+    "driveId": "1QwRhddhzi7sqrJLcs_auSKJFkwPwYhTc",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "afundo",
+      "avanco",
+      "halteres",
+      "lunge",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "name": "Afundo Reverso",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "source": "Google Drive",
+    "driveId": "1oiD90Y7tNn0aQf3oMMcbk0F1As7HEVlv",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "afundo",
+      "reverso",
+      "lunge",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "name": "Afundo Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "source": "Google Drive",
+    "driveId": "1VTG0xXP0GTin_5bh5RUbiQQ6P6JJi24x",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "afundo",
+      "unilateral",
+      "lunge",
+      "uni",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "name": "Mesa Flexora Deitado (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "source": "Google Drive",
+    "driveId": "1XOHf1iNhQMnHInX_-R5b-o3IT-bj2kyn",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "mesa",
+      "flexora",
+      "deitado",
+      "lying",
+      "leg",
+      "curl",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "name": "Leg Press 45° Pés Fechados",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "source": "Google Drive",
+    "driveId": "1clTBnlyuTi2f1c-mhvp4Y61hm0OFO9pr",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "45",
+      "pes",
+      "fechados",
+      "narrow",
+      "stance",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "name": "Passada Caminhando (Avanço)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "source": "Google Drive",
+    "driveId": "1uH7srVwUpfGIUtyFZ2Y9ZoQTF3LQQQdn",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "passada",
+      "caminhando",
+      "avanco",
+      "andando",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "name": "Agachamento na Polia Baixa",
+    "muscleGroup": "Pernas",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "source": "Google Drive",
+    "driveId": "1wygpiAZ4OummvpJY3e_X20uOkaY-FmRt",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "polia",
+      "baixa",
+      "ag",
+      "pernas",
+      "membros",
+      "inferiores",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "name": "Flexão Posterior Fixa",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "source": "Google Drive",
+    "driveId": "1CBTCMfr2wfhNq9uwX3RaDF2dnWYzK9Ee",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "flexao",
+      "posterior",
+      "fixa",
+      "fixo",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "name": "Leg Press Unilateral (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "source": "Google Drive",
+    "driveId": "13naEtQZKZdUkoIDEZu1rc2OWqae_hhOQ",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "leg",
+      "press",
+      "unilateral",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "name": "Educativo de Dobradiça de Quadril com Bastão",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "source": "Google Drive",
+    "driveId": "1muu7duvETW_aUwVDQXwtigkqh92TocVK",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "educativo",
+      "dobradica",
+      "quadril",
+      "bastao",
+      "pvc",
+      "hinge",
+      "example",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "name": "Treino Foco Quadríceps Femoral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "source": "Google Drive",
+    "driveId": "1QheQ6HbmiEa8SklFdSQj08CGxXhtGHpc",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "treino",
+      "foco",
+      "quadriceps",
+      "femoral",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "name": "Agachamento Hack Machine",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "source": "Google Drive",
+    "driveId": "1PHggCNQy2PZl-nmbXx0LCQ4BpRYb0JLC",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "hack",
+      "machine",
+      "rack",
+      "squat",
+      "maquina",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "name": "Hiperextensão Reversa (Posterior e Glúteos)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "source": "Google Drive",
+    "driveId": "1h-96BkJ9q5tW6JsRYjbL_7egq_A17JNH",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "hiperextensao",
+      "reversa",
+      "posterior",
+      "gluteos",
+      "reverse",
+      "hyperextension",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "name": "Agachamento Hack Reverso",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "source": "Google Drive",
+    "driveId": "1ClrStBYRqw_TRapOjKdnQ6XoeA_iV1iC",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "hack",
+      "reverso",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "name": "Cadeira Flexora Sentada (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "source": "Google Drive",
+    "driveId": "1Ytl7Wc1KwSDtu_UwbWESpWitVpLdPd7B",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "cadeira",
+      "flexora",
+      "sentada",
+      "seated",
+      "leg",
+      "curl",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "name": "Cadeira Extensora Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "source": "Google Drive",
+    "driveId": "1nxw76k9d-qZaSHl2yXO-SNn3ae71bW3t",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "cadeira",
+      "extensora",
+      "unilateral",
+      "single",
+      "leg",
+      "extension",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "name": "Agachamento Guiado no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "source": "Google Drive",
+    "driveId": "1D3P0YbnAiX6GtlEp9yqxiKZpSaMeZfQY",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "guiado",
+      "smith",
+      "machine",
+      "squat",
+      "benefits",
+      "pernas",
+      "membros",
+      "inferiores",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "name": "Subida Lateral no Step",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "source": "Google Drive",
+    "driveId": "1DepGz7_v5_hpLX1RWbAOrX7HGdg_8XNn",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "lateral",
+      "step",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "name": "Step Up com Elevação de Joelho",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "source": "Google Drive",
+    "driveId": "11vbBkwJ7rG3Q5H2prC5PqIDXcSqtIuzr",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "step",
+      "up",
+      "elevacao",
+      "joelho",
+      "flexao",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "name": "Subida no Caixote (Step Up)",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "source": "Google Drive",
+    "driveId": "1Bd_WCw0-YW2i6kWBc_LNLdu9lfZJ2WDv",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "caixote",
+      "step",
+      "up",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "name": "Stiff com Barra por Trás",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "source": "Google Drive",
+    "driveId": "1ZReiP_hGihKaX9iB6j4mdKX30LlXKGVA",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "stiff",
+      "barra",
+      "por",
+      "tras",
+      "costas",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "name": "Stiff com Barra (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "source": "Google Drive",
+    "driveId": "1wNtNgnVOr9DbW-3IzV-S0Qx26pYemJg_",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "stiff",
+      "barra",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "name": "Stiff com Pernas Estendidas",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "source": "Google Drive",
+    "driveId": "1D-RJ0XyrMZ2xgGQHbdobbXljys-BQQ5z",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "stiff",
+      "pernas",
+      "estendidas",
+      "perna",
+      "extendida",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "name": "Agachamento Sumô com Haltere (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "source": "Google Drive",
+    "driveId": "1qoGTVAjQL1sZ6QBFNMLUv9Ixjrp04Dc8",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "sumo",
+      "haltere",
+      "dumbell",
+      "pernas",
+      "membros",
+      "inferiores",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "name": "Agachamento Sumô com Haltere (Variação 3)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "source": "Google Drive",
+    "driveId": "1r22RFSsemte-xXo5URIJmjfLSkSNp-X_",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "sumo",
+      "haltere",
+      "dumbell",
+      "pernas",
+      "membros",
+      "inferiores",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "name": "Agachamento Sumô",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "source": "Google Drive",
+    "driveId": "1_Bt0fWMP6Zh42Bl_UwIW70Hzc4EFWG9M",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "agachamento",
+      "sumo",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "name": "Levantamento Terra na Barra Hexagonal (Trap Bar)",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "source": "Google Drive",
+    "driveId": "1syenE3DSVnjD_4bPkNiFV9oq_vWre-tJ",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "levantamento",
+      "terra",
+      "barra",
+      "hexagonal",
+      "trap",
+      "bar",
+      "armadilha",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "name": "Levantamento Terra Tradicional",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "source": "Google Drive",
+    "driveId": "1Im0uEvzZcWafxJzKNXb2stGKhe4DaHW6",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "levantamento",
+      "terra",
+      "tradicional",
+      "pro",
+      "pernas",
+      "membros",
+      "inferiores",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "name": "Subida no Banco com Halteres",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "source": "Google Drive",
+    "driveId": "1lQA-6YssLIOvxmOSYVueXaLJS3kupCbV",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "banco",
+      "halteres",
+      "up",
+      "halter",
+      "pernas",
+      "membros",
+      "inferiores",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "name": "Subida no Caixote",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "source": "Google Drive",
+    "driveId": "1CfEeLEvFHECrRVnOnHG2TY1BS6V3JD6u",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "caixote",
+      "up",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "step",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "name": "Subida Unilateral no Caixote",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "source": "Google Drive",
+    "driveId": "1yJR2nj8GoPSWs_0NX2XOuT31hRAnooDz",
+    "category": "Membros Inferiores / Pernas",
+    "tags": [
+      "subida",
+      "unilateral",
+      "caixote",
+      "up",
+      "pernas",
+      "membros",
+      "inferiores",
+      "banco",
+      "step",
+      "gif"
     ]
   },
   {
@@ -5883,13 +8957,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "desenvolvimento",
       "arnold",
       "press",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -5906,18 +8980,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "arnoldes",
       "arnold",
       "presses",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1aZkN6AG0u5ArXUvnKZKnI6DaS-ydtrRa",
-    "name": "Barra Push Jerk Muscles",
+    "name": "Push Jerk com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1aZkN6AG0u5ArXUvnKZKnI6DaS-ydtrRa",
@@ -5925,15 +8999,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1aZkN6AG0u5ArXUvnKZKnI6DaS-ydtrRa",
     "category": "Ombro / Deltoide",
     "tags": [
-      "barra",
       "push",
       "jerk",
-      "muscles",
+      "barra",
       "barbell",
-      "gif",
+      "muscles",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
@@ -5948,22 +9022,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "elevacao",
       "lateral",
-      "com",
       "polia",
       "cable",
       "one",
       "arm",
       "raise",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-13aciAaE4DyzrB4SjUzBbYRwiztyTXEok",
-    "name": "Cabo / Polia Shoulder Press",
+    "name": "Desenvolvimento de Ombros na Polia",
     "muscleGroup": "Ombros",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/13aciAaE4DyzrB4SjUzBbYRwiztyTXEok",
@@ -5971,15 +9044,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13aciAaE4DyzrB4SjUzBbYRwiztyTXEok",
     "category": "Ombro / Deltoide",
     "tags": [
-      "cabo",
+      "desenvolvimento",
+      "ombros",
       "polia",
+      "cable",
       "shoulder",
       "press",
-      "cable",
-      "gif",
-      "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -5994,12 +9068,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "circular",
       "ombro",
-      "gif",
       "ombros",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6014,18 +9088,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "crucifixo",
       "inverso",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1xLQeSVSHIXUeYseRZigSptdgoSS_IH9u",
-    "name": "Cuban Press",
+    "name": "Desenvolvimento Cubano (Manguito e Ombros)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1xLQeSVSHIXUeYseRZigSptdgoSS_IH9u",
@@ -6033,20 +9107,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1xLQeSVSHIXUeYseRZigSptdgoSS_IH9u",
     "category": "Ombro / Deltoide",
     "tags": [
+      "desenvolvimento",
+      "cubano",
+      "manguito",
+      "ombros",
       "cuban",
       "press",
-      "gif",
-      "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-118O6Va7wEu2M-Lmuq6N7o4jObGXI00fc",
-    "name": "Delta Fly",
+    "name": "Crucifixo Inverso (Deltóide Posterior)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/118O6Va7wEu2M-Lmuq6N7o4jObGXI00fc",
@@ -6054,15 +9131,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "118O6Va7wEu2M-Lmuq6N7o4jObGXI00fc",
     "category": "Ombro / Deltoide",
     "tags": [
+      "crucifixo",
+      "inverso",
+      "deltoide",
+      "posterior",
       "delta",
       "fly",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6076,12 +9156,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "desenvolvimento",
-      "com",
       "halteres",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
@@ -6095,13 +9174,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "desenvolvimento",
-      "gif",
+      "pe",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6116,10 +9196,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "desenvolvimento",
       "maquina",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
@@ -6136,15 +9216,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "por",
       "tras",
       "barra",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
     "id": "drive-1Nx31QTm6Sl7szBRlc6old4xMxAWBJjN_",
-    "name": "Desenvolvimento Smith Machine",
+    "name": "Desenvolvimento de Ombros no Smith",
     "muscleGroup": "Ombros",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Nx31QTm6Sl7szBRlc6old4xMxAWBJjN_",
@@ -6153,13 +9233,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "desenvolvimento",
-      "smith",
-      "machine",
-      "gif",
       "ombros",
+      "smith",
       "ombro",
       "deltoide",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
@@ -6174,18 +9253,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "desenvolvimento",
       "unilateral",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
-    "name": "Halter Military Press",
+    "name": "Desenvolvimento Militar com Halteres",
     "muscleGroup": "Ombros",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
@@ -6193,15 +9272,38 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1WKQxrB4t4fYob_q6h_J8uawAWlTJUafe",
     "category": "Ombro / Deltoide",
     "tags": [
-      "halter",
+      "desenvolvimento",
+      "militar",
+      "halteres",
+      "dumbbell",
       "military",
       "press",
-      "dumbbell",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "halteres"
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "name": "Elevaçao Lateral com Apoio",
+    "muscleGroup": "Ombros",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "source": "Google Drive",
+    "driveId": "1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
+    "category": "Ombro / Deltoide",
+    "tags": [
+      "elevacao",
+      "lateral",
+      "apoio",
+      "ombros",
+      "ombro",
+      "deltoide",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6215,13 +9317,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "elevacao",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6237,10 +9339,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "frontal",
       "barra",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
@@ -6257,11 +9359,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "frontal",
       "polia",
       "baixa",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -6277,13 +9379,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "frontal",
       "sentado",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6301,11 +9403,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "unilateral",
       "polia",
       "baixa",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -6320,13 +9422,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "elevacao",
       "frontal",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6342,36 +9444,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "alavanca",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "name": "Elevaçao Lateral com Apoio",
-    "muscleGroup": "Ombros",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "source": "Google Drive",
-    "driveId": "1LipXvmSsVxw1iNXvYA0bB6UPWshaenha",
-    "category": "Ombro / Deltoide",
-    "tags": [
-      "elevacao",
-      "lateral",
-      "com",
-      "apoio",
-      "gif",
-      "ombros",
-      "ombro",
-      "deltoide",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6387,13 +9466,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "cruzada",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6409,13 +9488,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "flexionada",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6431,13 +9510,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "inclinada",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6453,13 +9532,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "inclinado",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6474,13 +9553,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "elevacao",
       "lateral",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6497,16 +9576,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "unilateral",
       "polia",
       "baixa",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
-    "name": "Fly Inverso",
+    "name": "Crucifixo Inverso (Variação 2)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
@@ -6514,20 +9593,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1AUXnhhvARVB5qMmOXPodg2e-mk2J5BrH",
     "category": "Ombro / Deltoide",
     "tags": [
-      "fly",
+      "crucifixo",
       "inverso",
-      "gif",
+      "fly",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1_gNyzgVK6ZrCKEEK-NLDsm6o5tA-_mPJ",
-    "name": "Front 2 Vias",
+    "name": "Elevação Frontal Alternada / 2 Vias",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1_gNyzgVK6ZrCKEEK-NLDsm6o5tA-_mPJ",
@@ -6535,15 +9615,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1_gNyzgVK6ZrCKEEK-NLDsm6o5tA-_mPJ",
     "category": "Ombro / Deltoide",
     "tags": [
-      "front",
+      "elevacao",
+      "frontal",
+      "alternada",
       "vias",
-      "gif",
+      "front",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6558,13 +9641,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "frontal",
       "dumblle",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6579,13 +9662,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "frontal",
       "unilateral",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6601,11 +9684,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "inclinado",
       "polia",
       "baixa",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -6620,13 +9703,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "inverso",
       "curvado",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6640,18 +9723,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "inverso",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-13kyTqk2GXC3tCUCpC1dDwd35lqFTcC_x",
-    "name": "Landmine Press",
+    "name": "Desenvolvimento Unilateral no Landmine",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/13kyTqk2GXC3tCUCpC1dDwd35lqFTcC_x",
@@ -6659,15 +9742,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13kyTqk2GXC3tCUCpC1dDwd35lqFTcC_x",
     "category": "Ombro / Deltoide",
     "tags": [
+      "desenvolvimento",
+      "unilateral",
       "landmine",
       "press",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6683,10 +9768,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "lateral",
       "frontal",
       "halteres",
-      "gif",
       "ombros",
       "ombro",
-      "deltoide"
+      "deltoide",
+      "gif"
     ]
   },
   {
@@ -6701,18 +9786,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "lateral",
       "sentado",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-17WTHKwASJRDEZfkZMT7UPAsLTJPPa90y",
-    "name": "Lateral Raise Machine",
+    "name": "Elevação Lateral na Máquina",
     "muscleGroup": "Ombros",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/17WTHKwASJRDEZfkZMT7UPAsLTJPPa90y",
@@ -6720,14 +9805,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "17WTHKwASJRDEZfkZMT7UPAsLTJPPa90y",
     "category": "Ombro / Deltoide",
     "tags": [
+      "elevacao",
       "lateral",
+      "maquina",
       "raise",
       "machine",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
-      "maquina"
+      "gif"
     ]
   },
   {
@@ -6741,13 +9827,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Ombro / Deltoide",
     "tags": [
       "manguito",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6764,18 +9850,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "desenvolvimento",
       "arnold",
       "press",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-18sdSKXGW1XKOuk7tHuIfQ1qEzT2HA_es",
-    "name": "Military Press",
+    "name": "Desenvolvimento Militar com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/18sdSKXGW1XKOuk7tHuIfQ1qEzT2HA_es",
@@ -6783,20 +9869,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18sdSKXGW1XKOuk7tHuIfQ1qEzT2HA_es",
     "category": "Ombro / Deltoide",
     "tags": [
+      "desenvolvimento",
+      "militar",
+      "barra",
       "military",
       "press",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1zUvLrMFIhq-XqQcmeyFJKFEAIXd80fUq",
-    "name": "Push Press",
+    "name": "Push Press com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1zUvLrMFIhq-XqQcmeyFJKFEAIXd80fUq",
@@ -6806,13 +9895,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "push",
       "press",
-      "gif",
+      "barra",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -6828,18 +9918,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "remada",
       "inversa",
       "flexionada",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1L3UEZdrxkAv68tA43rT5fJVynymutF9U",
-    "name": "Seated Overhead Press",
+    "name": "Desenvolvimento Sentado com Barra",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1L3UEZdrxkAv68tA43rT5fJVynymutF9U",
@@ -6847,21 +9937,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1L3UEZdrxkAv68tA43rT5fJVynymutF9U",
     "category": "Ombro / Deltoide",
     "tags": [
+      "desenvolvimento",
+      "sentado",
+      "barra",
       "seated",
       "overhead",
       "press",
-      "gif",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1p433ZiuhARcTuKr5XXkszLWGwSDCh_aL",
-    "name": "Shoulder Pin Press",
+    "name": "Desenvolvimento no Rack (Pin Press)",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1p433ZiuhARcTuKr5XXkszLWGwSDCh_aL",
@@ -6869,21 +9962,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1p433ZiuhARcTuKr5XXkszLWGwSDCh_aL",
     "category": "Ombro / Deltoide",
     "tags": [
-      "shoulder",
+      "desenvolvimento",
+      "rack",
       "pin",
       "press",
-      "gif",
+      "shoulder",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1FWHUxUop--MX42dpWzIIlvafInjd8mrn",
-    "name": "Z Press",
+    "name": "Desenvolvimento Z-Press Sentado no Solo",
     "muscleGroup": "Ombros",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1FWHUxUop--MX42dpWzIIlvafInjd8mrn",
@@ -6891,19 +9986,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1FWHUxUop--MX42dpWzIIlvafInjd8mrn",
     "category": "Ombro / Deltoide",
     "tags": [
+      "desenvolvimento",
       "press",
-      "gif",
+      "sentado",
+      "solo",
       "ombros",
       "ombro",
       "deltoide",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-18Gv0Z19Y8JvcVYNtA86eJOhDvLJ6wpK_",
-    "name": "Cabo / Polia Standing Calf Raise",
+    "name": "Panturrilha em Pé na Polia",
     "muscleGroup": "Panturrilha",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/18Gv0Z19Y8JvcVYNtA86eJOhDvLJ6wpK_",
@@ -6911,19 +10009,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "18Gv0Z19Y8JvcVYNtA86eJOhDvLJ6wpK_",
     "category": "Panturrilha",
     "tags": [
-      "cabo",
+      "panturrilha",
+      "pe",
       "polia",
+      "cable",
       "standing",
       "calf",
       "raise",
-      "cable",
-      "gif",
-      "panturrilha"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1CJ2TL9z7Ru3vz9ad95n3HV0oy_evdASE",
-    "name": "Calf Agachamentos",
+    "name": "Panturrilha no Agachamento / Step",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1CJ2TL9z7Ru3vz9ad95n3HV0oy_evdASE",
@@ -6931,19 +10030,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1CJ2TL9z7Ru3vz9ad95n3HV0oy_evdASE",
     "category": "Panturrilha",
     "tags": [
-      "calf",
-      "agachamentos",
-      "squats",
-      "gif",
       "panturrilha",
+      "agachamento",
+      "step",
+      "calf",
+      "squats",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1pqdkY2zOHDl6rBdiKb__jWEmFagO_rRT",
-    "name": "Donkey Calf Raise",
+    "name": "Panturrilha Burrinho (Donkey Calf Raise)",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1pqdkY2zOHDl6rBdiKb__jWEmFagO_rRT",
@@ -6951,19 +10051,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1pqdkY2zOHDl6rBdiKb__jWEmFagO_rRT",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "burrinho",
       "donkey",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Vy6f1LGabV7Es06N5O4BZS-PSD9K7Lyv",
-    "name": "Halter Calf Raise",
+    "name": "Panturrilha em Pé com Halteres",
     "muscleGroup": "Panturrilha",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Vy6f1LGabV7Es06N5O4BZS-PSD9K7Lyv",
@@ -6971,13 +10072,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Vy6f1LGabV7Es06N5O4BZS-PSD9K7Lyv",
     "category": "Panturrilha",
     "tags": [
-      "halter",
+      "panturrilha",
+      "pe",
+      "halteres",
+      "dumbbell",
       "calf",
       "raise",
-      "dumbbell",
-      "gif",
-      "panturrilha",
-      "halteres"
+      "gif"
     ]
   },
   {
@@ -6992,13 +10093,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "plantar",
-      "com",
       "apoio",
-      "gif",
       "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7013,10 +10113,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "plantar",
-      "com",
       "halteres",
-      "gif",
-      "panturrilha"
+      "panturrilha",
+      "gif"
     ]
   },
   {
@@ -7032,11 +10131,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "plantar",
       "escada",
-      "gif",
       "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7053,11 +10152,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "plantar",
       "leg",
       "horizontal",
-      "gif",
       "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7073,11 +10172,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "plantar",
       "leg",
-      "gif",
+      "45",
       "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7093,10 +10193,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "plantar",
       "step",
-      "com",
       "barra",
-      "gif",
-      "panturrilha"
+      "panturrilha",
+      "gif"
     ]
   },
   {
@@ -7112,16 +10211,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "plantar",
       "step",
-      "gif",
       "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1o0PjILsZ1bPhiBRnAjbk3e3jtL5GomI_",
-    "name": "Leg Press Calf Raise",
+    "name": "Panturrilha no Leg Press",
     "muscleGroup": "Panturrilha",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1o0PjILsZ1bPhiBRnAjbk3e3jtL5GomI_",
@@ -7129,18 +10228,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1o0PjILsZ1bPhiBRnAjbk3e3jtL5GomI_",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
       "leg",
       "press",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1RjZcB42_q3PdtQKRVUpmSGllhjvVJBOk",
-    "name": "Negative Calf Raise",
+    "name": "Panturrilha com Fase Excêntrica Lenta",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RjZcB42_q3PdtQKRVUpmSGllhjvVJBOk",
@@ -7148,14 +10247,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1RjZcB42_q3PdtQKRVUpmSGllhjvVJBOk",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "fase",
+      "excentrica",
+      "lenta",
       "negative",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7169,6 +10271,7 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Panturrilha",
     "tags": [
       "panturrilha",
+      "pe",
       "maquina",
       "gif"
     ]
@@ -7185,10 +10288,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "panturrilha",
       "inclinada",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7218,7 +10321,6 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "panturrilha",
       "sentado",
-      "com",
       "barra",
       "gif"
     ]
@@ -7236,15 +10338,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "panturrilha",
       "solo",
       "unilateral",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1yfZClWAJIU43IgNnRXnRcLLiyBSEmoxM",
-    "name": "Panturrilha Unilateral Leg",
+    "name": "Panturrilha Unilateral no Leg Press",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1yfZClWAJIU43IgNnRXnRcLLiyBSEmoxM",
@@ -7255,15 +10357,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "panturrilha",
       "unilateral",
       "leg",
-      "gif",
+      "press",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Ao-syNOaBFMZxXjLIw-xMkOWR1IcOG0_",
-    "name": "Seated Calf Raise Halter",
+    "name": "Panturrilha Sentado com Haltere",
     "muscleGroup": "Panturrilha",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Ao-syNOaBFMZxXjLIw-xMkOWR1IcOG0_",
@@ -7271,19 +10374,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Ao-syNOaBFMZxXjLIw-xMkOWR1IcOG0_",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "sentado",
+      "haltere",
       "seated",
       "calf",
       "raise",
-      "halter",
       "dumbbell",
-      "gif",
-      "panturrilha",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1oE3CAY7lnim5-s7uQ2UDHGeJhTb0k72q",
-    "name": "Seated Calf Raise",
+    "name": "Panturrilha Sentado (Sóleo)",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1oE3CAY7lnim5-s7uQ2UDHGeJhTb0k72q",
@@ -7291,19 +10395,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1oE3CAY7lnim5-s7uQ2UDHGeJhTb0k72q",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "sentado",
+      "soleo",
       "seated",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-13zPZpJaLfrvKMeWd3x6ptbr-PRRPqtsx",
-    "name": "Single Leg Calf Raise",
+    "name": "Panturrilha Unilateral em Pé",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/13zPZpJaLfrvKMeWd3x6ptbr-PRRPqtsx",
@@ -7311,20 +10417,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13zPZpJaLfrvKMeWd3x6ptbr-PRRPqtsx",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "unilateral",
+      "pe",
       "single",
       "leg",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Dsyhfx5bgvvYesCOLq6-doDOCgtyZuPj",
-    "name": "Smith Machine Machine Calf Raise",
+    "name": "Panturrilha no Smith",
     "muscleGroup": "Panturrilha",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Dsyhfx5bgvvYesCOLq6-doDOCgtyZuPj",
@@ -7332,18 +10440,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Dsyhfx5bgvvYesCOLq6-doDOCgtyZuPj",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
       "smith",
       "machine",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1ZE0YPuytvK-OTkQKBj5-QdQv53jVROn2",
-    "name": "Standing Calf Raise (1)",
+    "name": "Panturrilha em Pé na Máquina",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZE0YPuytvK-OTkQKBj5-QdQv53jVROn2",
@@ -7351,19 +10459,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1ZE0YPuytvK-OTkQKBj5-QdQv53jVROn2",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "pe",
+      "maquina",
       "standing",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Pf3knJ_IRZj-01O4YocOTvTYzANo6-nY",
-    "name": "Standing Calf Raise",
+    "name": "Panturrilha em Pé",
     "muscleGroup": "Panturrilha",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Pf3knJ_IRZj-01O4YocOTvTYzANo6-nY",
@@ -7371,14 +10481,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Pf3knJ_IRZj-01O4YocOTvTYzANo6-nY",
     "category": "Panturrilha",
     "tags": [
+      "panturrilha",
+      "pe",
       "standing",
       "calf",
       "raise",
-      "gif",
-      "panturrilha",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7392,21 +10503,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Peitoral",
     "tags": [
       "flexao",
-      "com",
       "elastico",
       "assisted",
       "push",
-      "with",
+      "up",
       "resistance",
       "band",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
     "id": "drive-1zmvBdkpcHESZxbPrsM6IASjHRk6UQ3WJ",
-    "name": "Supino Reto com Barra Side View",
+    "name": "Supino Reto com Barra",
     "muscleGroup": "Peito",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1zmvBdkpcHESZxbPrsM6IASjHRk6UQ3WJ",
@@ -7416,21 +10526,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "supino",
       "reto",
-      "com",
       "barra",
-      "side",
-      "view",
       "barbell",
       "bench",
       "press",
-      "gif",
+      "side",
+      "view",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
     "id": "drive-1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9",
-    "name": "Supino Reto com Barra",
+    "name": "Supino Reto com Barra (Variação 2)",
     "muscleGroup": "Peito",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1v-ySYs7F1r1c0F3yjzFQoT0a-DL5Mbf9",
@@ -7440,14 +10549,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "supino",
       "reto",
-      "com",
       "barra",
       "barbell",
       "bench",
       "press",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
@@ -7462,15 +10570,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "supino",
       "declinado",
-      "com",
       "barra",
       "barbell",
       "decline",
       "bench",
       "press",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
@@ -7486,14 +10593,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "barra",
       "pullover",
       "barbell",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
     "id": "drive-1ZqPg_bLcf1Z3_VEhYtBSNP3AJ81jDKL4",
-    "name": "Supino Feet Up",
+    "name": "Supino Reto com Pés Elevados",
     "muscleGroup": "Peito",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZqPg_bLcf1Z3_VEhYtBSNP3AJ81jDKL4",
@@ -7502,18 +10609,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Peitoral",
     "tags": [
       "supino",
-      "feet",
+      "reto",
+      "pes",
+      "elevados",
       "bench",
       "press",
-      "gif",
+      "feet",
+      "up",
       "peito",
       "peitoral",
-      "banco"
+      "banco",
+      "gif"
     ]
   },
   {
     "id": "drive-1GepLhHSyUvVkYeZGQ84cl-oY-YyiFqep",
-    "name": "Cabo / Polia Cross Over (1)",
+    "name": "Cross Over na Polia Média/Alta",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1GepLhHSyUvVkYeZGQ84cl-oY-YyiFqep",
@@ -7521,19 +10632,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1GepLhHSyUvVkYeZGQ84cl-oY-YyiFqep",
     "category": "Peitoral",
     "tags": [
-      "cabo",
-      "polia",
       "cross",
       "over",
+      "polia",
+      "media",
+      "alta",
       "cable",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1Zt4FL42dhVvb4M4cZ2ZBamGQkkECIW0P",
-    "name": "Cabo / Polia Cross Over",
+    "name": "Cross Over na Polia Alta",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Zt4FL42dhVvb4M4cZ2ZBamGQkkECIW0P",
@@ -7541,19 +10654,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Zt4FL42dhVvb4M4cZ2ZBamGQkkECIW0P",
     "category": "Peitoral",
     "tags": [
-      "cabo",
-      "polia",
       "cross",
       "over",
+      "polia",
+      "alta",
       "cable",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1ilhnfb1EQWvloTmrJfeGGTzHAdECSlPb",
-    "name": "Cabo / Polia Fly",
+    "name": "Crucifixo na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ilhnfb1EQWvloTmrJfeGGTzHAdECSlPb",
@@ -7561,18 +10675,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1ilhnfb1EQWvloTmrJfeGGTzHAdECSlPb",
     "category": "Peitoral",
     "tags": [
-      "cabo",
+      "crucifixo",
       "polia",
-      "fly",
       "cable",
-      "gif",
+      "fly",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1QjROpHfkS-o8B13bwumh_IhQfAlF4YQA",
-    "name": "Chest Dips",
+    "name": "Mergulho nas Paralelas (Foco Peitoral)",
     "muscleGroup": "Peito",
     "equipment": "Barras Paralelas",
     "gifUrl": "https://lh3.googleusercontent.com/d/1QjROpHfkS-o8B13bwumh_IhQfAlF4YQA",
@@ -7580,18 +10695,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1QjROpHfkS-o8B13bwumh_IhQfAlF4YQA",
     "category": "Peitoral",
     "tags": [
+      "mergulho",
+      "nas",
+      "paralelas",
+      "foco",
+      "peitoral",
       "chest",
       "dips",
-      "gif",
       "peito",
-      "peitoral",
       "barras",
-      "paralelas"
+      "gif"
     ]
   },
   {
     "id": "drive-1qcftSvIimLGaWGqhnkeBN_coXmPG37g6",
-    "name": "Chest Press Sentado",
+    "name": "Supino Sentado na Máquina",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1qcftSvIimLGaWGqhnkeBN_coXmPG37g6",
@@ -7599,20 +10717,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1qcftSvIimLGaWGqhnkeBN_coXmPG37g6",
     "category": "Peitoral",
     "tags": [
+      "supino",
+      "sentado",
+      "maquina",
       "chest",
       "press",
-      "sentado",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1kd_PEC0JMtcc7tkYqTLiDZS_JAiYBebr",
-    "name": "Chest Press Machine",
+    "name": "Supino Reto na Máquina (Chest Press)",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1kd_PEC0JMtcc7tkYqTLiDZS_JAiYBebr",
@@ -7620,13 +10740,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1kd_PEC0JMtcc7tkYqTLiDZS_JAiYBebr",
     "category": "Peitoral",
     "tags": [
+      "supino",
+      "reto",
+      "maquina",
       "chest",
       "press",
       "machine",
-      "gif",
       "peito",
       "peitoral",
-      "maquina"
+      "gif"
     ]
   },
   {
@@ -7644,12 +10766,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "bracos",
       "push",
       "ups",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7664,11 +10786,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "crossover",
       "inclinado",
-      "gif",
       "peito",
       "peitoral",
       "polia",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -7682,11 +10804,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Peitoral",
     "tags": [
       "crossover",
-      "gif",
       "peito",
       "peitoral",
       "polia",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -7703,10 +10825,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "declindo",
       "polia",
       "baixa",
-      "gif",
       "peito",
       "peitoral",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -7721,11 +10843,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "crucifixo",
       "inclinado",
-      "com",
       "halteres",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
@@ -7741,10 +10862,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "crucifixo",
       "polia",
       "baixa",
-      "gif",
       "peito",
       "peitoral",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -7758,12 +10879,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Peitoral",
     "tags": [
       "crucifixo",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7779,11 +10900,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "cruzamento",
       "peito",
       "unilateral",
-      "gif",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7798,11 +10919,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "cruzamento",
       "peito",
-      "gif",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7818,10 +10939,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "cruzamento",
       "polia",
       "alta",
-      "gif",
       "peito",
       "peitoral",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -7837,15 +10958,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "cruzamento",
       "polia",
       "baixa",
-      "gif",
       "peito",
       "peitoral",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1u_QskIbzMkecAODoZKZgPxadHFkCj8VB",
-    "name": "Decline Cabo / Polia Fly",
+    "name": "Crucifixo Declinado na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1u_QskIbzMkecAODoZKZgPxadHFkCj8VB",
@@ -7853,19 +10974,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1u_QskIbzMkecAODoZKZgPxadHFkCj8VB",
     "category": "Peitoral",
     "tags": [
-      "decline",
-      "cabo",
+      "crucifixo",
+      "declinado",
       "polia",
-      "fly",
+      "decline",
       "cable",
-      "gif",
+      "fly",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1wRrqNzHeGrN5XOx-eSJEjue0wUvzD3w1",
-    "name": "Decline Flexão de Braço",
+    "name": "Flexão de Braço Declinada",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1wRrqNzHeGrN5XOx-eSJEjue0wUvzD3w1",
@@ -7873,16 +10996,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1wRrqNzHeGrN5XOx-eSJEjue0wUvzD3w1",
     "category": "Peitoral",
     "tags": [
-      "decline",
       "flexao",
       "braco",
+      "declinada",
+      "decline",
       "push",
-      "gif",
+      "up",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -7900,17 +11025,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "bracos",
       "push",
       "ups",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Y1Ze5bVmAeTndpzDM1SvJJntzT07Q1Ji",
-    "name": "Halter Chest Fly Muscles",
+    "name": "Crucifixo Reto com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Y1Ze5bVmAeTndpzDM1SvJJntzT07Q1Ji",
@@ -7918,20 +11043,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Y1Ze5bVmAeTndpzDM1SvJJntzT07Q1Ji",
     "category": "Peitoral",
     "tags": [
-      "halter",
+      "crucifixo",
+      "reto",
+      "halteres",
+      "dumbbell",
       "chest",
       "fly",
       "muscles",
-      "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-13ncWM6tRT1uFoPNDhHEyQPbo8-XpGUg9",
-    "name": "Halter Chest Press",
+    "name": "Supino Reto com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/13ncWM6tRT1uFoPNDhHEyQPbo8-XpGUg9",
@@ -7939,19 +11065,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13ncWM6tRT1uFoPNDhHEyQPbo8-XpGUg9",
     "category": "Peitoral",
     "tags": [
-      "halter",
+      "supino",
+      "reto",
+      "halteres",
+      "dumbbell",
       "chest",
       "press",
-      "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-13sxyX-zEu1Uh5bijqI2YpLg5W8lONW0p",
-    "name": "Halter Floor Press",
+    "name": "Supino no Solo (Floor Press) com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/13sxyX-zEu1Uh5bijqI2YpLg5W8lONW0p",
@@ -7959,19 +11086,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13sxyX-zEu1Uh5bijqI2YpLg5W8lONW0p",
     "category": "Peitoral",
     "tags": [
-      "halter",
+      "supino",
+      "solo",
       "floor",
       "press",
+      "halteres",
       "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1TFtMpGPHORsZ84XNbFKu0eXMG_aKX5nK",
-    "name": "Halter Hex Press",
+    "name": "Supino Fechado Hex Press com Halteres",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1TFtMpGPHORsZ84XNbFKu0eXMG_aKX5nK",
@@ -7979,19 +11107,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1TFtMpGPHORsZ84XNbFKu0eXMG_aKX5nK",
     "category": "Peitoral",
     "tags": [
-      "halter",
+      "supino",
+      "fechado",
       "hex",
       "press",
+      "halteres",
       "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "gif"
     ]
   },
   {
     "id": "drive-1p3snJRe2FL5liHza1zeDCfcTKgJ_-qns",
-    "name": "Halter One Arm Chest Press",
+    "name": "Supino Unilateral com Haltere",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1p3snJRe2FL5liHza1zeDCfcTKgJ_-qns",
@@ -7999,16 +11128,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1p3snJRe2FL5liHza1zeDCfcTKgJ_-qns",
     "category": "Peitoral",
     "tags": [
-      "halter",
+      "supino",
+      "unilateral",
+      "haltere",
+      "dumbbell",
       "one",
       "arm",
       "chest",
       "press",
-      "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
@@ -8024,15 +11155,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "halter",
       "pullover",
       "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-11WbmeF7iaBbxPYsV6Dlo-LHZtOyv00Ew",
-    "name": "Halter Svend Press",
+    "name": "Svend Press com Haltere/Anilha",
     "muscleGroup": "Peito",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/11WbmeF7iaBbxPYsV6Dlo-LHZtOyv00Ew",
@@ -8040,14 +11171,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11WbmeF7iaBbxPYsV6Dlo-LHZtOyv00Ew",
     "category": "Peitoral",
     "tags": [
-      "halter",
       "svend",
       "press",
+      "haltere",
+      "anilha",
       "dumbbell",
-      "gif",
       "peito",
       "peitoral",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
@@ -8062,12 +11194,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "apoiado",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8082,12 +11214,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "incliando",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8102,12 +11234,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "parede",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8122,12 +11254,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "flexao",
       "profunda",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8142,17 +11274,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "handstand",
       "pushup",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Z55IheZ_kTT1Tj2hRAlWPqrM7LiU9tzK",
-    "name": "High Cabo / Polia Fly",
+    "name": "Crucifixo Polia Alta (Cross Over)",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Z55IheZ_kTT1Tj2hRAlWPqrM7LiU9tzK",
@@ -8160,19 +11292,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Z55IheZ_kTT1Tj2hRAlWPqrM7LiU9tzK",
     "category": "Peitoral",
     "tags": [
-      "high",
-      "cabo",
+      "crucifixo",
       "polia",
-      "fly",
+      "alta",
+      "cross",
+      "over",
+      "high",
       "cable",
-      "gif",
+      "fly",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1LRjbVQy8Rd2ryp26PGMq9rXYAr7Bb8QZ",
-    "name": "Inclinado no Smith Machine",
+    "name": "Supino Inclinado no Smith",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1LRjbVQy8Rd2ryp26PGMq9rXYAr7Bb8QZ",
@@ -8180,18 +11316,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1LRjbVQy8Rd2ryp26PGMq9rXYAr7Bb8QZ",
     "category": "Peitoral",
     "tags": [
+      "supino",
       "inclinado",
       "smith",
-      "machine",
-      "gif",
       "peito",
       "peitoral",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1WDXSiA5R2AnZKy_afrFb3qBOvakU7EX3",
-    "name": "Incline Supino Reto com Barra",
+    "name": "Supino Inclinado com Barra",
     "muscleGroup": "Peito",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1WDXSiA5R2AnZKy_afrFb3qBOvakU7EX3",
@@ -8199,22 +11335,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1WDXSiA5R2AnZKy_afrFb3qBOvakU7EX3",
     "category": "Peitoral",
     "tags": [
-      "incline",
       "supino",
-      "reto",
-      "com",
+      "inclinado",
       "barra",
+      "incline",
       "barbell",
       "bench",
       "press",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "gif"
     ]
   },
   {
     "id": "drive-1teffFf2gTxsZlQsd46xpck4l7_kealKZ",
-    "name": "Incline Cabo / Polia Fly",
+    "name": "Crucifixo Inclinado na Polia",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1teffFf2gTxsZlQsd46xpck4l7_kealKZ",
@@ -8222,19 +11357,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1teffFf2gTxsZlQsd46xpck4l7_kealKZ",
     "category": "Peitoral",
     "tags": [
-      "incline",
-      "cabo",
+      "crucifixo",
+      "inclinado",
       "polia",
-      "fly",
+      "incline",
       "cable",
-      "gif",
+      "fly",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-14Au1t5_oplz8YR1_7rjtTVBl5fWfKkAv",
-    "name": "Incline Flexão de Braço Bench",
+    "name": "Flexão de Braço Inclinada no Banco",
     "muscleGroup": "Peito",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/14Au1t5_oplz8YR1_7rjtTVBl5fWfKkAv",
@@ -8242,20 +11379,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "14Au1t5_oplz8YR1_7rjtTVBl5fWfKkAv",
     "category": "Peitoral",
     "tags": [
-      "incline",
       "flexao",
       "braco",
-      "bench",
+      "inclinada",
+      "banco",
+      "incline",
       "push",
-      "gif",
+      "up",
+      "bench",
       "peito",
       "peitoral",
-      "banco"
+      "gif"
     ]
   },
   {
     "id": "drive-1gdb21YsuiQFHaAE-sIW6lDeqoyVD_u1C",
-    "name": "Inverted Row",
+    "name": "Remada Invertida na Barra",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1gdb21YsuiQFHaAE-sIW6lDeqoyVD_u1C",
@@ -8263,19 +11402,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1gdb21YsuiQFHaAE-sIW6lDeqoyVD_u1C",
     "category": "Peitoral",
     "tags": [
+      "remada",
+      "invertida",
+      "barra",
       "inverted",
       "row",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1rLQ86PyV8rm2LJxzNAioJzS8ddDqEN5F",
-    "name": "Kettlebell Pullover",
+    "name": "Pullover com Kettlebell",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1rLQ86PyV8rm2LJxzNAioJzS8ddDqEN5F",
@@ -8283,19 +11425,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1rLQ86PyV8rm2LJxzNAioJzS8ddDqEN5F",
     "category": "Peitoral",
     "tags": [
-      "kettlebell",
       "pullover",
-      "gif",
+      "kettlebell",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1mWKTEt98YeaPJevJ_RlcHrYizfzkQnRx",
-    "name": "Knee Flexão de Braços",
+    "name": "Flexão de Braços com Joelhos Apoiados",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mWKTEt98YeaPJevJ_RlcHrYizfzkQnRx",
@@ -8303,22 +11445,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mWKTEt98YeaPJevJ_RlcHrYizfzkQnRx",
     "category": "Peitoral",
     "tags": [
-      "knee",
       "flexao",
       "bracos",
+      "joelhos",
+      "apoiados",
+      "knee",
       "push",
       "ups",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1JoENRlbmcupnyg9PfewyEiJW9n4WOjoK",
-    "name": "Lever Pullover Machine",
+    "name": "Pullover na Máquina Articulada",
     "muscleGroup": "Peito",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1JoENRlbmcupnyg9PfewyEiJW9n4WOjoK",
@@ -8326,18 +11470,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1JoENRlbmcupnyg9PfewyEiJW9n4WOjoK",
     "category": "Peitoral",
     "tags": [
-      "lever",
       "pullover",
+      "maquina",
+      "articulada",
+      "lever",
       "machine",
-      "gif",
       "peito",
       "peitoral",
-      "maquina"
+      "gif"
     ]
   },
   {
     "id": "drive-1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc",
-    "name": "Linha Invertida",
+    "name": "Linha Invertida (Variação 2)",
     "muscleGroup": "Peito",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1aN3ZbeZR4xvKHJFHSbYpS6yg0cyI3tHc",
@@ -8347,17 +11492,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "linha",
       "invertida",
-      "gif",
       "peito",
       "peitoral",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
-    "name": "Low Cabo / Polia Chest Flys",
+    "name": "Crucifixo na Polia Baixa",
     "muscleGroup": "Peito",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
@@ -8365,15 +11510,35 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1JBVxFuEhyWSSnkb5N-i-VnwNsEgrwinZ",
     "category": "Peitoral",
     "tags": [
-      "low",
-      "cabo",
+      "crucifixo",
       "polia",
+      "baixa",
+      "low",
+      "cable",
       "chest",
       "flys",
-      "cable",
-      "gif",
       "peito",
-      "peitoral"
+      "peitoral",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "name": "Mergulho para Peitoral nas Paralelas",
+    "muscleGroup": "Peito",
+    "equipment": "Paralelas",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "source": "Google Drive",
+    "driveId": "15SV8nxvU8RprKJEkBPmT-n3HrYKh_RHd",
+    "category": "Peitoral",
+    "tags": [
+      "mergulho",
+      "peitoral",
+      "nas",
+      "paralelas",
+      "peito",
+      "gif"
     ]
   },
   {
@@ -8389,8 +11554,567 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "maquina",
       "prensa",
       "peito",
-      "gif",
-      "peitoral"
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "name": "Crucifixo Unilateral com Haltere",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "source": "Google Drive",
+    "driveId": "1RuI2jF6BqFpY_oUM-Jayt1Y0DKX2VTTU",
+    "category": "Peitoral",
+    "tags": [
+      "crucifixo",
+      "unilateral",
+      "haltere",
+      "one",
+      "arm",
+      "dumbbell",
+      "fly",
+      "peito",
+      "peitoral",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "name": "Voador (Peck Deck)",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "source": "Google Drive",
+    "driveId": "1hMTNmkYJWmaAKs5m9cVMtXWfvpoFA02H",
+    "category": "Peitoral",
+    "tags": [
+      "voador",
+      "peck",
+      "deck",
+      "pec",
+      "machine",
+      "movement",
+      "peito",
+      "peitoral",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "name": "Flexão Pike (Ombros e Peitoral Superior)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "source": "Google Drive",
+    "driveId": "1jgA3GZjVWPdyP9F1UfhjBHagJn0dsFK2",
+    "category": "Peitoral",
+    "tags": [
+      "flexao",
+      "pike",
+      "ombros",
+      "peitoral",
+      "superior",
+      "push",
+      "up",
+      "peito",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "name": "Flexão de Braço Pliométrica (Explosiva)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "source": "Google Drive",
+    "driveId": "1jrm6y3OFQAxZ169y-2J9EIAfcXjFF-GP",
+    "category": "Peitoral",
+    "tags": [
+      "flexao",
+      "braco",
+      "pliometrica",
+      "explosiva",
+      "plyometric",
+      "push",
+      "ups",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "name": "Supino Inclinado na Máquina",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "source": "Google Drive",
+    "driveId": "1PgcHxAVfB7judPN0WD4hFMmSnaAsP5Bu",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "inclinado",
+      "maquina",
+      "prensa",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "name": "Supino Inclinado Articulado",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "source": "Google Drive",
+    "driveId": "120LfddCA9IhYG1bd9pWsWYBqEMnOKd6S",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "inclinado",
+      "articulado",
+      "prensa",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "name": "Supino Reto Articulado",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "source": "Google Drive",
+    "driveId": "1MgXMNsO4NlHRx2Riex9Sh0dJPWW7wnht",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "reto",
+      "articulado",
+      "prensa",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "name": "Supino Articulado Unilateral",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "source": "Google Drive",
+    "driveId": "1sGTyEdXa7CR6lsLYdVjDMKx4Bb_2b9gR",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "articulado",
+      "unilateral",
+      "prensa",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "name": "Supino Pegada Fechada com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "source": "Google Drive",
+    "driveId": "1WaHyFKMAJVN8-KOe_tOZfFX0lOCuO39n",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "pegada",
+      "fechada",
+      "halteres",
+      "press",
+      "fechado",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "name": "Crucifixo na Polia Pegada Pronada",
+    "muscleGroup": "Peito",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "source": "Google Drive",
+    "driveId": "1AFeqIfUHUW7KT34RS-ZY7ynUwQh8xocU",
+    "category": "Peitoral",
+    "tags": [
+      "crucifixo",
+      "polia",
+      "pegada",
+      "pronada",
+      "pronated",
+      "grip",
+      "cable",
+      "fly",
+      "peito",
+      "peitoral",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "name": "Pullover no Banco com Haltere",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "source": "Google Drive",
+    "driveId": "1GauTLbs3JcJkkaI1qOO5mCBIEGbBpKqS",
+    "category": "Peitoral",
+    "tags": [
+      "pullover",
+      "banco",
+      "haltere",
+      "pull",
+      "over",
+      "peito",
+      "peitoral",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "name": "Pullover na Bola Suíça",
+    "muscleGroup": "Peito",
+    "equipment": "Bola Suíça",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "source": "Google Drive",
+    "driveId": "1qi9Aov30ZfpKsPiTADCQDWsHo51ztkBR",
+    "category": "Peitoral",
+    "tags": [
+      "pullover",
+      "bola",
+      "suica",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "name": "Flexão de Braço no Apoio (Push-Up Bars)",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "source": "Google Drive",
+    "driveId": "1tsit3vs4CmXBBAQkoV4gYcJz8aBulENu",
+    "category": "Peitoral",
+    "tags": [
+      "flexao",
+      "braco",
+      "apoio",
+      "push",
+      "up",
+      "bars",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "name": "Supino Reto no Smith",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "source": "Google Drive",
+    "driveId": "18g07phGJmjZbvfXoHLzLiFHVtcNG_UFO",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "reto",
+      "smith",
+      "peito",
+      "peitoral",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "name": "Supino Alternado com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "source": "Google Drive",
+    "driveId": "1k8PR2s1jtUv0qxd1F9cgC54sK8L8hTUc",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "alternado",
+      "halteres",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "name": "Supino Reto com Halteres (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "source": "Google Drive",
+    "driveId": "1aHSjf12FogggLnSTDM35lWXKYLgnbG9W",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "reto",
+      "halteres",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "name": "Supino Declinado no Smith",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "source": "Google Drive",
+    "driveId": "15lkRRNP13eFD8Ik30HSzjOsuTuIcRn6V",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "declinado",
+      "smith",
+      "peito",
+      "peitoral",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "name": "Supino Declinado com Barra (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "source": "Google Drive",
+    "driveId": "13mFg0oFxD0FadwWho6TnAaG86O21aui1",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "declinado",
+      "barra",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "name": "Supino Inclinado com Halteres",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "source": "Google Drive",
+    "driveId": "1QKmNVguyJY_HJ8plwU0PwggSswfgVrmz",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "inclinado",
+      "halteres",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "name": "Supino Inclinado com Barra (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "source": "Google Drive",
+    "driveId": "1aAdMFUsZ5L1i-GgM2-k1NX3ev3qhyhUR",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "inclinado",
+      "barra",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "name": "Supino Reto com Barra (Variação 3)",
+    "muscleGroup": "Peito",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "source": "Google Drive",
+    "driveId": "1GbMJ5FITCQ10KHdIYelrjhQRgwzWc8r8",
+    "category": "Peitoral",
+    "tags": [
+      "supino",
+      "reto",
+      "barra",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "name": "Svend Press com Anilha",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "source": "Google Drive",
+    "driveId": "1LiYDDU5frrYSBcyBWgPPeFE2PF7IdpaV",
+    "category": "Peitoral",
+    "tags": [
+      "svend",
+      "press",
+      "anilha",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "name": "Svend Press Isométrico",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "source": "Google Drive",
+    "driveId": "1bJiHz2H7AWPFacrYZuBQ3dGY-H_jRU0f",
+    "category": "Peitoral",
+    "tags": [
+      "svend",
+      "press",
+      "isometrico",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "name": "Voador / Crucifixo na Máquina",
+    "muscleGroup": "Peito",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "source": "Google Drive",
+    "driveId": "1DMTXMAmkHxWUp9QMqSNSNedwzXQHl8SU",
+    "category": "Peitoral",
+    "tags": [
+      "voador",
+      "crucifixo",
+      "maquina",
+      "aberto",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "name": "Crucifixo Reto com Halteres (Variação 2)",
+    "muscleGroup": "Peito",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "source": "Google Drive",
+    "driveId": "1W96fpnFwQmT7_MbdQ7OhFJ1BWeE0Ms0A",
+    "category": "Peitoral",
+    "tags": [
+      "crucifixo",
+      "reto",
+      "halteres",
+      "voo",
+      "hateres",
+      "peito",
+      "peitoral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "name": "Flexão de Braço na Parede",
+    "muscleGroup": "Peito",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "source": "Google Drive",
+    "driveId": "15YBFZn55iPWpW874OgZGbP3ywKao3IKD",
+    "category": "Peitoral",
+    "tags": [
+      "flexao",
+      "braco",
+      "parede",
+      "wall",
+      "push",
+      "ups",
+      "peito",
+      "peitoral",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "name": "Mergulho nas Paralelas com Carga",
+    "muscleGroup": "Peito",
+    "equipment": "Paralelas",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "source": "Google Drive",
+    "driveId": "1OahO0whrrsIik8zJEflQkaacNKKWM4RU",
+    "category": "Peitoral",
+    "tags": [
+      "mergulho",
+      "nas",
+      "paralelas",
+      "carga",
+      "weighted",
+      "dips",
+      "peito",
+      "peitoral",
+      "gif"
     ]
   },
   {
@@ -8405,7 +12129,6 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "pulley",
-      "com",
       "elastico",
       "band",
       "pushdown",
@@ -8426,14 +12149,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "banco",
       "bench",
       "dips",
+      "on",
       "floor",
-      "gif",
-      "triceps"
+      "triceps",
+      "gif"
     ]
   },
   {
     "id": "drive-1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy",
-    "name": "Mergulho no Banco",
+    "name": "Mergulho no Banco (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/1A_LcST9d6PJZZMEJWIKDZKd-rVlZRZGy",
@@ -8446,8 +12170,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "bench",
       "tricep",
       "dips",
-      "gif",
-      "triceps"
+      "triceps",
+      "gif"
     ]
   },
   {
@@ -8467,13 +12191,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "lying",
       "tricep",
       "extension",
-      "gif",
-      "polia"
+      "polia",
+      "gif"
     ]
   },
   {
     "id": "drive-1J6trLzXMBvXgKQ-EAAJ5d73pz_DUqJk2",
-    "name": "Cabo / Polia Tricep Kickback",
+    "name": "Tríceps Coice na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1J6trLzXMBvXgKQ-EAAJ5d73pz_DUqJk2",
@@ -8481,18 +12205,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1J6trLzXMBvXgKQ-EAAJ5d73pz_DUqJk2",
     "category": "Tríceps",
     "tags": [
-      "cabo",
+      "triceps",
+      "coice",
       "polia",
+      "cable",
       "tricep",
       "kickback",
-      "cable",
-      "gif",
-      "triceps"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1C0ZTd90rgMDCYY5jdvMsIhhwrDK5Yxk8",
-    "name": "Cabo / Polia Tricep Overhead Extensãos",
+    "name": "Tríceps Francês na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1C0ZTd90rgMDCYY5jdvMsIhhwrDK5Yxk8",
@@ -8500,20 +12225,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1C0ZTd90rgMDCYY5jdvMsIhhwrDK5Yxk8",
     "category": "Tríceps",
     "tags": [
-      "cabo",
+      "triceps",
+      "frances",
       "polia",
+      "cable",
       "tricep",
       "overhead",
-      "extensaos",
-      "cable",
       "extensions",
-      "gif",
-      "triceps"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1pyeCWBogbSwEg1cjZcfuuGTcAwJUPh-w",
-    "name": "Cabo / Polia Tricep Pushdown",
+    "name": "Tríceps Pulley Barra Reta",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1pyeCWBogbSwEg1cjZcfuuGTcAwJUPh-w",
@@ -8521,18 +12246,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1pyeCWBogbSwEg1cjZcfuuGTcAwJUPh-w",
     "category": "Tríceps",
     "tags": [
-      "cabo",
-      "polia",
+      "triceps",
+      "pulley",
+      "barra",
+      "reta",
+      "cable",
       "tricep",
       "pushdown",
-      "cable",
-      "gif",
-      "triceps"
+      "polia",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-14UJRHyDoZDVWPG_XmjpLqtehmqaAjIwm",
-    "name": "Close Grip Supino Movement",
+    "name": "Supino Fechado para Tríceps",
     "muscleGroup": "Tríceps",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/14UJRHyDoZDVWPG_XmjpLqtehmqaAjIwm",
@@ -8540,15 +12268,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "14UJRHyDoZDVWPG_XmjpLqtehmqaAjIwm",
     "category": "Tríceps",
     "tags": [
+      "supino",
+      "fechado",
+      "triceps",
       "close",
       "grip",
-      "supino",
-      "movement",
       "bench",
       "press",
-      "gif",
-      "triceps",
-      "banco"
+      "movement",
+      "banco",
+      "gif"
     ]
   },
   {
@@ -8563,11 +12292,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "coice",
       "curvado",
-      "gif",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8583,9 +12312,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "corda",
       "polia",
       "alta",
-      "gif",
       "triceps",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -8600,16 +12329,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "diamond",
       "pushup",
-      "gif",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1QDqN7boWWuIlJgzmUnW1KUQh0NMkTqYL",
-    "name": "Halter Tricep Kickback",
+    "name": "Tríceps Coice com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1QDqN7boWWuIlJgzmUnW1KUQh0NMkTqYL",
@@ -8617,18 +12346,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1QDqN7boWWuIlJgzmUnW1KUQh0NMkTqYL",
     "category": "Tríceps",
     "tags": [
-      "halter",
+      "triceps",
+      "coice",
+      "haltere",
+      "dumbbell",
       "tricep",
       "kickback",
-      "dumbbell",
-      "gif",
-      "triceps",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1XEDFyjKXGcR-kitbeNz522-3OQ9TeBEr",
-    "name": "Ez Bar Tricep Pushdown",
+    "name": "Tríceps Pulley com Barra W",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1XEDFyjKXGcR-kitbeNz522-3OQ9TeBEr",
@@ -8636,19 +12366,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1XEDFyjKXGcR-kitbeNz522-3OQ9TeBEr",
     "category": "Tríceps",
     "tags": [
+      "triceps",
+      "pulley",
+      "barra",
+      "ez",
       "bar",
       "tricep",
       "pushdown",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1e7g7WqEiF71VImkbZ7XsfxrRvVt4WSWG",
-    "name": "Francesa Dumbell",
+    "name": "Tríceps Francês com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1e7g7WqEiF71VImkbZ7XsfxrRvVt4WSWG",
@@ -8656,13 +12389,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1e7g7WqEiF71VImkbZ7XsfxrRvVt4WSWG",
     "category": "Tríceps",
     "tags": [
+      "triceps",
+      "frances",
+      "haltere",
       "francesa",
       "dumbell",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8679,16 +12414,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "braco",
       "push",
-      "gif",
+      "up",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
-    "name": "Kickback",
+    "name": "Tríceps Coice com Haltere (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
@@ -8696,12 +12432,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1E_HWj1PfPmwK7NoSba2d2DFHo6hXU-ls",
     "category": "Tríceps",
     "tags": [
-      "kickback",
-      "gif",
       "triceps",
+      "coice",
+      "haltere",
+      "kickback",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8716,16 +12454,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "mergulho",
       "assistido",
-      "gif",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1XBp_E5xnJctnGsoHnBylxww4DnD8E8am",
-    "name": "Overhead Cabo / Polia Tricep Extensão",
+    "name": "Tríceps Francês Acima da Cabeça na Polia",
     "muscleGroup": "Tríceps",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1XBp_E5xnJctnGsoHnBylxww4DnD8E8am",
@@ -8733,15 +12471,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1XBp_E5xnJctnGsoHnBylxww4DnD8E8am",
     "category": "Tríceps",
     "tags": [
-      "overhead",
-      "cabo",
+      "triceps",
+      "frances",
+      "acima",
+      "cabeca",
       "polia",
-      "tricep",
-      "extensao",
+      "overhead",
       "cable",
+      "tricep",
       "extension",
-      "gif",
-      "triceps"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -8758,16 +12498,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "braco",
       "push",
-      "gif",
+      "up",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
-    "name": "Straight Bar Pushdown",
+    "name": "Tríceps Pulley Barra Reta (Variação 2)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
@@ -8775,19 +12516,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1IkWxvMWu0FNqnIQRsyChonl6JSEt0yCe",
     "category": "Tríceps",
     "tags": [
+      "triceps",
+      "pulley",
+      "barra",
+      "reta",
       "straight",
       "bar",
       "pushdown",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
-    "name": "Straight Bar Tricep Pushdown",
+    "name": "Tríceps Pulley Barra Reta (Variação 3)",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
@@ -8795,15 +12539,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Wf_8mT82CbCpL9d0R-LUTK-O8AqgssIn",
     "category": "Tríceps",
     "tags": [
+      "triceps",
+      "pulley",
+      "barra",
+      "reta",
       "straight",
       "bar",
       "tricep",
       "pushdown",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8819,8 +12566,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "testa",
       "barra",
       "reta",
-      "gif",
-      "triceps"
+      "triceps",
+      "gif"
     ]
   },
   {
@@ -8834,10 +12581,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Tríceps",
     "tags": [
       "testa",
-      "com",
       "halteres",
-      "gif",
-      "triceps"
+      "triceps",
+      "gif"
     ]
   },
   {
@@ -8852,16 +12598,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "testa",
       "fechado",
-      "gif",
       "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-10n3CgcdZTz5xoV2sByhT62Ojs5jnUs0B",
-    "name": "Testa Unilateral Dumbell",
+    "name": "Tríceps Testa Unilateral com Haltere",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/10n3CgcdZTz5xoV2sByhT62Ojs5jnUs0B",
@@ -8869,19 +12615,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "10n3CgcdZTz5xoV2sByhT62Ojs5jnUs0B",
     "category": "Tríceps",
     "tags": [
+      "triceps",
       "testa",
       "unilateral",
+      "haltere",
       "dumbell",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1W4-NQRzMZmyqsQ_PlMbWTPOaK_c6n3eq",
-    "name": "Tricep Overhead Extensãos",
+    "name": "Tríceps Francês Acima da Cabeça",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1W4-NQRzMZmyqsQ_PlMbWTPOaK_c6n3eq",
@@ -8889,15 +12636,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1W4-NQRzMZmyqsQ_PlMbWTPOaK_c6n3eq",
     "category": "Tríceps",
     "tags": [
+      "triceps",
+      "frances",
+      "acima",
+      "cabeca",
       "tricep",
       "overhead",
-      "extensaos",
       "extensions",
-      "gif",
-      "triceps",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8912,8 +12661,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "bancos",
-      "gif",
-      "banco"
+      "banco",
+      "gif"
     ]
   },
   {
@@ -8944,6 +12693,7 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "barra",
+      "pe",
       "gif"
     ]
   },
@@ -8959,10 +12709,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "base",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8977,10 +12727,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "chao",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -8995,10 +12745,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "concentrado",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9015,8 +12765,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "corda",
       "polia",
       "baixa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -9031,8 +12781,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "corda",
-      "gif",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -9048,8 +12798,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "triceps",
       "extensao",
       "polia",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -9065,10 +12815,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "triceps",
       "extensao",
       "sentado",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9085,8 +12835,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "frances",
       "polia",
       "baixaa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -9101,14 +12851,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "inclinado",
-      "com",
       "halteres",
       "gif"
     ]
   },
   {
     "id": "drive-1R2Hl8yu-5A2Nno5dBB0gTh5uU9Cafgc4",
-    "name": "Tríceps Inclinado Dumbell",
+    "name": "Tríceps Testa no Banco Inclinado com Halteres",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1R2Hl8yu-5A2Nno5dBB0gTh5uU9Cafgc4",
@@ -9117,12 +12866,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Tríceps",
     "tags": [
       "triceps",
+      "testa",
+      "banco",
       "inclinado",
+      "halteres",
       "dumbell",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9138,10 +12890,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "triceps",
       "inclinado",
       "extensao",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9158,13 +12910,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "inclinado",
       "polia",
       "baixa",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw",
-    "name": "Tríceps Machine",
+    "name": "Tríceps na Máquina",
     "muscleGroup": "Tríceps",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1az8AxrlrivLvsdXQD87ZpN40O-oTmKSw",
@@ -9173,9 +12925,27 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Tríceps",
     "tags": [
       "triceps",
+      "maquina",
       "machine",
-      "gif",
-      "maquina"
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
+    "name": "Tríceps Mergulho",
+    "muscleGroup": "Tríceps",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
+    "source": "Google Drive",
+    "driveId": "15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "mergulho",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9194,24 +12964,6 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     ]
   },
   {
-    "id": "drive-15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
-    "name": "Tríceps Mergulho",
-    "muscleGroup": "Tríceps",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
-    "source": "Google Drive",
-    "driveId": "15xXwdS5CsA-8-sKkRPQnN-AW0LWPoGVJ",
-    "category": "Tríceps",
-    "tags": [
-      "triceps",
-      "mergulho",
-      "gif",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
     "id": "drive-1xZkpaSsvnEGA5RQkgpCO2n31iz5lsr0E",
     "name": "Tríceps na Paralela",
     "muscleGroup": "Tríceps",
@@ -9223,9 +12975,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "paralela",
-      "gif",
       "barras",
-      "paralelas"
+      "paralelas",
+      "gif"
     ]
   },
   {
@@ -9255,10 +13007,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "triceps",
       "patada",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9275,13 +13027,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "polia",
       "baixa",
       "unilateral",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1cKpxHloi2Lk-VlOZRlFGL2i6pwYNXipg",
-    "name": "Tríceps Reto Dumbell",
+    "name": "Tríceps Testa com Halteres no Banco Reto",
     "muscleGroup": "Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1cKpxHloi2Lk-VlOZRlFGL2i6pwYNXipg",
@@ -9290,12 +13042,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Tríceps",
     "tags": [
       "triceps",
+      "testa",
+      "halteres",
+      "banco",
       "reto",
       "dumbell",
-      "gif",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9312,13 +13067,224 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "reverso",
       "polia",
       "alta",
-      "gif",
-      "cabo"
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "name": "Tríceps Pulley Pegada Supinada (Reverso)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "source": "Google Drive",
+    "driveId": "1x4nppgY5PRWkd5iRfPRF_RYqAZ5bRjAG",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "pulley",
+      "pegada",
+      "supinada",
+      "reverso",
+      "polia",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "name": "Tríceps na Polia Média",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "source": "Google Drive",
+    "driveId": "1co52-TtDm83Zz31MWvmvzgSqxK4YhfE-",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "polia",
+      "media",
+      "roldana",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "name": "Tríceps Testa com Halteres",
+    "muscleGroup": "Tríceps",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "source": "Google Drive",
+    "driveId": "1qF8OTlGjMRTz8zLP2fEfV0m924Gzyfgw",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "testa",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "name": "Tríceps Testa Pegada Reversa",
+    "muscleGroup": "Tríceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "source": "Google Drive",
+    "driveId": "18s9wD8V8cPLEURqJ_6oJsduXEGRFaH8g",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "testa",
+      "pegada",
+      "reversa",
+      "reverso",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "name": "Tríceps Testa na Polia",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "source": "Google Drive",
+    "driveId": "1eJFv5BMXkXcjBo0Lva8k6hbYckVNBG4b",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "testa",
+      "polia",
+      "roldana",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "name": "Tríceps Unilateral na Polia (Pegada Neutra/Frontal)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "source": "Google Drive",
+    "driveId": "1ujyzh3Kct7slggE32CjCMrrsiBvHIeUC",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "unilateral",
+      "polia",
+      "pegada",
+      "neutra",
+      "frontal",
+      "frente",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "name": "Tríceps Unilateral Pegada Invertida na Polia",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "source": "Google Drive",
+    "driveId": "1YprK00-8rHl9D-BdGX1mQ_6EZ2rD1BYO",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "unilateral",
+      "pegada",
+      "invertida",
+      "polia",
+      "reverso",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "name": "Tríceps Pulley Unilateral",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "source": "Google Drive",
+    "driveId": "14jg77rgRyknfZGxuOnh3RTF7VStke9Mm",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "pulley",
+      "unilateral",
+      "polia",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "name": "Tríceps Pulley com Barra V",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "source": "Google Drive",
+    "driveId": "1Lg0inXJA4Xvl_qn2cY2NusYoZeHWquuP",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "pulley",
+      "barra",
+      "polia",
+      "cabo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "name": "Tríceps Francês Unilateral Sentado",
+    "muscleGroup": "Tríceps",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "source": "Google Drive",
+    "driveId": "1LSMKyVhn2gbSyNiApjBCoFc92cmEcjME",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "frances",
+      "unilateral",
+      "sentado",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "name": "Tríceps Pulley com Barra V (Variação 2)",
+    "muscleGroup": "Tríceps",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "source": "Google Drive",
+    "driveId": "1G8q41jjORrlf_-l61rrHVsv_eWwodf2P",
+    "category": "Tríceps",
+    "tags": [
+      "triceps",
+      "pulley",
+      "barra",
+      "bar",
+      "tricep",
+      "pushdown",
+      "polia",
+      "cabo",
+      "gif"
     ]
   },
   {
     "id": "drive-1hdC89XhXqXrOyZ8mVO3R82TBldTBCfhs",
-    "name": "Band Pull",
+    "name": "Puxada com Elástico (Band Pull-Apart)",
     "muscleGroup": "Trapézio",
     "equipment": "Elástico / Band",
     "gifUrl": "https://lh3.googleusercontent.com/d/1hdC89XhXqXrOyZ8mVO3R82TBldTBCfhs",
@@ -9326,16 +13292,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1hdC89XhXqXrOyZ8mVO3R82TBldTBCfhs",
     "category": "Trapézio",
     "tags": [
+      "puxada",
+      "elastico",
       "band",
       "pull",
-      "gif",
+      "apart",
       "trapezio",
-      "elastico"
+      "gif"
     ]
   },
   {
     "id": "drive-1mo11I1xH1FqL4WtIhxV7zC8RCZYV_nJL",
-    "name": "Cabo Delt Fly",
+    "name": "Crucifixo Inverso para Posterior na Polia",
     "muscleGroup": "Trapézio",
     "equipment": "Polia / Cabo",
     "gifUrl": "https://lh3.googleusercontent.com/d/1mo11I1xH1FqL4WtIhxV7zC8RCZYV_nJL",
@@ -9343,12 +13311,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1mo11I1xH1FqL4WtIhxV7zC8RCZYV_nJL",
     "category": "Trapézio",
     "tags": [
+      "crucifixo",
+      "inverso",
+      "posterior",
+      "polia",
       "cabo",
       "delt",
       "fly",
-      "gif",
       "trapezio",
-      "polia"
+      "gif"
     ]
   },
   {
@@ -9363,9 +13334,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "cabo",
       "reverso",
-      "gif",
       "trapezio",
-      "polia"
+      "polia",
+      "gif"
     ]
   },
   {
@@ -9380,9 +13351,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "corda",
       "remo",
-      "gif",
       "trapezio",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -9397,11 +13368,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "decubito",
       "inclinado",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9415,16 +13386,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Trapézio",
     "tags": [
       "elevacao",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn",
-    "name": "Elevação Lateral Inclinada",
+    "name": "Elevação Lateral Inclinada (Variação 2)",
     "muscleGroup": "Trapézio",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZSRVXtfNuv1je0KNYHH9epVveo7-uwBn",
@@ -9435,11 +13406,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "elevacao",
       "lateral",
       "inclinada",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9453,10 +13424,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Trapézio",
     "tags": [
       "encolher",
-      "com",
       "barra",
-      "gif",
-      "trapezio"
+      "trapezio",
+      "gif"
     ]
   },
   {
@@ -9471,11 +13441,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "encolhimento",
       "alavanca",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9489,10 +13459,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Trapézio",
     "tags": [
       "encolhimento",
-      "com",
       "halteres",
-      "gif",
-      "trapezio"
+      "trapezio",
+      "gif"
     ]
   },
   {
@@ -9509,11 +13478,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "ombros",
       "pela",
       "frente",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9530,11 +13499,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "ombros",
       "por",
       "tras",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9549,11 +13518,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "encolhimento",
       "inclinado",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9569,9 +13538,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "encolhimento",
       "polia",
       "baixa",
-      "gif",
       "trapezio",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -9586,9 +13555,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "polia",
       "alta",
-      "gif",
       "trapezio",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -9603,11 +13572,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "remada",
       "alta",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9621,10 +13590,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Trapézio",
     "tags": [
       "remada",
-      "com",
+      "pe",
       "halteres",
-      "gif",
-      "trapezio"
+      "trapezio",
+      "gif"
     ]
   },
   {
@@ -9639,11 +13608,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "remada",
       "inclinada",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9658,11 +13627,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "remada",
       "vertical",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9677,13 +13646,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "serratil",
       "parede",
-      "com",
       "rolo",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9698,11 +13666,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "voador",
       "inverso",
-      "gif",
       "trapezio",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9718,180 +13686,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "name": "Todo Corpo Exercício 2",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "source": "Google Drive",
-    "driveId": "188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "name": "Todo Corpo Exercício 3",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "source": "Google Drive",
-    "driveId": "17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "name": "Todo Corpo Exercício 4",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "source": "Google Drive",
-    "driveId": "1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "name": "Todo Corpo Exercício 5",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "source": "Google Drive",
-    "driveId": "13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "name": "Todo Corpo Exercício 6",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "source": "Google Drive",
-    "driveId": "10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "name": "Todo Corpo Exercício 7",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "source": "Google Drive",
-    "driveId": "1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "name": "Todo Corpo Exercício 8",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "source": "Google Drive",
-    "driveId": "116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
-    ]
-  },
-  {
-    "id": "drive-1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "name": "Todo Corpo Exercício 9",
-    "muscleGroup": "Corpo Todo",
-    "equipment": "Peso Corporal / Geral",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "source": "Google Drive",
-    "driveId": "1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
-    "category": "Corpo Todo / Full Body",
-    "tags": [
-      "todo",
-      "corpo",
-      "exercicio",
-      "gif",
-      "full",
-      "body",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9907,12 +13707,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "10",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9928,12 +13729,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "11",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9949,12 +13751,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "12",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9970,12 +13773,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "13",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -9991,12 +13795,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "14",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10012,12 +13817,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "15",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10033,12 +13839,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "16",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10054,12 +13861,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "17",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10075,12 +13883,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "18",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10096,12 +13905,34 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "19",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "name": "Todo Corpo Exercício 2",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "source": "Google Drive",
+    "driveId": "188m8PyPWNxcddFXMv6rS3SiTx0YR4IC9",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10117,12 +13948,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "20",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10138,12 +13970,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "21",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10159,12 +13992,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "22",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10180,12 +14014,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "23",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10201,12 +14036,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "24",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10222,12 +14058,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "25",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10243,12 +14080,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "26",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10264,12 +14102,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "27",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10285,12 +14124,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "28",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10306,12 +14146,34 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "29",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "name": "Todo Corpo Exercício 3",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "source": "Google Drive",
+    "driveId": "17CRhcfVseU9zqhfREzC9vHbGz46dUgft",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10327,12 +14189,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "30",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10348,12 +14211,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "31",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10369,12 +14233,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "32",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10390,12 +14255,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "33",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10411,12 +14277,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "34",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10432,12 +14299,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "35",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10453,12 +14321,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "36",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10474,12 +14343,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "37",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10495,12 +14365,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "38",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10516,12 +14387,34 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "39",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "name": "Todo Corpo Exercício 4",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "source": "Google Drive",
+    "driveId": "1ybCywJWCju2jAGC28VskaBzr6gkLjiSB",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10537,12 +14430,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "40",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10558,12 +14452,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "41",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10579,12 +14474,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "42",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10600,12 +14496,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "43",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10621,12 +14518,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "44",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10642,12 +14540,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "45",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10663,12 +14562,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "46",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10684,12 +14584,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "47",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10705,17 +14606,123 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "todo",
       "corpo",
       "exercicio",
-      "gif",
+      "48",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "name": "Todo Corpo Exercício 5",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "source": "Google Drive",
+    "driveId": "13nRRklsmfnWgVXTqtE8g6y3CxPEV57UK",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "name": "Todo Corpo Exercício 6",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "source": "Google Drive",
+    "driveId": "10HPAh-hchbBmJDZx4Lo37blaPzKJtGSF",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "name": "Todo Corpo Exercício 7",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "source": "Google Drive",
+    "driveId": "1Z-IzXuW0E6gcQOp_ET3X0HhJ1Z-6Jvj0",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "name": "Todo Corpo Exercício 8",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "source": "Google Drive",
+    "driveId": "116-44SXafWh-Dko4zQoI_rgqLchu5VAf",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "name": "Todo Corpo Exercício 9",
+    "muscleGroup": "Corpo Todo",
+    "equipment": "Peso Corporal / Geral",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "source": "Google Drive",
+    "driveId": "1FghYl9BbAeTiEpNt830ftzVUzxvZpYij",
+    "category": "Corpo Todo / Full Body",
+    "tags": [
+      "todo",
+      "corpo",
+      "exercicio",
+      "full",
+      "body",
+      "peso",
+      "corporal",
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1V7-yn47mm2kq1M2Y4vUn4P-gjMxVjh0n",
-    "name": "Hundstund Flexão de Braço",
+    "name": "Flexão na Parada de Mão (Handstand Push-Up)",
     "muscleGroup": "Corpo Todo",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1V7-yn47mm2kq1M2Y4vUn4P-gjMxVjh0n",
@@ -10723,18 +14730,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1V7-yn47mm2kq1M2Y4vUn4P-gjMxVjh0n",
     "category": "Corpo Todo / Full Body",
     "tags": [
-      "hundstund",
       "flexao",
-      "braco",
+      "parada",
+      "mao",
+      "handstand",
       "push",
-      "gif",
+      "up",
+      "hundstund",
       "corpo",
       "todo",
       "full",
       "body",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10750,12 +14760,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "rotacao",
       "alongamente",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10770,12 +14780,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "abdominal",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10791,11 +14801,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "extensao",
       "pescoco",
-      "png",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10811,11 +14821,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "pescoco",
       "ajoelhado",
-      "gif",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10832,11 +14842,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "pescoco",
       "frontal",
       "dorsal",
-      "gif",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10851,12 +14861,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "esfinge",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10871,12 +14881,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "lateral",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10892,12 +14902,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "encolimento",
       "ombros",
       "unilateral",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10912,11 +14922,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "extensao",
       "cervical",
-      "gif",
       "pescoco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10932,11 +14942,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "extensao",
       "pescoco",
       "alavanca",
-      "gif",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10952,11 +14962,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "extensao",
       "pescoco",
       "deitado",
-      "gif",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -10972,9 +14982,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "extensao",
       "pescoco",
       "polia",
-      "gif",
       "cervical",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -10990,9 +15000,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "pescoco",
       "polia",
-      "gif",
       "cervical",
-      "cabo"
+      "cabo",
+      "gif"
     ]
   },
   {
@@ -11008,11 +15018,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "flexao",
       "pescoco",
       "deitado",
-      "gif",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11027,17 +15037,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "hiperextensao",
       "solo",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-14layuXKLqoQ9Og2pRmOlOERSLzTJijjL",
-    "name": "Pose Peixe",
+    "name": "Postura do Peixe (Alongamento Cervical/Peito)",
     "muscleGroup": "Pescoço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/14layuXKLqoQ9Og2pRmOlOERSLzTJijjL",
@@ -11045,19 +15055,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "14layuXKLqoQ9Og2pRmOlOERSLzTJijjL",
     "category": "Pescoço / Cervical",
     "tags": [
-      "pose",
+      "postura",
       "peixe",
-      "gif",
-      "pescoco",
+      "alongamento",
       "cervical",
+      "peito",
+      "pose",
+      "pescoco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1g39q7wd0Qo3-GWSADEa-iHLhm_LtL5im",
-    "name": "Queixo Tuck",
+    "name": "Retração Cervical (Chin Tuck)",
     "muscleGroup": "Pescoço",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1g39q7wd0Qo3-GWSADEa-iHLhm_LtL5im",
@@ -11065,14 +15078,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1g39q7wd0Qo3-GWSADEa-iHLhm_LtL5im",
     "category": "Pescoço / Cervical",
     "tags": [
-      "queixo",
-      "tuck",
-      "gif",
-      "pescoco",
+      "retracao",
       "cervical",
+      "chin",
+      "tuck",
+      "queixo",
+      "pescoco",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11087,12 +15102,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "super",
       "homem",
-      "gif",
       "pescoco",
       "cervical",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11107,11 +15122,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "convencional",
-      "com",
       "halteres",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11126,11 +15140,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "frontal",
-      "com",
       "halteres",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11145,11 +15158,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "sumo",
-      "com",
       "halteres",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11164,11 +15176,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "dividido",
-      "com",
       "halteres",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11183,12 +15194,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "calice",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11203,11 +15214,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "agachamento",
       "bulgaro",
-      "com",
       "halteres",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11221,12 +15231,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Agachamentos",
     "tags": [
       "afundo",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11240,19 +15250,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Agachamentos",
     "tags": [
       "agachamento",
-      "com",
       "cinto",
-      "png",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1dfabbqMsnPBpt8JkHJXP7TeZfV9UoxyF",
-    "name": "Band Pull Through",
+    "name": "Pull Through na Polia/Elástico",
     "muscleGroup": "Pernas",
     "equipment": "Elástico / Band",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dfabbqMsnPBpt8JkHJXP7TeZfV9UoxyF",
@@ -11260,18 +15269,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1dfabbqMsnPBpt8JkHJXP7TeZfV9UoxyF",
     "category": "Agachamentos",
     "tags": [
-      "band",
       "pull",
       "through",
-      "gif",
+      "polia",
+      "elastico",
+      "band",
       "pernas",
       "agachamentos",
-      "elastico"
+      "gif"
     ]
   },
   {
     "id": "drive-16EBYTqtemfH68kbcfWj68ARQa6284i7g",
-    "name": "Barra Clean And Press Muscles",
+    "name": "Clean and Press com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/16EBYTqtemfH68kbcfWj68ARQa6284i7g",
@@ -11279,20 +15289,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "16EBYTqtemfH68kbcfWj68ARQa6284i7g",
     "category": "Agachamentos",
     "tags": [
-      "barra",
       "clean",
-      "and",
       "press",
-      "muscles",
+      "barra",
       "barbell",
-      "gif",
+      "muscles",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1Exg0hDUfjCYskZNiMAULr1FWFVFOmACF",
-    "name": "Barra Levantamento Terra Front View",
+    "name": "Levantamento Terra com Barra (Vista Frontal)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Exg0hDUfjCYskZNiMAULr1FWFVFOmACF",
@@ -11300,21 +15309,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Exg0hDUfjCYskZNiMAULr1FWFVFOmACF",
     "category": "Agachamentos",
     "tags": [
-      "barra",
       "levantamento",
       "terra",
-      "front",
-      "view",
+      "barra",
+      "vista",
+      "frontal",
       "barbell",
       "deadlift",
-      "gif",
+      "front",
+      "view",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1-7p3mLYp_fMiaYXmFbcV782sUvvhkUdx",
-    "name": "Barra Levantamento Terra Mixed Grip",
+    "name": "Levantamento Terra Pegada Mista",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-7p3mLYp_fMiaYXmFbcV782sUvvhkUdx",
@@ -11322,21 +15333,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1-7p3mLYp_fMiaYXmFbcV782sUvvhkUdx",
     "category": "Agachamentos",
     "tags": [
-      "barra",
       "levantamento",
       "terra",
-      "mixed",
-      "grip",
+      "pegada",
+      "mista",
       "barbell",
       "deadlift",
-      "gif",
+      "mixed",
+      "grip",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "barra",
+      "gif"
     ]
   },
   {
     "id": "drive-16OgNv74KmQ6-ZI8-joJ9JSx4vKPeocyX",
-    "name": "Barra Levantamento Terra Movement",
+    "name": "Levantamento Terra Tradicional com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/16OgNv74KmQ6-ZI8-joJ9JSx4vKPeocyX",
@@ -11344,15 +15357,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "16OgNv74KmQ6-ZI8-joJ9JSx4vKPeocyX",
     "category": "Agachamentos",
     "tags": [
-      "barra",
       "levantamento",
       "terra",
-      "movement",
+      "tradicional",
+      "barra",
       "barbell",
       "deadlift",
-      "gif",
+      "movement",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11370,14 +15384,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "agachamento",
       "barbell",
       "squat",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-19QAzHIqDMGi0wYZh5_PjJePKbVsya2uK",
-    "name": "Barra Hack Agachamento",
+    "name": "Agachamento Hack com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/19QAzHIqDMGi0wYZh5_PjJePKbVsya2uK",
@@ -11385,19 +15399,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "19QAzHIqDMGi0wYZh5_PjJePKbVsya2uK",
     "category": "Agachamentos",
     "tags": [
-      "barra",
-      "hack",
       "agachamento",
+      "hack",
+      "barra",
       "barbell",
       "squat",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
-    "name": "Barra Romanian Levantamento Terra Movement",
+    "name": "Levantamento Terra Romeno (RDL) com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
@@ -11405,21 +15419,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1dCUN5hm6OrZ_dcMN83EzEToohPuA64B4",
     "category": "Agachamentos",
     "tags": [
-      "barra",
-      "romanian",
       "levantamento",
       "terra",
-      "movement",
+      "romeno",
+      "rdl",
+      "barra",
       "barbell",
+      "romanian",
       "deadlift",
-      "gif",
+      "movement",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1u8iF6aZocZQ64WuzZtXhTi5p9bMlsYIN",
-    "name": "Barra Single Leg Levantamento Terra",
+    "name": "Levantamento Terra Unilateral com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1u8iF6aZocZQ64WuzZtXhTi5p9bMlsYIN",
@@ -11427,21 +15443,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1u8iF6aZocZQ64WuzZtXhTi5p9bMlsYIN",
     "category": "Agachamentos",
     "tags": [
-      "barra",
-      "single",
-      "leg",
       "levantamento",
       "terra",
+      "unilateral",
+      "barra",
       "barbell",
+      "single",
+      "leg",
       "deadlift",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1GeleviIrOErJ3-fnO5h2sbK2OxpYNEti",
-    "name": "Barra Split Agachamento",
+    "name": "Agachamento Split com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1GeleviIrOErJ3-fnO5h2sbK2OxpYNEti",
@@ -11449,19 +15466,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1GeleviIrOErJ3-fnO5h2sbK2OxpYNEti",
     "category": "Agachamentos",
     "tags": [
-      "barra",
-      "split",
       "agachamento",
+      "split",
+      "barra",
       "barbell",
       "squat",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
-    "name": "Barra Sumo Agachamento",
+    "name": "Agachamento Sumô com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
@@ -11469,14 +15486,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1L_cug-EE9Bm9MhYvLb0OxGJ4I7o7LkA0",
     "category": "Agachamentos",
     "tags": [
-      "barra",
-      "sumo",
       "agachamento",
+      "sumo",
+      "barra",
       "barbell",
       "squat",
-      "gif",
       "pernas",
-      "agachamentos"
+      "agachamentos",
+      "gif"
     ]
   },
   {
@@ -11494,12 +15511,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "between",
       "boxes",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11515,17 +15532,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "belt",
       "agachamento",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1MKcH70EpgTbEc0A_05vFWKCk5zw1iJXS",
-    "name": "Bodyweight Forward Lunge",
+    "name": "Afundo Frontal Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1MKcH70EpgTbEc0A_05vFWKCk5zw1iJXS",
@@ -11533,20 +15550,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1MKcH70EpgTbEc0A_05vFWKCk5zw1iJXS",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "frontal",
+      "peso",
+      "corporal",
       "bodyweight",
       "forward",
       "lunge",
-      "gif",
       "pernas",
       "agachamentos",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1MYoE7bn60wWMOZOgAiP04gO9obpqqJTv",
-    "name": "Bodyweight Agachamento",
+    "name": "Agachamento Livre Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1MYoE7bn60wWMOZOgAiP04gO9obpqqJTv",
@@ -11554,20 +15573,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1MYoE7bn60wWMOZOgAiP04gO9obpqqJTv",
     "category": "Agachamentos",
     "tags": [
-      "bodyweight",
       "agachamento",
-      "squat",
-      "gif",
-      "pernas",
-      "agachamentos",
+      "livre",
       "peso",
       "corporal",
-      "geral"
+      "bodyweight",
+      "squat",
+      "pernas",
+      "agachamentos",
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1166s7bSWt-Q-73fRX79Rp1zR5kE-VxoC",
-    "name": "Bodyweight Walking Lunge Movement",
+    "name": "Passada Caminhando Peso Corporal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1166s7bSWt-Q-73fRX79Rp1zR5kE-VxoC",
@@ -11575,21 +15595,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1166s7bSWt-Q-73fRX79Rp1zR5kE-VxoC",
     "category": "Agachamentos",
     "tags": [
+      "passada",
+      "caminhando",
+      "peso",
+      "corporal",
       "bodyweight",
       "walking",
       "lunge",
       "movement",
-      "gif",
       "pernas",
       "agachamentos",
-      "peso",
-      "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1xjLfCoswIhgnLQUmRc1vNSIxQGJhgP_Y",
-    "name": "Box Agachamento Muscles Used",
+    "name": "Agachamento na Caixa (Box Squat)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1xjLfCoswIhgnLQUmRc1vNSIxQGJhgP_Y",
@@ -11597,22 +15619,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1xjLfCoswIhgnLQUmRc1vNSIxQGJhgP_Y",
     "category": "Agachamentos",
     "tags": [
-      "box",
       "agachamento",
+      "caixa",
+      "box",
+      "squat",
       "muscles",
       "used",
-      "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
-    "name": "Bulgarian Split Spuat",
+    "name": "Agachamento Búlgaro (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
@@ -11620,20 +15643,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1SQNznElQW8-ov3Hsr9tzI8_hN4K5_h5k",
     "category": "Agachamentos",
     "tags": [
+      "agachamento",
+      "bulgaro",
       "bulgarian",
       "split",
       "spuat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1MERnTWu1koafRGKpYTEH74J0s8yr0qmE",
-    "name": "Curtsy Lunge",
+    "name": "Afundo Cruzado (Curtsy Lunge)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1MERnTWu1koafRGKpYTEH74J0s8yr0qmE",
@@ -11641,19 +15666,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1MERnTWu1koafRGKpYTEH74J0s8yr0qmE",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "cruzado",
       "curtsy",
       "lunge",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1RZtojuv3iBLrSt-8GXV_GHCpyUW4ZIKw",
-    "name": "Levantamento Terra Back View",
+    "name": "Levantamento Terra com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1RZtojuv3iBLrSt-8GXV_GHCpyUW4ZIKw",
@@ -11663,20 +15690,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "levantamento",
       "terra",
+      "barra",
+      "deadlift",
       "back",
       "view",
-      "deadlift",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1xLn4ZoCj0xZrWANHs6lNqHeJM_2Ji6bd",
-    "name": "Halter Levantamento Terra Neutral Grip",
+    "name": "Levantamento Terra Pegada Neutra com Halteres",
     "muscleGroup": "Pernas",
     "equipment": "Halteres",
     "gifUrl": "https://lh3.googleusercontent.com/d/1xLn4ZoCj0xZrWANHs6lNqHeJM_2Ji6bd",
@@ -11684,17 +15712,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1xLn4ZoCj0xZrWANHs6lNqHeJM_2Ji6bd",
     "category": "Agachamentos",
     "tags": [
-      "halter",
       "levantamento",
       "terra",
-      "neutral",
-      "grip",
+      "pegada",
+      "neutra",
+      "halteres",
       "dumbbell",
       "deadlift",
-      "gif",
+      "neutral",
+      "grip",
       "pernas",
       "agachamentos",
-      "halteres"
+      "gif"
     ]
   },
   {
@@ -11710,15 +15739,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "halter",
       "swings",
       "dumbbell",
-      "gif",
       "pernas",
       "agachamentos",
-      "halteres"
+      "halteres",
+      "gif"
     ]
   },
   {
     "id": "drive-1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
-    "name": "Front Agachamento",
+    "name": "Agachamento Frontal (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
@@ -11726,20 +15755,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1I8m_HMLsQxI9pdtEsFQvBOWZn046swYR",
     "category": "Agachamentos",
     "tags": [
-      "front",
       "agachamento",
+      "frontal",
+      "front",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1SQtFhdIOu5QrNLOlOdLfDJ0GN1y729Gv",
-    "name": "Full Agachamento Side View",
+    "name": "Agachamento Profundo com Barra",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1SQtFhdIOu5QrNLOlOdLfDJ0GN1y729Gv",
@@ -11747,22 +15777,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1SQtFhdIOu5QrNLOlOdLfDJ0GN1y729Gv",
     "category": "Agachamentos",
     "tags": [
-      "full",
       "agachamento",
+      "profundo",
+      "barra",
+      "full",
+      "squat",
       "side",
       "view",
-      "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
-    "name": "Hack Agachamento Musculature",
+    "name": "Agachamento Hack Machine (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
@@ -11770,19 +15802,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1S9JSUyr9AicO9_PyhA9Z_jpEd9hM8oUY",
     "category": "Agachamentos",
     "tags": [
-      "hack",
       "agachamento",
-      "musculature",
+      "hack",
+      "machine",
       "squat",
-      "gif",
+      "musculature",
       "pernas",
       "agachamentos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-13T2q4BpMVh88dP5zvoAgnCeAfQxGb5gK",
-    "name": "Hex Bar Levantamento Terra",
+    "name": "Levantamento Terra na Barra Hexagonal",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/13T2q4BpMVh88dP5zvoAgnCeAfQxGb5gK",
@@ -11790,22 +15823,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13T2q4BpMVh88dP5zvoAgnCeAfQxGb5gK",
     "category": "Agachamentos",
     "tags": [
-      "hex",
-      "bar",
       "levantamento",
       "terra",
+      "barra",
+      "hexagonal",
+      "hex",
+      "bar",
       "deadlift",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-14Z_RDZBo4pj6ENJqAF0l4NH5J9ZgMA52",
-    "name": "How To do A Kettlebell Single Arm Swing",
+    "name": "Swing Unilateral com Kettlebell",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/14Z_RDZBo4pj6ENJqAF0l4NH5J9ZgMA52",
@@ -11813,22 +15848,24 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "14Z_RDZBo4pj6ENJqAF0l4NH5J9ZgMA52",
     "category": "Agachamentos",
     "tags": [
-      "how",
+      "swing",
+      "unilateral",
       "kettlebell",
+      "how",
+      "to",
       "single",
       "arm",
-      "swing",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1YACVP3b5vJ7-Mf13cuY3aLfg9Bhz8JLR",
-    "name": "Kettlebell Sumo Levantamento Terra",
+    "name": "Levantamento Terra Sumô com Kettlebell",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1YACVP3b5vJ7-Mf13cuY3aLfg9Bhz8JLR",
@@ -11836,17 +15873,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1YACVP3b5vJ7-Mf13cuY3aLfg9Bhz8JLR",
     "category": "Agachamentos",
     "tags": [
-      "kettlebell",
-      "sumo",
       "levantamento",
       "terra",
+      "sumo",
+      "kettlebell",
       "deadlift",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11863,12 +15900,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "levantamento",
       "terra",
       "deadlift",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11884,17 +15921,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "landmine",
       "agachamento",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
-    "name": "Mountain Climbers",
+    "name": "Alpinista (Mountain Climber) (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
@@ -11902,19 +15939,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1O6s3ucimQFpH404exlxwHgE4--p4t9nX",
     "category": "Agachamentos",
     "tags": [
+      "alpinista",
       "mountain",
+      "climber",
       "climbers",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1W1TYfPUaDh9MbRDkUC555ilWBCegUMJu",
-    "name": "Pendulum Lunge",
+    "name": "Afundo Pêndulo",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1W1TYfPUaDh9MbRDkUC555ilWBCegUMJu",
@@ -11922,14 +15961,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1W1TYfPUaDh9MbRDkUC555ilWBCegUMJu",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "pendulo",
       "pendulum",
       "lunge",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -11945,17 +15986,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "pistol",
       "agachamento",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1CRvHfekVboFYrkeh3xwmQFTzTduIIxDI",
-    "name": "Pistol Agachamento Muscles",
+    "name": "Agachamento Unilateral (Pistol Squat)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1CRvHfekVboFYrkeh3xwmQFTzTduIIxDI",
@@ -11963,21 +16004,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1CRvHfekVboFYrkeh3xwmQFTzTduIIxDI",
     "category": "Agachamentos",
     "tags": [
-      "pistol",
       "agachamento",
-      "muscles",
+      "unilateral",
+      "pistol",
       "squat",
-      "gif",
+      "muscles",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-14IGHAiARY-EEgZBezhb8E5zbf85FOgT8",
-    "name": "Power Lunge Movement",
+    "name": "Afundo com Salto (Power Lunge)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/14IGHAiARY-EEgZBezhb8E5zbf85FOgT8",
@@ -11985,20 +16027,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "14IGHAiARY-EEgZBezhb8E5zbf85FOgT8",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "salto",
       "power",
       "lunge",
       "movement",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA",
-    "name": "Push Press",
+    "name": "Push Press com Barra (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1ZiYWCoNGq56Jn8XLI2So2gbE9NlbTfOA",
@@ -12008,17 +16052,18 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "push",
       "press",
-      "gif",
+      "barra",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1rBDxO-r9q1aNPGarhh6vIBu_MZGEg1O1",
-    "name": "Reverse Hack Agachamento",
+    "name": "Agachamento Hack Invertido",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1rBDxO-r9q1aNPGarhh6vIBu_MZGEg1O1",
@@ -12026,19 +16071,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1rBDxO-r9q1aNPGarhh6vIBu_MZGEg1O1",
     "category": "Agachamentos",
     "tags": [
-      "reverse",
-      "hack",
       "agachamento",
+      "hack",
+      "invertido",
+      "reverse",
       "squat",
-      "gif",
       "pernas",
       "agachamentos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
-    "name": "Reverse Lunge",
+    "name": "Afundo Reverso (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
@@ -12046,19 +16092,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "13E4oo7l9RGIWJG6PAFlwPWcYfoDC0BY-",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "reverso",
       "reverse",
       "lunge",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1-j9m6nhAgdOv4q39f_vHQ__4HsgxLxac",
-    "name": "Side Lunge",
+    "name": "Afundo Lateral",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-j9m6nhAgdOv4q39f_vHQ__4HsgxLxac",
@@ -12066,19 +16114,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1-j9m6nhAgdOv4q39f_vHQ__4HsgxLxac",
     "category": "Agachamentos",
     "tags": [
+      "afundo",
+      "lateral",
       "side",
       "lunge",
-      "gif",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1J6Cid4B_5BS7vbqISI2jVGlPkwjrOtMB",
-    "name": "Smith Machine Machine Levantamento Terra",
+    "name": "Levantamento Terra no Smith",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1J6Cid4B_5BS7vbqISI2jVGlPkwjrOtMB",
@@ -12086,20 +16136,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1J6Cid4B_5BS7vbqISI2jVGlPkwjrOtMB",
     "category": "Agachamentos",
     "tags": [
-      "smith",
-      "machine",
       "levantamento",
       "terra",
+      "smith",
+      "machine",
       "deadlift",
-      "gif",
       "pernas",
       "agachamentos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
-    "name": "Smith Machine Machine Agachamento Benefits",
+    "name": "Agachamento Guiado no Smith (Variação 2)",
     "muscleGroup": "Pernas",
     "equipment": "Máquina",
     "gifUrl": "https://lh3.googleusercontent.com/d/1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
@@ -12107,20 +16157,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1Uw8hOQGCH0o_oDlAykoK-6beLNHl02bJ",
     "category": "Agachamentos",
     "tags": [
+      "agachamento",
+      "guiado",
       "smith",
       "machine",
-      "agachamento",
-      "benefits",
       "squat",
-      "gif",
+      "benefits",
       "pernas",
       "agachamentos",
-      "maquina"
+      "maquina",
+      "gif"
     ]
   },
   {
     "id": "drive-1-nNcgj0UMUDIIO9F-N4KMRw8JyGRUQLz",
-    "name": "Agachamento Jump",
+    "name": "Agachamento com Salto",
     "muscleGroup": "Pernas",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-nNcgj0UMUDIIO9F-N4KMRw8JyGRUQLz",
@@ -12129,19 +16180,232 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Agachamentos",
     "tags": [
       "agachamento",
-      "jump",
+      "salto",
       "squat",
-      "gif",
+      "jump",
       "pernas",
       "agachamentos",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "name": "Stiff no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "source": "Google Drive",
+    "driveId": "1_RCsqaqiGL-ERFZ1ql8FwM-Wsdv2QS3n",
+    "category": "Agachamentos",
+    "tags": [
+      "stiff",
+      "smith",
+      "legged",
+      "deadlift",
+      "pernas",
+      "agachamentos",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "name": "Levantamento Terra Pernas Estendidas (Stiff)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "source": "Google Drive",
+    "driveId": "1UjWFbfWFyk1KH5ACW-Gwyt44yylkmq5n",
+    "category": "Agachamentos",
+    "tags": [
+      "levantamento",
+      "terra",
+      "pernas",
+      "estendidas",
+      "stiff",
+      "straight",
+      "leg",
+      "deadlift",
+      "agachamentos",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "name": "Levantamento Terra Mala Unilateral",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "source": "Google Drive",
+    "driveId": "1PfkZeoaDB3ow7l7_oP47hnnzbek1XBfx",
+    "category": "Agachamentos",
+    "tags": [
+      "levantamento",
+      "terra",
+      "mala",
+      "unilateral",
+      "suitcase",
+      "deadlift",
+      "pernas",
+      "agachamentos",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "name": "Levantamento Terra Sumô (Variação 2)",
+    "muscleGroup": "Pernas",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "source": "Google Drive",
+    "driveId": "1BfNPFQ92UlhwWXIpWmTyYURatTQTeGjr",
+    "category": "Agachamentos",
+    "tags": [
+      "levantamento",
+      "terra",
+      "sumo",
+      "deadlift",
+      "form",
+      "pernas",
+      "agachamentos",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "name": "Levantamento Terra Sumô no Smith",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina Smith",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "source": "Google Drive",
+    "driveId": "1D2Pd6fZhGSo6oTDvx0kTROQ5cekN3ZMs",
+    "category": "Agachamentos",
+    "tags": [
+      "levantamento",
+      "terra",
+      "sumo",
+      "smith",
+      "machine",
+      "deadlift",
+      "pernas",
+      "agachamentos",
+      "maquina",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "name": "Agachamento Sumô com Haltere (Variação 4)",
+    "muscleGroup": "Pernas",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "source": "Google Drive",
+    "driveId": "1Q5T1w61Pn0akd1CelyEGHH8y72B8rFRK",
+    "category": "Agachamentos",
+    "tags": [
+      "agachamento",
+      "sumo",
+      "haltere",
+      "dumbell",
+      "pernas",
+      "agachamentos",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "name": "Empurro de Trenó (Sled Push)",
+    "muscleGroup": "Pernas",
+    "equipment": "Trenó",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "source": "Google Drive",
+    "driveId": "1fx6AhvYDPtMOBoId3TlSSO8EDGVm0BdJ",
+    "category": "Agachamentos",
+    "tags": [
+      "empurro",
+      "treno",
+      "sled",
+      "push",
+      "pernas",
+      "agachamentos",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "name": "Agachamento na Máquina V-Squat",
+    "muscleGroup": "Pernas",
+    "equipment": "Máquina",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "source": "Google Drive",
+    "driveId": "1ZdXllfDUP4iAd669wUxV4JGEERdAF1bn",
+    "category": "Agachamentos",
+    "tags": [
+      "agachamento",
+      "maquina",
+      "squat",
+      "pernas",
+      "agachamentos",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "name": "Subida no Caixote com Carga",
+    "muscleGroup": "Pernas",
+    "equipment": "Banco / Step",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "source": "Google Drive",
+    "driveId": "1jdP1gWpSWxcmrpPwnmnZ2tfFbtRTujNq",
+    "category": "Agachamentos",
+    "tags": [
+      "subida",
+      "caixote",
+      "carga",
+      "weighted",
+      "step",
+      "up",
+      "pernas",
+      "agachamentos",
+      "banco",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "name": "Agachamento Zercher com Barra",
+    "muscleGroup": "Pernas",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "source": "Google Drive",
+    "driveId": "1q6ybevavH4Z41miuyX19BgfiOnAaxU3b",
+    "category": "Agachamentos",
+    "tags": [
+      "agachamento",
+      "zercher",
+      "barra",
+      "squat",
+      "pernas",
+      "agachamentos",
+      "gif"
     ]
   },
   {
     "id": "drive-10SMsY5hQs5vEUPxqM3JGx41ViajudI75",
-    "name": "Barra Hang Clean Weightlifts",
+    "name": "Hang Clean com Barra (LPO)",
     "muscleGroup": "Funcional",
     "equipment": "Barra",
     "gifUrl": "https://lh3.googleusercontent.com/d/10SMsY5hQs5vEUPxqM3JGx41ViajudI75",
@@ -12149,14 +16413,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "10SMsY5hQs5vEUPxqM3JGx41ViajudI75",
     "category": "Cross / Funcional",
     "tags": [
-      "barra",
       "hang",
       "clean",
-      "weightlifts",
+      "barra",
+      "lpo",
       "barbell",
-      "gif",
+      "weightlifts",
       "funcional",
-      "cross"
+      "cross",
+      "gif"
     ]
   },
   {
@@ -12174,9 +16439,9 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "battle",
       "ropes",
       "exercise",
-      "gif",
       "funcional",
-      "cross"
+      "cross",
+      "gif"
     ]
   },
   {
@@ -12193,17 +16458,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "caixa",
       "box",
       "jump",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1zldxghIFvpjvuyXmDVcPEJBmWJ5pPRjF",
-    "name": "Boxing Muscles",
+    "name": "Boxe / Sombra (Condicionamento)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1zldxghIFvpjvuyXmDVcPEJBmWJ5pPRjF",
@@ -12211,19 +16476,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1zldxghIFvpjvuyXmDVcPEJBmWJ5pPRjF",
     "category": "Cross / Funcional",
     "tags": [
+      "boxe",
+      "sombra",
+      "condicionamento",
       "boxing",
       "muscles",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1YC1kwiFt9LJpXcPP4QF-kq_UYszPd5Co",
-    "name": "How To do A Kettlebell Figure 8",
+    "name": "Kettlebell Figura 8",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1YC1kwiFt9LJpXcPP4QF-kq_UYszPd5Co",
@@ -12231,20 +16499,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1YC1kwiFt9LJpXcPP4QF-kq_UYszPd5Co",
     "category": "Cross / Funcional",
     "tags": [
-      "how",
       "kettlebell",
+      "figura",
+      "how",
+      "to",
       "figure",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1AUz60TZjSI_4imImFNrLYejeIUpBauVy",
-    "name": "Jump Rope Without Rope",
+    "name": "Pular Corda Simulado",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AUz60TZjSI_4imImFNrLYejeIUpBauVy",
@@ -12252,19 +16522,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1AUz60TZjSI_4imImFNrLYejeIUpBauVy",
     "category": "Cross / Funcional",
     "tags": [
+      "pular",
+      "corda",
+      "simulado",
       "jump",
       "rope",
       "without",
-      "gif",
       "funcional",
       "cross",
-      "corda",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
     "id": "drive-1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
-    "name": "Jump Rope",
+    "name": "Pular Corda (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
     "gifUrl": "https://lh3.googleusercontent.com/d/1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
@@ -12272,18 +16544,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1UOWYS_q-GpFSxtr_qhKe1KbdDHuwiiea",
     "category": "Cross / Funcional",
     "tags": [
+      "pular",
+      "corda",
       "jump",
       "rope",
-      "gif",
       "funcional",
       "cross",
-      "corda",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
     "id": "drive-1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
-    "name": "Jumping Jack",
+    "name": "Polichinelo (Jumping Jack) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
@@ -12291,19 +16564,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1YdSuvdI10JLIR1rrpO6pnYZ1DqypbQvI",
     "category": "Cross / Funcional",
     "tags": [
+      "polichinelo",
       "jumping",
       "jack",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1hBrV9KNQhDm2BOjOALeDGnsoctPDmi9u",
-    "name": "Monkey Bars",
+    "name": "Travessia na Barra (Monkey Bars)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1hBrV9KNQhDm2BOjOALeDGnsoctPDmi9u",
@@ -12311,19 +16585,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1hBrV9KNQhDm2BOjOALeDGnsoctPDmi9u",
     "category": "Cross / Funcional",
     "tags": [
+      "travessia",
+      "barra",
       "monkey",
       "bars",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1-8dtnYmbQcgUyf4QlC0Ywogq1FQVQUp1",
-    "name": "Mountain Climbers (1)",
+    "name": "Alpinista Cruzado (Mountain Climber)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1-8dtnYmbQcgUyf4QlC0Ywogq1FQVQUp1",
@@ -12331,19 +16607,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1-8dtnYmbQcgUyf4QlC0Ywogq1FQVQUp1",
     "category": "Cross / Funcional",
     "tags": [
+      "alpinista",
+      "cruzado",
       "mountain",
+      "climber",
       "climbers",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
-    "name": "Mountain Climbers",
+    "name": "Alpinista (Mountain Climber) (Variação 3)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
@@ -12351,19 +16630,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1K3FVIa7wnRDcW6UShbQsTeaNqLQ7hvHY",
     "category": "Cross / Funcional",
     "tags": [
+      "alpinista",
       "mountain",
+      "climber",
       "climbers",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1IO4Xh5pJaKG6u6zVCWjLfilNWK9sZcvX",
-    "name": "Muscle Ups Movement",
+    "name": "Muscle Up na Barra Fixa",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1IO4Xh5pJaKG6u6zVCWjLfilNWK9sZcvX",
@@ -12372,19 +16653,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cross / Funcional",
     "tags": [
       "muscle",
+      "up",
+      "barra",
+      "fixa",
       "ups",
       "movement",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-11x1oYr1UzcIL3s__pOBapPFA4e7O673R",
-    "name": "Rope Climb",
+    "name": "Subida na Corda",
     "muscleGroup": "Funcional",
     "equipment": "Corda Naval",
     "gifUrl": "https://lh3.googleusercontent.com/d/11x1oYr1UzcIL3s__pOBapPFA4e7O673R",
@@ -12392,13 +16676,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "11x1oYr1UzcIL3s__pOBapPFA4e7O673R",
     "category": "Cross / Funcional",
     "tags": [
+      "subida",
+      "corda",
       "rope",
       "climb",
-      "gif",
       "funcional",
       "cross",
-      "corda",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -12413,17 +16698,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "salto",
       "caixote",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1J53rhGnQk6Zq1hL87iliGfIRZvbQz-Qk",
-    "name": "Sled Drag",
+    "name": "Arrasto de Trenó (Sled Drag)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1J53rhGnQk6Zq1hL87iliGfIRZvbQz-Qk",
@@ -12431,19 +16716,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1J53rhGnQk6Zq1hL87iliGfIRZvbQz-Qk",
     "category": "Cross / Funcional",
     "tags": [
+      "arrasto",
+      "treno",
       "sled",
       "drag",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-",
-    "name": "Agachamento Jump",
+    "name": "Agachamento com Salto (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1lYOksgzunaO4xHCmhsiHvb2SmZX5dLJ-",
@@ -12452,19 +16739,20 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Cross / Funcional",
     "tags": [
       "agachamento",
-      "jump",
+      "salto",
       "squat",
-      "gif",
+      "jump",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1dAcTZ8huDNsISQUGz8SmhcTJxIy-D0Yk",
-    "name": "Tire Flip",
+    "name": "Virada de Pneu (Tire Flip)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1dAcTZ8huDNsISQUGz8SmhcTJxIy-D0Yk",
@@ -12472,19 +16760,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1dAcTZ8huDNsISQUGz8SmhcTJxIy-D0Yk",
     "category": "Cross / Funcional",
     "tags": [
+      "virada",
+      "pneu",
       "tire",
       "flip",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
-    "name": "Trenó",
+    "name": "Empurro de Trenó (Sled Push) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
@@ -12492,18 +16782,21 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1uPEyPTEiLB54-prPelzXnINt7gWdMTMe",
     "category": "Cross / Funcional",
     "tags": [
+      "empurro",
       "treno",
-      "gif",
+      "sled",
+      "push",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
-    "name": "Tuck Jump",
+    "name": "Salto Agrupado (Tuck Jump) (Variação 2)",
     "muscleGroup": "Funcional",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
@@ -12511,14 +16804,16 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1qfkurlGwPKpjMssqFAKrzdXZG4e0FCkH",
     "category": "Cross / Funcional",
     "tags": [
+      "salto",
+      "agrupado",
       "tuck",
       "jump",
-      "gif",
       "funcional",
       "cross",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
@@ -12535,15 +16830,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "assistidas",
       "assisted",
       "dip",
-      "gif",
       "peito",
       "triceps",
-      "barras"
+      "barras",
+      "gif"
     ]
   },
   {
     "id": "drive-1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4",
-    "name": "Mergulho no Banco",
+    "name": "Mergulho no Banco (Variação 3)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Banco",
     "gifUrl": "https://lh3.googleusercontent.com/d/1KO58NQkr63RwwHNrFv6ObkxrI3CyJ_h4",
@@ -12555,11 +16850,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "banco",
       "bench",
       "dips",
+      "on",
       "floor",
-      "gif",
       "peito",
       "triceps",
-      "paralelas"
+      "paralelas",
+      "gif"
     ]
   },
   {
@@ -12576,11 +16872,11 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "coreano",
       "korean",
       "dips",
-      "gif",
       "peito",
       "triceps",
       "paralelas",
-      "barras"
+      "barras",
+      "gif"
     ]
   },
   {
@@ -12597,15 +16893,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "parallel",
       "bar",
       "dips",
-      "gif",
       "peito",
       "triceps",
-      "barras"
+      "barras",
+      "gif"
     ]
   },
   {
     "id": "drive-1VBwo7xGcMfRmIDzo5sTQQ0c6y-tLwy0Y",
-    "name": "Planche Dip",
+    "name": "Mergulho Planche (Calistenia)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1VBwo7xGcMfRmIDzo5sTQQ0c6y-tLwy0Y",
@@ -12613,20 +16909,22 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1VBwo7xGcMfRmIDzo5sTQQ0c6y-tLwy0Y",
     "category": "Paralelas",
     "tags": [
+      "mergulho",
       "planche",
+      "calistenia",
       "dip",
-      "gif",
       "peito",
       "triceps",
       "paralelas",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1lnl_yi7wrSEWAM7x3Tv7wKclgRgWAQWv",
-    "name": "Ring Dip",
+    "name": "Mergulho nas Argolas (Ring Dip)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Peso Corporal / Geral",
     "gifUrl": "https://lh3.googleusercontent.com/d/1lnl_yi7wrSEWAM7x3Tv7wKclgRgWAQWv",
@@ -12634,20 +16932,23 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1lnl_yi7wrSEWAM7x3Tv7wKclgRgWAQWv",
     "category": "Paralelas",
     "tags": [
+      "mergulho",
+      "nas",
+      "argolas",
       "ring",
       "dip",
-      "gif",
       "peito",
       "triceps",
       "paralelas",
       "peso",
       "corporal",
-      "geral"
+      "geral",
+      "gif"
     ]
   },
   {
     "id": "drive-1FEhMSZO8T3khyxle40HJ549cEh0gax0N",
-    "name": "Straight Bar Dips Muscles",
+    "name": "Mergulho na Barra Reta (Calistenia)",
     "muscleGroup": "Peito / Tríceps",
     "equipment": "Barras Paralelas",
     "gifUrl": "https://lh3.googleusercontent.com/d/1FEhMSZO8T3khyxle40HJ549cEh0gax0N",
@@ -12655,15 +16956,19 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "driveId": "1FEhMSZO8T3khyxle40HJ549cEh0gax0N",
     "category": "Paralelas",
     "tags": [
+      "mergulho",
+      "barra",
+      "reta",
+      "calistenia",
       "straight",
       "bar",
       "dips",
       "muscles",
-      "gif",
       "peito",
       "triceps",
       "paralelas",
-      "barras"
+      "barras",
+      "gif"
     ]
   },
   {
@@ -12679,11 +16984,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "abracos",
       "nos",
       "joelhos",
+      "pe",
       "alongamento",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12704,7 +17011,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12725,7 +17033,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12740,14 +17049,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "abraco",
-      "com",
       "tapinhas",
       "nas",
       "costas",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12762,14 +17071,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "adutores",
-      "com",
       "perna",
       "estendida",
       "ajoelhado",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12784,13 +17093,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "adutores",
-      "com",
       "pernas",
       "abertas",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12805,13 +17115,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "adutores",
-      "com",
       "pernas",
       "afastadas",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12827,13 +17138,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "adutores",
       "coxa",
-      "com",
       "rolo",
       "espuma",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12850,13 +17161,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "adutores",
       "posicao",
       "sentada",
-      "com",
       "pernas",
       "abertas",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12875,7 +17186,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12896,7 +17208,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12914,7 +17227,53 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
+    "name": "Alongamento com Bastão PVC (Front Rack)",
+    "muscleGroup": "Alongamento",
+    "equipment": "Solo / Peso Corporal",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
+    "source": "Google Drive",
+    "driveId": "1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "bastao",
+      "pvc",
+      "front",
+      "rack",
+      "posicao",
+      "frontal",
+      "mobilidade",
+      "solo",
+      "peso",
+      "corporal",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
+    "name": "Alongamento Costas com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Solo / Peso Corporal",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
+    "source": "Google Drive",
+    "driveId": "1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "costas",
+      "rolo",
+      "espuma",
+      "mobilidade",
+      "solo",
+      "peso",
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12934,50 +17293,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
-    ]
-  },
-  {
-    "id": "drive-1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
-    "name": "Alongamento com Pvc na Posição Frontal de Rack",
-    "muscleGroup": "Alongamento",
-    "equipment": "Solo / Peso Corporal",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
-    "source": "Google Drive",
-    "driveId": "1X9n_7Q09UHFvZsCpZNBo-ynDSbIzCVxg",
-    "category": "Mobilidade / Alongamento",
-    "tags": [
-      "alongamento",
-      "com",
-      "pvc",
-      "posicao",
-      "frontal",
-      "rack",
-      "mobilidade",
-      "solo",
-      "peso",
-      "corporal"
-    ]
-  },
-  {
-    "id": "drive-1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
-    "name": "Alongamento Costas com Rolo de Espuma",
-    "muscleGroup": "Alongamento",
-    "equipment": "Solo / Peso Corporal",
-    "gifUrl": "https://lh3.googleusercontent.com/d/1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
-    "source": "Google Drive",
-    "driveId": "1HFQZ0CxhnVS7uwLJsArFbyyqRK-L0b2N",
-    "category": "Mobilidade / Alongamento",
-    "tags": [
-      "alongamento",
-      "costas",
-      "com",
-      "rolo",
-      "espuma",
-      "mobilidade",
-      "solo",
-      "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -12995,7 +17312,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13013,7 +17331,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13029,10 +17348,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "rotacao",
       "coluna",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13053,7 +17374,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13072,7 +17394,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13091,7 +17414,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13105,16 +17429,15 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Mobilidade / Alongamento",
     "tags": [
       "alongamento",
-      "dos",
       "latissimos",
       "dorsais",
-      "com",
       "rolo",
       "espuma",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13128,11 +17451,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "category": "Mobilidade / Alongamento",
     "tags": [
       "alongamento",
+      "pe",
       "quadriceps",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13147,13 +17472,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "extensores",
-      "dos",
       "dedos",
       "pes",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13173,7 +17498,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13194,7 +17520,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13209,13 +17536,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "flexores",
-      "dos",
       "dedos",
       "pes",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13230,13 +17558,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "gastrocnemio",
-      "com",
       "joelho",
       "flexionado",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13255,7 +17583,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13271,10 +17600,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "inclinado",
       "lateral",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13293,7 +17624,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13308,15 +17640,17 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "isquiotibiais",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
     "id": "drive-1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7",
-    "name": "Alongamento Isquiotibiais em Pé",
+    "name": "Alongamento Isquiotibiais em Pé (Variação 2)",
     "muscleGroup": "Alongamento",
     "equipment": "Solo / Peso Corporal",
     "gifUrl": "https://lh3.googleusercontent.com/d/1AUwunwkmf6FqIoSbDcdoOnp9zcXFfpB7",
@@ -13326,10 +17660,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "isquiotibiais",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13344,13 +17680,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "isquiotibiais",
-      "com",
+      "pe",
       "perna",
       "cruzada",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13369,7 +17706,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13390,7 +17728,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13409,7 +17748,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13429,7 +17769,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13444,12 +17785,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "ombro",
-      "com",
       "toalha",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13465,10 +17806,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "alongamento",
       "ombro",
       "reverso",
+      "pe",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13485,12 +17828,12 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "ombros",
       "por",
       "tras",
-      "das",
       "costas",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13509,7 +17852,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13524,10 +17868,10 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "panturrilha",
-      "com",
       "corda",
       "mobilidade",
-      "naval"
+      "naval",
+      "gif"
     ]
   },
   {
@@ -13542,13 +17886,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "panturrilha",
-      "com",
       "descida",
       "calcanhar",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13563,13 +17907,13 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "panturrilha",
-      "com",
       "uma",
       "perna",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13584,14 +17928,14 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
     "tags": [
       "alongamento",
       "panturrilha",
-      "com",
       "uma",
       "perna",
       "esticada",
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13611,7 +17955,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13631,7 +17976,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13650,7 +17996,8 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
     ]
   },
   {
@@ -13669,17 +18016,1869 @@ export const EXERCISE_GIFS: ExerciseGifItem[] = [
       "mobilidade",
       "solo",
       "peso",
-      "corporal"
+      "corporal",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "name": "Alongamento Parte Superior das Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "source": "Google Drive",
+    "driveId": "1ipU0FoTC-LSOd1HgAilMo89ETSTSZYrS",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "parte",
+      "superior",
+      "costas",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "name": "Alongamento Peito Acima da Cabeça",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "source": "Google Drive",
+    "driveId": "1--dr9-acsFg0s85AsY-xHQ-X8JcWb0Rn",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peito",
+      "acima",
+      "cabeca",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "name": "Alongamento Peito com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "source": "Google Drive",
+    "driveId": "13Mn3Cw9gdVXuA_f8B4iglqtpWC7MfdDM",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peito",
+      "rolo",
+      "espuma",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "name": "Alongamento Peito e Parte Frontal dos Ombros",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "source": "Google Drive",
+    "driveId": "1PZE4d1WFkBGIZysi8m6yh698rAtjeGHr",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peito",
+      "parte",
+      "frontal",
+      "ombros",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "name": "Alongamento Peitoral Até As Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "source": "Google Drive",
+    "driveId": "1e07GQS9CBdtiN0z0os6zVSIT86i_GQGB",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peitoral",
+      "ate",
+      "as",
+      "costas",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "name": "Alongamento Peitoral com Um Braço em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "source": "Google Drive",
+    "driveId": "1lP39wasteG-SoiRTz3rv_hd4IUQj4Fhj",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peitoral",
+      "um",
+      "braco",
+      "pe",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "name": "Alongamento Peitoral e do Ombro na Porta",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "source": "Google Drive",
+    "driveId": "1LPMW8Lc6DJWlpEDT8Lesj0Srf2ApRzbP",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peitoral",
+      "ombro",
+      "porta",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "name": "Alongamento Peitoral Reverso",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "source": "Google Drive",
+    "driveId": "1ztytBCBlTxH5NLnsTg56cck2dGsZ7FX9",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "peitoral",
+      "reverso",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "name": "Alongamento Pernas Duplo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "source": "Google Drive",
+    "driveId": "1ze_18sc3k84SoP-nRDtleWiKR9tanFCP",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "pernas",
+      "duplo",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "name": "Alongamento Piriforme",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "source": "Google Drive",
+    "driveId": "10RUNYzPgmYd0fEXHKxDXRATt6cg_JFEa",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "piriforme",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "name": "Alongamento Punho",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "source": "Google Drive",
+    "driveId": "1Be-6661BBTlvvs3L3oprM2ii6RKUFVe_",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "punho",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "name": "Alongamento Quadríceps Ajoelhado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "source": "Google Drive",
+    "driveId": "1hbFQSa9etos51QXuCqcp9ci887Fv0Cl8",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "quadriceps",
+      "ajoelhado",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "name": "Alongamento Quadríceps em Quatro Apoios",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "source": "Google Drive",
+    "driveId": "1Ry5-6edyp5G6CekCV4vQznmOERI-Rujr",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "quadriceps",
+      "quatro",
+      "apoios",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "name": "Alongamento Reverso Assistido Peito e Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "source": "Google Drive",
+    "driveId": "1UXKkVphCwF07eI0ffXRyvske36Lx7Sg6",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "reverso",
+      "assistido",
+      "peito",
+      "ombro",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "name": "Alongamento Reverso de Pulso",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "source": "Google Drive",
+    "driveId": "1fwcb2eeSI2GNmQrE3HxCIkJSPxfPpT4z",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "reverso",
+      "pulso",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "name": "Alongamento Sentado Panturrilha Perna Esticada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "source": "Google Drive",
+    "driveId": "1PaZg2t5S-InCgBoW70gaBsVcB3PMBNTG",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "sentado",
+      "panturrilha",
+      "perna",
+      "esticada",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "name": "Alongamento Tendão de Aquiles em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "source": "Google Drive",
+    "driveId": "1rUDCqX6KvBY8MMAI5xx2kHBKOnI_Ent8",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "tendao",
+      "aquiles",
+      "pe",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "name": "Alongamento Tibial Posterior",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "source": "Google Drive",
+    "driveId": "1haZVJwKmSwpunfNbg0X-9_Xk1sB6szK0",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "tibial",
+      "posterior",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "name": "Alongamento Trato Iliotibial com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "source": "Google Drive",
+    "driveId": "1ZgbO9bMahsZwgxJ3XBGkUsMJ44b97mtC",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "trato",
+      "iliotibial",
+      "rolo",
+      "espuma",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "name": "Alongamento Tríceps em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "source": "Google Drive",
+    "driveId": "1WSMC4LATCdqGgJLciw_KPoNWHerJVXyh",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamento",
+      "triceps",
+      "pe",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "name": "Alongamentos de Pés e Tornozelos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "source": "Google Drive",
+    "driveId": "12qC9Ap-ZKU0WE0Jjfdshhl5dusjSZoJs",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "alongamentos",
+      "pes",
+      "tornozelos",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "name": "Arremesso de Bola de Reação",
+    "muscleGroup": "Alongamento",
+    "equipment": "Bola Suíça",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "source": "Google Drive",
+    "driveId": "1_Z6mMej1p9NqGQnlC0XQ7QmVw9vhuF8R",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "arremesso",
+      "bola",
+      "reacao",
+      "alongamento",
+      "mobilidade",
+      "suica",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "name": "Catavento Corporal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "source": "Google Drive",
+    "driveId": "1XW3KNI2PM7lZr_9QOWrraFu0-gflypA3",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "catavento",
+      "corporal",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "name": "Contração Abdominal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "source": "Google Drive",
+    "driveId": "1bQfHiYZWR_mu7hUf6omPjVJ44cgW0un1",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "contracao",
+      "abdominal",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "name": "Círculos com Os Braços",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "source": "Google Drive",
+    "driveId": "1_qtgAhCBPiNKnrwvRj5QUZ9Ddh5T8rp-",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "circulos",
+      "os",
+      "bracos",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "name": "Círculos com Um Braço",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "source": "Google Drive",
+    "driveId": "1nO2TMBbFxVpgvpDhvCM9XstWZBE_VNRh",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "circulos",
+      "um",
+      "braco",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "name": "Rotação Externa de Ombro com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "source": "Google Drive",
+    "driveId": "1y8RWNzBb21vVlry4w9hkVzrhxvIx3AL-",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "ombro",
+      "faixa",
+      "elastica",
+      "copia",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "name": "Deslize de Parede do Serrátil com Rolo de Espuma",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "source": "Google Drive",
+    "driveId": "1Yp4vdXW9mizq4Rcd2O_UkhLGsgxDwlqH",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "deslize",
+      "parede",
+      "serratil",
+      "rolo",
+      "espuma",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "name": "Dorsiflexão Plantar",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "source": "Google Drive",
+    "driveId": "1qqAnTzTNuogDCo4h-usyUPNnSc2eREE6",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "dorsiflexao",
+      "plantar",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "name": "Elevação Lateral de Deltóide Posterior com Halteres",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "source": "Google Drive",
+    "driveId": "1sjRrgJJJTEZbRfNZbJuWOw3DHkQ4Ks5P",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "elevacao",
+      "lateral",
+      "deltoide",
+      "posterior",
+      "halteres",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "name": "Exercício de Bailarina Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "source": "Google Drive",
+    "driveId": "1j9m96oaI_jRqDRkkr5BBlJ9ZtgULlZ-1",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "exercicio",
+      "bailarina",
+      "sentada",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "name": "Exercício Retração Escapular Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "source": "Google Drive",
+    "driveId": "14_nGtX1awFoCBm5gemrToWmVEgh1BbbF",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "exercicio",
+      "retracao",
+      "escapular",
+      "sentada",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "name": "Flexão Alternada Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "source": "Google Drive",
+    "driveId": "1NgxYzIUjB_dcwFX7k3z34JS9gC4VmOmo",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "flexao",
+      "alternada",
+      "ombro",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "name": "Inclinação Lateral",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "source": "Google Drive",
+    "driveId": "1n7VrRwBPuNUSWfZiLqYRZcyWHtCzpBkp",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "inclinacao",
+      "lateral",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "name": "Inclinação Lateral em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "source": "Google Drive",
+    "driveId": "1-z3Cc3IcYhX9EZ5yqYltRFoGJRppqPV7",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "inclinacao",
+      "lateral",
+      "pe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "name": "Joelho Alternado no Peito",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "source": "Google Drive",
+    "driveId": "1if-5odFmIhNmjZXfPdq6XTP0TLXqTBKV",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "joelho",
+      "alternado",
+      "peito",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "name": "Levantamento de Braço Apoiado na Parede",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "source": "Google Drive",
+    "driveId": "1_C7EqBHosUOLSJ91xACVTaebBMEgKUaI",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "levantamento",
+      "braco",
+      "apoiado",
+      "parede",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "name": "Postura Arco",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "source": "Google Drive",
+    "driveId": "1AdH1mp6g1jeXHMwRh4l9dWc57e0WUUZT",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "arco",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "name": "Postura Arco Oscilante",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "source": "Google Drive",
+    "driveId": "1Vn0M-H40wM1IZ-FIzhBlWVPhFI8gkoE7",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "arco",
+      "oscilante",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "name": "Postura da Cobra - Alongamento Abdominal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "source": "Google Drive",
+    "driveId": "14cAXpS0vvDcgHS248pqtGmhzCAkKkW0b",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "cobra",
+      "alongamento",
+      "abdominal",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "name": "Postura da Borboleta (Virilha Sentada)",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "source": "Google Drive",
+    "driveId": "1WrUsd9cD5c3VVLSMvzJcG0tCYGEsaud3",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "borboleta",
+      "virilha",
+      "sentada",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "name": "Postura de Meio Sapo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "source": "Google Drive",
+    "driveId": "1sJSeT2DTMVBgixPxeuoMdU6zl14VqbIq",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "meio",
+      "sapo",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "name": "Postura de Peixe",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "source": "Google Drive",
+    "driveId": "1h8dGZZniXg2XX-lWXIxM3PjvkpxjEch7",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "peixe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "name": "Postura do Bebê Feliz",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "source": "Google Drive",
+    "driveId": "1DQL5EUOVHyyNcOyxvglkTinXBR-rqikC",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "bebe",
+      "feliz",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "name": "Postura Sapo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "source": "Google Drive",
+    "driveId": "1-AF5zV7EHIhoAS2rTDXUAfS8luPxE26V",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "postura",
+      "sapo",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "name": "Protração e Retração da Escápula",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "source": "Google Drive",
+    "driveId": "1dLh5DFQyNhw-e2hVtdDVBUoTI96l73Oz",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "protracao",
+      "retracao",
+      "escapula",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "name": "Puxada Escapular na Barra Fixa",
+    "muscleGroup": "Alongamento",
+    "equipment": "Barra",
+    "gifUrl": "https://lh3.googleusercontent.com/d/184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "source": "Google Drive",
+    "driveId": "184fV6u4DDjorUZ9HZpzk-eU3xnT-vmia",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "puxada",
+      "escapular",
+      "barra",
+      "fixa",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "name": "Pêndulo de Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "source": "Google Drive",
+    "driveId": "1mD7OqDpFg14oe2GNGYvS8k9qs4tM2meY",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "pendulo",
+      "ombro",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "name": "Quadrúpede com Elevação de Braço e Perna Contralateral",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "source": "Google Drive",
+    "driveId": "1rZ1AStY7PLtHGmGy8--5sQd7syN0UKA5",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "quadrupede",
+      "elevacao",
+      "braco",
+      "perna",
+      "contralateral",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "name": "Rolagem de Espuma para Isquiotibiais",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "source": "Google Drive",
+    "driveId": "1DZG9Gl6lbyRSJTvWkKTAGOUd6p_zQg-W",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolagem",
+      "espuma",
+      "isquiotibiais",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "name": "Rolamento de Espuma nas Costas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "source": "Google Drive",
+    "driveId": "1BZfUdFkPBIVRkWn0uvbf6K7FR2fZBJfy",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolamento",
+      "espuma",
+      "nas",
+      "costas",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "name": "Rolamento de Espuma nos Quadríceps",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "source": "Google Drive",
+    "driveId": "1qvO_BQoGB74ALGg6_thbDPkkqOJpSL8P",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolamento",
+      "espuma",
+      "nos",
+      "quadriceps",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "name": "Rolamento de Espuma nos Romboides",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "source": "Google Drive",
+    "driveId": "1A4SkjD9iUHMxW9S_EB62rj7o0GcLvXfo",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolamento",
+      "espuma",
+      "nos",
+      "romboides",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "name": "Rolamento de Espuma para Panturrilhas",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "source": "Google Drive",
+    "driveId": "1aZCmAqNMOamlzcSGK2GN89sB8kbyH2zu",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolamento",
+      "espuma",
+      "panturrilhas",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "name": "Rolando com Bola",
+    "muscleGroup": "Alongamento",
+    "equipment": "Bola Suíça",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "source": "Google Drive",
+    "driveId": "1lbV6inEfkphey6x7zwh6o3PK85nCtY0K",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolando",
+      "bola",
+      "alongamento",
+      "mobilidade",
+      "suica",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "name": "Rolo de Espuma Ombro Posterior",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "source": "Google Drive",
+    "driveId": "1E6fWJXKq0qk1y9pn18jDhYtdU-00uHt9",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolo",
+      "espuma",
+      "ombro",
+      "posterior",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "name": "Rolo de Espuma para Fascite Plantar",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "source": "Google Drive",
+    "driveId": "1PaoBYWm64e5YoQMmjCriFgvWsUL1oG99",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolo",
+      "espuma",
+      "fascite",
+      "plantar",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "name": "Rolo de Espuma para Ombro e Peito Frontal",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "source": "Google Drive",
+    "driveId": "1xFiza-_uEDV6YeHHi6yTY8GLA83Be22Y",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolo",
+      "espuma",
+      "ombro",
+      "peito",
+      "frontal",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "name": "Rolo de Espuma para Os Glúteos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Rolo de Espuma",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "source": "Google Drive",
+    "driveId": "1TxiCw-5DRaxiFTxpDFo-oKASNDhv6NjM",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rolo",
+      "espuma",
+      "os",
+      "gluteos",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "name": "Rotação Corpo Superior Deitado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "source": "Google Drive",
+    "driveId": "1mO_gcwitPuIOee2PCaBaTw7s-E7VztWP",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "corpo",
+      "superior",
+      "deitado",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "name": "Rotação da Coluna Torácica de Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "source": "Google Drive",
+    "driveId": "1-9ADSnMw4yf37ljIJLAvTLN5Exmkjtot",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "coluna",
+      "toracica",
+      "joelhos",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "name": "Rotação de Pé e Tornozelo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "source": "Google Drive",
+    "driveId": "1bF8rNHuBlYsUXJYLgsLNeeOQi3j4EPBQ",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "pe",
+      "tornozelo",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "name": "Rotação em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "source": "Google Drive",
+    "driveId": "1kLaxpkJjC6ewEevlP0bU1ZM7mSeYAMW8",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "pe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "name": "Rotação Espinhal Deitado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "source": "Google Drive",
+    "driveId": "1Rie3jwEKWl3bx-xW536AszMEy4h1h5Hi",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "espinhal",
+      "deitado",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "name": "Rotação Externa com Cabo a 90 Graus",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "source": "Google Drive",
+    "driveId": "1wUoSF8qviTkp9Ul2lYwc31KBfLm9STwi",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "cabo",
+      "90",
+      "graus",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "name": "Rotação Externa com Cabo em Posição de Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "source": "Google Drive",
+    "driveId": "1jxcFtkPXeRi0kWmRNOEXRbi1Xd9E2y29",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "cabo",
+      "posicao",
+      "joelhos",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "name": "Rotação Externa de Ombro com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "source": "Google Drive",
+    "driveId": "12Joh8nX4EDz67pLE1u9oGcLU8H9ARWmG",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "ombro",
+      "cabo",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "name": "Rotação Externa de Ombro com Faixa Elástica (Variação 2)",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "source": "Google Drive",
+    "driveId": "1Gyg26PTs0ffN3iOi0PXGMnPU1slZeDnI",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "ombro",
+      "faixa",
+      "elastica",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "name": "Rotação Externa de Quadril com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "source": "Google Drive",
+    "driveId": "1iwsVig2mEMKyzFndCXcRlTdXKjF7a00l",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "quadril",
+      "faixa",
+      "elastica",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "name": "Rotação Externa de Quadril Sentado com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "source": "Google Drive",
+    "driveId": "1JgEnRpXv89Aka64s_QElMHGo33WHaMK2",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "quadril",
+      "sentado",
+      "faixa",
+      "elastica",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "name": "Rotação Externa do Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "source": "Google Drive",
+    "driveId": "1F-VXrfSJVb1ihu08CGp7nZlx-mu87nTz",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "ombro",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "name": "Rotação Externa do Ombro Deitado com Haltere",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "source": "Google Drive",
+    "driveId": "1XFLgytc0Z9qz9xellElbhHZfh6zzCFLQ",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "ombro",
+      "deitado",
+      "haltere",
+      "alongamento",
+      "mobilidade",
+      "halteres",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "name": "Rotação Externa do Pé com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "source": "Google Drive",
+    "driveId": "1l67I9WftfkaixfWmAizFyeEsTBrHnxEV",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "pe",
+      "faixa",
+      "elastica",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "name": "Rotação Externa Halteres Apoiada no Banco",
+    "muscleGroup": "Alongamento",
+    "equipment": "Halteres",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "source": "Google Drive",
+    "driveId": "1vAM1U27kfbHpbZtyynl1mY1t95GyRBxp",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "externa",
+      "halteres",
+      "apoiada",
+      "banco",
+      "alongamento",
+      "mobilidade",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "name": "Rotação Interna de Cabo a 90 Graus",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "source": "Google Drive",
+    "driveId": "1r5dEAe2DlOMu0qdFQGQ5rqTSNzzJy5pI",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "interna",
+      "cabo",
+      "90",
+      "graus",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "name": "Rotação Interna de Ombro com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "source": "Google Drive",
+    "driveId": "1b1IJSjowonYMnyTqfIi4OsAt97fiRjhv",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "interna",
+      "ombro",
+      "cabo",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "name": "Rotação Interna do Ombro",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "source": "Google Drive",
+    "driveId": "16fYqDqIIBfFGvJ2wrFmOWQJtAi1GVial",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "interna",
+      "ombro",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "name": "Rotação Interna do Ombro Sentada com Cabo",
+    "muscleGroup": "Alongamento",
+    "equipment": "Polia / Cabo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "source": "Google Drive",
+    "driveId": "1sWodb3pypGeB1Tz3B_mnoTKphWBCQT7a",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "interna",
+      "ombro",
+      "sentada",
+      "cabo",
+      "alongamento",
+      "mobilidade",
+      "polia",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "name": "Rotação Interna do Quadril Sentado com Faixa Elástica",
+    "muscleGroup": "Alongamento",
+    "equipment": "Elástico / Faixa",
+    "gifUrl": "https://lh3.googleusercontent.com/d/161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "source": "Google Drive",
+    "driveId": "161RNd63TVVF5R6lQWPOUq6ZjOidQpNKV",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "interna",
+      "quadril",
+      "sentado",
+      "faixa",
+      "elastica",
+      "alongamento",
+      "mobilidade",
+      "elastico",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "name": "Rotação para Trás Joelhos",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "source": "Google Drive",
+    "driveId": "1M-YYl3XCpkA31V-KGS_9fKvWxwwbw5nH",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "rotacao",
+      "tras",
+      "joelhos",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "name": "Superman",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "source": "Google Drive",
+    "driveId": "1WZMdr6mdwl06GHVLIhkdn-N573xzS4mc",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "superman",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "name": "Toque Lateral dos Dedos dos Pés em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "source": "Google Drive",
+    "driveId": "1s_zPdsJfNxnXH3a3GL33_7PHNp3IPx4I",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "toque",
+      "lateral",
+      "dedos",
+      "pes",
+      "pe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "name": "Toque nos Dedos dos Pés em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "source": "Google Drive",
+    "driveId": "1RBnUrx3YU89A_RtzfGngmpC3RE3xukBT",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "toque",
+      "nos",
+      "dedos",
+      "pes",
+      "pe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "name": "Toque nos Dedos dos Pés Sentado",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "source": "Google Drive",
+    "driveId": "1nJmQGuoKsUwZ9FcEOULgbeJUqdzjjQEY",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "toque",
+      "nos",
+      "dedos",
+      "pes",
+      "sentado",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "name": "Toques de Dedos em Pé",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "source": "Google Drive",
+    "driveId": "1QLZrTKIp9d06xz-ncNLh-bZaiGPtigs1",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "toques",
+      "dedos",
+      "pe",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
+    ]
+  },
+  {
+    "id": "drive-1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "name": "Torção Oblíqua Sentada",
+    "muscleGroup": "Alongamento",
+    "equipment": "Peso Corporal / Solo",
+    "gifUrl": "https://lh3.googleusercontent.com/d/1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "source": "Google Drive",
+    "driveId": "1d7SzC0aptnjXNFFCU66M8VygKpQHsmoH",
+    "category": "Mobilidade / Alongamento",
+    "tags": [
+      "torcao",
+      "obliqua",
+      "sentada",
+      "alongamento",
+      "mobilidade",
+      "peso",
+      "corporal",
+      "solo",
+      "gif"
     ]
   }
 ];
 
+const STOP_WORDS = new Set(['de', 'da', 'do', 'das', 'dos', 'com', 'na', 'no', 'nas', 'nos', 'em', 'para', 'por', 'e', 'a', 'o', 'as', 'os', 'um', 'uma']);
+
+function normalizeSearchText(str: string): string {
+  return (str || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function normalizeMuscleAlias(muscle: string): string {
+  const m = normalizeSearchText(muscle);
+  if (!m) return '';
+  if (m.includes('peit')) return 'peito';
+  if (m.includes('costa') || m.includes('dorsal') || m.includes('lombar')) return 'costas';
+  if (m.includes('quadriceps') || m.includes('posterior') || m.includes('isquio') || m.includes('perna') || m.includes('agachamento') || m.includes('coxa')) return 'pernas';
+  if (m.includes('panturrilha')) return 'panturrilha';
+  if (m.includes('gluteo')) return 'gluteos';
+  if (m.includes('ombro') || m.includes('deltoide')) return 'ombros';
+  if (m.includes('bicep')) return 'biceps';
+  if (m.includes('tricep')) return 'triceps';
+  if (m.includes('abdom') || m.includes('core')) return 'abdomen';
+  if (m.includes('antebrac') || m.includes('punho')) return 'antebraco';
+  if (m.includes('trapez')) return 'trapezio';
+  if (m.includes('pescoc') || m.includes('cervical')) return 'pescoco';
+  if (m.includes('funcional') || m.includes('cross')) return 'funcional';
+  if (m.includes('along') || m.includes('mobil')) return 'alongamento';
+  if (m.includes('corpo')) return 'corpo todo';
+  if (m.includes('cardio') || m.includes('aerob')) return 'cardio';
+  return m;
+}
+
+export function getGoogleDriveFileId(url?: string): string | null {
+  if (!url) return null;
+  const matchLh3 = url.match(/lh3\.googleusercontent\.com\/d\/([a-zA-Z0-9_-]+)/);
+  if (matchLh3) return matchLh3[1];
+  const matchUc = url.match(/drive\.google\.com\/uc\?[^#]*id=([a-zA-Z0-9_-]+)/);
+  if (matchUc) return matchUc[1];
+  const matchFile = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+  if (matchFile) return matchFile[1];
+  return null;
+}
+
+export function getGoogleDriveFallbackUrl(url?: string): string | null {
+  const fileId = getGoogleDriveFileId(url);
+  if (!fileId) return null;
+  if (url && url.includes('lh3.googleusercontent.com')) {
+    return `https://drive.google.com/uc?export=view&id=${fileId}`;
+  }
+  return null;
+}
+
+export function handleDriveGifError(e: { currentTarget: HTMLImageElement }) {
+  const img = e.currentTarget;
+  if (!img || img.dataset.driveFallbackTried === '1') return;
+  const fallback = getGoogleDriveFallbackUrl(img.src);
+  if (fallback) {
+    img.dataset.driveFallbackTried = '1';
+    img.src = fallback;
+  }
+}
+
 export function findBestExerciseGif(nameOrExercise: any, muscleGroup?: string): string | undefined {
   if (!nameOrExercise) return EXERCISE_GIFS[0]?.gifUrl;
-  
+
   if (typeof nameOrExercise === 'object' && nameOrExercise !== null) {
-    if (nameOrExercise.gifUrl && nameOrExercise.gifUrl.trim() !== '') {
+    if (nameOrExercise.gifUrl && String(nameOrExercise.gifUrl).trim() !== '') {
       return nameOrExercise.gifUrl;
+    }
+    if (nameOrExercise.driveId) {
+      return `https://lh3.googleusercontent.com/d/${nameOrExercise.driveId}`;
     }
     return searchGifByKeywords(nameOrExercise.name || '', nameOrExercise.muscleGroup || muscleGroup || '');
   }
@@ -13688,35 +19887,74 @@ export function findBestExerciseGif(nameOrExercise: any, muscleGroup?: string): 
 }
 
 function searchGifByKeywords(name: string, muscle: string): string | undefined {
-  const normName = (name || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
-  const normMuscle = (muscle || '').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  const rawStr = String(name || '').trim();
+  const byId = EXERCISE_GIFS.find(item => item.id === rawStr || item.driveId === rawStr);
+  if (byId) return byId.gifUrl;
 
-  if (!normName) return EXERCISE_GIFS[0]?.gifUrl;
+  const normName = normalizeSearchText(rawStr);
+  const normMuscle = normalizeSearchText(muscle);
+  const targetMuscleAlias = normalizeMuscleAlias(muscle);
 
-  // 1. Direct Exact / Substring Name Match
+  if (!normName) {
+    if (targetMuscleAlias) {
+      const byMuscleOnly = EXERCISE_GIFS.find(item => normalizeMuscleAlias(item.muscleGroup) === targetMuscleAlias);
+      if (byMuscleOnly) return byMuscleOnly.gifUrl;
+    }
+    return EXERCISE_GIFS[0]?.gifUrl;
+  }
+
+  // 1. Exact or substring match by normalized name (preferring same muscle group)
+  let substringMatch: ExerciseGifItem | null = null;
+  let substringScore = -1;
+
   for (const item of EXERCISE_GIFS) {
-    const itemNorm = item.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    if (normName === itemNorm || normName.includes(itemNorm) || itemNorm.includes(normName)) {
-      return item.gifUrl;
+    const itemNorm = normalizeSearchText(item.name);
+    const sameMuscle = Boolean(targetMuscleAlias && normalizeMuscleAlias(item.muscleGroup) === targetMuscleAlias);
+
+    if (normName === itemNorm) {
+      if (sameMuscle || !targetMuscleAlias) return item.gifUrl;
+      if (substringScore < 100) {
+        substringMatch = item;
+        substringScore = 100;
+      }
+      continue;
+    }
+
+    if (itemNorm.length >= 4 && normName.length >= 4 && (normName.includes(itemNorm) || itemNorm.includes(normName))) {
+      const lenRatio = Math.min(normName.length, itemNorm.length) / Math.max(normName.length, itemNorm.length);
+      const score = (sameMuscle ? 50 : 10) + lenRatio * 20;
+      if (score > substringScore) {
+        substringScore = score;
+        substringMatch = item;
+      }
     }
   }
 
-  // 2. Keyword / Tag scoring match
-  const nameWords = normName.split(/\s+/).filter(w => w.length > 2);
+  if (substringMatch) return substringMatch.gifUrl;
+
+  // 2. Keyword + tags + muscleGroup scoring match
+  const nameWords = normName.split(/\s+/).filter(w => w.length > 1 && !STOP_WORDS.has(w));
   let bestItem: ExerciseGifItem | null = null;
   let maxScore = 0;
 
   for (const item of EXERCISE_GIFS) {
-    const itemNorm = item.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const itemNorm = normalizeSearchText(item.name);
+    const itemWords = new Set(itemNorm.split(/\s+/));
     let score = 0;
 
     for (const word of nameWords) {
-      if (itemNorm.includes(word)) score += 3;
-      if (item.tags && item.tags.some(t => t.includes(word))) score += 1.5;
+      if (itemWords.has(word)) score += 4;
+      else if (itemNorm.includes(word)) score += 2.5;
+      if (item.tags && item.tags.some(t => t === word || t.includes(word))) score += 1.5;
     }
 
-    if (normMuscle) {
-      const itemMuscleNorm = item.muscleGroup.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    if (targetMuscleAlias) {
+      const itemMuscleAlias = normalizeMuscleAlias(item.muscleGroup);
+      if (itemMuscleAlias === targetMuscleAlias) {
+        score += 3;
+      }
+    } else if (normMuscle) {
+      const itemMuscleNorm = normalizeSearchText(item.muscleGroup);
       if (normMuscle.includes(itemMuscleNorm) || itemMuscleNorm.includes(normMuscle)) {
         score += 2;
       }
@@ -13728,16 +19966,19 @@ function searchGifByKeywords(name: string, muscle: string): string | undefined {
     }
   }
 
-  if (bestItem && maxScore >= 2) {
+  if (bestItem && maxScore >= 3.5) {
     return bestItem.gifUrl;
   }
 
   // 3. Muscle Group Fallback
-  for (const item of EXERCISE_GIFS) {
-    const itemMuscleNorm = item.muscleGroup.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    if (normMuscle && (normMuscle.includes(itemMuscleNorm) || itemMuscleNorm.includes(normMuscle))) {
-      return item.gifUrl;
-    }
+  if (targetMuscleAlias || normMuscle) {
+    const muscleMatch = EXERCISE_GIFS.find(item => {
+      const itemMuscleAlias = normalizeMuscleAlias(item.muscleGroup);
+      const itemMuscleNorm = normalizeSearchText(item.muscleGroup);
+      return (targetMuscleAlias && itemMuscleAlias === targetMuscleAlias) ||
+        (normMuscle && (normMuscle.includes(itemMuscleNorm) || itemMuscleNorm.includes(normMuscle)));
+    });
+    if (muscleMatch) return muscleMatch.gifUrl;
   }
 
   return EXERCISE_GIFS[0]?.gifUrl;

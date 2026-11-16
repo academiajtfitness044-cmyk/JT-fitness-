@@ -4,7 +4,7 @@ import { FastVideo } from "../components/FastVideo";
 import { ExerciseEquipmentVisual } from "../components/ExerciseEquipmentVisual";
 import { useAppContext, Student, WorkoutPlan, WorkoutDay, WorkoutExercise } from '../context/AppContext';
 import { Exercise, findExerciseById } from '../data/exerciseDatabase';
-import { findBestExerciseGif, EXERCISE_GIFS } from '../data/exerciseGifs';
+import { findBestExerciseGif, EXERCISE_GIFS, handleDriveGifError } from '../data/exerciseGifs';
 import { Search, Plus, Trash2, Edit2, PlayCircle, Eye, Save, X, Dumbbell, AlignLeft, GripVertical, Loader2, Sparkles, UserCircle, LineChart, ChevronUp, ChevronDown, Copy, ChevronsUp, ChevronsDown, Wand2, Brain, Check, History, RotateCcw, Film, Image as ImageIcon } from 'lucide-react';
 import { GoogleGenAI, Type } from "@google/genai";
 import { motion, AnimatePresence } from 'framer-motion';
@@ -390,7 +390,7 @@ function AdminWorkoutExercise({
                       <div className="flex items-center gap-3">
                         {alt.gifUrl || alt.videoUrl ? (
                           <button onClick={() => setSelectedVideoEx(alt)} className="w-12 h-12 bg-white/5 rounded-md overflow-hidden relative group shrink-0">
-                             <img src={alt.thumbnail || alt.gifUrl || alt.previewUrl || "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=100&q=80"} alt={alt.name} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                             <img src={alt.thumbnail || alt.gifUrl || alt.previewUrl || "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=100&q=80"} alt={alt.name} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" loading="lazy" onError={handleDriveGifError} />
                              <div className="absolute inset-0 flex items-center justify-center">
                                 <PlayCircle className="w-5 h-5 text-white/80" />
                              </div>
@@ -1130,17 +1130,30 @@ Retorne a resposta estritamente no formato JSON abaixo:
     'Cardio'
   ];
 
+  const normalizeSearch = (val: string) =>
+    (val || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+  const normQuery = normalizeSearch(exerciseSearch.trim());
+  const gifTagsById = React.useMemo(() => {
+    const map = new Map<string, string[]>();
+    for (const g of EXERCISE_GIFS) {
+      if (g.tags) map.set(g.id, g.tags);
+    }
+    return map;
+  }, []);
+
   const filteredExercises = EXERCISE_DATABASE.filter(ex => {
-    const matchesSearch = !exerciseSearch.trim() ||
-                          ex.name.toLowerCase().includes(exerciseSearch.toLowerCase()) ||
-                          ex.muscleGroup.toLowerCase().includes(exerciseSearch.toLowerCase()) ||
-                          ex.equipment.toLowerCase().includes(exerciseSearch.toLowerCase());
+    const matchesSearch = !normQuery ||
+                          normalizeSearch(ex.name).includes(normQuery) ||
+                          normalizeSearch(ex.muscleGroup).includes(normQuery) ||
+                          normalizeSearch(ex.equipment).includes(normQuery) ||
+                          (gifTagsById.get(ex.id)?.some(t => t.includes(normQuery)) ?? false);
     const matchesGender = exerciseGenderFilter === 'Todos' || !ex.videoGender || ex.videoGender === exerciseGenderFilter;
     
     let matchesMuscle = selectedMuscleGroup === 'Todos';
     if (!matchesMuscle) {
-      const sel = selectedMuscleGroup.toLowerCase();
-      const exM = ex.muscleGroup.toLowerCase();
+      const sel = normalizeSearch(selectedMuscleGroup);
+      const exM = normalizeSearch(ex.muscleGroup);
       matchesMuscle = exM === sel || exM.includes(sel) || sel.includes(exM) ||
         (sel.includes('funcional') && (exM.includes('funcional') || exM.includes('cross'))) ||
         (sel.includes('alongamento') && (exM.includes('alongamento') || exM.includes('mobilidade')));
@@ -1772,6 +1785,7 @@ Retorne a resposta estritamente no formato JSON abaixo:
                                       className="w-full h-full object-cover group-hover/thumb:scale-105 transition-transform duration-300" 
                                       referrerPolicy="no-referrer"
                                       loading="lazy"
+                                      onError={handleDriveGifError}
                                     />
                                   ) : ex.videoUrl ? (
                                     <FastVideo 
